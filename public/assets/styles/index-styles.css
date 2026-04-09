@@ -455,6 +455,14 @@ body
     text-decoration: none;
 }
 
+
+.terminos-condiciones:hover
+{
+  text-decoration: underline;
+  /*cambiar de color*/
+  color: yellow;
+}
+
 .btn-iniciarsesion,
 .btn-registrase,
 .llamado-accion-boton,
