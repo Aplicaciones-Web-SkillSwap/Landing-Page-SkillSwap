@@ -668,6 +668,94 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════════════════
+   SECCIÓN - INNOVACIÓN IOT
+═══════════════════════════════════════════════════════════════ */
+.seccion-iot {
+  padding: var(--section-padding) 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Fondo distinto para contrastar con la sección "Sobre Nosotros" (blanca) */
+  background-color: var(--background-color); 
+}
+
+.division-general-iot {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.iot-titulo {
+  font-size: var(--h2-font-size);
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.division-contenido-row-iot {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.division-iot-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  flex: 1;
+}
+
+.iot-desc {
+  font-size: 16px;
+  color: var(--text-muted);
+  line-height: var(--line-height);
+  margin-bottom: 10px;
+}
+
+.elementos-iot-txt {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 18px 20px;
+  border-radius: var(--radius-md);
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.elementos-iot-txt:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-sm);
+}
+
+.division-iot-ima {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.division-iot-ima img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition);
+}
+
+.division-iot-ima img:hover {
+  transform: scale(1.02);
+}
+
+
+
+/* ═══════════════════════════════════════════════════════════════
    SUBMENÚS VERTICALES (existentes, sin cambios)
 ═══════════════════════════════════════════════════════════════ */
 .menu-vertical-lp,
@@ -856,5 +944,29 @@ body {
   .dropdown-content.activo,
   #submenu-alianzas.activo {
     display: block !important;
+  }
+
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   RESPONSIVE PARA LA SECCIÓN IOT
+═══════════════════════════════════════════════════════════════ */
+@media screen and (max-width: 1024px) {
+  .division-contenido-row-iot {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .seccion-iot {
+    padding: 60px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .seccion-iot {
+    padding: 48px 20px;
+  }
+  .elementos-iot-txt {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
