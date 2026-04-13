@@ -1370,3 +1370,431 @@ La navegación está orientada a tareas y se desarrolla en un flujo descendente 
   <br>
   <em>Figura 57. Arquitectura de la Landing Page. Nota: Diagrama estructural de la landing page tanto para su versión web como móvil.</em>
 </p>
+
+## 4.4. Mobile Applications UI Design
+
+### 4.4.1. Mobile Applications Wireframes
+
+<p align="center">
+  <img src="public/assets/images-doc/w2.png" alt="Wireframes Mobile 1" width="800">
+  <br>
+  <em>Figura 59. Colección de Wireframes de la Aplicación Móvil. Nota: Esta figura presenta una colección de los wireframes principales que definen la estructura de la aplicación móvil. Se incluyen las pantallas clave del flujo del usuario, como el dashboard de inicio, la búsqueda avanzada de tutores, la vista de perfil detallado y el panel de administración del coordinador.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/w3.png" alt="Wireframes Mobile 2" width="800">
+  <br>
+  <em>Figura 60. Colección de Wireframes de la Aplicación Móvil-2. Nota: Esta figura complementa la vista estructural con wireframes adicionales. Se detallan las interfaces para funcionalidades de interacción y gestión, como el chat de conversación, el panel de notificaciones, la lista de tutores favoritos y la pantalla de calificaciones del usuario.</em>
+</p>
+
+#### Principios Fundamentales de Diseño
+En el diseño se aplicaron los siguientes principios para asegurar una experiencia visualmente coherente y funcional:
+
+* **Contraste:** Se utiliza un contraste claro entre los elementos interactivos (como los botones de acción primarios en azul) y el fondo predominantemente blanco de la aplicación. Esto dirige la atención del usuario hacia las acciones más importantes, como "Ver más" o "Enviar" en la pantalla de calificación. La tipografía también usa diferentes grosores para establecer jerarquía entre títulos y texto de cuerpo.
+* **Alineación:** Se mantiene una alineación consistente a la izquierda para la mayoría de los textos y títulos, como se ve en "Tus sesiones Recientes" y en los detalles del perfil del tutor. Los elementos clave, como el logo y los botones principales, a menudo se centran para crear un equilibrio visual y un punto focal claro.
+* **Repetición:** Se emplean elementos de manera consistente a lo largo de la aplicación para crear familiaridad. Por ejemplo, el diseño de las "tarjetas" se repite para las sesiones recientes y los resultados de búsqueda. La barra de navegación inferior con los íconos de "Buscar", "Sesiones" y "Perfil" es un elemento persistente que unifica la experiencia.
+* **Proximidad:** Los elementos relacionados se agrupan visualmente. En la pantalla de "Perfil tutor", la información sobre el nombre, la foto y la descripción se agrupa en la parte superior, mientras que las "Habilidades" y los "Comentarios" se organizan en secciones separadas y bien definidas.
+
+#### Sustento desde las Heurísticas de Usabilidad de Nielsen
+
+* **Visibilidad del estado del sistema:** El sistema mantiene al usuario informado. El panel de notificaciones ("Recibió una notificación de clase") y el indicador visual en la barra de navegación que resalta la sección activa ("Buscar", "Sesiones" o "Perfil") son ejemplos claros.
+* **Relación entre el sistema y el mundo real:** La aplicación utiliza un lenguaje claro y familiar, como "Tus sesiones Recientes", "Califica tu experiencia" y "Comentarios", evitando tecnicismos y facilitando la comprensión inmediata.
+* **Control y libertad del usuario:** El usuario tiene control total para navegar. Cada pantalla secundaria incluye un botón para "Volver", y la barra de navegación inferior permite cambiar de contexto en cualquier momento. Funciones como "Limpiar filtro" otorgan libertad al usuario.
+* **Consistencia y estándares:** Se mantiene una identidad visual coherente. Todos los botones de acción principales son azules y redondeados. El estilo de las tarjetas y la estructura de las listas se repiten en diferentes pantallas, cumpliendo con las convenciones de diseño móvil.
+* **Prevención de errores:** El diseño busca minimizar errores. En la pantalla de "Solicitudes de validaciones pendientes", los botones de "Aceptar" y "Rechazar" están claramente diferenciados por color y posición, reduciendo la posibilidad de una selección accidental.
+* **Reconocimiento mejor que recuerdo:** La interfaz promueve el reconocimiento. La barra de navegación inferior con íconos universales (lupa para buscar, calendario para sesiones, persona para perfil) permite identificar las funciones sin memorizar su ubicación.
+* **Flexibilidad y eficiencia de uso:** La aplicación ofrece herramientas para diferentes tipos de usuarios. La pantalla principal muestra "sesiones recientes" para un acceso rápido, mientras que la "Búsqueda avanzada" con filtros permite a los usuarios experimentados acotar resultados de manera eficiente.
+* **Diseño estético y minimalista:** La interfaz es limpia y se enfoca en lo esencial. Se utiliza generoso espacio en blanco para evitar la sobrecarga cognitiva. Pantallas como "Califica tu experiencia" solo muestran los elementos necesarios para esa tarea.
+* **Ayudar a reconocer, diagnosticar y recuperarse de errores:** Aunque no se muestra una pantalla de error, el diseño contempla estos escenarios. Si una búsqueda no arrojara resultados, se mostraría un mensaje claro como "No se encontraron tutores", guiando al usuario para modificar su búsqueda.
+* **Ayuda y documentación:** La aplicación ofrece ayuda contextual. La sección inicial "¿Tienes dudas?" es un punto de acceso directo a soporte. Además, los títulos claros de cada pantalla y las etiquetas en los íconos actúan como una forma de documentación integrada.
+
+#### Sustento desde la Arquitectura de Información (IA)
+
+* **Estructura jerárquica clara:** La navegación sigue un flujo lógico y predecible. Desde la pantalla principal ("Home"), el usuario puede acceder a las secciones principales, y desde allí, profundizar a niveles de detalle como el perfil de un tutor o un chat.
+* **Organización del contenido:** La información está agrupada por afinidad. En el "Panel coordinador", los datos se dividen en tarjetas claras, facilitando el escaneo rápido de la información relevante.
+* **Rotulación adecuada (Labeling):** Se utilizan títulos y etiquetas descriptivas que son inmediatamente comprensibles ("Solicitudes de validaciones pendientes", "Mis Favoritos").
+* **Navegación orientada a tareas:** El diseño está centrado en facilitar las tareas clave del usuario. Ya sea encontrar un tutor, revisar una sesión pasada o calificar una clase, el flujo de pantallas y los botones están dispuestos para guiar hacia el objetivo.
+* **Sistemas de búsqueda:** La aplicación incorpora un sistema de búsqueda robusto con una barra simple y una opción de "Búsqueda avanzada" con filtros.
+
+> **En síntesis:** El diseño de "Innovify" aplica correctamente los principios de diseño y las heurísticas de Nielsen para garantizar una alta usabilidad, consistencia y una experiencia sin errores. Al mismo tiempo, su arquitectura de información bien definida facilita que los usuarios (estudiantes y coordinadores) naveguen por la aplicación y completen sus tareas de forma intuitiva, rápida y segura.
+
+*(Nota: Todos los wireframes a detalle se pueden consultar en el prototipo funcional diseñado en Figma).*
+**Enlace:** https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=221-504&t=mcl4BJEHm24g0yCo-0 
+
+### 4.4.2. Mobile Applications Wireflow Diagrams
+
+#### Wireflow 1: Búsqueda y Solicitud de Tutoría
+* **User Goal:** "Como estudiante que necesita ayuda, quiero encontrar un tutor verificado para un curso específico, revisar su perfil detallado y solicitarle una reserva en una fecha y hora disponible."
+* **User Persona:** Estudiante que quiere aprender.
+* **User Stories Implicadas:** US05 (Búsqueda por palabras clave), US07 (Visualizar perfil público del tutor), US04 (Sello de verificación institucional), US08 (Enviar solicitud de reserva al tutor).
+
+**Explicación del Flujo:**
+Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz, que representa el flujo de valor principal de la aplicación.
+1. **Inicio (Dashboard):** El flujo comienza en el panel principal donde el usuario tiene acceso a una barra de búsqueda visible para encontrar un tema o curso.
+2. **Búsqueda y Resultados:** El usuario introduce el tema (ej. "Física") y la aplicación muestra una lista de tarjetas de tutores que dominan ese tema, mostrando su foto, nombre, universidad y calificación promedio.
+3. **Ver Perfil:** El usuario hace clic en un tutor para abrir su vista de perfil detallada. Aquí revisa su biografía, las últimas reseñas recibidas y el sello de "Verificado" junto a su nombre que garantiza su validación institucional.
+4. **Solicitud:** El usuario presiona el botón "Solicitar Tutoría". Se abre un formulario donde selecciona una fecha y hora disponible, y escribe un mensaje inicial explicando su necesidad (ej. "Ayuda con integrales").
+5. **Confirmación:** Tras enviar la solicitud, el estado de la misma queda como "Pendiente" a la espera de la respuesta del tutor.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 61: Wireflow de Búsqueda y Solicitud de Tutoría]</em>
+  <br>
+  <em>Figura 61. Wireflow de Búsqueda y Solicitud de Tutoría. Nota: Este diagrama de flujo visualiza el "camino feliz" del estudiante-aprendiz. Muestra la secuencia de pantallas desde la búsqueda de un tutor en el dashboard, pasando por la revisión de su perfil verificado, hasta el envío de una solicitud de ayuda con un mensaje.</em>
+</p>
+
+---
+
+#### Wireflow 2: Recepción y Aceptación de Solicitud de Tutoría
+* **User Goal:** "Como estudiante tutor, quiero recibir las solicitudes entrantes, revisar el mensaje del aprendiz y tener la opción de aceptarlas para iniciar automáticamente un chat de coordinación."
+* **User Persona:** Estudiante Tutor.
+* **User Stories Implicadas:** US09 (Aceptar o rechazar solicitud de reserva), US10 (Chat interno asincrónico de la reserva).
+
+**Explicación del Flujo:**
+1. **Notificación:** El tutor recibe una notificación en su panel informándole de una nueva solicitud de tutoría entrante.
+2. **Revisión y Decisión:** La solicitud muestra el mensaje enviado por el aprendiz y presenta dos botones claros: "Aceptar" y "Rechazar".
+3. **Aceptación e Inicio de Chat:** Cuando el tutor presiona "Aceptar", el estado de la solicitud cambia a "Agendada".
+4. **Espacio de Trabajo:** Inmediatamente después de aceptar, el sistema crea y habilita automáticamente una sala de chat asincrónico para que ambos puedan coordinar detalles previos a la videollamada.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 62: Wireflow de Recepción y Aceptación de Solicitud]</em>
+  <br>
+  <em>Figura 62. Wireflow de Recepción y Aceptación de Solicitud. Nota: Este wireflow detalla el proceso desde la perspectiva del estudiante-tutor. El flujo comienza al recibir una notificación de una nueva solicitud, continúa con la revisión del perfil del aprendiz y finaliza con la decisión de aceptar la solicitud, lo que automáticamente inicia un chat interno.</em>
+</p>
+
+---
+
+#### Wireflow 3: Calificación de Sesión
+* **User Goal:** "Como estudiante aprendiz, después de una tutoría, quiero calificar a mi tutor para construir su reputación pública."
+* **User Persona:** Estudiante Aprendiz.
+* **User Stories Implicadas:** US17 (Calificar y dejar reseña al tutor).
+
+**Explicación del Flujo:**
+1. **Finalización de Sesión:** Al finalizar la videollamada, se habilita un formulario de calificación.
+2. **Dejar Calificación:** El aprendiz marca una puntuación de 1 a 5 estrellas y escribe un texto con su comentario (ej. "Excelente explicación").
+3. **Confirmación y Actualización:** Al enviar la reseña, esta aparece públicamente en el perfil del tutor y su promedio de estrellas se actualiza inmediatamente.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 64: Wireflow de Calificación de Sesión y Gestión de Favoritos]</em>
+  <br>
+  <em>Figura 64. Wireflow de Calificación de Sesión y Gestión de Favoritos. Nota: Este diagrama muestra el ciclo de cierre y retención para el aprendiz. Detalla los pasos para calificar a un tutor después de una sesión y la funcionalidad para marcar su perfil como "favorito", permitiendo un acceso rápido para futuras consultas.</em>
+</p>
+
+---
+
+#### Wireflow 4: Configuración de Perfil y Habilidades del Tutor
+* **User Goal:** "Como estudiante tutor, quiero configurar mi perfil agregando mi biografía, foto, universidad y gestionar mediante etiquetas los cursos que domino para aparecer en las búsquedas."
+* **User Persona:** Estudiante Tutor.
+* **User Stories Implicadas:** US03 (Configuración de perfil y áreas de dominio).
+
+**Explicación del Flujo:**
+1. **Acceso al Perfil:** El tutor ingresa a la sección "Mi Perfil".
+2. **Datos Generales:** El tutor puede agregar o actualizar su foto, seleccionar su universidad y escribir una descripción biográfica.
+3. **Añadir Habilidades:** Existe una sección de "Etiquetas" donde el tutor añade los cursos específicos que domina (ej. "Programación Web" o "Cálculo I").
+4. **Gestión de Habilidades:** Desde esta misma vista, el tutor puede hacer clic en un icono de eliminar para retirar habilidades que ya no desea enseñar.
+5. **Guardar Cambios:** Al guardar, el perfil se actualiza en el motor de búsqueda de la plataforma.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 65: Wireflow de Configuración de Perfil y Disponibilidad del Tutor]</em>
+  <br>
+  <em>Figura 65. Wireflow de Configuración de Perfil y Disponibilidad del Tutor. Nota: Este diagrama de flujo visualiza los pasos que sigue un tutor para configurar su perfil. Detalla la secuencia para añadir habilidades, establecer un calendario de disponibilidad y cambiar su estado para gestionar cuándo desea recibir solicitudes de tutoría.</em>
+</p>
+
+---
+
+#### Wireflow 5: Búsqueda Avanzada con Filtros
+* **User Goal:** "Como aprendiz, quiero aplicar filtros de calidad y procedencia a mi búsqueda para encontrar al tutor que mejor se adapte a mis preferencias."
+* **User Persona:** Estudiante Aprendiz.
+* **User Stories Implicadas:** US06 (Aplicar filtros a los resultados de búsqueda).
+
+**Explicación del Flujo:**
+1. **Búsqueda Inicial:** El flujo arranca cuando el usuario ya tiene en pantalla una lista de tutores tras buscar una materia.
+2. **Abrir Filtros:** El usuario visualiza los filtros ubicados en un panel lateral en la vista de resultados.
+3. **Aplicar Filtros:** El usuario configura las opciones permitidas, seleccionando una "Valoración mínima" (ej. Solo tutores con 5 estrellas) o filtrando por "Universidad".
+4. **Actualizar Resultados:** Al aplicar el filtro, la lista de resultados se reduce en tiempo real mostrando únicamente a los perfiles que cumplen con los criterios de estrellas y universidad.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 66: Wireflow de Búsqueda Avanzada con Filtros]</em>
+  <br>
+  <em>Figura 66. Wireflow de Búsqueda Avanzada con Filtros. Nota: Este wireflow muestra cómo un estudiante puede refinar su búsqueda de tutores. Ilustra el proceso de aplicar filtros avanzados, como día y hora de disponibilidad, para que la lista de resultados se actualice y muestre únicamente a los candidatos que se ajustan a sus necesidades.</em>
+</p>
+
+---
+
+#### Wireflow 6: Realización de una Sesión de Tutoría
+* **User Goal:** "Como usuario, quiero unirme a la videollamada integrada a la hora agendada, compartir mi pantalla para mostrar código o ejercicios, y enviar archivos a través del chat para una explicación más efectiva."
+* **User Persona:** Estudiante Aprendiz y Estudiante Tutor.
+* **User Stories Implicadas:** US12 (Unirse a videollamada integrada), US13 (Compartir pantalla durante la sesión), US11 (Compartir archivos en el chat).
+
+**Explicación del Flujo:**
+1. **Inicio de la Sesión:** A la hora de la reserva, se habilita el botón "Iniciar Videollamada" en el espacio de trabajo.
+2. **Interfaz de Videollamada:** Al presionarlo, se abre la sala virtual en el mismo navegador. Ambos usuarios se conectan con controles básicos: micrófono, cámara y "Finalizar".
+3. **Compartir Pantalla:** Durante la explicación, un usuario presiona "Compartir Pantalla". El navegador solicita permisos y el flujo de video se reemplaza por la vista del escritorio o editor de código del usuario.
+4. **Compartir Archivos:** Si un usuario necesita mostrar un documento, utiliza el chat asincrónico paralelo y el botón del clip para adjuntar un PDF o imagen (JPG/PNG, máximo 5MB). El otro usuario puede descargarlo.
+5. **Finalización:** Al terminar, se finaliza la llamada y los usuarios pueden proceder con la evaluación o calificación.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 67: Wireflow de Realización de una Sesión de Tutoría]</em>
+  <br>
+  <em>Figura 67. Wireflow de Realización de una Sesión de Tutoría. Nota: La figura detalla la interacción central de la plataforma: el intercambio de conocimiento. Muestra la secuencia desde el inicio de la videollamada, el uso de herramientas colaborativas como la pizarra virtual y la carga de archivos, hasta la finalización de la sesión.</em>
+</p>
+
+---
+
+#### Wireflow 7: Billetera Virtual y Retiro de Fondos del Tutor
+* **User Goal:** "Como estudiante tutor, quiero visualizar el saldo de mis donaciones acumuladas en mi Billetera Virtual y configurar mi cuenta bancaria para solicitar retiros."
+* **User Persona:** Estudiante Tutor.
+* **User Stories Implicadas:** US19 (Visualizar Billetera Virtual y saldo), US20 (Registrar cuenta bancaria para retiro).
+
+**Explicación del Flujo:**
+1. **Acceso a la Billetera:** Desde su panel principal, el tutor ingresa a la pestaña "Billetera".
+2. **Vista de Saldo e Historial:** El tutor visualiza el saldo total disponible a retirar. Debajo, revisa el historial de donaciones, donde puede ver el monto original donado, el descuento del 5% de comisión de la plataforma y el monto neto ingresado.
+3. **Configurar Cuenta:** El tutor presiona la opción "Configurar Cuenta Bancaria".
+4. **Registro de Datos:** Se abre un formulario donde ingresa el nombre de su Banco, su Número de Cuenta y su CCI. Al guardar, los datos se encriptan por seguridad.
+5. **Solicitar Retiro:** Una vez guardado el CCI, se habilita el botón "Solicitar Retiro" para transferir sus fondos.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 68: Wireflow de Dashboard y Gestión de Reputación del Tutor]</em>
+  <br>
+  <em>Figura 68. Wireflow de Dashboard y Gestión de Reputación del Tutor. Nota: Este diagrama de flujo ilustra cómo el tutor interactúa con las funciones de seguimiento de la plataforma. Muestra el acceso al dashboard personal para ver estadísticas clave, consultar el historial de sesiones y revisar su reputación a través de las calificaciones recibidas.</em>
+</p>
+
+---
+
+#### Wireflow 8: Monitoreo y Gestión de Alertas del Coordinador
+* **User Goal:** "Como Profesor Universitario, quiero visualizar métricas académicas sobre los cursos más solicitados y resolver disputas reportadas para asegurar la calidad de las tutorías."
+* **User Persona:** Profesor Universitario.
+* **User Stories Implicadas:** US22 (Layout del panel de gestión docente), US23 (Visualizar métricas Académicas), US25 (Revisar y resolver disputas académicas), US24 (Reportar usuario por mala conducta).
+
+**Explicación del Flujo:**
+1. **Vista del Dashboard:** Al iniciar sesión, el Profesor accede a un panel organizado con un menú lateral y accesos directos.
+2. **Métricas Académicas:** El profesor revisa el "Termómetro Académico", que muestra un gráfico con el Top de cursos más solicitados para tutorías. Esto le permite identificar deficiencias tempranas en los alumnos.
+3. **Alertas / Disputas Pendientes:** En el módulo de "Disputas Pendientes", el profesor ve un ticket generado por un usuario (ej. por inasistencia o información errónea).
+4. **Investigación y Veredicto:** El profesor abre el ticket, revisa el detalle y lee el historial del chat asincrónico del caso reportado.
+5. **Resolución:** Emite un veredicto marcando el caso como "Desestimado" o aplicando una "Advertencia" al perfil del infractor, cerrando el ticket.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 69: Wireflow de Monitoreo y Gestión de Alertas del Coordinador]</em>
+  <br>
+  <em>Figura 69. Wireflow de Monitoreo y Gestión de Alertas del Coordinador. Nota: Este diagrama ilustra las herramientas de supervisión del coordinador. Muestra el flujo para visualizar el dashboard con reportes, recibir alertas sobre comportamientos inadecuados de los usuarios y gestionar la información de la plataforma.</em>
+</p>
+
+---
+
+#### Wireflow 9: Realización de Donación Voluntaria al Tutor
+* **User Goal:** "Como Aprendiz, quiero realizar una donación voluntaria utilizando mi tarjeta a través de una pasarela segura justo al momento de calificar, para recompensar económicamente a mi tutor por su ayuda."
+* **User Persona:** Estudiante Aprendiz.
+* **User Stories Implicadas:** US17 (Calificar y dejar reseña al tutor), US18 (Realizar donación monetaria voluntaria).
+
+**Explicación del Flujo:**
+1. **Inicio (Post-Sesión):** El flujo comienza inmediatamente después de finalizar la videollamada de tutoría, en la pantalla donde el aprendiz está dejando su calificación (de 1 a 5 estrellas) y su reseña escrita.
+2. **Opción de Recompensa:** Junto al formulario de calificación, el aprendiz visualiza claramente un botón o sección con la opción "Realizar Donación".
+3. **Ingreso de Datos y Monto:** Al seleccionar la opción, se despliega una interfaz integrada con la pasarela de pago. Aquí, el aprendiz ingresa el monto que desea donar (ej. S/ 15.00) y los datos de su tarjeta bancaria.
+4. **Confirmación y Procesamiento:** El aprendiz confirma la operación. El sistema se comunica de forma segura con la API de pagos para procesar la transacción.
+5. **Notificación de Éxito:** Una vez que el pago es exitoso, la pantalla muestra un mensaje de agradecimiento al aprendiz. Simultáneamente, el sistema notifica al tutor sobre el nuevo ingreso, el cual se verá reflejado en su Billetera.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 70: Wireflow de Realización de Donación]</em>
+  <br>
+  <em>Figura 70. Wireflow de Personalización de la Experiencia del Usuario. Nota: Este wireflow detalla cómo el usuario puede personalizar la apariencia de la aplicación. Describe la secuencia de pasos para donar al usuario.</em>
+</p>
+
+### 4.4.3. Mobile Applications Mock-ups
+
+En esta sección se presentan los mockups, que son la evolución de alta fidelidad de los wireframes, aplicando de manera estricta la Guía de Estilos y los principios de Arquitectura de Información del proyecto. El diseño busca crear una experiencia limpia, intuitiva y confiable.
+
+<p align="center">
+  <img src="public/assets/images-doc/m1.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
+  <img src="public/assets/images-doc/m2.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
+  <img src="public/assets/images-doc/m3.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
+  <br>
+  <em>Figura 71. Mock-ups de Alta Fidelidad de la Aplicación Móvil. Nota: Esta figura presenta el diseño final de las pantallas clave, aplicando la paleta de colores, tipografía y componentes definidos en el Design System.</em>
+</p>
+
+#### Aplicación del Design System y Guía de Estilos
+
+* **Paleta de Colores:** Se aplica consistentemente la paleta de colores definida. El azul primario se usa para elementos de navegación y acciones constructivas clave (botones "Registrar", "Iniciar Sesión", "Aceptar"), generando confianza y una jerarquía de acción clara. El amarillo de acento se emplea para el descubrimiento (ej. etiquetas de dominio) creando un llamado a la acción enérgico. Crucialmente, el rojo de error (`#DC3545`) se reserva para acciones destructivas, como el botón "Rechazar" en el flujo del coordinador. Se emplean también colores semánticos para la retroalimentación: verde para "Confirmado" y amarillo para "Pendiente".
+* **Tipografía:** Se aplica la fuente **'Inter'** en todas las pantallas, utilizando sus diferentes pesos para establecer una jerarquía tipográfica clara. Los títulos principales son grandes y amigables (ej. "¡Hola Alexandra!"), mientras que el texto de cuerpo y las etiquetas (ej. "Correo institucional") son nítidos y legibles.
+* **Componentes (Repetición y Consistencia):** El diseño se basa en componentes reutilizables, lo que crea consistencia (Heurística de Nielsen). Se observa en:
+  * **Tarjetas (Cards):** Usadas para listar sesiones programadas, solicitudes y perfiles de tutores.
+  * **Etiquetas (Chips):** Utilizadas para mostrar "Temas de Dominio" y "Habilidades" (ej. "Física 1", "Figma") de forma visual y compacta.
+  * **Botones de Acción:** Todos los botones principales son redondeados y de color sólido, siguiendo la guía de estilos.
+
+#### Principios de Diseño Visual y Heurísticas
+
+* **Contraste y Minimalismo (Diseño Inclusivo):** Siguiendo la heurística de diseño estético y minimalista, la interfaz utiliza un fondo blanco o gris muy claro. Los mockups demuestran un fuerte contraste entre el texto y el fondo, tanto en el tema claro como en el oscuro. La inclusión de un **Modo Oscuro** ofrece una alternativa para reducir la fatiga visual en sesiones de estudio nocturnas, cumpliendo con principios de accesibilidad.
+* **Proximidad y Alineación:** La información está agrupada lógicamente. En el "Perfil de Tutor", los datos de identidad (foto, nombre, carrera) están en un bloque superior, mientras que "Etiquetas", "Comentarios" y "Habilidades" están en bloques separados. La alineación a la izquierda de los textos y formularios crea un flujo de lectura ordenado y fácil de seguir.
+* **Visibilidad del Estado del Sistema:** La interfaz mantiene al usuario informado en todos los flujos. Ejemplos claros son:
+  * El estado "seleccionado" de los botones de "Tipo de Usuario" (Alumno vs. Tutor) mediante un color sólido.
+  * El sello de **"Verificado"** en el perfil del tutor, un elemento prominente que genera confianza.
+  * Las etiquetas de estado en el dashboard del tutor: "Confirmado" (verde) y "Pendiente" (amarillo).
+  * Las marcas de verificación en la lista del coordinador, que indican visualmente las solicitudes procesadas.
+* **Reconocimiento sobre Recuerdo:** El panel de chat sigue un patrón universal (burbujas de texto, área para adjuntar documentos e imágenes) que los usuarios reconocen instantáneamente, eliminando la curva de aprendizaje.
+
+#### Arquitectura de Información
+
+* **Etiquetado (Labeling):** El sistema de etiquetado es claro, orientado a la acción y consistente con la terminología del dominio estudiantil. Se usan términos inequívocos como "Solicitar tutoría", "Califica a tu Tutor", "Sesiones programadas" o "Añadir Calendario".
+* **Sistemas de Navegación y Organización:** Los mockups demuestran una organización jerárquica y **por audiencia** (el dashboard del aprendiz es radicalmente diferente al del tutor). El usuario navega desde una pantalla general a una de detalle y luego a una acción. El uso de modales evita que el usuario pierda el contexto de la pantalla anterior, mientras que el menú de hamburguesa actúa como el sistema de navegación global.
+* **Concordancia con los User Flow Diagrams:** Los mockups cubren el total de vistas necesarias para construir los flujos de usuario definidos previamente:
+  * **Flujo del Aprendiz (Búsqueda):** Dashboard (para buscar) -> Perfil del Tutor (para revisar) -> Modal de Solicitud (para ejecutar la acción).
+  * **Flujo del Tutor (Gestión):** Dashboard (vista de tutor) -> Pantalla de Aceptación/Rechazo de solicitudes.
+  * **Flujo del Coordinador:** Lista de solicitudes pendientes (con botones de selección múltiple) -> Pantalla de detalle de un estudiante.
+  * **Flujos Transversales:** Menú de "Ajustes", personalización de apariencia y la interfaz de Chat.
+
+  ### 4.4.3. Mobile Applications User Flow Diagrams
+
+#### User Flow 1: Enviar solicitud de tutoría
+* **User Goal:** "Como estudiante que necesita ayuda, quiero encontrar un tutor verificado para un curso específico, revisar su perfil para asegurarme de que es la persona adecuada y solicitarle una sesión de forma segura y directa."
+* **User Persona:** Estudiante que quiere aprender.
+* **User Stories Implicadas:** US05 (Búsqueda por palabras clave), US07 (Visualizar perfil público del tutor), US04 (Sello de verificación institucional), US08 (Enviar solicitud de reserva al tutor).
+
+**Explicación del Flujo (Happy Path):**
+Este flujo describe el camino principal del estudiante aprendiz para conectar con un tutor.
+1. El flujo inicia en el Mock-up del Dashboard, donde el usuario introduce un término en la barra de búsqueda (ej. "Física 1").
+2. Es dirigido al Mock-up de Resultados, donde ve una lista de tutores. Toca el perfil de un tutor que le interesa.
+3. Accede al Mock-up del Perfil del Tutor. Aquí revisa las reseñas, confirma que tiene el sello de "Verificado" y presiona el botón "Solicitar Ayuda".
+4. Aparece un Mock-up de Modal de Solicitud, donde el usuario escribe un mensaje explicando su duda y presiona "Enviar".
+5. El flujo concluye con un Mock-up de Confirmación que indica "Tu solicitud ha sido enviada".
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+**Unhappy Paths (Rutas Alternativas):**
+* **Condición (Sin Resultados):** Si el usuario busca un término y no hay tutores disponibles.
+
+**Explicación del Flujo (Unhappy Path – Sin Resultados):**
+Este flujo describe lo que ocurre cuando el estudiante ingresa un término de búsqueda demasiado específico o una materia para la cual no existen tutores disponibles en la plataforma.
+1. El flujo inicia en el Mock-up del Dashboard, donde el usuario escribe un término de búsqueda que no coincide con ningún tutor registrado (ej. “Termodinámica Avanzada”).
+2. Es dirigido al Mock-up de Resultados Vacíos, donde la plataforma detecta que no existen tutores que coincidan con la búsqueda realizada.
+3. En esta pantalla, el estudiante observa un mensaje informativo que dice: "No busques materias muy específicas. Intenta con otra más general." Además, puede visualizar opciones como volver a intentar la búsqueda, limpiar el filtro o regresar al Dashboard.
+4. El flujo concluye aquí, dado que el usuario no puede continuar hacia un perfil de tutor ni enviar una solicitud. La plataforma lo orienta a reformular su búsqueda para encontrar alternativas disponibles.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+---
+
+#### User Flow 2: Recepción y Aceptación de Solicitud de Tutoría
+* **User Goal:** "Como estudiante tutor, quiero ser notificado de nuevas solicitudes de ayuda, poder revisar rápidamente el perfil del aprendiz y su mensaje, y aceptar o rechazar la solicitud de forma sencilla."
+* **User Persona:** Estudiante que quiere enseñar.
+* **User Stories Implicadas:** US09 (Aceptar o rechazar solicitud de reserva), US10 (Chat interno asincrónico de la reserva).
+
+**Explicación del Flujo (Happy Path):**
+Este flujo detalla la interacción clave del tutor para gestionar las solicitudes entrantes.
+1. El tutor recibe una notificación. Al ingresar a la aplicación, ve su Mock-up del Dashboard de Tutor con un indicador de nueva solicitud. Toca la notificación.
+2. Es dirigido al Mock-up de Revisión de Solicitud, donde lee el mensaje del aprendiz y ve su perfil. Presiona el botón "Aceptar".
+3. El flujo concluye al ser redirigido automáticamente al Mock-up del Chat, donde ya puede coordinar la sesión con el aprendiz.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+**Unhappy Path (Ruta Alternativa):**
+* **Condición (Rechazar Solicitud):** Si el tutor no puede o no desea tomar la solicitud.
+
+**Explicación del Flujo (Rechazar Solicitud):**
+Este flujo describe el escenario en el que un tutor decide no aceptar la solicitud enviada por un estudiante, ya sea por falta de disponibilidad, incompatibilidad con el tema o cualquier otra razón personal o académica.
+1. El flujo inicia en el Mock-up de Revisión de Solicitud, donde el tutor visualiza el mensaje enviado por el estudiante junto con los detalles de la materia y la opción para responder.
+2. El tutor selecciona la opción "Rechazar", indicando que no puede asumir esa tutoría.
+3. Inmediatamente aparece un Mock-up de Modal de Confirmación con el mensaje: "¿Estás seguro de que quieres rechazar esta solicitud?", para evitar rechazos accidentales.
+4. El tutor confirma la acción. La plataforma registra el rechazo, descarta la solicitud y actualiza su estado.
+5. El flujo concluye regresando al Mock-up del Dashboard del tutor, donde ya no aparece la solicitud pendiente.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+---
+
+#### User Flow 3: Calificación de Sesión y Donación Voluntaria
+* **User Goal:** "Como estudiante aprendiz, después de una tutoría, quiero calificar a mi tutor para compartir mi experiencia y poder guardarlo en una lista de 'favoritos' para contactarlo fácilmente en el futuro."
+* **User Persona:** Estudiante que quiere aprender.
+* **User Stories Implicadas:** US17 (Calificar y dejar reseña al tutor), US18 (Realizar donación monetaria voluntaria).
+
+**Explicación del Flujo (Happy Path - Calificación y Favoritos):**
+Este flujo muestra el cierre del ciclo de aprendizaje y la retención del usuario.
+1. Al finalizar una sesión (ej. al cerrar la videollamada), la plataforma muestra automáticamente el Mock-up de Calificación.
+2. El usuario selecciona 5 estrellas y escribe un comentario positivo. Presiona "Aceptar".
+3. Aparece un Mock-up de Confirmación.
+4. Posteriormente, el usuario navega al perfil del tutor y presiona el ícono de "Favorito".
+5. El usuario puede ir a la sección "Mis Favoritos" y ver al tutor guardado en su lista.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+**Explicación del Flujo (Donación Voluntaria):**
+Este flujo muestra el cierre del ciclo de aprendizaje, la retención del usuario mediante la retroalimentación y la monetización de la plataforma a través de la pasarela de pagos.
+* **Condición:** El usuario desea dejar retroalimentación para ayudar a la reputación del tutor y cuenta con la disposición de realizar un aporte económico.
+1. Al finalizar una sesión, la plataforma redirige automáticamente al usuario al Mock-up de Calificación y Donación.
+2. El usuario califica y escribe un comentario positivo sobre la enseñanza.
+3. En la misma pantalla, el usuario selecciona un monto predefinido o ingresa un monto personalizado y presiona el botón "Realizar Donación".
+4. El sistema lo redirige al Mock-up de Pasarela de Pagos (integración con Stripe/PayPal), donde ingresa los datos de su tarjeta y confirma la transacción.
+5. Aparece un Mock-up de Confirmación agradeciendo la calificación y confirmando que la donación fue procesada con éxito.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+## 4.5. Mobile Applications Prototyping
+
+Esta sección presenta los prototipos de interfaz móvil para Android y iOS de la aplicación SkillSwap, con simulación de interacción y navegación. Estos prototipos se han desarrollado para demostrar visual y funcionalmente los 5 flujos de usuario (User Flows) claves definidos para las distintas personas del proyecto:
+
+* **User Flow 1:** Búsqueda y Solicitud de Tutoría (Estudiante).
+* **User Flow 2:** Recepción y Aceptación de Solicitud de Tutoría (Tutor).
+* **User Flow 3:** Calificación de Sesión (Estudiante).
+* **User Flow 7:** Billetera Virtual y Retiro de Fondos del Tutor.
+* **Wireflow 9:** Realización de Donación Voluntaria al Tutor.
+
+**Criterios de Interacción:** Las decisiones de diseño se basaron en dos criterios principales:
+1. **Adherencia a las Guías Nativas** (Material Design de Google y Human Interface Guidelines de Apple) para garantizar una experiencia familiar y reducir la fricción.
+2. **Eficiencia de tarea**, optimizando los "Happy Paths" de los flujos para que se completen con el mínimo de pasos.
+
+**Relación con la Arquitectura de Información (IA) y User Flows:** La Arquitectura de Información define el sistema de navegación. Esto se traduce en una Tab Bar inferior en el prototipo de iOS para acceso directo a secciones clave (como "Favoritos"), mientras que en Android se opta por un Menú Lateral para agrupar estas mismas secciones, un patrón tradicional en esa plataforma.
+
+Las interacciones grabadas en los videos de demostración siguen los pasos exactos descritos en los User Flow Diagrams, demostrando tanto los "Happy Paths" (solicitar una tutoría), como los "Unhappy Paths" (no encontrar resultados de búsqueda).
+
+---
+
+### 4.5.1. Android Mobile Applications Prototyping
+
+Esta propuesta sigue las guías de Material Design de Google. Se enfoca en el uso de Cards (tarjetas) para la jerarquía visual (como en el perfil y comentarios), una paleta de color definida y componentes interactivos propios de Android.
+
+<p align="center">
+  <a href="https://youtu.be/50YTngUrCFs" target="_blank">
+    <img src="https://img.youtube.com/vi/50YTngUrCFs/maxresdefault.jpg" alt="Prototipo Android" width="600">
+  </a>
+  <br>
+  <em>Video 1. Demostración del prototipo interactivo en Android (Clic en la imagen para reproducir).</em>
+</p>
+
+El video demuestra los flujos de usuario clave desde la perspectiva de Material Design. Se muestra la búsqueda de estudiante, donde al presionar "Solicitar Ayuda" se levanta un modal de Android. También se demuestra la Aceptación del Tutor, donde el tutor ve la solicitud en una tarjeta y, al "Rechazar" (Unhappy Path), aparece un mensaje de confirmación. Se destacan componentes nativos como menús desplegables para filtros y ventanas para confirmaciones.
+
+---
+
+### 4.5.2. iOS Mobile Applications Prototyping
+
+Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una estética limpia y animaciones fluidas. La navegación principal se centra en una Tab Bar inferior.
+
+<p align="center">
+  <a href="https://youtu.be/57n2zvjJ5Zo" target="_blank">
+    <img src="https://img.youtube.com/vi/57n2zvjJ5Zo/maxresdefault.jpg" alt="Prototipo iOS" width="600">
+  </a>
+  <br>
+  <em>Video 2. Demostración del prototipo interactivo en iOS (Clic en la imagen para reproducir).</em>
+</p>
+
+Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usuario navega a "Mis Favoritos" usando el menú desplegable o la interacción con los elementos. Al finalizar una sesión, se visualiza el modal de calificación y el mensaje de confirmación con la moda de iOS. También, se demuestra cómo las transiciones entre la búsqueda y los resultados son mediante deslizamiento. Se destacan componentes clave de iOS como los modales de confirmación, la tab bar del navegador Safari, los pickers de rueda (reloj) para configurar la disponibilidad y las alertas nativas para las confirmaciones.
