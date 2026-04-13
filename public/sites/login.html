@@ -46,9 +46,9 @@
       <div class="menu-horizontal">
         <ul class="menu-horizontal-opciones">
 
-          <li><a href="sitios/alianzas.html"   data-i18n="nav-alianzas">Alianzas</a></li>
-          <li><a href="sitios/proyectos.html"  data-i18n="nav-proyectos">Proyectos</a></li>
-          <li><a href="sitios/index-sobre-nosotros.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
+          <li><a href="alianzas.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
+          <li><a href="aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
 
           <li>
             <a href="login.html">
@@ -74,67 +74,186 @@
       </div>
     </nav>
 
-  <section id="inicio-sesion">
+<!-- ═══════════════════════════════════════ SECCIÓN LOGIN ═══════════════════════════════════════ -->
+  
+<section id="inicio-sesion">
       <div class="seccion-inicio-sesion">
-        <h2 class="login-titulo">Inicio de Sesión</h2>
+        <h2 class="login-titulo" data-i18n="login-title">Inicio de Sesión</h2>
         <div class="titulo-decorador"></div>
         
         <form class="formulario-inicio-sesion" onsubmit="validarLogin(event)">
           
           <div class="formulario-inicio-sesion-elemento">
-            <label for="email">Usuario o Correo Institucional*</label>
-            <input type="text" id="email" name="correo" placeholder="Ej: admin, u20201234@upc.edu.pe" required>
+            <label for="email" data-i18n="email-label">Correo Institucional *</label>
+            <input type="text" id="email" name="correo" data-i18n="email-placeholder" placeholder="Ej: admin, u20201234@upc.edu.pe" required>
           </div>
 
           <div class="formulario-inicio-sesion-elemento">
-            <label for="password">Contraseña*</label>
-            <input type="password" id="password" name="contrasenia" placeholder="Introduce tu contraseña" required>
+            <label for="password" data-i18n="password-label">Contraseña *</label>
+            <input type="password" id="password" name="contrasenia" data-i18n="password-placeholder" placeholder="Introduce tu contraseña" required>
           </div>
 
           <div class="formulario-inicio-sesion-elemento">
-            <input type="submit" value="Iniciar Sesión">
+            <input type="submit" data-i18n="login-btn" value="Iniciar Sesión">
           </div>
         </form>
 
-        <label>¿No tienes cuenta?
-          <a href="index-registrarse.html">Regístrate</a>
+        <label>
+          <span data-i18n="signup-label">¿No tienes cuenta?</span>
+          <a href="index-registrarse.html" data-i18n="signup-text">Regístrate</a>
         </label>
       </div>
     </section>
 
     <script src="../assets/scripts/login.js"></script>
 
-     <footer>
+   <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+    <footer>
       <div class="seccion-footer">
-        <p>2025 SkillSwap... Todos los derechos reservados. <a href="../archivos/TerminosCondiciones.pdf" class="terminos-condiciones">Terminos y Condiciones</a> </p>
+        <p>
+          <span data-i18n="footer-text">2026 SkillSwap. Todos los derechos reservados.</span>
+          <a href="archivos/TerminosCondiciones.pdf" class="terminos-condiciones" data-i18n="footer-terms">
+            Términos y Condiciones
+          </a>
+        </p>
       </div>
     </footer>
-    <!--script menu hamburguesa-->
-<script>
-// 1. MENU HAMBURGUESA PRINCIPAL
-    const btnMenu = document.getElementById('btn-menu');
-    const menu = document.querySelector('.barra-navegacion .menu-horizontal');
-    
-    if(btnMenu) {
-        btnMenu.addEventListener('click', () => {
-            menu.classList.toggle('activo');
-        });
-    }
 
-    // 2. SUBMENU ALIANZAS (SOLO MÓVIL)
-    const btnAlianzas = document.getElementById("btn-alianzas");
-    const submenuAlianzas = document.getElementById("submenu-alianzas");
+<!-- ═══════════════════════════════════════ SCRIPTS ═══════════════════════════════════════ -->
 
-    if (btnAlianzas && submenuAlianzas) {
-        btnAlianzas.addEventListener("click", (event) => {
-            // Solo actuar si estamos en modo celular
-            if (window.innerWidth <= 768) {
-                event.preventDefault(); // Evita que recargue la página al tocar "Alianzas"
-                submenuAlianzas.classList.toggle("activo"); // Abre o cierra
+    <!-- Script menú hamburguesa -->
+    <script>
+      const btnMenu = document.getElementById('btn-menu');
+      const menu = document.querySelector('.barra-navegacion .menu-horizontal');
+
+      btnMenu.addEventListener('click', () => {
+        menu.classList.toggle('activo');
+      });
+    </script>
+
+    <!-- ── Script i18n — US35 ── -->
+    <script>
+      /* ────────────────────────────────────────────────
+         Diccionario de traducciones
+         Añade aquí cualquier nueva clave data-i18n
+      ──────────────────────────────────────────────── */
+      const translations = {
+        es: {
+          /* Página */
+          "page-title":       "SkillSwap | La Red Interuniversitaria Más Grande del Perú",
+          "meta-description": "Conecta con estudiantes universitarios verificados para recibir tutorías en línea.",
+
+          /* Navbar */
+          "nav-alianzas":       "Alianzas",
+          "nav-proyectos":      "Proyectos",
+          "nav-sobre-nosotros": "Sobre nosotros",
+          "nav-login":          "Iniciar Sesión",
+          "nav-register":       "Registrarse",
+
+          /* Login */
+          "login-title": "Inicio de Sesión",
+          "email-label": "Correo institucional *",
+          "email-placeholder": "Ej: u20201234@upc.edu.pe",
+          "password-label": "Contraseña *",
+          "password-placeholder": "Introduce tu contraseña",
+          "login-btn": "Iniciar Sesión",
+          "signup-label": "¿No tienes cuenta?",
+          "signup-text": "Regístrate",
+  
+        
+          /* Footer */
+          "footer-text":  "2026 SkillSwap. Todos los derechos reservados.",
+          "footer-terms": "Términos y Condiciones",
+        },
+
+        en: {
+          /* Page */
+          "page-title":       "SkillSwap | Peru's Largest Inter-University Network",
+          "meta-description": "Connect with verified university students for online tutoring sessions.",
+
+          /* Navbar */
+          "nav-alianzas":       "Alliances",
+          "nav-proyectos":      "Projects",
+          "nav-sobre-nosotros": "About us",
+          "nav-login":          "Log In",
+          "nav-register":       "Sign Up",
+
+          /* Login */
+          "login-title": "Log In",
+          "email-label": "University Email *",
+          "email-placeholder": "e.g. u20201234@upc.edu.pe",
+          "password-label": "Password *",
+          "password-placeholder": "Enter your password",
+          "login-btn": "Log In",
+          "signup-label": "Don't have an account?",
+          "signup-text": "Sign up",
+
+          /* Footer */
+          "footer-text":  "2026 SkillSwap. All rights reserved.",
+          "footer-terms": "Terms and Conditions",
+        }
+      };
+
+      /* ────────────────────────────────────────────────
+         Función principal: aplica el idioma elegido
+         - Actualiza html[lang]                 → SEO
+         - Actualiza <title>                    → SEO
+         - Actualiza <meta name="description">  → SEO
+         - Actualiza todos los [data-i18n]      → UI
+         - Actualiza botones activos            → UI
+         - Guarda en localStorage               → Persistencia
+      ──────────────────────────────────────────────── */
+      function applyLanguage(lang) {
+        if (!translations[lang]) return;
+        const t = translations[lang];
+
+        /* 1. Atributo lang del HTML (SEO bilingüe) */
+        document.documentElement.lang = lang;
+
+        /* 2. <title> */
+        document.title = t["page-title"];
+
+        /* 3. Meta description */
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) metaDesc.setAttribute('content', t["meta-description"]);
+
+        /* 4. Todos los elementos con data-i18n */
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (!t[key]) return;
+
+          /* INPUTS */
+          if (el.tagName === "INPUT") {
+            if (el.type === "submit") {
+              el.value = t[key]; // botón
+            } else {
+              el.placeholder = t[key]; // inputs
             }
+          } 
+          /* OTROS ELEMENTOS */
+          else {
+            el.textContent = t[key];
+          }
         });
-    }
-</script>
+
+        /* 5. Estado visual del selector de idioma */
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.lang === lang);
+        });
+
+        /* 6. Persistencia en LocalStorage (Escenario 2) */
+        localStorage.setItem('skillswap-lang', lang);
+      }
+
+      /* ────────────────────────────────────────────────
+         Inicialización al cargar la página
+         Lee la preferencia guardada o usa 'es' por defecto
+      ──────────────────────────────────────────────── */
+      (function init() {
+        const savedLang = localStorage.getItem('skillswap-lang') || 'es';
+        applyLanguage(savedLang);
+      })();
+    </script>
 
   </body>
 </html>
