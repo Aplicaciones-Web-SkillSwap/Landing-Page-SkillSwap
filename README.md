@@ -938,3 +938,433 @@ En esta sección se expone el Impact Mapping del proyecto, una técnica que cone
 | 38 | **US38** | Como usuario, quiero ver un resumen interactivo de las "Soluciones" tecnológicas que ofrece la plataforma, para entender cómo resolverá mis problemas académicos antes de registrarme. | 3 |
 
 *(Tabla 11. Product Backlog - SkillSwap. Nota: Esta tabla presenta el Product Backlog completo del proyecto, priorizado según orden de implementación. La columna 'Story Points' asigna una estimación del esfuerzo relativo).*
+
+# Capítulo IV: Product UX/UI Design
+
+## 4.1. Style Guidelines
+
+El diseño gráfico de la plataforma Innovify (SkillSwap) fue definido por el equipo mediante la aplicación de distintas estrategias orientadas a garantizar una estética coherente, una interfaz intuitiva y una experiencia visual agradable para nuestros futuros usuarios. El diseño de nuestro logotipo busca encapsular los conceptos de conexión, conocimiento y colaboración, que son los pilares de la plataforma. 
+
+Para la paleta de colores, se ha elegido un azul principal que transmite confianza, profesionalismo y seguridad, elementos cruciales para un entorno de intercambio académico verificado. Este se complementa con un color de acento amarillo que evoca conocimiento, éxito y energía, motivando a los estudiantes en su proceso de aprendizaje y enseñanza, y el blanco, que aporta claridad, modernidad y un espacio limpio que mejora la legibilidad y la sensación de amplitud en la interfaz. La combinación de estos elementos busca proyectar una imagen moderna, seria, pero a la vez accesible y motivadora, alineada con la visión de crear la red de apoyo estudiantil interuniversitaria líder en el Perú.
+
+### 4.1.1. General Style Guidelines
+
+Aquí se sientan las bases de la identidad visual y verbal de la plataforma, asegurando consistencia en todas las pantallas. Nos hemos basado en principios de diseño inclusivo para garantizar que el producto sea utilizable por la mayor cantidad de personas posible.
+
+* **Branding:** El logo debe representar la conexión y el intercambio de conocimiento. Se propone un diseño que combine dos elementos: nodos interconectados (simbolizando la red entre universidades) que a su vez forman la silueta de un libro abierto o una bombilla (representando el conocimiento y las ideas). Este concepto visual refuerza la propuesta de valor central: ser un puente que conecta el talento estudiantil.
+
+<p align="center">
+  <img src="public/assets/images-doc/logo-grande.png" alt="Logo Innovify" width="400">
+  <br>
+  <em>Figura 30. Logo Innovify.</em>
+</p>
+
+* **Typography:** Se propone utilizar la familia tipográfica **Inter**, una fuente *sans-serif* versátil y moderna, diseñada específicamente para la legibilidad en pantallas. Su claridad y neutralidad la hacen ideal para un entorno académico y digital.
+  * **Escala Base:** 16px
+  * **Interlineado:** 1.5
+  * **Weights (Pesos):** Regular, Medium, Semi-Bold, Bold.
+
+* **Nomenclatura Tipográfica (NOMBRE / TAMAÑO / PESO):**
+  * **Heading 1:** 32px / Bold (Títulos de página principal)
+  * **Heading 2:** 24px / Semi-Bold (Títulos de sección)
+  * **Heading 3:** 20px / Semi-Bold (Subtítulos o títulos de tarjetas)
+  * **Base:** 16px / Regular (Párrafos y texto principal)
+  * **Label:** 14px / Medium (Etiquetas de botones y campos de formulario)
+
+* **Colors:** La paleta de colores está pensada para transmitir confianza, motivación y accesibilidad.
+  * **Azul Primario (#005A9C):** Refuerza la sensación de estabilidad y seguridad (botones principales).
+  * **Amarillo de Acento (#FFC107):** Aporta energía y dinamismo (llamadas a la acción secundarias).
+  * **Gris Claro (#F5F7FA):** Proporciona limpieza visual (fondos).
+  * **Gris Oscuro (#212529):** Asegura legibilidad óptima (textos).
+  * **Semántica:** Verde de éxito (#28A745) y rojo de error (#DC3545) para estados del sistema.
+
+* **Spacing:** La unidad base de **8px** establece un ritmo visual que facilita la comprensión.
+  * **8px:** Entre íconos y texto.
+  * **16px:** Entre párrafos y elementos de lista.
+  * **24px:** Relleno interno en contenedores y tarjetas.
+  * **32px:** Separación entre secciones principales.
+  * **48px:** Márgenes superiores e inferiores de la página.
+
+* **Tono de Comunicación y Lenguaje Aplicado:** El tono debe ser Respetuoso, Entusiasta y Formal-Casual. Buscamos un equilibrio que proyecte profesionalismo y confianza, pero que a la vez sea cercano para los estudiantes.
+  * **Tono:** Serio y confiable pero empático. Evitando lenguaje alarmista o demasiado corporativo.
+  * **Lenguaje:** Claro y sencillo. Se evitarán tecnicismos innecesarios (ej: *"Conecta con un tutor"*, *"Juntos aprendemos más"*).
+
+---
+
+### 4.1.2. Web Style Guidelines
+
+Elegimos estos colores porque buscábamos transmitir confianza, motivación y accesibilidad. El azul simboliza estabilidad, siendo el color predominante. El amarillo aporta energía destacando acciones importantes. Para reforzar la comunicación del sistema, empleamos el verde como indicador de éxito y el rojo para errores.
+
+<p align="center">
+  <img src="public/assets/images-doc/index-anti.png" alt="Landing Page Inicio" width="800">
+  <br>
+  <em>Figura 31. Landing page - Página inicio. Nota: Esta figura muestra el diseño de la pantalla principal o dashboard que ve el usuario al iniciar sesión.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/colors.png" alt="Paleta de Colores Web" width="600">
+  <br>
+  <em>Figura 32. Paleta de colores. Nota: Combinación del azul (confianza) y amarillo (energía).</em>
+</p>
+
+* **Responsive Design Standards (Mobile-first):**
+  * **Mobile (hasta 768px):** Diseño de una sola columna. Menú hamburguesa. Botones grandes para uso táctil.
+  * **Tablet (769px - 1024px):** Layout de hasta dos columnas. Menú lateral colapsable.
+  * **Desktop (1025px+):** Espacio disponible con layouts de dos o tres columnas. Navegación principal siempre visible.
+* **Interactivity:**
+  * **Botones:** Bordes redondeados (`border-radius: 8px`). Hover con ligera sombra o cambio de tono.
+  * **Transiciones:** Animaciones sutiles y rápidas (200-300ms).
+* **Accessibility:**
+  * Etiquetas (`<label>`) claras en formularios.
+  * Imágenes con texto alternativo (`alt`).
+  * Navegación completa mediante teclado (Tab, Enter).
+  * Contraste de color según pautas WCAG 2.1.
+
+---
+
+### 4.1.3. Mobile Style Guidelines
+
+Aquí se ilustran los estándares visuales para la aplicación móvil, considerando las particularidades de iOS y Android para ofrecer una experiencia nativa y familiar.
+
+#### 4.1.3.1. iOS Mobile Style Guidelines
+
+* **Colores:** Se emplea la paleta general para respetar los lineamientos de la marca.
+
+<p align="center">
+  <img src="public/assets/images-doc/colors.png" alt="Paleta Colores iOS" width="600">
+  <br>
+  <em>Figura 33. Paleta de colores - iOS Mobile.</em>
+</p>
+
+* **Tipografía:** Se seguirán los General Style Guidelines (Inter).
+
+<p align="center">
+  <img src="public/assets/images-doc/tipografia.png" alt="Tipografía iOS" width="600">
+  <br>
+  <em>Figura 34. Tipografía iOS Mobile. Nota: Jerarquía tipográfica asegurando consistencia visual.</em>
+</p>
+
+* **Componentes:** Se adoptarán los patrones de diseño propios de iOS (barras de pestañas inferiores, transiciones de derecha a izquierda).
+
+<p align="center">
+  <img src="public/assets/images-doc/inputs.png" alt="Campos de Texto iOS" width="600">
+  <br>
+  <em>Figura 35. Campos de texto iOS Mobile.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/botones.png" alt="Botones iOS" width="600">
+  <br>
+  <em>Figura 36. Botones iOS Mobile. Nota: Guía de estilos con jerarquías visuales (primarios, secundarios, iconográficos).</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/pickers.png" alt="Pickers y Alertas iOS" width="600">
+  <br>
+  <em>Figura 37. Pickers y Alertas iOS Mobile. Nota: Uso de componentes nativos de iOS para selectores y notificaciones.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/redes.png" alt="Redes Sociales iOS" width="600">
+  <br>
+  <em>Figura 38. Enlace a redes Sociales iOS Mobile.</em>
+</p>
+
+---
+
+#### 4.1.3.2. Android Mobile Style Guidelines
+
+* **Colores:** Para la aplicación en dispositivos Android, se emplea la misma paleta de colores.
+
+<p align="center">
+  <img src="public/assets/images-doc/colors.png" alt="Paleta Colores Android" width="600">
+  <br>
+  <em>Figura 39. Paleta de colores Android Mobile.</em>
+</p>
+
+* **Tipografía:** Se aplicará la jerarquía de la fuente Inter para asegurar legibilidad en el ecosistema Android.
+
+<p align="center">
+  <img src="public/assets/images-doc/tipografia.png" alt="Tipografía Android" width="600">
+  <br>
+  <em>Figura 40. Tipografía Android Mobile.</em>
+</p>
+
+* **Componentes:** Se adoptarán los patrones de diseño nativos de Material Design / Android.
+
+<p align="center">
+  <img src="public/assets/images-doc/inputs.png" alt="Campos de Texto Android" width="600">
+  <br>
+  <em>Figura 41. Campos de texto Android Mobile.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/botones.png" alt="Botones Android" width="600">
+  <br>
+  <em>Figura 42. Botones Android Mobile.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/pickers.png" alt="Pickers y Alertas Android" width="600">
+  <br>
+  <em>Figura 43. Pickers y Alertas Android Mobile.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/cosas-redes.png" alt="Redes Sociales Android" width="600">
+  <br>
+  <em>Figura 44. Enlace a Redes sociales Android Mobile.</em>
+</p>
+
+## 4.2. Information Architecture
+
+En esta sección se plantean las decisiones y el sustento que dirigen la manera como se organizará el contenido en las experiencias web y móvil de SkillSwap (Innovify). Las propuestas están orientadas a que los usuarios se adapten con facilidad a la funcionalidad del producto y puedan encontrar todo aquello que necesiten sin esfuerzo, reduciendo la carga cognitiva y optimizando el cumplimiento de sus objetivos. A continuación, se detallan las decisiones sobre los Organization Systems, Labeling Systems, Searching Systems y Navigation Systems.
+
+### 4.2.1. Organization Systems
+
+Para estructurar la información de manera intuitiva, la plataforma combinará múltiples sistemas de organización. La **organización jerárquica** será el sistema principal para presentar la información dentro de cada pantalla. Los procesos clave, como el registro o la solicitud de una tutoría, seguirán una **organización secuencial**, guiando al usuario paso a paso.
+
+El esquema principal de categorización será por **tópicos** (materias o habilidades). Se usará un **esquema cronológico** para historiales y sesiones programadas. Fundamentalmente, toda la arquitectura se basa en un **esquema según audiencia**, dividiendo la experiencia en tres flujos distintos, como se muestra en los siguientes diagramas.
+
+* **Estudiante-Aprendiz:** El viaje comienza al iniciar sesión en su Dashboard. Su acción principal es usar la búsqueda para encontrar un Tópico. La plataforma le presenta una Lista de Resultados con tutores, permitiéndole explorar el Perfil Detallado. Si le convence, inicia la Solicitud de Tutoría. El flujo culmina en la coordinación a través de un Chat Interno una vez que el tutor acepta, asegurando un proceso estructurado de principio a fin.
+
+<p align="center">
+  <img src="public/assets/images-doc/flujo-estudiante.png" alt="Diagrama Flujo Aprendiz" width="800">
+  <br>
+  <em>Figura 45. Diagrama de flujo de Estudiante aprendiz. Nota: Esta figura detalla el recorrido secuencial del usuario desde el inicio de sesión hasta la coordinación final.</em>
+</p>
+
+* **Estudiante-Tutor:** El viaje se inicia de forma reactiva al recibir una notificación. En su Dashboard, consulta las solicitudes pendientes y revisa el perfil del aprendiz. Si acepta, el sistema lo dirige a un chat interno para coordinar. Tras realizar la tutoría con éxito, el tutor califica la experiencia y recibe créditos/donaciones como recompensa.
+
+<p align="center">
+  <img src="public/assets/images-doc/flujo-tutor.png" alt="Diagrama Flujo Tutor" width="800">
+  <br>
+  <em>Figura 46. Diagrama de flujo de Estudiante tutor. Nota: Este diagrama ilustra el flujo de trabajo del tutor para revisar, aceptar, coordinar y finalizar el ciclo.</em>
+</p>
+
+* **Coordinador Institucional:** La experiencia está diseñada para la máxima eficiencia. Comienza al recibir una notificación de verificación pendiente. Para agilizar, el sistema permite seleccionar múltiples estudiantes y usar "Aprobar en Bloque". Se pide confirmación de la acción para evitar errores y la lista de pendientes se actualiza.
+
+<p align="center">
+  <img src="public/assets/images-doc/flujo-coorni.png" alt="Diagrama Flujo Coordinador" width="800">
+  <br>
+  <em>Figura 47. Diagrama de flujo de Coordinador institucional. Nota: La figura representa el flujo diseñado para ser eficiente mediante la función "Aprobar en Bloque".</em>
+</p>
+
+---
+
+### 4.2.2. Labeling Systems
+
+Colocamos el *labeling system* (sistema de etiquetado) en el lado izquierdo de forma desplegable para facilitar su uso. Además, ajustamos los colores y el fondo para que se alineen con la paleta representativa de la marca, asegurando un buen contraste que permita una lectura clara y cómoda.
+
+Esta disposición mejora la experiencia del usuario, ya que le permite desplazarse fácilmente entre las diferentes opciones y navegar de manera rápida e intuitiva por la aplicación. Cada sección cuenta, además, con sus respectivos títulos para mantener una estructura organizada y coherente.
+
+<p align="center">
+  <img src="public/assets/images-doc/index-responsive.png" alt="Sistema de Etiquetado" width="400">
+  <br>
+  <em>Figura 48. Sistema de Etiquetado en Menú de Navegación Móvil. Nota: Se emplean etiquetas claras como "Perfil", "Sesiones" y "Ajustes" para acceso intuitivo.</em>
+</p>
+
+---
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Para asegurar el correcto posicionamiento en motores de búsqueda (SEO) y una previsualización adecuada en redes sociales, el equipo ha definido la siguiente estructura de etiquetas `<title>` y `<meta>`. La estrategia se divide entre la Landing Page y la Web Application.
+
+#### 1. Landing Page (Sitio Web Estático Público)
+El objetivo es captar tráfico orgánico de estudiantes y de instituciones interesadas en el modelo B2B.
+
+**Página Principal**
+```html
+<title>Innovify | La Red de Tutorías Universitarias Más Segura del Perú</title>
+<meta name="description" content="Conecta con estudiantes universitarios verificados para recibir tutorías en línea. Aprende, enseña, recibe donaciones y mejora tus notas con Innovify.">
+<meta name="keywords" content="tutorías universitarias, apoyo académico, estudiantes verificados, plataforma edtech, tutorías peru, ganar dinero enseñando, innovify">
+<meta name="author" content="Innovify Team">
+
+### 4.2.4. Searching Systems
+
+Para evitar que los usuarios se sientan perdidos ante el volumen de información, la plataforma ofrecerá un sistema de búsqueda robusto y diversos medios de ayuda para encontrar datos. Las decisiones buscan facilitar el descubrimiento de tutores y la gestión de la información.
+
+| Sistema de Búsqueda | Descripción | Beneficio para el Usuario |
+| :--- | :--- | :--- |
+| **Búsqueda Principal por Tópicos** | Permite a los aprendices buscar tutores introduciendo el nombre de un curso o habilidad (ej. "Cálculo II") en una barra de búsqueda principal. | Ofrece un punto de partida directo y familiar para encontrar ayuda. Responde a la necesidad principal del usuario de forma inmediata. |
+| **Búsqueda por Etiquetas** | Los tutores pueden añadir etiquetas específicas a sus habilidades (ej. "Figma", "React.js"). El sistema permite a los aprendices buscar directamente por estas etiquetas. | Aumenta la precisión de la búsqueda, permitiendo a los usuarios encontrar ayuda sobre una herramienta o subtema muy específico, en lugar de solo por el nombre general del curso. |
+| **Acceso Rápido por Favoritos** | Los aprendices pueden marcar tutores como "favoritos" para guardarlos en una lista personal de acceso rápido. | Funciona como un sistema de recuperación personalizado. Evita que el usuario tenga que realizar una nueva búsqueda para encontrar a un tutor con el que ya tuvo una buena experiencia. |
+| **Búsqueda Interna (Coordinador)** | El panel de administración incluye una barra de búsqueda para que el coordinador encuentre el perfil de un estudiante específico por su nombre o código. | Facilita la gestión y el monitoreo. Permite al coordinador auditar o revisar un caso particular de manera eficiente sin tener que navegar por largas listas. |
+
+*(Tabla 12. Sistemas de Búsqueda de la Plataforma. Nota: Esta tabla describe los diferentes sistemas de búsqueda implementados, detallando las funcionalidades y el beneficio que cada una aporta a los distintos tipos de usuario).*
+
+Los resultados de la búsqueda para el aprendiz se presentarán siempre en formato de tarjetas de perfil, mostrando foto, nombre, universidad y calificación, para facilitar una decisión rápida e informada.
+
+---
+
+### 4.2.5. Navigation Systems
+
+La navegación principal en la plataforma se realizará a través de la opción “Home”, que dirige al usuario a la pantalla inicial donde se concentran las funciones principales: visualizar estudiantes, contactos y favoritos.
+
+En la parte inferior, se muestran las sesiones recientes, cada una acompañada de su respectivo perfil, número de sesión, fecha exacta y foto de perfil, junto con la opción de ver más detalles de cada una.
+
+Además, se incluye un botón para acceder al historial completo de sesiones, ordenadas desde la más reciente hasta la más antigua, y un botón de ayuda, pensado para ofrecer soporte en caso de que el usuario tenga inconvenientes con la aplicación.
+
+---
+
+## 4.3. Landing Page UI Design
+
+En esta sección se elabora la propuesta de UI para el Landing Page. El diseño traduce las decisiones de arquitectura de información y los Style Guidelines previamente definidos en una experiencia visual coherente y atractiva. 
+
+El objetivo principal del Landing Page es comunicar la propuesta de valor del startup, generar confianza en los nuevos visitantes e incentivar el registro en la plataforma, sirviendo como la principal puerta de entrada al ecosistema de colaboración interuniversitaria.
+
+### 4.3.1. Landing Page Wireframe
+
+#### Landing Page Desktop Web Browser Wireframe
+
+<p align="center">
+  <img src="public/assets/images-doc/LP-w.png" alt="Wireframe Desktop Main" width="800">
+  <br>
+  <em>Figura 51. Wireframe de la Sección Principal de la Landing Page. Nota: Este wireframe ilustra la estructura de la sección principal de la página de bienvenida. Su diseño se enfoca en comunicar la propuesta de valor de forma directa e incluye un llamado a la acción ("Call-to-Action") central para incentivar el registro de nuevos usuarios.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/LP-W2.png" alt="Wireframe Desktop Structure" width="800">
+  <br>
+  <em>Figura 52. Wireframe de la Estructura de la Landing Page. Nota: Este wireframe detalla la distribución de los elementos en la página de bienvenida. Se observa una sección principal donde se mostrarán imágenes del diseño de la plataforma final, seguida de una explicación del servicio en tres pasos y un área para mostrar las universidades afiliadas, guiando al visitante a través de la propuesta de valor.</em>
+</p>
+
+**Principios de diseño**
+En el wireframe de nuestra landing page para el navegador web, se seleccionó un fondo blanco con el objetivo de generar un contraste fuerte que permita destacar los elementos superpuestos, como botones, textos e imágenes, mejorando así la legibilidad. 
+
+Se utilizaron botones con forma de píldora y tarjetas rectangulares que se repiten a lo largo de todo el diseño, generando coherencia visual y una experiencia uniforme para el usuario. La estructura de la página se organiza en columnas dobles, centradas horizontalmente, lo que permite equilibrar texto e imagen, como se observa en la Figura 52, donde una columna presenta beneficios y la otra imágenes ilustrativas. Finalmente, los elementos relacionados se ubican próximos entre sí dentro de su columna o fila correspondiente (como en el apartado llamado “Universidades Afiliadas”), aplicando el principio de proximidad para facilitar la comprensión y navegación del contenido.
+
+**Elementos de diseño**
+En los wireframes de la landing page se destacan tres elementos de diseño clave: tamaño, espacio y figuras. Se busca implementar un estilo minimalista combinado con diseño flat, lo que se refleja en el uso de espacios amplios que crean una interfaz limpia, ligera y fácil de navegar. Esta disposición evita la sobrecarga visual y mejora la legibilidad.
+
+Los diversos tamaños y formas de las figuras se emplean para establecer jerarquías claras, generar contraste y diferenciación. Por ejemplo, los botones como el de “Únete a la comunidad” y “Comenzar a aprender”, tienen forma de píldora y un tamaño proporcionado para que resalten del contenido plano e inviten al usuario a la acción.
+
+**Diseño inclusivo**
+La estructura bien definida, con una clara separación entre la navegación y el contenido, facilita la comprensión del layout para todos los usuarios, incluyendo aquellos que dependen de tecnologías de asistencia. El formato de tarjetas también crea un patrón predecible que mejora la accesibilidad del contenido. La alineación y el uso del espacio en blanco contribuyen a una interfaz limpia y sin sobrecarga de información.
+
+**Arquitectura de la información**
+En el wireframe de la landing page se puede observar una estructura simple y lógica, alineada con el estilo minimalista adoptado. Se incluyen únicamente los elementos esenciales, como los botones “Registrarse” e “Inicio de sesión”, cuyas funciones son claras y comprensibles para el usuario.
+
+Esta organización reduce la sobrecarga cognitiva y mejora la experiencia del usuario, facilitando la navegación desde el primer momento. La jerarquía de la información está cuidadosamente pensada para mostrar solo lo necesario, evitando distracciones y guiando al usuario hacia la acción deseada.
+
+---
+
+#### Mobile Web Browser Wireframe
+
+<p align="center">
+  <img src="public/assets/images-doc/LP-W3.png" alt="Wireframe Mobile Main" width="400">
+  <br>
+  <em>Figura 53. Wireframe de la Página Principal. Nota: Esta figura muestra la estructura de la página principal para navegadores móviles. El diseño utiliza una columna única y tarjetas modulares para organizar el contenido de forma vertical, facilitando la navegación y la lectura en pantallas pequeñas.</em>
+</p>
+
+**Principios de diseño**
+En el wireframe de nuestra landing page para navegador móvil, se seleccionó un fondo blanco para lograr un alto contraste con los elementos superpuestos, como botones, textos e imágenes. Esta elección mejora la legibilidad en pantallas pequeñas y permite que cada componente visual destaque claramente.
+
+El diseño utiliza botones con forma de píldora y tarjetas rectangulares apiladas verticalmente, lo cual aporta coherencia visual y facilita una experiencia de usuario fluida. La disposición en una sola columna responde a la interacción típica en estos dispositivos, priorizando el scroll vertical como principal forma de navegación.
+
+En lugar de mostrar botones visibles como “Registrarse” e “Iniciar sesión”, se optó por un ícono de menú desplegable ubicado en la esquina superior derecha. Este menú centraliza las opciones de navegación, permitiendo una interfaz más limpia y enfocada en el contenido principal. Esta decisión mejora la usabilidad al reducir elementos en pantalla y ofrecer acceso intuitivo a funciones clave cuando el usuario lo necesita. La proximidad entre elementos relacionados facilita la comprensión inmediata, como en el apartado “Universidades Afiliadas”, donde las tarjetas aparecen agrupadas de forma horizontal.
+
+**Elementos de diseño**
+El estilo se mantiene minimalista y flat, con uso extensivo de espacios en blanco que ayudan a evitar la saturación visual, mejoran la navegación táctil y generan una apariencia ligera y moderna. Este enfoque garantiza una interfaz limpia y accesible, incluso en pantallas reducidas.
+
+Los botones principales, como “Únete a la comunidad” o “Comenzar a aprender”, tienen forma de píldora, tamaño mediano y se ubican de forma centrada para facilitar su visibilidad y clicabilidad con el pulgar. Las formas simples se utilizan estratégicamente para marcar jerarquías, generar contraste y destacar llamados a la acción.
+
+**Diseño inclusivo**
+El uso de un menú desplegable ayuda a simplificar la interfaz, al mismo tiempo que mantiene accesibles las funciones de navegación para todo tipo de usuario, incluyendo aquellos que utilizan tecnologías de asistencia. La disposición de tarjetas en formato vertical establece un patrón claro y repetitivo que mejora la accesibilidad cognitiva. El espacio en blanco y la separación entre secciones contribuyen a una navegación más intuitiva y menos sobrecargada.
+
+**Arquitectura de la información**
+En el wireframe mobile del landing page, la arquitectura sigue un enfoque claro y minimalista, presentando solo los elementos esenciales en pantalla. Las opciones de navegación están agrupadas dentro de un menú hamburguesa, lo que permite mantener el diseño limpio y enfocado en el contenido principal.
+
+Esta estructura facilita la navegación desde el primer momento, guiando al usuario a través del contenido mediante una jerarquía visual clara y bloques bien definidos. Al minimizar la cantidad de elementos visibles a la vez, se reduce la carga cognitiva y se mejora significativamente la experiencia del usuario en dispositivos móviles.
+
+### 4.3.2. Landing Page Mock-up
+
+#### Desktop Web Browser Mock-up
+
+<p align="center">
+  <img src="public/assets/images-doc/index-new.png" alt="Mock-up Desktop Main" width="800">
+  <br>
+  <em>Figura 54. Mock-up de la Sección Principal de la Landing Page. Nota: Este mock-up muestra el diseño visual de la sección principal de la página de bienvenida. Se utiliza una imagen de fondo atractiva, la paleta de colores de la marca y una tipografía clara para comunicar la propuesta de valor y destacar el llamado a la acción principal.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/section-sobre.png" alt="Mock-up Desktop Body" width="800">
+  <br>
+  <em>Figura 55. Mock-up del Cuerpo de la Landing Page. Nota: La figura presenta el diseño de las secciones principales de la Landing Page, donde se explica el funcionamiento del servicio ("Busca habilidades", "Pide un intercambio") y se muestra prueba social a través de los logos de las "Universidades Afiliadas".</em>
+</p>
+
+**Aplicación del Design System**
+El diseño aplica consistentemente la identidad visual del proyecto. Se utiliza la paleta de colores definida, con el azul primario y el amarillo de acento en los botones de llamada a la acción ("Empezar a aprender" o “Unirse a la comunidad”), creando un contraste que guía la atención del usuario. La tipografía 'Inter' se emplea con diferentes pesos y tamaños para establecer una jerarquía visual clara, diferenciando el titular principal de los subtítulos y el cuerpo del texto.
+
+**Principios de diseño**
+En el mockup de la landing page, se observa cómo los colores amarillo y azul, definidos en la paleta de colores de los guidelines, generan un contraste visual fuerte con el fondo blanco. Esta combinación se utiliza durante todo el diseño para destacar botones, etiquetas y otros elementos interactivos, reforzando la jerarquía visual y guiando la atención del usuario hacia las acciones clave.
+
+Además, los elementos relacionados, como las universidades afiliadas o las imágenes de la plataforma, se presentan próximos entre sí, alineados en el centro de la página o en columnas de 2 elementos. Esto responde a los principios de proximidad y alineación, que ayudan a organizar la información de forma clara, accesible y estéticamente agradable.
+
+**Elementos de diseño**
+En la versión de escritorio del mockup, los elementos de diseño como tamaño, espacio y figuras se adaptan para aprovechar mejor el espacio disponible en pantalla. El enfoque minimalista y flat se mantiene, eliminando cualquier elemento innecesario para evitar la sobrecarga visual y favorecer la experiencia del usuario.
+
+Los botones con forma de píldora y color amarillo destacan del resto del contenido, generando un contraste visual que los convierte en puntos focales. Su tamaño y ubicación están optimizados para ser fácilmente visibles y accesibles, incluso sin interacción táctil. Además, se utilizan íconos vectoriales simples acompañados de texto explicativo en las secciones funcionales (“Busca habilidades”, “Pide un intercambio”, “Aprende y crece”), lo que permite una rápida comprensión del propósito de cada bloque. Las imágenes y logotipos se integran de forma alineada y con márgenes bien definidos, reforzando el orden visual y generando una experiencia de navegación más fluida y profesional.
+
+**Diseño inclusivo**
+El diseño de la landing page también incorpora principios de accesibilidad para asegurar que todos los usuarios, sin importar sus capacidades, puedan navegar e interactuar con la plataforma de forma eficiente. La estructura jerárquica clara, los contrastes definidos y la separación de bloques de contenido permiten una exploración intuitiva y sin esfuerzo.
+
+La presencia permanente del menú de navegación en la parte superior, junto con el uso de etiquetas claras e íconos comprensibles, favorece la orientación. Además, el uso adecuado del espacio en blanco contribuye a reducir la carga cognitiva, facilitando la lectura por parte de usuarios con dificultades de atención, visión o comprensión.
+
+**Arquitectura de la información**
+La arquitectura de la información de la plataforma se estructura jerárquicamente, diferenciando de manera clara el sitio público (Landing Page) del área privada (Dashboard). Este enfoque permite un flujo de navegación lógico y fluido: el usuario primero explora la landing page, conoce la propuesta de valor, se registra o inicia sesión y finalmente accede a su espacio personal en el dashboard.
+
+En cuanto a la organización del contenido, la landing page sigue una secuencia narrativa que va desde la propuesta de valor hasta las funcionalidades y la prueba social, presentando la información de manera progresiva y orientada a la acción. Por su parte, el dashboard está dividido por módulos según las tareas que el usuario desea realizar, como gestionar sesiones, ver solicitudes o encontrar tutores, lo que facilita el acceso rápido a cada función.
+
+Las etiquetas empleadas en la interfaz son descriptivas y coherentes con las acciones que representan. Los botones de llamada a la acción, como “Empezar a aprender” o “Unirse a la comunidad”, son directos y motivan la interacción. Asimismo, las secciones de navegación, como “Mis tutores” o “Sesiones programadas”, emplean una rotulación inequívoca que refleja con precisión el contenido que el usuario encontrará.
+
+Finalmente, la navegación está orientada a tareas concretas y combina la exploración guiada con la búsqueda directa. En la landing page, todo el recorrido está diseñado para conducir al usuario hacia el registro, mientras que en el dashboard se integran mecanismos de búsqueda y revelación progresiva, por ejemplo, las tarjetas de sesión muestran un resumen con la opción “Ver detalles”, que permiten al usuario obtener más información sin sobrecargar la interfaz. Este conjunto de decisiones arquitectónicas mejora la experiencia, reduce la carga cognitiva y mantiene al usuario enfocado en sus objetivos principales dentro de la plataforma.
+
+> **En síntesis:** El diseño web de "Innovify" aplica eficazmente las heurísticas de Nielsen, garantizando usabilidad y consistencia a través de un diseño minimalista y estándares reconocibles. Al mismo tiempo, su arquitectura de información ofrece una estructura jerárquica clara y una navegación orientada a tareas que facilita, por un lado, la captación de nuevos usuarios y, por otro, permite a los estudiantes registrados gestionar sus intercambios de conocimiento de forma rápida, intuitiva y segura.
+
+---
+
+#### Mobile Web Browser Mock-up
+
+<p align="center">
+  <img src="public/assets/images-doc/web-mobile.png" alt="Mock-up Mobile" width="400">
+  <br>
+  <em>Figura 56. Mock-up de la Landing Page. Nota: Este mock-up muestra la adaptación del diseño de la página de bienvenida a dispositivos móviles. La estructura se organiza en una sola columna vertical para facilitar la lectura y navegación mediante el desplazamiento, manteniendo la coherencia visual y las llamadas a la acción principales.</em>
+</p>
+
+**Principios de diseño**
+En el mockup de la landing page para navegador móvil, se optó por un fondo blanco con el objetivo de lograr un alto contraste que permita destacar con claridad los elementos superpuestos como botones, imágenes e íconos. Esta elección mejora significativamente la legibilidad en dispositivos móviles, donde el espacio visual es reducido y cada componente debe ser fácilmente identificable.
+
+El diseño organiza los elementos en una disposición vertical, acorde al comportamiento natural del usuario en este tipo de dispositivos, priorizando el desplazamiento mediante scroll. A diferencia de la versión de escritorio, se reemplazaron los botones visibles de “Registrarse” e “Iniciar sesión” por un ícono de menú desplegable (hamburguesa) ubicado en la parte superior derecha. Esta decisión permite liberar espacio en pantalla, mantener la limpieza visual de la interfaz y facilitar el acceso centralizado a las opciones de navegación.
+
+Asimismo, se emplean tarjetas e íconos visuales para presentar funcionalidades como “Busca habilidades”, “Pide un intercambio” y “Aprende y crece”, cada una acompañada de textos breves y directos. Esta estructura facilita la comprensión rápida del contenido y mantiene la coherencia visual en todo el diseño. En la sección “Universidades Afiliadas”, los elementos se agrupan de forma cercana, aplicando el principio de proximidad para favorecer la claridad y facilitar la identificación de aliados institucionales.
+
+**Elementos de diseño**
+En este mockup móvil se destacan tres elementos de diseño esenciales: tamaño, espacio y figuras. El estilo visual es minimalista y flat, lo que se traduce en una interfaz limpia, sin elementos innecesarios, y con un uso amplio del espacio en blanco. Esta disposición mejora la experiencia de navegación, evita la saturación visual y garantiza una lectura cómoda en pantallas reducidas.
+
+Los botones más importantes, como “Unirse a la comunidad” y “Empezar a aprender”, están diseñados con forma de píldora y en color amarillo vibrante, lo que genera contraste con el fondo blanco y dirige la atención del usuario hacia la acción deseada. Estos botones tienen un tamaño adecuado para su uso táctil, evitando errores de interacción y mejorando la usabilidad general del sitio. Las figuras e íconos empleados refuerzan el significado del texto que los acompaña y ayudan a establecer jerarquías visuales claras. 
+
+**Diseño inclusivo**
+El diseño mobile presenta una estructura sencilla y ordenada, con una separación clara entre la navegación y el contenido principal. La incorporación del menú desplegable permite que los usuarios accedan a opciones importantes sin saturar la pantalla, lo que resulta especialmente útil para quienes utilizan tecnologías de asistencia o requieren interfaces simplificadas.
+
+El uso de íconos junto con texto mejora la accesibilidad cognitiva, permitiendo que los usuarios comprendan las funciones incluso si no están familiarizados con la plataforma. La organización predecible de los bloques de contenido y la disposición vertical de los elementos también favorecen una experiencia inclusiva. Además, el uso del espacio en blanco y la alineación adecuada contribuyen a una interfaz visualmente limpia, facilitando el enfoque para usuarios con dificultades visuales o cognitivas.
+
+**Arquitectura de la información**
+La arquitectura de la información en la versión móvil se organiza bajo un enfoque vertical y secuencial. La estructura presenta el contenido en un orden progresivo que guía al usuario de forma natural: primero se muestra la propuesta de valor junto al botón de acción principal, luego se explican las funcionalidades esenciales y finalmente se incluye la sección de prueba social con las universidades asociadas.
+
+El contenido está distribuido en bloques que abarcan todo el ancho de la pantalla, lo que favorece una experiencia de scroll fluida. Cada bloque representa una funcionalidad concreta y está diseñado para ser comprensible de manera independiente. En cuanto a la rotulación, se emplean etiquetas breves y claras. Los botones de llamada a la acción están ubicados estratégicamente para incentivar la interacción inmediata.
+
+La navegación está orientada a tareas y se desarrolla en un flujo descendente que actúa como un embudo informativo: el usuario avanza paso a paso hasta llegar a los CTA principales. Por último, el sistema de navegación global se concentra dentro del menú de hamburguesa, manteniendo una interfaz limpia, accesible y enfocada en la conversión.
+
+> **En síntesis:** El diseño web desde el móvil de la plataforma aplica las heurísticas de Nielsen con un fuerte enfoque en el minimalismo, la consistencia con los estándares móviles y la prevención de errores táctiles. Su arquitectura de información, basada en una estructura secuencial y vertical, garantiza una experiencia de usuario clara y reduce la carga cognitiva.
+
+---
+
+#### Arquitectura de la landing page (web-mobile)
+
+<p align="center">
+  <img src="public/assets/images-doc/arqui-estu.png" alt="Arquitectura estudiante Landing Page" width="800">
+  <img src="public/assets/images-doc/arqui-coor.png" alt="Arquitectura coordinador Landing Page" width="800">
+  <br>
+  <em>Figura 57. Arquitectura de la Landing Page. Nota: Diagrama estructural de la landing page tanto para su versión web como móvil.</em>
+</p>
