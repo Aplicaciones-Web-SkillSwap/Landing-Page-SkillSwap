@@ -536,6 +536,15 @@ body {
     border-right: 1px solid var(--border-color);
     overflow-y: auto;
   }
+  /* Selector de idioma en móvil */
+  .lang-switcher-item {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+
+  .lang-switcher {
+    width: fit-content;
+  }
   
   .menu-horizontal.activo .menu-horizontal-opciones { left: 0; }
   .menu-horizontal-opciones li { width: 100%; }
