@@ -801,3 +801,140 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
 | 8 | [Completar] | [Completar] |
 | 9 | [Completar] | [Completar] |
 | 10 | [Completar] | [Completar] |
+
+# Capítulo III: Requirements Specification
+
+## 3.1. User Stories
+
+
+
+*(Nota: En la gestión ágil, mantener una jerarquía clara donde las Épicas grandes se desglosan en Historias de Usuario específicas es fundamental para organizar el flujo de trabajo del equipo de desarrollo).*
+
+### Epics
+
+| Epic ID | Title | Description | Acceptance Criteria | Related to (Epic ID) |
+| :---: | :--- | :--- | :--- | :--- |
+| **EP01** | Account & Profile Management | As a user, I want to manage my account, authentication, and profile so that I can securely access and personalize my experience. | Not applicable | Not applicable |
+| **EP02** | Search & Matching | As a learner, I want to search and filter tutors so that I can find the best match for my needs. | Not applicable | Not applicable |
+| **EP03** | Session Coordination & Communication | As a user, I want to coordinate tutoring sessions and communicate with others so that I can prepare effectively. | Not applicable | Not applicable |
+| **EP04** | Live Session Experience | As a user, I want to join and interact in live tutoring sessions so that I can learn in real time. | Not applicable | Not applicable |
+| **EP05** | Academic Quality Assurance | As a professor or tutor, I want to create and manage quizzes so that learning quality is validated. | Not applicable | Not applicable |
+| **EP06** | Ratings & Monetization | As a user, I want to rate tutors and handle payments so that value exchange is fair and transparent. | Not applicable | Not applicable |
+| **EP07** | Analytics & Moderation | As a professor, I want dashboards and moderation tools so that I can ensure platform quality. | Not applicable | Not applicable |
+| **EP08** | Backend API & Integrations | As a developer, I want to integrate external services and APIs so that the system is scalable and secure. | Not applicable | Not applicable |
+| **EP09** | User Experience & Landing | As a visitor, I want an engaging and informative interface so that I understand the platform before registering. | Not applicable | Not applicable |
+
+
+### User Stories
+
+| User Story ID | Title | Description | Acceptance Criteria | Related to (Epic ID) |
+| :---: | :--- | :--- | :--- | :---: |
+| **US01** | Register with Institutional Email | As a user, I want to register using my institutional email so that the platform ensures a secure academic environment. | **Scenario:** Successful registration<br>**Given** I am on the registration page<br>**When** I enter a valid .edu.pe email and password<br>**Then** the system creates my account and sends a confirmation email<br><br>**Scenario:** Invalid email<br>**Given** I enter a non-institutional email<br>**When** I submit the form<br>**Then** the system rejects it and shows an error | EP01 |
+| **US02** | Login with Role-Based Access | As a user, I want to log in securely so that I can access features based on my role. | **Scenario:** Student login<br>**Given** I am a student<br>**When** I log in<br>**Then** I access the student dashboard<br><br>**Scenario:** Teacher login<br>**Given** I am a teacher<br>**When** I log in<br>**Then** I access the analytics dashboard | EP01 |
+| **US03** | Configure Profile | As a tutor, I want to configure my profile so that learners can find me easily. | **Scenario:** Update profile<br>**Given** I am in my profile<br>**When** I add skills and save<br>**Then** my profile is updated and visible in search | EP01 |
+| **US04** | Verified Badge | As a user, I want to see verified users so that I trust the platform. | **Scenario:** Verified user<br>**Given** a user has confirmed email<br>**When** I view their profile<br>**Then** I see a verified badge | EP01 |
+| **US34** | Manage Availability | As a tutor, I want to manage my availability so that I control when I receive requests. | **Scenario:** Set availability<br>**Given** I configure time slots<br>**When** I save<br>**Then** learners can only book those times | EP01 |
+| **US39** | Password Recovery | As a user, I want to recover my password so that I regain access. | **Scenario:** Recovery email<br>**Given** I forgot my password<br>**When** I request recovery<br>**Then** I receive a reset link | EP01 |
+| **US05** | Search Tutors | As a learner, I want to search tutors so that I find help. | **Scenario:** Search<br>**Given** I type "Physics"<br>**When** I search<br>**Then** I see tutors related to that subject | EP02 |
+| **US06** | Filter Results | As a learner, I want to filter tutors so that I find the best option. | **Scenario:** Apply filter<br>**Given** search results<br>**When** I filter by rating<br>**Then** results update accordingly | EP02 |
+| **US07** | View Tutor Profile | As a learner, I want to view profiles so that I evaluate tutors. | **Scenario:** View profile<br>**Given** I select a tutor<br>**When** I open profile<br>**Then** I see details and reviews | EP02 |
+| **US08** | Send Tutoring Request | As a learner, I want to request sessions so that I schedule tutoring. | **Scenario:** Send request<br>**Given** tutor profile<br>**When** I send request<br>**Then** status becomes "Pending" | EP03 |
+| **US09** | Accept or Reject Requests | As a tutor, I want to manage requests so that I control my schedule. | **Scenario:** Accept request<br>**Given** a request<br>**When** I accept<br>**Then** it becomes "Scheduled" | EP03 |
+| **US10** | Internal Chat | As a user, I want chat so that I coordinate sessions. | **Scenario:** Send message<br>**Given** chat open<br>**When** I send message<br>**Then** other user receives it | EP03 |
+| **US11** | Share Files | As a user, I want to share files so that I exchange materials. | **Scenario:** Upload file<br>**Given** chat open<br>**When** I upload PDF<br>**Then** other user can download it | EP03 |
+| **US12** | Join Video Call | As a user, I want to join calls so that I attend sessions. | **Scenario:** Join call<br>**Given** session time<br>**When** I click start<br>**Then** I connect to video call | EP04 |
+| **US13** | Share Screen | As a user, I want to share my screen so that I explain content. | **Scenario:** Share screen<br>**Given** active call<br>**When** I click share<br>**Then** my screen is visible | EP04 |
+| **US14** | Create Quiz | As a professor, I want to create quizzes so that learning is standardized. | **Scenario:** Create quiz<br>**Given** professor panel<br>**When** I publish quiz<br>**Then** it is available | EP05 |
+| **US15** | Send Quiz | As a tutor, I want to send quizzes so that I evaluate learners. | **Scenario:** Send quiz<br>**Given** chat<br>**When** I assign quiz<br>**Then** learner receives it | EP05 |
+| **US16** | Solve Quiz | As a learner, I want to solve quizzes so that I validate knowledge. | **Scenario:** Submit quiz<br>**Given** quiz open<br>**When** I submit answers<br>**Then** system grades it | EP05 |
+| **US17** | Rate Tutor | As a learner, I want to rate tutors so that I share feedback. | **Scenario:** Submit rating<br>**Given** session ended<br>**When** I rate<br>**Then** review is saved | EP06 |
+| **US18** | Make Donation | As a learner, I want to donate so that I reward tutors. | **Scenario:** Payment success<br>**Given** payment form<br>**When** I pay<br>**Then** transaction is processed | EP06 |
+| **US19** | View Wallet | As a tutor, I want to see earnings so that I track income. | **Scenario:** View balance<br>**Given** wallet page<br>**When** I open it<br>**Then** I see balance and history | EP06 |
+| **US20** | Register Bank Account | As a tutor, I want to add bank account so that I withdraw funds. | **Scenario:** Save account<br>**Given** form<br>**When** I submit<br>**Then** account is saved | EP06 |
+| **US21** | Cancel Reservation | As a learner, I want to cancel sessions so that I handle conflicts. | **Scenario:** Cancel<br>**Given** a session<br>**When** I cancel<br>**Then** status becomes "Cancelled" | EP06 |
+| **US22** | Teacher Dashboard | As a teacher, I want a dashboard so that I manage platform data. | **Scenario:** View dashboard<br>**Given** login<br>**When** I access panel<br>**Then** I see tools and metrics | EP07 |
+| **US23** | View Analytics | As a teacher, I want analytics so that I detect trends. | **Scenario:** View chart<br>**Given** dashboard<br>**When** data loads<br>**Then** I see top courses | EP07 |
+| **US24** | Report User | As a user, I want to report issues so that platform stays safe. | **Scenario:** Report<br>**Given** issue<br>**When** I submit report<br>**Then** ticket is created | EP07 |
+| **US25** | Resolve Disputes | As a teacher, I want to resolve disputes so that quality is ensured. | **Scenario:** Resolve case<br>**Given** a report<br>**When** I review<br>**Then** I close it | EP07 |
+| **US26** | Validate Email API | As a developer, I want email validation so that registration is secure. | **Scenario:** Valid request<br>**Given** API call<br>**When** valid email<br>**Then** JWT is generated | EP08 |
+| **US27** | Payment Integration | As a developer, I want payment API so that transactions are processed. | **Scenario:** Payment success<br>**Given** payment request<br>**When** API responds success<br>**Then** transaction is stored | EP08 |
+| **US28** | WebRTC Token | As a developer, I want tokens so that video calls are secure. | **Scenario:** Generate token<br>**Given** valid request<br>**When** verified<br>**Then** token is returned | EP08 |
+| **US29** | File Storage API | As a developer, I want storage integration so that files are handled. | **Scenario:** Upload file<br>**Given** valid file<br>**When** uploaded<br>**Then** URL is stored | EP08 |
+| **US30** | Analytics Endpoint | As a developer, I want analytics API so that dashboards work. | **Scenario:** Get data<br>**Given** teacher request<br>**When** query runs<br>**Then** JSON is returned | EP08 |
+| **US31** | Landing Page | As a visitor, I want to see platform info so that I understand it. | **Scenario:** View landing<br>**Given** homepage<br>**When** I open it<br>**Then** I see benefits and sections | EP09 |
+| **US32** | About Page | As a user, I want to see company info so that I trust it. | **Scenario:** View about<br>**Given** navigation<br>**When** I click<br>**Then** I see mission and team | EP09 |
+| **US33** | UI Animations | As a user, I want animations so that UI feels interactive. | **Scenario:** Hover effect<br>**Given** UI<br>**When** I hover<br>**Then** elements animate | EP09 |
+| **US35** | Language Switch | As a user, I want language toggle so that I understand content. | **Scenario:** Change language<br>**Given** page<br>**When** I switch<br>**Then** content updates | EP09 |
+| **US36** | Partnerships Section | As a user, I want to see partners so that I trust platform. | **Scenario:** View partners<br>**Given** section<br>**When** I scroll<br>**Then** I see logos | EP09 |
+| **US37** | About + Innovation | As a user, I want to see vision and tech so that I trust future. | **Scenario:** View innovation<br>**Given** section<br>**When** I read<br>**Then** I understand roadmap | EP09 |
+| **US38** | Solutions Section | As a user, I want to see features so that I understand value. | **Scenario:** View features<br>**Given** section<br>**When** I explore<br>**Then** I see platform capabilities | EP09 |
+
+
+## 3.1. Impact Mapping
+
+En esta sección se expone el Impact Mapping del proyecto, una técnica que conecta los objetivos de negocio con las funcionalidades a desarrollar. El proceso inició con la definición de los Business Goals bajo criterios SMART, seguido de la identificación de los Actores (User Personas) que influyen en su cumplimiento. Para cada actor se establecieron los Impacts esperados en su comportamiento y, a partir de ellos, se listaron los Deliverables que podrían generarlos. Finalmente, cada deliverable se vinculó con User Stories concretas que lo hacen tangible.
+
+<p align="center">
+  <img src="public/assets/images-doc/empa1.png" alt="Impact Mapping Registro" width="800">
+  <br>
+  <em>Figura 27. Impact Mapping - Elaboración propia. Nota: Este mapa visualiza cómo alcanzar el objetivo inicial (registrar 300 estudiantes), conectando los perfiles (Personas) con cambios de comportamiento (Impacts) y funcionalidades (Deliverables).</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/empa2.png" alt="Impact Mapping Tutorías" width="800">
+  <br>
+  <em>Figura 28. Impact Mapping - Elaboración propia. Nota: Este mapa se enfoca en lograr 200 tutorías exitosas con alta calificación, detallando cómo la búsqueda, comunicación y calificación aseguran un ciclo de alta calidad.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/empa3.png" alt="Impact Mapping Retención" width="800">
+  <br>
+  <em>Figura 29. Impact Mapping - Elaboración propia. Nota: Esta figura muestra el mapa centrado en la retención y participación activa, explicando cómo funcionalidades como el dashboard y el reconocimiento buscan que los usuarios regresen.</em>
+</p>
+
+---
+
+## 3.2. Product Backlog
+
+| Orden | US ID | Description | Story Points |
+| :---: | :---: | :--- | :---: |
+| 1 | **US01** | Como usuario, quiero registrarme en la plataforma usando exclusivamente mi correo institucional (`.edu.pe`), para garantizar la seguridad del ecosistema y automatizar mi validación. | 3 |
+| 2 | **US02** | Como usuario, quiero iniciar sesión de forma segura para acceder al panel principal y a las herramientas específicas correspondientes a mi rol (Estudiante o Profesor). | 3 |
+| 3 | **US03** | Como Estudiante Tutor, quiero configurar mi perfil agregando mi biografía, universidad y los cursos que domino, para que los aprendices puedan encontrarme fácilmente. | 3 |
+| 4 | **US04** | Como estudiante, quiero ver un sello o ícono de "Verificado" en los perfiles para sentirme seguro de que el usuario pertenece a una universidad real. | 2 |
+| 5 | **US05** | Como Estudiante Aprendiz, quiero utilizar un motor de búsqueda por palabras clave para encontrar tutores que dominen el tema específico en el que necesito ayuda. | 5 |
+| 6 | **US06** | Como Aprendiz, quiero aplicar filtros (como reputación de estrellas o universidad) a mi búsqueda para encontrar al tutor que mejor se adapte a mis preferencias. | 3 |
+| 7 | **US07** | Como Aprendiz, quiero ver el perfil detallado de un tutor antes de enviarle una solicitud, para revisar su biografía, insignias y comentarios de otros alumnos. | 2 |
+| 8 | **US08** | Como Aprendiz, quiero seleccionar una fecha/hora disponible en el perfil del tutor y enviarle una solicitud de reserva indicando el tema a tratar. | 3 |
+| 9 | **US09** | Como Estudiante Tutor, quiero recibir las solicitudes entrantes y tener la opción de aceptarlas o rechazarlas para gestionar mi tiempo adecuadamente. | 2 |
+| 10 | **US10** | Como usuario (Aprendiz/Tutor), quiero acceder a un chat interno privado antes y después de la sesión para coordinar detalles y compartir dudas sin usar mi WhatsApp personal. | 5 |
+| 11 | **US11** | Como usuario, quiero poder adjuntar archivos en el chat de la reserva para enviar mis ejercicios resueltos o el material de estudio que revisaremos en la videollamada. | 5 |
+| 12 | **US12** | Como usuario, quiero unirme a la videollamada incrustada en la plataforma a la hora agendada para iniciar la clase sin depender de enlaces sueltos de Zoom o Meet. | 8 |
+| 13 | **US13** | Como usuario, quiero poder compartir la pantalla de mi computadora utilizando las herramientas de la videollamada, para mostrar código o ejercicios en tiempo real a mi compañero. | 5 |
+| 14 | **US14** | Como Profesor Universitario, quiero crear un Quiz de opción múltiple y guardarlo en el Banco Oficial, para estandarizar el material con el que los tutores evalúan a los alumnos. | 5 |
+| 15 | **US15** | Como Estudiante Tutor, quiero seleccionar un Quiz del Banco Oficial y enviárselo a mi aprendiz por el chat para evaluar su aprendizaje al final de la sesión. | 3 |
+| 16 | **US16** | Como Estudiante Aprendiz, quiero responder el Quiz interactivo que me envió el tutor para validar mis conocimientos y obtener mi nota automáticamente. | 5 |
+| 17 | **US17** | Como Aprendiz, quiero calificar al tutor de 1 a 5 estrellas y dejar un comentario al finalizar la sesión para valorar su ayuda y construir su reputación pública. | 3 |
+| 18 | **US18** | Como Aprendiz, quiero realizar una donación voluntaria utilizando mi tarjeta a través de una pasarela segura para recompensar económicamente al tutor. | 5 |
+| 19 | **US19** | Como Estudiante Tutor, quiero visualizar mi Billetera Virtual para ver el saldo total de mis donaciones acumuladas, visualizando el descuento automático por comisión de la plataforma. | 3 |
+| 20 | **US20** | Como Estudiante Tutor, quiero registrar los datos de mi cuenta bancaria (CCI) externa de forma segura para solicitar el retiro del dinero recaudado en mis tutorías. | 3 |
+| 21 | **US21** | Como Aprendiz, quiero cancelar una solicitud de reserva antes de que inicie en caso de tener un imprevisto, liberando el horario del tutor. | 2 |
+| 22 | **US22** | Como Profesor Universitario, quiero ver un panel principal organizado al ingresar a la plataforma, para navegar fácilmente entre el Banco de Quizzes y las analíticas. | 3 |
+| 23 | **US23** | Como Profesor Universitario, quiero visualizar el "Termómetro Académico" con gráficos sobre los cursos más solicitados para tutorías, identificando así deficiencias tempranas. | 5 |
+| 24 | **US24** | Como usuario (Aprendiz/Tutor), quiero poder reportar a mi contraparte en caso de ausentismo o contenido inapropiado, para mantener la integridad de la plataforma. | 3 |
+| 25 | **US25** | Como Profesor Universitario, quiero revisar los reportes y disputas académicas (ej. enseñar mal un concepto) para emitir un veredicto y asegurar la calidad del ecosistema. | 3 |
+| 26 | **US26** | Como Developer, quiero implementar un endpoint en C# que valide automáticamente el dominio `.edu.pe` mediante expresiones regulares y envíe un token JWT por email (vía SendGrid). | 5 |
+| 27 | **US27** | Como Developer, quiero integrar la API de una pasarela de pagos (ej. Stripe) para procesar las donaciones con tarjeta y calcular en el backend la retención del 5% de comisión. | 5 |
+| 28 | **US28** | Como Developer, quiero consumir la API de WebRTC (ej. Agora.io) generando tokens de acceso temporales desde el backend para incrustar la videollamada de forma segura. | 8 |
+| 29 | **US29** | Como Developer, quiero integrar una API de Cloud Storage (ej. AWS S3 o Cloudinary) para gestionar la subida segura de los PDFs e imágenes que los usuarios comparten en el chat. | 5 |
+| 30 | **US30** | Como Developer, quiero crear un endpoint RESTful que ejecute un query de agregación y conteo en la BD para devolver un JSON optimizado con el top de cursos, alimentando el Dashboard B2B. | 5 |
+| 31 | **US31** | Como usuario quiero que los beneficios de la plataforma sea la primera pantalla que se aprecie para conocer mejor las funciones y detalles antes de registrarme. | 3 |
+| 32 | **US32** | Como usuario, quiero ver la información detallada de la plataforma de la sección "sobre nosotros" para generar confianza y entender el propósito de la empresa antes de registrarme. | 2 |
+| 33 | **US33** | Como estudiante, quiero que la interfaz tenga animaciones sutiles y micro interacciones, como un botón que cambia de color al pasar el cursor, para que la experiencia se sienta pulida. | 2 |
+| 34 | **US34** | Como Estudiante Tutor, quiero configurar mis horarios en un calendario interactivo y gestionar mi estado general (Disponible/No Disponible) para recibir solicitudes de reserva. | 5 |
+| 35 | **US35** | Como visitante del sitio web, quiero poder cambiar el idioma de la interfaz entre español e inglés mediante un selector, para comprender la propuesta de valor de Innovify en mi idioma. | 3 |
+| 36 | **US36** | Como usuario, quiero ver la sección de "Alianzas" con las universidades afiliadas y un formulario de contacto, para comprobar el respaldo institucional y solicitar información. | 3 |
+| 37 | **US37** | Como usuario, quiero leer la misión, visión, conocer al equipo desarrollador e informarme sobre la proyección de sensores IoT, para confiar en la solidez y visión a futuro de Innovify. | 2 |
+| 38 | **US38** | Como usuario, quiero ver un resumen interactivo de las "Soluciones" tecnológicas que ofrece la plataforma, para entender cómo resolverá mis problemas académicos antes de registrarme. | 3 |
+
+*(Tabla 11. Product Backlog - SkillSwap. Nota: Esta tabla presenta el Product Backlog completo del proyecto, priorizado según orden de implementación. La columna 'Story Points' asigna una estimación del esfuerzo relativo).*
