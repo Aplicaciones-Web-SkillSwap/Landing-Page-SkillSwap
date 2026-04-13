@@ -1909,3 +1909,149 @@ Los cuatro contextos que rigen el ecosistema de Innovify son: Identity & Profile
   <br>
   <em>Figura 80. Diagrama de Base de Datos Relacional por Bounded Contexts - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
 </p>
+# Capítulo V: Product Implementation
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+Durante el desarrollo del proyecto se utilizó las siguientes herramientas de software:
+
+| Software | Actividad | Tipo | Descripción | Link |
+| :--- | :--- | :---: | :--- | :--- |
+| **Canva** | Documentación y Presentaciones | SaaS | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [canva.com](https://www.canva.com/) |
+| **Figma** | UX/UI Design | SaaS | Diseño de la interfaz de usuario (wireframes, mockups y prototipos) para la Landing Page en versión web y móvil. | [figma.com](https://figma.com) |
+| **GitHub** | Control de versiones | SaaS | Repositorio del código fuente del Landing Page y servicios backend. | [github.com](https://github.com) |
+| **Miro** | Requirements Management | SaaS | Elaboración colaborativa de User Story Mapping, escenarios As-Is/To-Be, diagramas C4 Model y flujos de usuario. | [miro.com](https://miro.com/) |
+| **Microsoft PowerPoint** | Documentación y Presentaciones | Local | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [microsoft.com](https://www.microsoft.com/en/microsoft-365/powerpoint) |
+| **Trello** | Project Management | SaaS | Gestión ágil del proyecto, administración del Product Backlog, planificación de Sprints y asignación de tareas al equipo. | [trello.com](https://trello.com/) |
+| **Visual Studio Code** | Desarrollo Web | Local | Desarrollo y edición del código (HTML y CSS) para la Landing Page y los Acceptance Tests. | [code.visualstudio.com](https://code.visualstudio.com/download) |
+| **Microsoft Word Online** | Software Documentation | SaaS | Redacción colaborativa del informe final del proyecto, especificación de requisitos y documentación técnica. | [office.com](https://www.office.com/) |
+
+---
+
+### 5.1.2. Source Code Management
+
+Para administrar el código fuente del proyecto, el equipo empleará Git como sistema distribuido de control de versiones y GitHub como el entorno principal de colaboración. Esto permitirá conservar un registro detallado de todas las modificaciones, optimizar el trabajo en conjunto entre los miembros y garantizar la trazabilidad de cada versión del software.
+
+#### Repositorios GitHub
+
+* **Landing Page:** Repositorio público para la página de presentación del producto. 
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](#)
+* **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
+  * Enlace: *[Añadir enlace]*
+* **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
+  * Enlace: *[Añadir enlace]*
+* **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](#)
+
+#### Implementación GitFlow
+
+**Ramas principales:**
+* `main`: La rama principal, contiene la versión estable del proyecto. Cada commit indicará una nueva versión de la landing page.
+* `develop`: Rama dedicada a integrar nuevas funcionalidades antes de su lanzamiento oficial hacia la rama principal.
+
+**Ramas adicionales:**
+* `feature/...`: Estas ramas estarán dedicadas a los cambios de cada función de nuestro proyecto. Serán unidas en develop para finalmente ser testeadas.
+* `release/...`: Ramas dedicadas a cambios menores y últimas revisiones antes de subir una versión al main.
+* `hotfix/...`: Dedicadas a arreglar errores graves de la versión final en main (por ejemplo: bugs) que necesitan solución inmediata. Esta se unirá nuevamente en develop para darle una última revisión y finalmente subirla al main como una nueva versión.
+
+#### Semantic Versioning
+
+Para nuestro proyecto usaremos Semantic Versioning 2.0.0 para etiquetar nuestras versiones, lo cual tiene el siguiente formato: `MAJOR.MINOR.PATCH` (`X.X.X`). 
+* Usaremos **MAJOR** para cambios grandes que rompan compatibilidad con otras versiones y su cambio en la versión afectará al número principal (primera cifra).
+* **MINOR** para la agregación de nuevas funcionalidades compatibles con la versión existente y modificará el segundo dígito.
+* **PATCH** para correcciones pequeñas como simples bugs, ajustes visuales o errores tipográficos.
+
+*Ejemplo: V1.0.0 -> V2.0.0 (cambios MAJOR), V1.0.0 -> V1.1.0 (cambios MINOR), V1.0.0 -> V1.0.1 (cambios PATCH).*
+
+#### Conventional Commits
+
+A partir del lanzamiento de nuestra primera versión (1.0.0) nuestros commits seguirán el formato Conventional Commits, con la designación: `tipo(lugar del cambio): explicación breve`.
+
+Los tipos de commits serán: 
+* `feat(funcionalidad)` para agregar nuevas funcionalidades.
+* `fix(lugar de arreglo)` para arreglar errores.
+* `docs(cambio)` para editar la documentación.
+* `style(funciones o lugar)` para cambios en el estilo sin afectar la lógica principal.
+* `refactor(lugar)` para cambios en la estructura del código sin afectar la funcionalidad.
+* `test(objeto)` para testear cambios.
+* `chore(lugar)` para tareas menores de mantenimiento.
+
+#### Flujo de trabajo:
+1. Cada integrante clona la rama `develop` al crear una rama `feature/` para trabajar en una nueva tarea.
+2. Cuando termina, realiza un *merge* hacia `develop` a través de un *pull request*.
+3. Luego se crea una rama `release/` para realizar una verificación final antes de publicar la versión oficial.
+4. Una vez aprobada la versión, se publica en la rama `main` con su nuevo número de versión y es eliminada la rama `release/` creada.
+5. En caso de detectar pequeños errores en la versión oficial dentro de la rama `main`, se crea una rama `hotfix/` para ser resueltos de manera inmediata.
+
+---
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+En esta sección se describen las guías de estilo y las reglas de organización aplicadas durante la construcción del sitio web, contemplando los lenguajes HTML, CSS y Gherkin. Estas convenciones se establecieron para garantizar un código claro, estructurado y sencillo de mantener por todo el equipo.
+
+#### HTML
+El equipo seguirá las recomendaciones de *HTML Style Guide and Coding Conventions*, el cual indica que, por ejemplo, los nombres de los elementos deben estar en minúsculas, la indentación debe ser de 2 espacios, usar comentarios, etc.
+
+Para la realización del código hemos utilizado diversos elementos semánticos como `<nav>` para el menú, `<ul>` y `<li>` para listas, `<button>` para llamadas a la acción, `<section>` para dividir el contenido, `<img>` para imágenes y `<footer>` para el pie de página. También se utilizaron atributos clave como `class`, `src` y `alt`.
+
+```html
+<nav class="barra-navegacion">
+  <div class="menu-horizontal">
+    <ul class="menu-horizontal-opciones">
+      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alianzas</a></li>
+      <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Proyectos</a></li>
+      <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
+      <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+      <span class="lang-divider">|</span>
+      <button class="lang-btn" data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
+    </ul>
+  </div>
+</nav>
+
+<section class="seccion-llamado-accion">
+  <div class="hero-badge" data-i18n="hero-badge">Red Interuniversitaria del Perú</div>
+  <h1 class="llamado-accion-texto" data-i18n="hero-title">
+    <img src="assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
+  </h1>
+  <a href="sites/login.html">Regístrate</a>
+</section>
+```
+
+#### CSS
+
+Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas para estructurar la apariencia del sitio. Las propiedades fueron organizadas en un orden coherente (posicionamiento, modelo de caja, tipografía, color y efectos) con el fin de mantener claridad y uniformidad en el código. Asimismo, se utilizaron nombres de clases claros y descriptivos, alineados a variables CSS globales.
+
+```css
+.barra-navegacion {
+  display: flex;
+  background-color: var(--surface-color);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px;
+  height: var(--nav-bar-height);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.formulario-registro, .formulario-inicio-sesion {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; 
+}
+```
