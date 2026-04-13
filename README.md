@@ -515,3 +515,1286 @@ Jesús Hernández, jefe de prácticas, señala que los principales desafíos de 
 
 **Resumen descriptivo:**
 El profesor Raúl Pardo, docente en la Universidad de Lima, considera una muy buena idea y parte fundamental del estudio universitario que los alumnos compartan opiniones y se ayuden mutuamente. Destacó que las herramientas tecnológicas son productivas para la colaboración siempre que se les dé un buen uso, priorizando el aprendizaje sobre ventajas deshonestas. También mostró cierta preocupación por la carga de los alumnos tutores, ya que siente que brindar ayuda constante podría impactar negativamente en su propio tiempo y productividad, especialmente en alumnos con muchas responsabilidades académicas.
+
+
+### 2.2.3. Análisis de entrevistas
+
+#### Segmento objetivo #1: Estudiantes que quieran aprender
+
+**1. Características objetivas**
+* **Edad:** Estudiantes universitarios, generalmente entre 18 y 24 años (100%).
+* **Carrera:** Diversas carreras universitarias (Enfermería, Ingeniería, Negocios Internacionales) (100%).
+* **Ciclo:** 3° a 6° ciclo (100%).
+* **Experiencia con plataformas:**
+  * Poca experiencia con tutorías online formales (2 de 3).
+  * Uso de herramientas digitales para estudio (Meet, WhatsApp, Script) (100%).
+  * Estudio individual: Prefieren estudiar solos la mayor parte del tiempo (100%).
+
+**2. Características subjetivas**
+* **Preferencias de estudio:**
+  * Estudio individual para concentración y calma ante estrés (100%).
+  * Estudio en horarios específicos: tardes o noches (66%).
+  * Prefieren un lugar sin distracciones (33%).
+* **Dificultades académicas:**
+  * Obstáculos para pedir ayuda a compañeros o profesores: demora de respuestas, falta de disponibilidad, miedo a ser juzgado (100%).
+  * Problemas de coordinación en grupos y comunicación (33%).
+  * Cursos demandantes y prácticos aumentan estrés (66%).
+* **Uso de recursos externos:**
+  * Buscan apoyo en internet y familiares (100%).
+  * Valoran recibir ayuda de estudiantes expertos de otras universidades (100%).
+  * Prioridad en la calidad de aprendizaje sobre la inmediatez de la ayuda (33%).
+* **Herramientas digitales y funcionalidades deseadas:**
+  * Chat, pizarra virtual y grabación de sesiones (100%).
+  * Perfiles con reseñas, especialidades y mini-ejercicios (66%).
+  * Tutorías pagadas si no pueden resolver dudas por sí mismos (33%).
+
+| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| :--- | :--- | :--- |
+| Prefiere estudiar solo | 100% | Prefiere estudiar sola por las tardes/noches. |
+| Valoración ayuda de otros estudiantes | 100% | Valora recibir apoyo de estudiantes expertos de otras universidades. |
+| Obstáculos pedir ayuda | 100% | Demora de respuestas / falta de disponibilidad / miedo a ser juzgada. |
+| Uso de herramientas digitales | 100% | Utiliza plataformas como Meet, WhatsApp, Script. |
+| Funciones deseadas en aplicación | 66% | Perfiles con reseñas, chat, pizarra virtual, mini-ejercicios. |
+| Tutorías pagadas | 33% | Considera útiles tutorías pagadas cuando no puede resolver dudas por sí misma. |
+| Ciclo universitario | 100% | 3° a 6° ciclo de diversas carreras. |
+
+*(Tabla 4. Principales hallazgos de entrevistas a estudiantes universitarios - Elaboración propia. Nota: La tabla resume los comportamientos, percepciones y preferencias identificadas en las entrevistas).*
+
+---
+
+#### Segmento objetivo #2: Estudiantes que quieran enseñar
+
+**1. Características objetivas**
+* **Edad y ciclo:** Estudiantes universitarios de diversos ciclos (100%).
+* **Carrera:** Diversas carreras (Psicología, Educación, Ingeniería Civil) (100%).
+* **Experiencia:** Participan en grupos de estudio y ayudan a compañeros de manera informal antes de los exámenes (100%).
+* **Habilidades digitales:** Mencionan y sugieren el uso de herramientas digitales para tutorías (agenda, pizarra virtual, Canvas, Notion, Kahoot, sistemas de reputación) (100%).
+
+**2. Características subjetivas**
+* **Motivaciones para enseñar:**
+  * Reforzar el propio conocimiento (100%).
+  * Incentivos o recompensas tangibles (pago, créditos universitarios) (67%).
+  * Compartir ideas y adquirir experiencia (67%).
+* **Dificultades percibidas:**
+  * Falta de interés o compromiso del aprendiz (100%).
+  * Encontrar la estrategia de enseñanza adecuada para cada persona (67%).
+  * Tiempo limitado, distancia y mala organización de horarios (67%).
+* **Preferencias y necesidades en la tutoría:**
+  * Necesidad de conocer al estudiante para generar confianza (100%).
+  * Herramientas digitales para organizar y hacer didáctica la enseñanza (100%).
+  * Sistema de recompensas (créditos canjeables o pago) para incentivar la participación (67%).
+
+| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| :--- | :--- | :--- |
+| Motivo principal: reforzar conocimiento | 100% | Su motivación principal para enseñar es reforzar su conocimiento. |
+| Participa en tutorías | 100% | Todos tienen experiencia ayudando a sus compañeros de manera ocasional o regular. |
+| Uso de herramientas digitales | 100% | Herramientas como agenda, pizarra virtual, Canvas, Notion, Kahoot. |
+| Necesidad de generar confianza | 100% | Todas necesitan percibir interés o tener un sistema que valide al otro usuario. |
+| Motivación económica/recompensas | 67% | Sugiere un sistema de recompensas / no descarta recibir un pago. |
+| Dificultad: tiempo y organización | 67% | La mala gestión de horarios, el tiempo limitado y la distancia son barreras importantes. |
+| Dificultad: estrategia de enseñanza | 67% | Consideran un reto encontrar la metodología de enseñanza adecuada para cada alumno. |
+
+*(Tabla 5. Principales hallazgos de entrevistas a estudiantes tutores - Elaboración propia. Nota: La tabla sintetiza las motivaciones, desafíos y necesidades expresadas por los estudiantes que ofrecen tutorías).*
+
+---
+
+#### Segmento objetivo #3: Coordinador Institucional
+
+**1. Características objetivas**
+* **Cargo:** Jefes de prácticas o profesores universitarios (100% de los entrevistados).
+* **Experiencia:** Supervisión y acompañamiento de estudiantes en proyectos prácticos (100%).
+* **Uso de tecnología:** Familiarizados con herramientas digitales académicas, incluidas plataformas de colaboración y software de verificación de estudiantes (100%).
+
+**2. Características subjetivas**
+* **Desafíos percibidos de los estudiantes:**
+  * Gestión del tiempo frente a carga académica (50%).
+  * Acceso a información confiable (50%).
+  * Trabajo en equipo y habilidades de comunicación (50%).
+  * Necesidad de desarrollar pensamiento crítico y adaptabilidad ante cambios rápidos (50%).
+* **Beneficios percibidos de la plataforma interuniversitaria:**
+  * Integración de esfuerzos entre universidades y estudiantes (100%).
+  * Intercambio seguro y confiable de conocimientos (50%).
+  * Fortalecimiento de habilidades para enfrentar la cuarta revolución industrial (50%).
+* **Riesgos y preocupaciones:**
+  * Posible riesgo reputacional por contenidos incorrectos o mal validados (50%).
+  * Falta de reglas claras y conflictos entre instituciones (50%).
+  * Sobrecarga laboral para coordinadores si no se automatizan procesos (50%).
+  * Peligros de pereza intelectual si los estudiantes dependen demasiado de herramientas tecnológicas (50%).
+* **Recomendaciones para la plataforma:**
+  * Verificación de identidad de alumnos mediante DNI académico o reconocimiento facial (100%).
+  * Políticas claras de integridad académica y trazabilidad de actividades (100%).
+  * Panel de coordinador con historial académico, monitoreo de interacciones y aprobación de participantes (50%).
+  * Diferenciación de niveles de acceso según especialización de los espacios (50%).
+  * Espacios de discusión y debate académico sobre problemas reales, promoviendo innovación y colaboración (50%).
+
+| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| :--- | :--- | :--- |
+| Cargo coordinador | 100% | Se desempeña como jefe de prácticas / profesor. |
+| Gestión del tiempo estudiante | 50% | Los principales desafíos que enfrentan los alumnos son la gestión del tiempo. |
+| Acceso a información confiable | 50% | Dado que no toda la información disponible en internet es válida. |
+| Trabajo en equipo | 50% | Dificultad en el trabajo en equipo, que requiere habilidades de comunicación. |
+| Pensamiento crítico y adaptabilidad | 50% | Desarrollar un pensamiento crítico y adaptarse a una realidad en construcción. |
+| Beneficios de la plataforma | 100% | La integración de esfuerzos y el intercambio de conocimientos. |
+| Riesgos de reputación | 50% | Existe un riesgo reputacional si los contenidos o cursos se imparten incorrectamente. |
+| Verificación de alumnos | 100% | Panel de coordinador que permita buscar y aprobar alumnos fácilmente. |
+
+*(Tabla 6. Principales hallazgos de entrevistas a coordinadores académicos - Elaboración propia. Nota: Resultados obtenidos en las entrevistas con coordinadores o jefes de práctica).*
+
+---
+
+## 2.3. Needfinding
+
+Para el proceso de needfinding, se ha planificado la realización de entrevistas a los tres arquetipos de usuarios identificificados: "Estudiantes que quieran aprender", "Estudiantes que quieran enseñar" y el "Coordinador Institucional". El objetivo principal de esta investigación es indagar en las motivaciones, frustraciones y necesidades de los estudiantes universitarios peruanos cuando buscan o desean ofrecer apoyo académico más allá de las fronteras de su propia institución.
+
+A través de este proceso, se busca validar las hipótesis iniciales del proyecto, como la existencia de una demanda latente de colaboración interuniversitaria y la importancia crítica de la seguridad y la confianza en un entorno digital de este tipo. Los hallazgos derivados de las entrevistas permitirán comprender a fondo los problemas que la plataforma debe resolver, como el aislamiento académico y la desconfianza inicial entre pares desconocidos.
+
+### 2.3.1. User Personas
+
+Para iniciar esta sección del documento, el equipo seleccionó las características más relevantes de todas las que ofrece la plataforma UXPressia, diferenciando entre aquellas de carácter global (comunes a los tres segmentos) y las específicas que resultaban más pertinentes para determinados perfiles. Cada integrante compartió sus aportes, siempre a partir de los resultados obtenidos y analizados en las entrevistas previas. Finalmente, consensuamos la opción que consideramos más adecuada, adaptándola para que fuese más precisa y representativa del perfil que buscamos.
+
+**User Persona: Estudiantes que quieran aprender**
+<p align="center">
+  <img src="public/assets/images-doc/user1.png" alt="User Persona Aprendiz" width="800">
+  <br>
+  <em>Figura 12. User Persona - Estudiantes que quieran aprender - Elaboración propia.</em>
+</p>
+
+**User Persona: Estudiantes que quieran enseñar**
+<p align="center">
+  <img src="public/assets/images-doc/user2.png" alt="User Persona Tutor" width="800">
+  <br>
+  <em>Figura 13. User Persona - Estudiantes que quieran enseñar - Elaboración propia.</em>
+</p>
+
+**User Persona: Coordinador Institucional**
+<p align="center">
+  <img src="public/assets/images-doc/user3.png" alt="User Persona Coordinador" width="800">
+  <br>
+  <em>Figura 14. User Persona - Coordinador Institucional - Elaboración propia.</em>
+</p>
+
+---
+
+### 2.3.2. User Task Matrix
+
+En el User Task Matrix se considera a los tres segmentos evaluando sus tareas clave según frecuencia e importancia. Los aprendices priorizan estudiar independientemente y acceder a recursos de apoyo; los tutores, reforzar su conocimiento y participar en grupos de estudio; y los coordinadores, orientar casos prácticos, gestionar el tiempo y verificar la integridad académica. Todos coinciden en usar herramientas digitales y favorecer la colaboración, aunque cada segmento aplica estas tareas con objetivos distintos.
+
+#### Segmento objetivo #1: Estudiantes que quieran aprender
+
+| Tareas | Boris | Adrian | Stephanie |
+| :--- | :--- | :--- | :--- |
+| **Buscar información de Internet** | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
+| **Consultar a familiares o compañeros con experiencia** | Frec: Media<br>Imp: Media-Alta | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Media-Alta |
+| **Estudiar independientemente en horarios tranquilos** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
+| **Coordinar con compañeros** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta |
+| **Acceder a plataformas de tutorías, videos grabados o chats** | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Muy alta |
+| **Contratar un tutor particular** | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta |
+
+*(Tabla 7. Actividades de aprendizaje y su valoración por los usuarios - Elaboración propia).*
+
+#### Segmento objetivo #2: Estudiantes que quieran enseñar
+
+| Tareas | Lucero | Abigail | Katherine |
+| :--- | :--- | :--- | :--- |
+| **Estudiar y reforzar su conocimiento antes de enseñar** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
+| **Participar en grupos de estudio y colaborar con compañeros** | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Muy alta | Frec: -<br>Imp: Muy alta |
+| **Ayudar a estudiantes de otras universidades** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Media<br>Imp: Alta |
+| **Conocer al estudiante antes de brindar ayuda para generar confianza** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Alta |
+| **Utilizar herramientas digitales para tutoría** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Media<br>Imp: Alta |
+| **Gestionar motivación y recompensas de la tutoría** | Frec: Baja-Media<br>Imp: Media-Alta | Frec: Baja-Media<br>Imp: Media | Frec: Baja<br>Imp: Media |
+
+*(Tabla 8. Actividades y motivaciones de los estudiantes-tutores – Elaboración propia).*
+
+#### Segmento objetivo #3: Coordinador Institucional
+
+| Tareas | Carlos | Jesús | Raúl |
+| :--- | :--- | :--- | :--- |
+| **Guiar a los estudiantes en la aplicación práctica de conceptos mediante casos...** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Muy alta |
+| **Enseñar a los estudiantes a gestionar el tiempo y organizarse...** | Frec: Media<br>Imp: Alta | Frec: Muy alta<br>Imp: Alta | Frec: Media-Alta<br>Imp: Alta |
+| **Fomentar el trabajo en equipo y habilidades de comunicación** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
+| **Garantizar acceso a información confiable y enseñar a evaluarla...** | Frec: Media<br>Imp: Muy alta | Frec: Alta<br>Imp: Muy alta | Frec: Media<br>Imp: Alta |
+| **Verificar alumnos y asegurar integridad académica en la plataforma...** | Frec: Baja-Media<br>Imp: Alta | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
+| **Implementar herramientas digitales y plazos que faciliten la organización...** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Muy alta |
+
+*(Tabla 9. Funciones y prioridades de los coordinadores académicos – Elaboración propia).*
+
+**Conclusión:**
+Las tareas más frecuentes e importantes son estudiar de forma independiente y acceder a recursos de apoyo para los aprendices; reforzar conocimiento y participar en grupos de estudio para los tutores; y orientar casos prácticos y verificar integridad académica para los coordinadores. Todos los segmentos coinciden en usar herramientas digitales y favorecer la colaboración, aunque cada grupo las aplica con un enfoque distinto según sus objetivos.
+
+### 2.3.3. User Journey Mapping
+
+En esta sección se presentan los User Journey Maps As-Is de cada User Persona, mostrando el recorrido completo (end-to-end) de los usuarios en la situación actual, sin intervención de la nueva solución, lo que incluye procesos, puntos de dolor y oportunidades.
+
+* **Segmento 1: Estudiantes que quieran aprender.** Inicia con la necesidad de comprender un tema, pasando por dudas, búsquedas de ayuda frustrantes y coordinación complicada, hasta la evaluación del aprendizaje, evidenciando problemas de disponibilidad y confiabilidad de recursos.
+* **Segmento 2: Estudiantes que quieran enseñar.** Comienza con motivación por reforzar su conocimiento y ayudar, pero enfrenta obstáculos en la preparación de material, coordinación con el aprendiz y falta de retroalimentación para mejorar su enseñanza.
+* **Segmento 3: Coordinadores Institucionales.** Inician su recorrido al identificar la necesidad de mantener la calidad académica y fomentar la colaboración. Continúan con la planeación y preparación de estrategias, pero enfrentan complejidades al anticipar errores operativos. Durante la implementación y coordinación, sufren de sobrecarga operativa y riesgos de plagio o fraude, para finalmente en la etapa de supervisión y evaluación, lidiar con limitaciones operativas y la dificultad de medir el impacto real de sus esfuerzos.
+
+#### Segmento #1: Estudiantes que quieran aprender
+<p align="center">
+  <img src="public/assets/images-doc/jur1.png" alt="Journey Map Aprendiz" width="800">
+  <br>
+  <em>Figura 15. User Journey Mapping – Estudiantes que quieran aprender - Elaboración propia. Nota: En esta figura se aprecia nuestro primer Journey Mapping de nuestro primer segmento estudiante aprendiz.</em>
+</p>
+
+#### Segmento #2: Estudiantes que quieran enseñar
+<p align="center">
+  <img src="public/assets/images-doc/jur2.png" alt="Journey Map Tutor" width="800">
+  <br>
+  <em>Figura 16. User Journey Mapping – Estudiantes que quieran enseñar - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Journey Mapping de nuestro segundo segmento estudiante tutor.</em>
+</p>
+
+#### Segmento #3: Coordinador Institucional
+<p align="center">
+  <img src="public/assets/images-doc/jur3.png" alt="Journey Map Coordinador" width="800">
+  <br>
+  <em>Figura 17. User Journey Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Journey Mapping de nuestro segmento coordinador institucional.</em>
+</p>
+
+---
+
+### 2.3.4. Empathy Mapping
+
+#### Segmento #1: Estudiantes que quieran aprender
+<p align="center">
+  <img src="public/assets/images-doc/user1.png" alt="Empathy Map Aprendiz" width="800">
+  <br>
+  <em>Figura 18. Empathy Mapping - Estudiantes aprendices - Elaboración propia. Nota: En esta figura se aprecia nuestro Empathy Mapping de nuestro primer segmento estudiante aprendiz.</em>
+</p>
+
+#### Segmento #2: Estudiantes que quieran enseñar
+<p align="center">
+  <img src="public/assets/images-doc/user2.png" alt="Empathy Map Tutor" width="800">
+  <br>
+  <em>Figura 19. Empathy Mapping - Estudiantes tutores - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Empathy Mapping de nuestro segmento estudiantes tutores.</em>
+</p>
+
+#### Segmento #3: Coordinador Institucional
+<p align="center">
+  <img src="public/assets/images-doc/user3.png" alt="Empathy Map Coordinador" width="800">
+  <br>
+  <em>Figura 20. Empathy Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Empathy Mapping de nuestro segmento coordinador institucional.</em>
+</p>
+
+---
+
+## 2.4. Big Picture EventStorming
+
+<p align="center">
+  <img src="public/assets/images-doc/user4.png" alt="Big Picture EventStorming" width="800">
+  <br>
+  <em>Figura 21. Big Picture EventStorming - Elaboración propia.</em>
+</p>
+
+---
+
+## 2.5. Ubiquitous Language
+
+| N° | Palabra técnica | Significado |
+| :---: | :--- | :--- |
+| 1 | [Completar] | [Completar] |
+| 2 | [Completar] | [Completar] |
+| 3 | [Completar] | [Completar] |
+| 4 | [Completar] | [Completar] |
+| 5 | [Completar] | [Completar] |
+| 6 | [Completar] | [Completar] |
+| 7 | [Completar] | [Completar] |
+| 8 | [Completar] | [Completar] |
+| 9 | [Completar] | [Completar] |
+| 10 | [Completar] | [Completar] |
+
+# Capítulo III: Requirements Specification
+
+## 3.1. User Stories
+
+
+
+*(Nota: En la gestión ágil, mantener una jerarquía clara donde las Épicas grandes se desglosan en Historias de Usuario específicas es fundamental para organizar el flujo de trabajo del equipo de desarrollo).*
+
+### Epics
+
+| Epic ID | Title | Description | Acceptance Criteria | Related to (Epic ID) |
+| :---: | :--- | :--- | :--- | :--- |
+| **EP01** | Account & Profile Management | As a user, I want to manage my account, authentication, and profile so that I can securely access and personalize my experience. | Not applicable | Not applicable |
+| **EP02** | Search & Matching | As a learner, I want to search and filter tutors so that I can find the best match for my needs. | Not applicable | Not applicable |
+| **EP03** | Session Coordination & Communication | As a user, I want to coordinate tutoring sessions and communicate with others so that I can prepare effectively. | Not applicable | Not applicable |
+| **EP04** | Live Session Experience | As a user, I want to join and interact in live tutoring sessions so that I can learn in real time. | Not applicable | Not applicable |
+| **EP05** | Academic Quality Assurance | As a professor or tutor, I want to create and manage quizzes so that learning quality is validated. | Not applicable | Not applicable |
+| **EP06** | Ratings & Monetization | As a user, I want to rate tutors and handle payments so that value exchange is fair and transparent. | Not applicable | Not applicable |
+| **EP07** | Analytics & Moderation | As a professor, I want dashboards and moderation tools so that I can ensure platform quality. | Not applicable | Not applicable |
+| **EP08** | Backend API & Integrations | As a developer, I want to integrate external services and APIs so that the system is scalable and secure. | Not applicable | Not applicable |
+| **EP09** | User Experience & Landing | As a visitor, I want an engaging and informative interface so that I understand the platform before registering. | Not applicable | Not applicable |
+
+
+### User Stories
+
+| User Story ID | Title | Description | Acceptance Criteria | Related to (Epic ID) |
+| :---: | :--- | :--- | :--- | :---: |
+| **US01** | Register with Institutional Email | As a user, I want to register using my institutional email so that the platform ensures a secure academic environment. | **Scenario:** Successful registration<br>**Given** I am on the registration page<br>**When** I enter a valid .edu.pe email and password<br>**Then** the system creates my account and sends a confirmation email<br><br>**Scenario:** Invalid email<br>**Given** I enter a non-institutional email<br>**When** I submit the form<br>**Then** the system rejects it and shows an error | EP01 |
+| **US02** | Login with Role-Based Access | As a user, I want to log in securely so that I can access features based on my role. | **Scenario:** Student login<br>**Given** I am a student<br>**When** I log in<br>**Then** I access the student dashboard<br><br>**Scenario:** Teacher login<br>**Given** I am a teacher<br>**When** I log in<br>**Then** I access the analytics dashboard | EP01 |
+| **US03** | Configure Profile | As a tutor, I want to configure my profile so that learners can find me easily. | **Scenario:** Update profile<br>**Given** I am in my profile<br>**When** I add skills and save<br>**Then** my profile is updated and visible in search | EP01 |
+| **US04** | Verified Badge | As a user, I want to see verified users so that I trust the platform. | **Scenario:** Verified user<br>**Given** a user has confirmed email<br>**When** I view their profile<br>**Then** I see a verified badge | EP01 |
+| **US34** | Manage Availability | As a tutor, I want to manage my availability so that I control when I receive requests. | **Scenario:** Set availability<br>**Given** I configure time slots<br>**When** I save<br>**Then** learners can only book those times | EP01 |
+| **US39** | Password Recovery | As a user, I want to recover my password so that I regain access. | **Scenario:** Recovery email<br>**Given** I forgot my password<br>**When** I request recovery<br>**Then** I receive a reset link | EP01 |
+| **US05** | Search Tutors | As a learner, I want to search tutors so that I find help. | **Scenario:** Search<br>**Given** I type "Physics"<br>**When** I search<br>**Then** I see tutors related to that subject | EP02 |
+| **US06** | Filter Results | As a learner, I want to filter tutors so that I find the best option. | **Scenario:** Apply filter<br>**Given** search results<br>**When** I filter by rating<br>**Then** results update accordingly | EP02 |
+| **US07** | View Tutor Profile | As a learner, I want to view profiles so that I evaluate tutors. | **Scenario:** View profile<br>**Given** I select a tutor<br>**When** I open profile<br>**Then** I see details and reviews | EP02 |
+| **US08** | Send Tutoring Request | As a learner, I want to request sessions so that I schedule tutoring. | **Scenario:** Send request<br>**Given** tutor profile<br>**When** I send request<br>**Then** status becomes "Pending" | EP03 |
+| **US09** | Accept or Reject Requests | As a tutor, I want to manage requests so that I control my schedule. | **Scenario:** Accept request<br>**Given** a request<br>**When** I accept<br>**Then** it becomes "Scheduled" | EP03 |
+| **US10** | Internal Chat | As a user, I want chat so that I coordinate sessions. | **Scenario:** Send message<br>**Given** chat open<br>**When** I send message<br>**Then** other user receives it | EP03 |
+| **US11** | Share Files | As a user, I want to share files so that I exchange materials. | **Scenario:** Upload file<br>**Given** chat open<br>**When** I upload PDF<br>**Then** other user can download it | EP03 |
+| **US12** | Join Video Call | As a user, I want to join calls so that I attend sessions. | **Scenario:** Join call<br>**Given** session time<br>**When** I click start<br>**Then** I connect to video call | EP04 |
+| **US13** | Share Screen | As a user, I want to share my screen so that I explain content. | **Scenario:** Share screen<br>**Given** active call<br>**When** I click share<br>**Then** my screen is visible | EP04 |
+| **US14** | Create Quiz | As a professor, I want to create quizzes so that learning is standardized. | **Scenario:** Create quiz<br>**Given** professor panel<br>**When** I publish quiz<br>**Then** it is available | EP05 |
+| **US15** | Send Quiz | As a tutor, I want to send quizzes so that I evaluate learners. | **Scenario:** Send quiz<br>**Given** chat<br>**When** I assign quiz<br>**Then** learner receives it | EP05 |
+| **US16** | Solve Quiz | As a learner, I want to solve quizzes so that I validate knowledge. | **Scenario:** Submit quiz<br>**Given** quiz open<br>**When** I submit answers<br>**Then** system grades it | EP05 |
+| **US17** | Rate Tutor | As a learner, I want to rate tutors so that I share feedback. | **Scenario:** Submit rating<br>**Given** session ended<br>**When** I rate<br>**Then** review is saved | EP06 |
+| **US18** | Make Donation | As a learner, I want to donate so that I reward tutors. | **Scenario:** Payment success<br>**Given** payment form<br>**When** I pay<br>**Then** transaction is processed | EP06 |
+| **US19** | View Wallet | As a tutor, I want to see earnings so that I track income. | **Scenario:** View balance<br>**Given** wallet page<br>**When** I open it<br>**Then** I see balance and history | EP06 |
+| **US20** | Register Bank Account | As a tutor, I want to add bank account so that I withdraw funds. | **Scenario:** Save account<br>**Given** form<br>**When** I submit<br>**Then** account is saved | EP06 |
+| **US21** | Cancel Reservation | As a learner, I want to cancel sessions so that I handle conflicts. | **Scenario:** Cancel<br>**Given** a session<br>**When** I cancel<br>**Then** status becomes "Cancelled" | EP06 |
+| **US22** | Teacher Dashboard | As a teacher, I want a dashboard so that I manage platform data. | **Scenario:** View dashboard<br>**Given** login<br>**When** I access panel<br>**Then** I see tools and metrics | EP07 |
+| **US23** | View Analytics | As a teacher, I want analytics so that I detect trends. | **Scenario:** View chart<br>**Given** dashboard<br>**When** data loads<br>**Then** I see top courses | EP07 |
+| **US24** | Report User | As a user, I want to report issues so that platform stays safe. | **Scenario:** Report<br>**Given** issue<br>**When** I submit report<br>**Then** ticket is created | EP07 |
+| **US25** | Resolve Disputes | As a teacher, I want to resolve disputes so that quality is ensured. | **Scenario:** Resolve case<br>**Given** a report<br>**When** I review<br>**Then** I close it | EP07 |
+| **US26** | Validate Email API | As a developer, I want email validation so that registration is secure. | **Scenario:** Valid request<br>**Given** API call<br>**When** valid email<br>**Then** JWT is generated | EP08 |
+| **US27** | Payment Integration | As a developer, I want payment API so that transactions are processed. | **Scenario:** Payment success<br>**Given** payment request<br>**When** API responds success<br>**Then** transaction is stored | EP08 |
+| **US28** | WebRTC Token | As a developer, I want tokens so that video calls are secure. | **Scenario:** Generate token<br>**Given** valid request<br>**When** verified<br>**Then** token is returned | EP08 |
+| **US29** | File Storage API | As a developer, I want storage integration so that files are handled. | **Scenario:** Upload file<br>**Given** valid file<br>**When** uploaded<br>**Then** URL is stored | EP08 |
+| **US30** | Analytics Endpoint | As a developer, I want analytics API so that dashboards work. | **Scenario:** Get data<br>**Given** teacher request<br>**When** query runs<br>**Then** JSON is returned | EP08 |
+| **US31** | Landing Page | As a visitor, I want to see platform info so that I understand it. | **Scenario:** View landing<br>**Given** homepage<br>**When** I open it<br>**Then** I see benefits and sections | EP09 |
+| **US32** | About Page | As a user, I want to see company info so that I trust it. | **Scenario:** View about<br>**Given** navigation<br>**When** I click<br>**Then** I see mission and team | EP09 |
+| **US33** | UI Animations | As a user, I want animations so that UI feels interactive. | **Scenario:** Hover effect<br>**Given** UI<br>**When** I hover<br>**Then** elements animate | EP09 |
+| **US35** | Language Switch | As a user, I want language toggle so that I understand content. | **Scenario:** Change language<br>**Given** page<br>**When** I switch<br>**Then** content updates | EP09 |
+| **US36** | Partnerships Section | As a user, I want to see partners so that I trust platform. | **Scenario:** View partners<br>**Given** section<br>**When** I scroll<br>**Then** I see logos | EP09 |
+| **US37** | About + Innovation | As a user, I want to see vision and tech so that I trust future. | **Scenario:** View innovation<br>**Given** section<br>**When** I read<br>**Then** I understand roadmap | EP09 |
+| **US38** | Solutions Section | As a user, I want to see features so that I understand value. | **Scenario:** View features<br>**Given** section<br>**When** I explore<br>**Then** I see platform capabilities | EP09 |
+
+
+## 3.1. Impact Mapping
+
+En esta sección se expone el Impact Mapping del proyecto, una técnica que conecta los objetivos de negocio con las funcionalidades a desarrollar. El proceso inició con la definición de los Business Goals bajo criterios SMART, seguido de la identificación de los Actores (User Personas) que influyen en su cumplimiento. Para cada actor se establecieron los Impacts esperados en su comportamiento y, a partir de ellos, se listaron los Deliverables que podrían generarlos. Finalmente, cada deliverable se vinculó con User Stories concretas que lo hacen tangible.
+
+<p align="center">
+  <img src="public/assets/images-doc/empa1.png" alt="Impact Mapping Registro" width="800">
+  <br>
+  <em>Figura 27. Impact Mapping - Elaboración propia. Nota: Este mapa visualiza cómo alcanzar el objetivo inicial (registrar 300 estudiantes), conectando los perfiles (Personas) con cambios de comportamiento (Impacts) y funcionalidades (Deliverables).</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/empa2.png" alt="Impact Mapping Tutorías" width="800">
+  <br>
+  <em>Figura 28. Impact Mapping - Elaboración propia. Nota: Este mapa se enfoca en lograr 200 tutorías exitosas con alta calificación, detallando cómo la búsqueda, comunicación y calificación aseguran un ciclo de alta calidad.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/empa3.png" alt="Impact Mapping Retención" width="800">
+  <br>
+  <em>Figura 29. Impact Mapping - Elaboración propia. Nota: Esta figura muestra el mapa centrado en la retención y participación activa, explicando cómo funcionalidades como el dashboard y el reconocimiento buscan que los usuarios regresen.</em>
+</p>
+
+---
+
+## 3.2. Product Backlog
+
+| Orden | US ID | Description | Story Points |
+| :---: | :---: | :--- | :---: |
+| 1 | **US01** | Como usuario, quiero registrarme en la plataforma usando exclusivamente mi correo institucional (`.edu.pe`), para garantizar la seguridad del ecosistema y automatizar mi validación. | 3 |
+| 2 | **US02** | Como usuario, quiero iniciar sesión de forma segura para acceder al panel principal y a las herramientas específicas correspondientes a mi rol (Estudiante o Profesor). | 3 |
+| 3 | **US03** | Como Estudiante Tutor, quiero configurar mi perfil agregando mi biografía, universidad y los cursos que domino, para que los aprendices puedan encontrarme fácilmente. | 3 |
+| 4 | **US04** | Como estudiante, quiero ver un sello o ícono de "Verificado" en los perfiles para sentirme seguro de que el usuario pertenece a una universidad real. | 2 |
+| 5 | **US05** | Como Estudiante Aprendiz, quiero utilizar un motor de búsqueda por palabras clave para encontrar tutores que dominen el tema específico en el que necesito ayuda. | 5 |
+| 6 | **US06** | Como Aprendiz, quiero aplicar filtros (como reputación de estrellas o universidad) a mi búsqueda para encontrar al tutor que mejor se adapte a mis preferencias. | 3 |
+| 7 | **US07** | Como Aprendiz, quiero ver el perfil detallado de un tutor antes de enviarle una solicitud, para revisar su biografía, insignias y comentarios de otros alumnos. | 2 |
+| 8 | **US08** | Como Aprendiz, quiero seleccionar una fecha/hora disponible en el perfil del tutor y enviarle una solicitud de reserva indicando el tema a tratar. | 3 |
+| 9 | **US09** | Como Estudiante Tutor, quiero recibir las solicitudes entrantes y tener la opción de aceptarlas o rechazarlas para gestionar mi tiempo adecuadamente. | 2 |
+| 10 | **US10** | Como usuario (Aprendiz/Tutor), quiero acceder a un chat interno privado antes y después de la sesión para coordinar detalles y compartir dudas sin usar mi WhatsApp personal. | 5 |
+| 11 | **US11** | Como usuario, quiero poder adjuntar archivos en el chat de la reserva para enviar mis ejercicios resueltos o el material de estudio que revisaremos en la videollamada. | 5 |
+| 12 | **US12** | Como usuario, quiero unirme a la videollamada incrustada en la plataforma a la hora agendada para iniciar la clase sin depender de enlaces sueltos de Zoom o Meet. | 8 |
+| 13 | **US13** | Como usuario, quiero poder compartir la pantalla de mi computadora utilizando las herramientas de la videollamada, para mostrar código o ejercicios en tiempo real a mi compañero. | 5 |
+| 14 | **US14** | Como Profesor Universitario, quiero crear un Quiz de opción múltiple y guardarlo en el Banco Oficial, para estandarizar el material con el que los tutores evalúan a los alumnos. | 5 |
+| 15 | **US15** | Como Estudiante Tutor, quiero seleccionar un Quiz del Banco Oficial y enviárselo a mi aprendiz por el chat para evaluar su aprendizaje al final de la sesión. | 3 |
+| 16 | **US16** | Como Estudiante Aprendiz, quiero responder el Quiz interactivo que me envió el tutor para validar mis conocimientos y obtener mi nota automáticamente. | 5 |
+| 17 | **US17** | Como Aprendiz, quiero calificar al tutor de 1 a 5 estrellas y dejar un comentario al finalizar la sesión para valorar su ayuda y construir su reputación pública. | 3 |
+| 18 | **US18** | Como Aprendiz, quiero realizar una donación voluntaria utilizando mi tarjeta a través de una pasarela segura para recompensar económicamente al tutor. | 5 |
+| 19 | **US19** | Como Estudiante Tutor, quiero visualizar mi Billetera Virtual para ver el saldo total de mis donaciones acumuladas, visualizando el descuento automático por comisión de la plataforma. | 3 |
+| 20 | **US20** | Como Estudiante Tutor, quiero registrar los datos de mi cuenta bancaria (CCI) externa de forma segura para solicitar el retiro del dinero recaudado en mis tutorías. | 3 |
+| 21 | **US21** | Como Aprendiz, quiero cancelar una solicitud de reserva antes de que inicie en caso de tener un imprevisto, liberando el horario del tutor. | 2 |
+| 22 | **US22** | Como Profesor Universitario, quiero ver un panel principal organizado al ingresar a la plataforma, para navegar fácilmente entre el Banco de Quizzes y las analíticas. | 3 |
+| 23 | **US23** | Como Profesor Universitario, quiero visualizar el "Termómetro Académico" con gráficos sobre los cursos más solicitados para tutorías, identificando así deficiencias tempranas. | 5 |
+| 24 | **US24** | Como usuario (Aprendiz/Tutor), quiero poder reportar a mi contraparte en caso de ausentismo o contenido inapropiado, para mantener la integridad de la plataforma. | 3 |
+| 25 | **US25** | Como Profesor Universitario, quiero revisar los reportes y disputas académicas (ej. enseñar mal un concepto) para emitir un veredicto y asegurar la calidad del ecosistema. | 3 |
+| 26 | **US26** | Como Developer, quiero implementar un endpoint en C# que valide automáticamente el dominio `.edu.pe` mediante expresiones regulares y envíe un token JWT por email (vía SendGrid). | 5 |
+| 27 | **US27** | Como Developer, quiero integrar la API de una pasarela de pagos (ej. Stripe) para procesar las donaciones con tarjeta y calcular en el backend la retención del 5% de comisión. | 5 |
+| 28 | **US28** | Como Developer, quiero consumir la API de WebRTC (ej. Agora.io) generando tokens de acceso temporales desde el backend para incrustar la videollamada de forma segura. | 8 |
+| 29 | **US29** | Como Developer, quiero integrar una API de Cloud Storage (ej. AWS S3 o Cloudinary) para gestionar la subida segura de los PDFs e imágenes que los usuarios comparten en el chat. | 5 |
+| 30 | **US30** | Como Developer, quiero crear un endpoint RESTful que ejecute un query de agregación y conteo en la BD para devolver un JSON optimizado con el top de cursos, alimentando el Dashboard B2B. | 5 |
+| 31 | **US31** | Como usuario quiero que los beneficios de la plataforma sea la primera pantalla que se aprecie para conocer mejor las funciones y detalles antes de registrarme. | 3 |
+| 32 | **US32** | Como usuario, quiero ver la información detallada de la plataforma de la sección "sobre nosotros" para generar confianza y entender el propósito de la empresa antes de registrarme. | 2 |
+| 33 | **US33** | Como estudiante, quiero que la interfaz tenga animaciones sutiles y micro interacciones, como un botón que cambia de color al pasar el cursor, para que la experiencia se sienta pulida. | 2 |
+| 34 | **US34** | Como Estudiante Tutor, quiero configurar mis horarios en un calendario interactivo y gestionar mi estado general (Disponible/No Disponible) para recibir solicitudes de reserva. | 5 |
+| 35 | **US35** | Como visitante del sitio web, quiero poder cambiar el idioma de la interfaz entre español e inglés mediante un selector, para comprender la propuesta de valor de Innovify en mi idioma. | 3 |
+| 36 | **US36** | Como usuario, quiero ver la sección de "Alianzas" con las universidades afiliadas y un formulario de contacto, para comprobar el respaldo institucional y solicitar información. | 3 |
+| 37 | **US37** | Como usuario, quiero leer la misión, visión, conocer al equipo desarrollador e informarme sobre la proyección de sensores IoT, para confiar en la solidez y visión a futuro de Innovify. | 2 |
+| 38 | **US38** | Como usuario, quiero ver un resumen interactivo de las "Soluciones" tecnológicas que ofrece la plataforma, para entender cómo resolverá mis problemas académicos antes de registrarme. | 3 |
+
+*(Tabla 11. Product Backlog - SkillSwap. Nota: Esta tabla presenta el Product Backlog completo del proyecto, priorizado según orden de implementación. La columna 'Story Points' asigna una estimación del esfuerzo relativo).*
+
+# Capítulo IV: Product UX/UI Design
+
+## 4.1. Style Guidelines
+
+El diseño gráfico de la plataforma Innovify (SkillSwap) fue definido por el equipo mediante la aplicación de distintas estrategias orientadas a garantizar una estética coherente, una interfaz intuitiva y una experiencia visual agradable para nuestros futuros usuarios. El diseño de nuestro logotipo busca encapsular los conceptos de conexión, conocimiento y colaboración, que son los pilares de la plataforma. 
+
+Para la paleta de colores, se ha elegido un azul principal que transmite confianza, profesionalismo y seguridad, elementos cruciales para un entorno de intercambio académico verificado. Este se complementa con un color de acento amarillo que evoca conocimiento, éxito y energía, motivando a los estudiantes en su proceso de aprendizaje y enseñanza, y el blanco, que aporta claridad, modernidad y un espacio limpio que mejora la legibilidad y la sensación de amplitud en la interfaz. La combinación de estos elementos busca proyectar una imagen moderna, seria, pero a la vez accesible y motivadora, alineada con la visión de crear la red de apoyo estudiantil interuniversitaria líder en el Perú.
+
+### 4.1.1. General Style Guidelines
+
+Aquí se sientan las bases de la identidad visual y verbal de la plataforma, asegurando consistencia en todas las pantallas. Nos hemos basado en principios de diseño inclusivo para garantizar que el producto sea utilizable por la mayor cantidad de personas posible.
+
+* **Branding:** El logo debe representar la conexión y el intercambio de conocimiento. Se propone un diseño que combine dos elementos: nodos interconectados (simbolizando la red entre universidades) que a su vez forman la silueta de un libro abierto o una bombilla (representando el conocimiento y las ideas). Este concepto visual refuerza la propuesta de valor central: ser un puente que conecta el talento estudiantil.
+
+<p align="center">
+  <img src="public/assets/images-doc/logo-grande.png" alt="Logo Innovify" width="400">
+  <br>
+  <em>Figura 30. Logo Innovify.</em>
+</p>
+
+* **Typography:** Se propone utilizar la familia tipográfica **Inter**, una fuente *sans-serif* versátil y moderna, diseñada específicamente para la legibilidad en pantallas. Su claridad y neutralidad la hacen ideal para un entorno académico y digital.
+  * **Escala Base:** 16px
+  * **Interlineado:** 1.5
+  * **Weights (Pesos):** Regular, Medium, Semi-Bold, Bold.
+
+* **Nomenclatura Tipográfica (NOMBRE / TAMAÑO / PESO):**
+  * **Heading 1:** 32px / Bold (Títulos de página principal)
+  * **Heading 2:** 24px / Semi-Bold (Títulos de sección)
+  * **Heading 3:** 20px / Semi-Bold (Subtítulos o títulos de tarjetas)
+  * **Base:** 16px / Regular (Párrafos y texto principal)
+  * **Label:** 14px / Medium (Etiquetas de botones y campos de formulario)
+
+* **Colors:** La paleta de colores está pensada para transmitir confianza, motivación y accesibilidad.
+  * **Azul Primario (#005A9C):** Refuerza la sensación de estabilidad y seguridad (botones principales).
+  * **Amarillo de Acento (#FFC107):** Aporta energía y dinamismo (llamadas a la acción secundarias).
+  * **Gris Claro (#F5F7FA):** Proporciona limpieza visual (fondos).
+  * **Gris Oscuro (#212529):** Asegura legibilidad óptima (textos).
+  * **Semántica:** Verde de éxito (#28A745) y rojo de error (#DC3545) para estados del sistema.
+
+* **Spacing:** La unidad base de **8px** establece un ritmo visual que facilita la comprensión.
+  * **8px:** Entre íconos y texto.
+  * **16px:** Entre párrafos y elementos de lista.
+  * **24px:** Relleno interno en contenedores y tarjetas.
+  * **32px:** Separación entre secciones principales.
+  * **48px:** Márgenes superiores e inferiores de la página.
+
+* **Tono de Comunicación y Lenguaje Aplicado:** El tono debe ser Respetuoso, Entusiasta y Formal-Casual. Buscamos un equilibrio que proyecte profesionalismo y confianza, pero que a la vez sea cercano para los estudiantes.
+  * **Tono:** Serio y confiable pero empático. Evitando lenguaje alarmista o demasiado corporativo.
+  * **Lenguaje:** Claro y sencillo. Se evitarán tecnicismos innecesarios (ej: *"Conecta con un tutor"*, *"Juntos aprendemos más"*).
+
+---
+
+### 4.1.2. Web Style Guidelines
+
+Elegimos estos colores porque buscábamos transmitir confianza, motivación y accesibilidad. El azul simboliza estabilidad, siendo el color predominante. El amarillo aporta energía destacando acciones importantes. Para reforzar la comunicación del sistema, empleamos el verde como indicador de éxito y el rojo para errores.
+
+<p align="center">
+  <img src="public/assets/images-doc/index-anti.png" alt="Landing Page Inicio" width="800">
+  <br>
+  <em>Figura 31. Landing page - Página inicio. Nota: Esta figura muestra el diseño de la pantalla principal o dashboard que ve el usuario al iniciar sesión.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/colors.png" alt="Paleta de Colores Web" width="600">
+  <br>
+  <em>Figura 32. Paleta de colores. Nota: Combinación del azul (confianza) y amarillo (energía).</em>
+</p>
+
+* **Responsive Design Standards (Mobile-first):**
+  * **Mobile (hasta 768px):** Diseño de una sola columna. Menú hamburguesa. Botones grandes para uso táctil.
+  * **Tablet (769px - 1024px):** Layout de hasta dos columnas. Menú lateral colapsable.
+  * **Desktop (1025px+):** Espacio disponible con layouts de dos o tres columnas. Navegación principal siempre visible.
+* **Interactivity:**
+  * **Botones:** Bordes redondeados (`border-radius: 8px`). Hover con ligera sombra o cambio de tono.
+  * **Transiciones:** Animaciones sutiles y rápidas (200-300ms).
+* **Accessibility:**
+  * Etiquetas (`<label>`) claras en formularios.
+  * Imágenes con texto alternativo (`alt`).
+  * Navegación completa mediante teclado (Tab, Enter).
+  * Contraste de color según pautas WCAG 2.1.
+
+---
+
+### 4.1.3. Mobile Style Guidelines
+
+Aquí se ilustran los estándares visuales para la aplicación móvil, considerando las particularidades de iOS y Android para ofrecer una experiencia nativa y familiar.
+
+#### 4.1.3.1. iOS Mobile Style Guidelines
+
+* **Colores:** Se emplea la paleta general para respetar los lineamientos de la marca.
+
+<p align="center">
+  <img src="public/assets/images-doc/colors.png" alt="Paleta Colores iOS" width="600">
+  <br>
+  <em>Figura 33. Paleta de colores - iOS Mobile.</em>
+</p>
+
+* **Tipografía:** Se seguirán los General Style Guidelines (Inter).
+
+<p align="center">
+  <img src="public/assets/images-doc/tipografia.png" alt="Tipografía iOS" width="600">
+  <br>
+  <em>Figura 34. Tipografía iOS Mobile. Nota: Jerarquía tipográfica asegurando consistencia visual.</em>
+</p>
+
+* **Componentes:** Se adoptarán los patrones de diseño propios de iOS (barras de pestañas inferiores, transiciones de derecha a izquierda).
+
+<p align="center">
+  <img src="public/assets/images-doc/inputs.png" alt="Campos de Texto iOS" width="600">
+  <br>
+  <em>Figura 35. Campos de texto iOS Mobile.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/botones.png" alt="Botones iOS" width="600">
+  <br>
+  <em>Figura 36. Botones iOS Mobile. Nota: Guía de estilos con jerarquías visuales (primarios, secundarios, iconográficos).</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/pickers.png" alt="Pickers y Alertas iOS" width="600">
+  <br>
+  <em>Figura 37. Pickers y Alertas iOS Mobile. Nota: Uso de componentes nativos de iOS para selectores y notificaciones.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/redes.png" alt="Redes Sociales iOS" width="600">
+  <br>
+  <em>Figura 38. Enlace a redes Sociales iOS Mobile.</em>
+</p>
+
+---
+
+#### 4.1.3.2. Android Mobile Style Guidelines
+
+* **Colores:** Para la aplicación en dispositivos Android, se emplea la misma paleta de colores.
+
+<p align="center">
+  <img src="public/assets/images-doc/colors.png" alt="Paleta Colores Android" width="600">
+  <br>
+  <em>Figura 39. Paleta de colores Android Mobile.</em>
+</p>
+
+* **Tipografía:** Se aplicará la jerarquía de la fuente Inter para asegurar legibilidad en el ecosistema Android.
+
+<p align="center">
+  <img src="public/assets/images-doc/tipografia.png" alt="Tipografía Android" width="600">
+  <br>
+  <em>Figura 40. Tipografía Android Mobile.</em>
+</p>
+
+* **Componentes:** Se adoptarán los patrones de diseño nativos de Material Design / Android.
+
+<p align="center">
+  <img src="public/assets/images-doc/inputs.png" alt="Campos de Texto Android" width="600">
+  <br>
+  <em>Figura 41. Campos de texto Android Mobile.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/botones.png" alt="Botones Android" width="600">
+  <br>
+  <em>Figura 42. Botones Android Mobile.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/pickers.png" alt="Pickers y Alertas Android" width="600">
+  <br>
+  <em>Figura 43. Pickers y Alertas Android Mobile.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/cosas-redes.png" alt="Redes Sociales Android" width="600">
+  <br>
+  <em>Figura 44. Enlace a Redes sociales Android Mobile.</em>
+</p>
+
+## 4.2. Information Architecture
+
+En esta sección se plantean las decisiones y el sustento que dirigen la manera como se organizará el contenido en las experiencias web y móvil de SkillSwap (Innovify). Las propuestas están orientadas a que los usuarios se adapten con facilidad a la funcionalidad del producto y puedan encontrar todo aquello que necesiten sin esfuerzo, reduciendo la carga cognitiva y optimizando el cumplimiento de sus objetivos. A continuación, se detallan las decisiones sobre los Organization Systems, Labeling Systems, Searching Systems y Navigation Systems.
+
+### 4.2.1. Organization Systems
+
+Para estructurar la información de manera intuitiva, la plataforma combinará múltiples sistemas de organización. La **organización jerárquica** será el sistema principal para presentar la información dentro de cada pantalla. Los procesos clave, como el registro o la solicitud de una tutoría, seguirán una **organización secuencial**, guiando al usuario paso a paso.
+
+El esquema principal de categorización será por **tópicos** (materias o habilidades). Se usará un **esquema cronológico** para historiales y sesiones programadas. Fundamentalmente, toda la arquitectura se basa en un **esquema según audiencia**, dividiendo la experiencia en tres flujos distintos, como se muestra en los siguientes diagramas.
+
+* **Estudiante-Aprendiz:** El viaje comienza al iniciar sesión en su Dashboard. Su acción principal es usar la búsqueda para encontrar un Tópico. La plataforma le presenta una Lista de Resultados con tutores, permitiéndole explorar el Perfil Detallado. Si le convence, inicia la Solicitud de Tutoría. El flujo culmina en la coordinación a través de un Chat Interno una vez que el tutor acepta, asegurando un proceso estructurado de principio a fin.
+
+<p align="center">
+  <img src="public/assets/images-doc/flujo-estudiante.png" alt="Diagrama Flujo Aprendiz" width="800">
+  <br>
+  <em>Figura 45. Diagrama de flujo de Estudiante aprendiz. Nota: Esta figura detalla el recorrido secuencial del usuario desde el inicio de sesión hasta la coordinación final.</em>
+</p>
+
+* **Estudiante-Tutor:** El viaje se inicia de forma reactiva al recibir una notificación. En su Dashboard, consulta las solicitudes pendientes y revisa el perfil del aprendiz. Si acepta, el sistema lo dirige a un chat interno para coordinar. Tras realizar la tutoría con éxito, el tutor califica la experiencia y recibe créditos/donaciones como recompensa.
+
+<p align="center">
+  <img src="public/assets/images-doc/flujo-tutor.png" alt="Diagrama Flujo Tutor" width="800">
+  <br>
+  <em>Figura 46. Diagrama de flujo de Estudiante tutor. Nota: Este diagrama ilustra el flujo de trabajo del tutor para revisar, aceptar, coordinar y finalizar el ciclo.</em>
+</p>
+
+* **Coordinador Institucional:** La experiencia está diseñada para la máxima eficiencia. Comienza al recibir una notificación de verificación pendiente. Para agilizar, el sistema permite seleccionar múltiples estudiantes y usar "Aprobar en Bloque". Se pide confirmación de la acción para evitar errores y la lista de pendientes se actualiza.
+
+<p align="center">
+  <img src="public/assets/images-doc/flujo-coorni.png" alt="Diagrama Flujo Coordinador" width="800">
+  <br>
+  <em>Figura 47. Diagrama de flujo de Coordinador institucional. Nota: La figura representa el flujo diseñado para ser eficiente mediante la función "Aprobar en Bloque".</em>
+</p>
+
+---
+
+### 4.2.2. Labeling Systems
+
+Colocamos el *labeling system* (sistema de etiquetado) en el lado izquierdo de forma desplegable para facilitar su uso. Además, ajustamos los colores y el fondo para que se alineen con la paleta representativa de la marca, asegurando un buen contraste que permita una lectura clara y cómoda.
+
+Esta disposición mejora la experiencia del usuario, ya que le permite desplazarse fácilmente entre las diferentes opciones y navegar de manera rápida e intuitiva por la aplicación. Cada sección cuenta, además, con sus respectivos títulos para mantener una estructura organizada y coherente.
+
+<p align="center">
+  <img src="public/assets/images-doc/index-responsive.png" alt="Sistema de Etiquetado" width="400">
+  <br>
+  <em>Figura 48. Sistema de Etiquetado en Menú de Navegación Móvil. Nota: Se emplean etiquetas claras como "Perfil", "Sesiones" y "Ajustes" para acceso intuitivo.</em>
+</p>
+
+---
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Para asegurar el correcto posicionamiento en motores de búsqueda (SEO) y una previsualización adecuada en redes sociales, el equipo ha definido la siguiente estructura de etiquetas `<title>` y `<meta>`. La estrategia se divide entre la Landing Page y la Web Application.
+
+#### 1. Landing Page (Sitio Web Estático Público)
+El objetivo es captar tráfico orgánico de estudiantes y de instituciones interesadas en el modelo B2B.
+
+**Página Principal**
+```html
+<title>Innovify | La Red de Tutorías Universitarias Más Segura del Perú</title>
+<meta name="description" content="Conecta con estudiantes universitarios verificados para recibir tutorías en línea. Aprende, enseña, recibe donaciones y mejora tus notas con Innovify.">
+<meta name="keywords" content="tutorías universitarias, apoyo académico, estudiantes verificados, plataforma edtech, tutorías peru, ganar dinero enseñando, innovify">
+<meta name="author" content="Innovify Team">
+
+```
+
+### 4.2.4. Searching Systems
+
+Para evitar que los usuarios se sientan perdidos ante el volumen de información, la plataforma ofrecerá un sistema de búsqueda robusto y diversos medios de ayuda para encontrar datos. Las decisiones buscan facilitar el descubrimiento de tutores y la gestión de la información.
+
+| Sistema de Búsqueda | Descripción | Beneficio para el Usuario |
+| :--- | :--- | :--- |
+| **Búsqueda Principal por Tópicos** | Permite a los aprendices buscar tutores introduciendo el nombre de un curso o habilidad (ej. "Cálculo II") en una barra de búsqueda principal. | Ofrece un punto de partida directo y familiar para encontrar ayuda. Responde a la necesidad principal del usuario de forma inmediata. |
+| **Búsqueda por Etiquetas** | Los tutores pueden añadir etiquetas específicas a sus habilidades (ej. "Figma", "React.js"). El sistema permite a los aprendices buscar directamente por estas etiquetas. | Aumenta la precisión de la búsqueda, permitiendo a los usuarios encontrar ayuda sobre una herramienta o subtema muy específico, en lugar de solo por el nombre general del curso. |
+| **Acceso Rápido por Favoritos** | Los aprendices pueden marcar tutores como "favoritos" para guardarlos en una lista personal de acceso rápido. | Funciona como un sistema de recuperación personalizado. Evita que el usuario tenga que realizar una nueva búsqueda para encontrar a un tutor con el que ya tuvo una buena experiencia. |
+| **Búsqueda Interna (Coordinador)** | El panel de administración incluye una barra de búsqueda para que el coordinador encuentre el perfil de un estudiante específico por su nombre o código. | Facilita la gestión y el monitoreo. Permite al coordinador auditar o revisar un caso particular de manera eficiente sin tener que navegar por largas listas. |
+
+*(Tabla 12. Sistemas de Búsqueda de la Plataforma. Nota: Esta tabla describe los diferentes sistemas de búsqueda implementados, detallando las funcionalidades y el beneficio que cada una aporta a los distintos tipos de usuario).*
+
+Los resultados de la búsqueda para el aprendiz se presentarán siempre en formato de tarjetas de perfil, mostrando foto, nombre, universidad y calificación, para facilitar una decisión rápida e informada.
+
+---
+
+### 4.2.5. Navigation Systems
+
+La navegación principal en la plataforma se realizará a través de la opción “Home”, que dirige al usuario a la pantalla inicial donde se concentran las funciones principales: visualizar estudiantes, contactos y favoritos.
+
+En la parte inferior, se muestran las sesiones recientes, cada una acompañada de su respectivo perfil, número de sesión, fecha exacta y foto de perfil, junto con la opción de ver más detalles de cada una.
+
+Además, se incluye un botón para acceder al historial completo de sesiones, ordenadas desde la más reciente hasta la más antigua, y un botón de ayuda, pensado para ofrecer soporte en caso de que el usuario tenga inconvenientes con la aplicación.
+
+---
+
+## 4.3. Landing Page UI Design
+
+En esta sección se elabora la propuesta de UI para el Landing Page. El diseño traduce las decisiones de arquitectura de información y los Style Guidelines previamente definidos en una experiencia visual coherente y atractiva. 
+
+El objetivo principal del Landing Page es comunicar la propuesta de valor del startup, generar confianza en los nuevos visitantes e incentivar el registro en la plataforma, sirviendo como la principal puerta de entrada al ecosistema de colaboración interuniversitaria.
+
+### 4.3.1. Landing Page Wireframe
+
+#### Landing Page Desktop Web Browser Wireframe
+
+<p align="center">
+  <img src="public/assets/images-doc/LP-w.png" alt="Wireframe Desktop Main" width="800">
+  <br>
+  <em>Figura 51. Wireframe de la Sección Principal de la Landing Page. Nota: Este wireframe ilustra la estructura de la sección principal de la página de bienvenida. Su diseño se enfoca en comunicar la propuesta de valor de forma directa e incluye un llamado a la acción ("Call-to-Action") central para incentivar el registro de nuevos usuarios.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/LP-W2.png" alt="Wireframe Desktop Structure" width="800">
+  <br>
+  <em>Figura 52. Wireframe de la Estructura de la Landing Page. Nota: Este wireframe detalla la distribución de los elementos en la página de bienvenida. Se observa una sección principal donde se mostrarán imágenes del diseño de la plataforma final, seguida de una explicación del servicio en tres pasos y un área para mostrar las universidades afiliadas, guiando al visitante a través de la propuesta de valor.</em>
+</p>
+
+**Principios de diseño**
+En el wireframe de nuestra landing page para el navegador web, se seleccionó un fondo blanco con el objetivo de generar un contraste fuerte que permita destacar los elementos superpuestos, como botones, textos e imágenes, mejorando así la legibilidad. 
+
+Se utilizaron botones con forma de píldora y tarjetas rectangulares que se repiten a lo largo de todo el diseño, generando coherencia visual y una experiencia uniforme para el usuario. La estructura de la página se organiza en columnas dobles, centradas horizontalmente, lo que permite equilibrar texto e imagen, como se observa en la Figura 52, donde una columna presenta beneficios y la otra imágenes ilustrativas. Finalmente, los elementos relacionados se ubican próximos entre sí dentro de su columna o fila correspondiente (como en el apartado llamado “Universidades Afiliadas”), aplicando el principio de proximidad para facilitar la comprensión y navegación del contenido.
+
+**Elementos de diseño**
+En los wireframes de la landing page se destacan tres elementos de diseño clave: tamaño, espacio y figuras. Se busca implementar un estilo minimalista combinado con diseño flat, lo que se refleja en el uso de espacios amplios que crean una interfaz limpia, ligera y fácil de navegar. Esta disposición evita la sobrecarga visual y mejora la legibilidad.
+
+Los diversos tamaños y formas de las figuras se emplean para establecer jerarquías claras, generar contraste y diferenciación. Por ejemplo, los botones como el de “Únete a la comunidad” y “Comenzar a aprender”, tienen forma de píldora y un tamaño proporcionado para que resalten del contenido plano e inviten al usuario a la acción.
+
+**Diseño inclusivo**
+La estructura bien definida, con una clara separación entre la navegación y el contenido, facilita la comprensión del layout para todos los usuarios, incluyendo aquellos que dependen de tecnologías de asistencia. El formato de tarjetas también crea un patrón predecible que mejora la accesibilidad del contenido. La alineación y el uso del espacio en blanco contribuyen a una interfaz limpia y sin sobrecarga de información.
+
+**Arquitectura de la información**
+En el wireframe de la landing page se puede observar una estructura simple y lógica, alineada con el estilo minimalista adoptado. Se incluyen únicamente los elementos esenciales, como los botones “Registrarse” e “Inicio de sesión”, cuyas funciones son claras y comprensibles para el usuario.
+
+Esta organización reduce la sobrecarga cognitiva y mejora la experiencia del usuario, facilitando la navegación desde el primer momento. La jerarquía de la información está cuidadosamente pensada para mostrar solo lo necesario, evitando distracciones y guiando al usuario hacia la acción deseada.
+
+---
+
+#### Mobile Web Browser Wireframe
+
+<p align="center">
+  <img src="public/assets/images-doc/LP-W3.png" alt="Wireframe Mobile Main" width="400">
+  <br>
+  <em>Figura 53. Wireframe de la Página Principal. Nota: Esta figura muestra la estructura de la página principal para navegadores móviles. El diseño utiliza una columna única y tarjetas modulares para organizar el contenido de forma vertical, facilitando la navegación y la lectura en pantallas pequeñas.</em>
+</p>
+
+**Principios de diseño**
+En el wireframe de nuestra landing page para navegador móvil, se seleccionó un fondo blanco para lograr un alto contraste con los elementos superpuestos, como botones, textos e imágenes. Esta elección mejora la legibilidad en pantallas pequeñas y permite que cada componente visual destaque claramente.
+
+El diseño utiliza botones con forma de píldora y tarjetas rectangulares apiladas verticalmente, lo cual aporta coherencia visual y facilita una experiencia de usuario fluida. La disposición en una sola columna responde a la interacción típica en estos dispositivos, priorizando el scroll vertical como principal forma de navegación.
+
+En lugar de mostrar botones visibles como “Registrarse” e “Iniciar sesión”, se optó por un ícono de menú desplegable ubicado en la esquina superior derecha. Este menú centraliza las opciones de navegación, permitiendo una interfaz más limpia y enfocada en el contenido principal. Esta decisión mejora la usabilidad al reducir elementos en pantalla y ofrecer acceso intuitivo a funciones clave cuando el usuario lo necesita. La proximidad entre elementos relacionados facilita la comprensión inmediata, como en el apartado “Universidades Afiliadas”, donde las tarjetas aparecen agrupadas de forma horizontal.
+
+**Elementos de diseño**
+El estilo se mantiene minimalista y flat, con uso extensivo de espacios en blanco que ayudan a evitar la saturación visual, mejoran la navegación táctil y generan una apariencia ligera y moderna. Este enfoque garantiza una interfaz limpia y accesible, incluso en pantallas reducidas.
+
+Los botones principales, como “Únete a la comunidad” o “Comenzar a aprender”, tienen forma de píldora, tamaño mediano y se ubican de forma centrada para facilitar su visibilidad y clicabilidad con el pulgar. Las formas simples se utilizan estratégicamente para marcar jerarquías, generar contraste y destacar llamados a la acción.
+
+**Diseño inclusivo**
+El uso de un menú desplegable ayuda a simplificar la interfaz, al mismo tiempo que mantiene accesibles las funciones de navegación para todo tipo de usuario, incluyendo aquellos que utilizan tecnologías de asistencia. La disposición de tarjetas en formato vertical establece un patrón claro y repetitivo que mejora la accesibilidad cognitiva. El espacio en blanco y la separación entre secciones contribuyen a una navegación más intuitiva y menos sobrecargada.
+
+**Arquitectura de la información**
+En el wireframe mobile del landing page, la arquitectura sigue un enfoque claro y minimalista, presentando solo los elementos esenciales en pantalla. Las opciones de navegación están agrupadas dentro de un menú hamburguesa, lo que permite mantener el diseño limpio y enfocado en el contenido principal.
+
+Esta estructura facilita la navegación desde el primer momento, guiando al usuario a través del contenido mediante una jerarquía visual clara y bloques bien definidos. Al minimizar la cantidad de elementos visibles a la vez, se reduce la carga cognitiva y se mejora significativamente la experiencia del usuario en dispositivos móviles.
+
+### 4.3.2. Landing Page Mock-up
+
+#### Desktop Web Browser Mock-up
+
+<p align="center">
+  <img src="public/assets/images-doc/index-new.png" alt="Mock-up Desktop Main" width="800">
+  <br>
+  <em>Figura 54. Mock-up de la Sección Principal de la Landing Page. Nota: Este mock-up muestra el diseño visual de la sección principal de la página de bienvenida. Se utiliza una imagen de fondo atractiva, la paleta de colores de la marca y una tipografía clara para comunicar la propuesta de valor y destacar el llamado a la acción principal.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/section-sobre.png" alt="Mock-up Desktop Body" width="800">
+  <br>
+  <em>Figura 55. Mock-up del Cuerpo de la Landing Page. Nota: La figura presenta el diseño de las secciones principales de la Landing Page, donde se explica el funcionamiento del servicio ("Busca habilidades", "Pide un intercambio") y se muestra prueba social a través de los logos de las "Universidades Afiliadas".</em>
+</p>
+
+**Aplicación del Design System**
+El diseño aplica consistentemente la identidad visual del proyecto. Se utiliza la paleta de colores definida, con el azul primario y el amarillo de acento en los botones de llamada a la acción ("Empezar a aprender" o “Unirse a la comunidad”), creando un contraste que guía la atención del usuario. La tipografía 'Inter' se emplea con diferentes pesos y tamaños para establecer una jerarquía visual clara, diferenciando el titular principal de los subtítulos y el cuerpo del texto.
+
+**Principios de diseño**
+En el mockup de la landing page, se observa cómo los colores amarillo y azul, definidos en la paleta de colores de los guidelines, generan un contraste visual fuerte con el fondo blanco. Esta combinación se utiliza durante todo el diseño para destacar botones, etiquetas y otros elementos interactivos, reforzando la jerarquía visual y guiando la atención del usuario hacia las acciones clave.
+
+Además, los elementos relacionados, como las universidades afiliadas o las imágenes de la plataforma, se presentan próximos entre sí, alineados en el centro de la página o en columnas de 2 elementos. Esto responde a los principios de proximidad y alineación, que ayudan a organizar la información de forma clara, accesible y estéticamente agradable.
+
+**Elementos de diseño**
+En la versión de escritorio del mockup, los elementos de diseño como tamaño, espacio y figuras se adaptan para aprovechar mejor el espacio disponible en pantalla. El enfoque minimalista y flat se mantiene, eliminando cualquier elemento innecesario para evitar la sobrecarga visual y favorecer la experiencia del usuario.
+
+Los botones con forma de píldora y color amarillo destacan del resto del contenido, generando un contraste visual que los convierte en puntos focales. Su tamaño y ubicación están optimizados para ser fácilmente visibles y accesibles, incluso sin interacción táctil. Además, se utilizan íconos vectoriales simples acompañados de texto explicativo en las secciones funcionales (“Busca habilidades”, “Pide un intercambio”, “Aprende y crece”), lo que permite una rápida comprensión del propósito de cada bloque. Las imágenes y logotipos se integran de forma alineada y con márgenes bien definidos, reforzando el orden visual y generando una experiencia de navegación más fluida y profesional.
+
+**Diseño inclusivo**
+El diseño de la landing page también incorpora principios de accesibilidad para asegurar que todos los usuarios, sin importar sus capacidades, puedan navegar e interactuar con la plataforma de forma eficiente. La estructura jerárquica clara, los contrastes definidos y la separación de bloques de contenido permiten una exploración intuitiva y sin esfuerzo.
+
+La presencia permanente del menú de navegación en la parte superior, junto con el uso de etiquetas claras e íconos comprensibles, favorece la orientación. Además, el uso adecuado del espacio en blanco contribuye a reducir la carga cognitiva, facilitando la lectura por parte de usuarios con dificultades de atención, visión o comprensión.
+
+**Arquitectura de la información**
+La arquitectura de la información de la plataforma se estructura jerárquicamente, diferenciando de manera clara el sitio público (Landing Page) del área privada (Dashboard). Este enfoque permite un flujo de navegación lógico y fluido: el usuario primero explora la landing page, conoce la propuesta de valor, se registra o inicia sesión y finalmente accede a su espacio personal en el dashboard.
+
+En cuanto a la organización del contenido, la landing page sigue una secuencia narrativa que va desde la propuesta de valor hasta las funcionalidades y la prueba social, presentando la información de manera progresiva y orientada a la acción. Por su parte, el dashboard está dividido por módulos según las tareas que el usuario desea realizar, como gestionar sesiones, ver solicitudes o encontrar tutores, lo que facilita el acceso rápido a cada función.
+
+Las etiquetas empleadas en la interfaz son descriptivas y coherentes con las acciones que representan. Los botones de llamada a la acción, como “Empezar a aprender” o “Unirse a la comunidad”, son directos y motivan la interacción. Asimismo, las secciones de navegación, como “Mis tutores” o “Sesiones programadas”, emplean una rotulación inequívoca que refleja con precisión el contenido que el usuario encontrará.
+
+Finalmente, la navegación está orientada a tareas concretas y combina la exploración guiada con la búsqueda directa. En la landing page, todo el recorrido está diseñado para conducir al usuario hacia el registro, mientras que en el dashboard se integran mecanismos de búsqueda y revelación progresiva, por ejemplo, las tarjetas de sesión muestran un resumen con la opción “Ver detalles”, que permiten al usuario obtener más información sin sobrecargar la interfaz. Este conjunto de decisiones arquitectónicas mejora la experiencia, reduce la carga cognitiva y mantiene al usuario enfocado en sus objetivos principales dentro de la plataforma.
+
+> **En síntesis:** El diseño web de "Innovify" aplica eficazmente las heurísticas de Nielsen, garantizando usabilidad y consistencia a través de un diseño minimalista y estándares reconocibles. Al mismo tiempo, su arquitectura de información ofrece una estructura jerárquica clara y una navegación orientada a tareas que facilita, por un lado, la captación de nuevos usuarios y, por otro, permite a los estudiantes registrados gestionar sus intercambios de conocimiento de forma rápida, intuitiva y segura.
+
+---
+
+#### Mobile Web Browser Mock-up
+
+<p align="center">
+  <img src="public/assets/images-doc/web-mobile.png" alt="Mock-up Mobile" width="400">
+  <br>
+  <em>Figura 56. Mock-up de la Landing Page. Nota: Este mock-up muestra la adaptación del diseño de la página de bienvenida a dispositivos móviles. La estructura se organiza en una sola columna vertical para facilitar la lectura y navegación mediante el desplazamiento, manteniendo la coherencia visual y las llamadas a la acción principales.</em>
+</p>
+
+**Principios de diseño**
+En el mockup de la landing page para navegador móvil, se optó por un fondo blanco con el objetivo de lograr un alto contraste que permita destacar con claridad los elementos superpuestos como botones, imágenes e íconos. Esta elección mejora significativamente la legibilidad en dispositivos móviles, donde el espacio visual es reducido y cada componente debe ser fácilmente identificable.
+
+El diseño organiza los elementos en una disposición vertical, acorde al comportamiento natural del usuario en este tipo de dispositivos, priorizando el desplazamiento mediante scroll. A diferencia de la versión de escritorio, se reemplazaron los botones visibles de “Registrarse” e “Iniciar sesión” por un ícono de menú desplegable (hamburguesa) ubicado en la parte superior derecha. Esta decisión permite liberar espacio en pantalla, mantener la limpieza visual de la interfaz y facilitar el acceso centralizado a las opciones de navegación.
+
+Asimismo, se emplean tarjetas e íconos visuales para presentar funcionalidades como “Busca habilidades”, “Pide un intercambio” y “Aprende y crece”, cada una acompañada de textos breves y directos. Esta estructura facilita la comprensión rápida del contenido y mantiene la coherencia visual en todo el diseño. En la sección “Universidades Afiliadas”, los elementos se agrupan de forma cercana, aplicando el principio de proximidad para favorecer la claridad y facilitar la identificación de aliados institucionales.
+
+**Elementos de diseño**
+En este mockup móvil se destacan tres elementos de diseño esenciales: tamaño, espacio y figuras. El estilo visual es minimalista y flat, lo que se traduce en una interfaz limpia, sin elementos innecesarios, y con un uso amplio del espacio en blanco. Esta disposición mejora la experiencia de navegación, evita la saturación visual y garantiza una lectura cómoda en pantallas reducidas.
+
+Los botones más importantes, como “Unirse a la comunidad” y “Empezar a aprender”, están diseñados con forma de píldora y en color amarillo vibrante, lo que genera contraste con el fondo blanco y dirige la atención del usuario hacia la acción deseada. Estos botones tienen un tamaño adecuado para su uso táctil, evitando errores de interacción y mejorando la usabilidad general del sitio. Las figuras e íconos empleados refuerzan el significado del texto que los acompaña y ayudan a establecer jerarquías visuales claras. 
+
+**Diseño inclusivo**
+El diseño mobile presenta una estructura sencilla y ordenada, con una separación clara entre la navegación y el contenido principal. La incorporación del menú desplegable permite que los usuarios accedan a opciones importantes sin saturar la pantalla, lo que resulta especialmente útil para quienes utilizan tecnologías de asistencia o requieren interfaces simplificadas.
+
+El uso de íconos junto con texto mejora la accesibilidad cognitiva, permitiendo que los usuarios comprendan las funciones incluso si no están familiarizados con la plataforma. La organización predecible de los bloques de contenido y la disposición vertical de los elementos también favorecen una experiencia inclusiva. Además, el uso del espacio en blanco y la alineación adecuada contribuyen a una interfaz visualmente limpia, facilitando el enfoque para usuarios con dificultades visuales o cognitivas.
+
+**Arquitectura de la información**
+La arquitectura de la información en la versión móvil se organiza bajo un enfoque vertical y secuencial. La estructura presenta el contenido en un orden progresivo que guía al usuario de forma natural: primero se muestra la propuesta de valor junto al botón de acción principal, luego se explican las funcionalidades esenciales y finalmente se incluye la sección de prueba social con las universidades asociadas.
+
+El contenido está distribuido en bloques que abarcan todo el ancho de la pantalla, lo que favorece una experiencia de scroll fluida. Cada bloque representa una funcionalidad concreta y está diseñado para ser comprensible de manera independiente. En cuanto a la rotulación, se emplean etiquetas breves y claras. Los botones de llamada a la acción están ubicados estratégicamente para incentivar la interacción inmediata.
+
+La navegación está orientada a tareas y se desarrolla en un flujo descendente que actúa como un embudo informativo: el usuario avanza paso a paso hasta llegar a los CTA principales. Por último, el sistema de navegación global se concentra dentro del menú de hamburguesa, manteniendo una interfaz limpia, accesible y enfocada en la conversión.
+
+> **En síntesis:** El diseño web desde el móvil de la plataforma aplica las heurísticas de Nielsen con un fuerte enfoque en el minimalismo, la consistencia con los estándares móviles y la prevención de errores táctiles. Su arquitectura de información, basada en una estructura secuencial y vertical, garantiza una experiencia de usuario clara y reduce la carga cognitiva.
+
+---
+
+#### Arquitectura de la landing page (web-mobile)
+
+<p align="center">
+  <img src="public/assets/images-doc/arqui-estu.png" alt="Arquitectura estudiante Landing Page" width="800">
+  <img src="public/assets/images-doc/arqui-coor.png" alt="Arquitectura coordinador Landing Page" width="800">
+  <br>
+  <em>Figura 57. Arquitectura de la Landing Page. Nota: Diagrama estructural de la landing page tanto para su versión web como móvil.</em>
+</p>
+
+## 4.4. Mobile Applications UI Design
+
+### 4.4.1. Mobile Applications Wireframes
+
+<p align="center">
+  <img src="public/assets/images-doc/w2.png" alt="Wireframes Mobile 1" width="800">
+  <br>
+  <em>Figura 59. Colección de Wireframes de la Aplicación Móvil. Nota: Esta figura presenta una colección de los wireframes principales que definen la estructura de la aplicación móvil. Se incluyen las pantallas clave del flujo del usuario, como el dashboard de inicio, la búsqueda avanzada de tutores, la vista de perfil detallado y el panel de administración del coordinador.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/w3.png" alt="Wireframes Mobile 2" width="800">
+  <br>
+  <em>Figura 60. Colección de Wireframes de la Aplicación Móvil-2. Nota: Esta figura complementa la vista estructural con wireframes adicionales. Se detallan las interfaces para funcionalidades de interacción y gestión, como el chat de conversación, el panel de notificaciones, la lista de tutores favoritos y la pantalla de calificaciones del usuario.</em>
+</p>
+
+#### Principios Fundamentales de Diseño
+En el diseño se aplicaron los siguientes principios para asegurar una experiencia visualmente coherente y funcional:
+
+* **Contraste:** Se utiliza un contraste claro entre los elementos interactivos (como los botones de acción primarios en azul) y el fondo predominantemente blanco de la aplicación. Esto dirige la atención del usuario hacia las acciones más importantes, como "Ver más" o "Enviar" en la pantalla de calificación. La tipografía también usa diferentes grosores para establecer jerarquía entre títulos y texto de cuerpo.
+* **Alineación:** Se mantiene una alineación consistente a la izquierda para la mayoría de los textos y títulos, como se ve en "Tus sesiones Recientes" y en los detalles del perfil del tutor. Los elementos clave, como el logo y los botones principales, a menudo se centran para crear un equilibrio visual y un punto focal claro.
+* **Repetición:** Se emplean elementos de manera consistente a lo largo de la aplicación para crear familiaridad. Por ejemplo, el diseño de las "tarjetas" se repite para las sesiones recientes y los resultados de búsqueda. La barra de navegación inferior con los íconos de "Buscar", "Sesiones" y "Perfil" es un elemento persistente que unifica la experiencia.
+* **Proximidad:** Los elementos relacionados se agrupan visualmente. En la pantalla de "Perfil tutor", la información sobre el nombre, la foto y la descripción se agrupa en la parte superior, mientras que las "Habilidades" y los "Comentarios" se organizan en secciones separadas y bien definidas.
+
+#### Sustento desde las Heurísticas de Usabilidad de Nielsen
+
+* **Visibilidad del estado del sistema:** El sistema mantiene al usuario informado. El panel de notificaciones ("Recibió una notificación de clase") y el indicador visual en la barra de navegación que resalta la sección activa ("Buscar", "Sesiones" o "Perfil") son ejemplos claros.
+* **Relación entre el sistema y el mundo real:** La aplicación utiliza un lenguaje claro y familiar, como "Tus sesiones Recientes", "Califica tu experiencia" y "Comentarios", evitando tecnicismos y facilitando la comprensión inmediata.
+* **Control y libertad del usuario:** El usuario tiene control total para navegar. Cada pantalla secundaria incluye un botón para "Volver", y la barra de navegación inferior permite cambiar de contexto en cualquier momento. Funciones como "Limpiar filtro" otorgan libertad al usuario.
+* **Consistencia y estándares:** Se mantiene una identidad visual coherente. Todos los botones de acción principales son azules y redondeados. El estilo de las tarjetas y la estructura de las listas se repiten en diferentes pantallas, cumpliendo con las convenciones de diseño móvil.
+* **Prevención de errores:** El diseño busca minimizar errores. En la pantalla de "Solicitudes de validaciones pendientes", los botones de "Aceptar" y "Rechazar" están claramente diferenciados por color y posición, reduciendo la posibilidad de una selección accidental.
+* **Reconocimiento mejor que recuerdo:** La interfaz promueve el reconocimiento. La barra de navegación inferior con íconos universales (lupa para buscar, calendario para sesiones, persona para perfil) permite identificar las funciones sin memorizar su ubicación.
+* **Flexibilidad y eficiencia de uso:** La aplicación ofrece herramientas para diferentes tipos de usuarios. La pantalla principal muestra "sesiones recientes" para un acceso rápido, mientras que la "Búsqueda avanzada" con filtros permite a los usuarios experimentados acotar resultados de manera eficiente.
+* **Diseño estético y minimalista:** La interfaz es limpia y se enfoca en lo esencial. Se utiliza generoso espacio en blanco para evitar la sobrecarga cognitiva. Pantallas como "Califica tu experiencia" solo muestran los elementos necesarios para esa tarea.
+* **Ayudar a reconocer, diagnosticar y recuperarse de errores:** Aunque no se muestra una pantalla de error, el diseño contempla estos escenarios. Si una búsqueda no arrojara resultados, se mostraría un mensaje claro como "No se encontraron tutores", guiando al usuario para modificar su búsqueda.
+* **Ayuda y documentación:** La aplicación ofrece ayuda contextual. La sección inicial "¿Tienes dudas?" es un punto de acceso directo a soporte. Además, los títulos claros de cada pantalla y las etiquetas en los íconos actúan como una forma de documentación integrada.
+
+#### Sustento desde la Arquitectura de Información (IA)
+
+* **Estructura jerárquica clara:** La navegación sigue un flujo lógico y predecible. Desde la pantalla principal ("Home"), el usuario puede acceder a las secciones principales, y desde allí, profundizar a niveles de detalle como el perfil de un tutor o un chat.
+* **Organización del contenido:** La información está agrupada por afinidad. En el "Panel coordinador", los datos se dividen en tarjetas claras, facilitando el escaneo rápido de la información relevante.
+* **Rotulación adecuada (Labeling):** Se utilizan títulos y etiquetas descriptivas que son inmediatamente comprensibles ("Solicitudes de validaciones pendientes", "Mis Favoritos").
+* **Navegación orientada a tareas:** El diseño está centrado en facilitar las tareas clave del usuario. Ya sea encontrar un tutor, revisar una sesión pasada o calificar una clase, el flujo de pantallas y los botones están dispuestos para guiar hacia el objetivo.
+* **Sistemas de búsqueda:** La aplicación incorpora un sistema de búsqueda robusto con una barra simple y una opción de "Búsqueda avanzada" con filtros.
+
+> **En síntesis:** El diseño de "Innovify" aplica correctamente los principios de diseño y las heurísticas de Nielsen para garantizar una alta usabilidad, consistencia y una experiencia sin errores. Al mismo tiempo, su arquitectura de información bien definida facilita que los usuarios (estudiantes y coordinadores) naveguen por la aplicación y completen sus tareas de forma intuitiva, rápida y segura.
+
+*(Nota: Todos los wireframes a detalle se pueden consultar en el prototipo funcional diseñado en Figma).*
+**Enlace:** https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=221-504&t=mcl4BJEHm24g0yCo-0 
+
+### 4.4.2. Mobile Applications Wireflow Diagrams
+
+#### Wireflow 1: Búsqueda y Solicitud de Tutoría
+* **User Goal:** "Como estudiante que necesita ayuda, quiero encontrar un tutor verificado para un curso específico, revisar su perfil detallado y solicitarle una reserva en una fecha y hora disponible."
+* **User Persona:** Estudiante que quiere aprender.
+* **User Stories Implicadas:** US05 (Búsqueda por palabras clave), US07 (Visualizar perfil público del tutor), US04 (Sello de verificación institucional), US08 (Enviar solicitud de reserva al tutor).
+
+**Explicación del Flujo:**
+Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz, que representa el flujo de valor principal de la aplicación.
+1. **Inicio (Dashboard):** El flujo comienza en el panel principal donde el usuario tiene acceso a una barra de búsqueda visible para encontrar un tema o curso.
+2. **Búsqueda y Resultados:** El usuario introduce el tema (ej. "Física") y la aplicación muestra una lista de tarjetas de tutores que dominan ese tema, mostrando su foto, nombre, universidad y calificación promedio.
+3. **Ver Perfil:** El usuario hace clic en un tutor para abrir su vista de perfil detallada. Aquí revisa su biografía, las últimas reseñas recibidas y el sello de "Verificado" junto a su nombre que garantiza su validación institucional.
+4. **Solicitud:** El usuario presiona el botón "Solicitar Tutoría". Se abre un formulario donde selecciona una fecha y hora disponible, y escribe un mensaje inicial explicando su necesidad (ej. "Ayuda con integrales").
+5. **Confirmación:** Tras enviar la solicitud, el estado de la misma queda como "Pendiente" a la espera de la respuesta del tutor.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 61: Wireflow de Búsqueda y Solicitud de Tutoría]</em>
+  <br>
+  <em>Figura 61. Wireflow de Búsqueda y Solicitud de Tutoría. Nota: Este diagrama de flujo visualiza el "camino feliz" del estudiante-aprendiz. Muestra la secuencia de pantallas desde la búsqueda de un tutor en el dashboard, pasando por la revisión de su perfil verificado, hasta el envío de una solicitud de ayuda con un mensaje.</em>
+</p>
+
+---
+
+#### Wireflow 2: Recepción y Aceptación de Solicitud de Tutoría
+* **User Goal:** "Como estudiante tutor, quiero recibir las solicitudes entrantes, revisar el mensaje del aprendiz y tener la opción de aceptarlas para iniciar automáticamente un chat de coordinación."
+* **User Persona:** Estudiante Tutor.
+* **User Stories Implicadas:** US09 (Aceptar o rechazar solicitud de reserva), US10 (Chat interno asincrónico de la reserva).
+
+**Explicación del Flujo:**
+1. **Notificación:** El tutor recibe una notificación en su panel informándole de una nueva solicitud de tutoría entrante.
+2. **Revisión y Decisión:** La solicitud muestra el mensaje enviado por el aprendiz y presenta dos botones claros: "Aceptar" y "Rechazar".
+3. **Aceptación e Inicio de Chat:** Cuando el tutor presiona "Aceptar", el estado de la solicitud cambia a "Agendada".
+4. **Espacio de Trabajo:** Inmediatamente después de aceptar, el sistema crea y habilita automáticamente una sala de chat asincrónico para que ambos puedan coordinar detalles previos a la videollamada.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 62: Wireflow de Recepción y Aceptación de Solicitud]</em>
+  <br>
+  <em>Figura 62. Wireflow de Recepción y Aceptación de Solicitud. Nota: Este wireflow detalla el proceso desde la perspectiva del estudiante-tutor. El flujo comienza al recibir una notificación de una nueva solicitud, continúa con la revisión del perfil del aprendiz y finaliza con la decisión de aceptar la solicitud, lo que automáticamente inicia un chat interno.</em>
+</p>
+
+---
+
+#### Wireflow 3: Calificación de Sesión
+* **User Goal:** "Como estudiante aprendiz, después de una tutoría, quiero calificar a mi tutor para construir su reputación pública."
+* **User Persona:** Estudiante Aprendiz.
+* **User Stories Implicadas:** US17 (Calificar y dejar reseña al tutor).
+
+**Explicación del Flujo:**
+1. **Finalización de Sesión:** Al finalizar la videollamada, se habilita un formulario de calificación.
+2. **Dejar Calificación:** El aprendiz marca una puntuación de 1 a 5 estrellas y escribe un texto con su comentario (ej. "Excelente explicación").
+3. **Confirmación y Actualización:** Al enviar la reseña, esta aparece públicamente en el perfil del tutor y su promedio de estrellas se actualiza inmediatamente.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 64: Wireflow de Calificación de Sesión y Gestión de Favoritos]</em>
+  <br>
+  <em>Figura 64. Wireflow de Calificación de Sesión y Gestión de Favoritos. Nota: Este diagrama muestra el ciclo de cierre y retención para el aprendiz. Detalla los pasos para calificar a un tutor después de una sesión y la funcionalidad para marcar su perfil como "favorito", permitiendo un acceso rápido para futuras consultas.</em>
+</p>
+
+---
+
+#### Wireflow 4: Configuración de Perfil y Habilidades del Tutor
+* **User Goal:** "Como estudiante tutor, quiero configurar mi perfil agregando mi biografía, foto, universidad y gestionar mediante etiquetas los cursos que domino para aparecer en las búsquedas."
+* **User Persona:** Estudiante Tutor.
+* **User Stories Implicadas:** US03 (Configuración de perfil y áreas de dominio).
+
+**Explicación del Flujo:**
+1. **Acceso al Perfil:** El tutor ingresa a la sección "Mi Perfil".
+2. **Datos Generales:** El tutor puede agregar o actualizar su foto, seleccionar su universidad y escribir una descripción biográfica.
+3. **Añadir Habilidades:** Existe una sección de "Etiquetas" donde el tutor añade los cursos específicos que domina (ej. "Programación Web" o "Cálculo I").
+4. **Gestión de Habilidades:** Desde esta misma vista, el tutor puede hacer clic en un icono de eliminar para retirar habilidades que ya no desea enseñar.
+5. **Guardar Cambios:** Al guardar, el perfil se actualiza en el motor de búsqueda de la plataforma.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 65: Wireflow de Configuración de Perfil y Disponibilidad del Tutor]</em>
+  <br>
+  <em>Figura 65. Wireflow de Configuración de Perfil y Disponibilidad del Tutor. Nota: Este diagrama de flujo visualiza los pasos que sigue un tutor para configurar su perfil. Detalla la secuencia para añadir habilidades, establecer un calendario de disponibilidad y cambiar su estado para gestionar cuándo desea recibir solicitudes de tutoría.</em>
+</p>
+
+---
+
+#### Wireflow 5: Búsqueda Avanzada con Filtros
+* **User Goal:** "Como aprendiz, quiero aplicar filtros de calidad y procedencia a mi búsqueda para encontrar al tutor que mejor se adapte a mis preferencias."
+* **User Persona:** Estudiante Aprendiz.
+* **User Stories Implicadas:** US06 (Aplicar filtros a los resultados de búsqueda).
+
+**Explicación del Flujo:**
+1. **Búsqueda Inicial:** El flujo arranca cuando el usuario ya tiene en pantalla una lista de tutores tras buscar una materia.
+2. **Abrir Filtros:** El usuario visualiza los filtros ubicados en un panel lateral en la vista de resultados.
+3. **Aplicar Filtros:** El usuario configura las opciones permitidas, seleccionando una "Valoración mínima" (ej. Solo tutores con 5 estrellas) o filtrando por "Universidad".
+4. **Actualizar Resultados:** Al aplicar el filtro, la lista de resultados se reduce en tiempo real mostrando únicamente a los perfiles que cumplen con los criterios de estrellas y universidad.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 66: Wireflow de Búsqueda Avanzada con Filtros]</em>
+  <br>
+  <em>Figura 66. Wireflow de Búsqueda Avanzada con Filtros. Nota: Este wireflow muestra cómo un estudiante puede refinar su búsqueda de tutores. Ilustra el proceso de aplicar filtros avanzados, como día y hora de disponibilidad, para que la lista de resultados se actualice y muestre únicamente a los candidatos que se ajustan a sus necesidades.</em>
+</p>
+
+---
+
+#### Wireflow 6: Realización de una Sesión de Tutoría
+* **User Goal:** "Como usuario, quiero unirme a la videollamada integrada a la hora agendada, compartir mi pantalla para mostrar código o ejercicios, y enviar archivos a través del chat para una explicación más efectiva."
+* **User Persona:** Estudiante Aprendiz y Estudiante Tutor.
+* **User Stories Implicadas:** US12 (Unirse a videollamada integrada), US13 (Compartir pantalla durante la sesión), US11 (Compartir archivos en el chat).
+
+**Explicación del Flujo:**
+1. **Inicio de la Sesión:** A la hora de la reserva, se habilita el botón "Iniciar Videollamada" en el espacio de trabajo.
+2. **Interfaz de Videollamada:** Al presionarlo, se abre la sala virtual en el mismo navegador. Ambos usuarios se conectan con controles básicos: micrófono, cámara y "Finalizar".
+3. **Compartir Pantalla:** Durante la explicación, un usuario presiona "Compartir Pantalla". El navegador solicita permisos y el flujo de video se reemplaza por la vista del escritorio o editor de código del usuario.
+4. **Compartir Archivos:** Si un usuario necesita mostrar un documento, utiliza el chat asincrónico paralelo y el botón del clip para adjuntar un PDF o imagen (JPG/PNG, máximo 5MB). El otro usuario puede descargarlo.
+5. **Finalización:** Al terminar, se finaliza la llamada y los usuarios pueden proceder con la evaluación o calificación.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 67: Wireflow de Realización de una Sesión de Tutoría]</em>
+  <br>
+  <em>Figura 67. Wireflow de Realización de una Sesión de Tutoría. Nota: La figura detalla la interacción central de la plataforma: el intercambio de conocimiento. Muestra la secuencia desde el inicio de la videollamada, el uso de herramientas colaborativas como la pizarra virtual y la carga de archivos, hasta la finalización de la sesión.</em>
+</p>
+
+---
+
+#### Wireflow 7: Billetera Virtual y Retiro de Fondos del Tutor
+* **User Goal:** "Como estudiante tutor, quiero visualizar el saldo de mis donaciones acumuladas en mi Billetera Virtual y configurar mi cuenta bancaria para solicitar retiros."
+* **User Persona:** Estudiante Tutor.
+* **User Stories Implicadas:** US19 (Visualizar Billetera Virtual y saldo), US20 (Registrar cuenta bancaria para retiro).
+
+**Explicación del Flujo:**
+1. **Acceso a la Billetera:** Desde su panel principal, el tutor ingresa a la pestaña "Billetera".
+2. **Vista de Saldo e Historial:** El tutor visualiza el saldo total disponible a retirar. Debajo, revisa el historial de donaciones, donde puede ver el monto original donado, el descuento del 5% de comisión de la plataforma y el monto neto ingresado.
+3. **Configurar Cuenta:** El tutor presiona la opción "Configurar Cuenta Bancaria".
+4. **Registro de Datos:** Se abre un formulario donde ingresa el nombre de su Banco, su Número de Cuenta y su CCI. Al guardar, los datos se encriptan por seguridad.
+5. **Solicitar Retiro:** Una vez guardado el CCI, se habilita el botón "Solicitar Retiro" para transferir sus fondos.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 68: Wireflow de Dashboard y Gestión de Reputación del Tutor]</em>
+  <br>
+  <em>Figura 68. Wireflow de Dashboard y Gestión de Reputación del Tutor. Nota: Este diagrama de flujo ilustra cómo el tutor interactúa con las funciones de seguimiento de la plataforma. Muestra el acceso al dashboard personal para ver estadísticas clave, consultar el historial de sesiones y revisar su reputación a través de las calificaciones recibidas.</em>
+</p>
+
+---
+
+#### Wireflow 8: Monitoreo y Gestión de Alertas del Coordinador
+* **User Goal:** "Como Profesor Universitario, quiero visualizar métricas académicas sobre los cursos más solicitados y resolver disputas reportadas para asegurar la calidad de las tutorías."
+* **User Persona:** Profesor Universitario.
+* **User Stories Implicadas:** US22 (Layout del panel de gestión docente), US23 (Visualizar métricas Académicas), US25 (Revisar y resolver disputas académicas), US24 (Reportar usuario por mala conducta).
+
+**Explicación del Flujo:**
+1. **Vista del Dashboard:** Al iniciar sesión, el Profesor accede a un panel organizado con un menú lateral y accesos directos.
+2. **Métricas Académicas:** El profesor revisa el "Termómetro Académico", que muestra un gráfico con el Top de cursos más solicitados para tutorías. Esto le permite identificar deficiencias tempranas en los alumnos.
+3. **Alertas / Disputas Pendientes:** En el módulo de "Disputas Pendientes", el profesor ve un ticket generado por un usuario (ej. por inasistencia o información errónea).
+4. **Investigación y Veredicto:** El profesor abre el ticket, revisa el detalle y lee el historial del chat asincrónico del caso reportado.
+5. **Resolución:** Emite un veredicto marcando el caso como "Desestimado" o aplicando una "Advertencia" al perfil del infractor, cerrando el ticket.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 69: Wireflow de Monitoreo y Gestión de Alertas del Coordinador]</em>
+  <br>
+  <em>Figura 69. Wireflow de Monitoreo y Gestión de Alertas del Coordinador. Nota: Este diagrama ilustra las herramientas de supervisión del coordinador. Muestra el flujo para visualizar el dashboard con reportes, recibir alertas sobre comportamientos inadecuados de los usuarios y gestionar la información de la plataforma.</em>
+</p>
+
+---
+
+#### Wireflow 9: Realización de Donación Voluntaria al Tutor
+* **User Goal:** "Como Aprendiz, quiero realizar una donación voluntaria utilizando mi tarjeta a través de una pasarela segura justo al momento de calificar, para recompensar económicamente a mi tutor por su ayuda."
+* **User Persona:** Estudiante Aprendiz.
+* **User Stories Implicadas:** US17 (Calificar y dejar reseña al tutor), US18 (Realizar donación monetaria voluntaria).
+
+**Explicación del Flujo:**
+1. **Inicio (Post-Sesión):** El flujo comienza inmediatamente después de finalizar la videollamada de tutoría, en la pantalla donde el aprendiz está dejando su calificación (de 1 a 5 estrellas) y su reseña escrita.
+2. **Opción de Recompensa:** Junto al formulario de calificación, el aprendiz visualiza claramente un botón o sección con la opción "Realizar Donación".
+3. **Ingreso de Datos y Monto:** Al seleccionar la opción, se despliega una interfaz integrada con la pasarela de pago. Aquí, el aprendiz ingresa el monto que desea donar (ej. S/ 15.00) y los datos de su tarjeta bancaria.
+4. **Confirmación y Procesamiento:** El aprendiz confirma la operación. El sistema se comunica de forma segura con la API de pagos para procesar la transacción.
+5. **Notificación de Éxito:** Una vez que el pago es exitoso, la pantalla muestra un mensaje de agradecimiento al aprendiz. Simultáneamente, el sistema notifica al tutor sobre el nuevo ingreso, el cual se verá reflejado en su Billetera.
+
+**Representación visual:**
+
+<p align="center">
+  <em>[Espacio para la Figura 70: Wireflow de Realización de Donación]</em>
+  <br>
+  <em>Figura 70. Wireflow de Personalización de la Experiencia del Usuario. Nota: Este wireflow detalla cómo el usuario puede personalizar la apariencia de la aplicación. Describe la secuencia de pasos para donar al usuario.</em>
+</p>
+
+### 4.4.3. Mobile Applications Mock-ups
+
+En esta sección se presentan los mockups, que son la evolución de alta fidelidad de los wireframes, aplicando de manera estricta la Guía de Estilos y los principios de Arquitectura de Información del proyecto. El diseño busca crear una experiencia limpia, intuitiva y confiable.
+
+<p align="center">
+  <img src="public/assets/images-doc/m1.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
+  <img src="public/assets/images-doc/m2.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
+  <img src="public/assets/images-doc/m3.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
+  <br>
+  <em>Figura 71. Mock-ups de Alta Fidelidad de la Aplicación Móvil. Nota: Esta figura presenta el diseño final de las pantallas clave, aplicando la paleta de colores, tipografía y componentes definidos en el Design System.</em>
+</p>
+
+#### Aplicación del Design System y Guía de Estilos
+
+* **Paleta de Colores:** Se aplica consistentemente la paleta de colores definida. El azul primario se usa para elementos de navegación y acciones constructivas clave (botones "Registrar", "Iniciar Sesión", "Aceptar"), generando confianza y una jerarquía de acción clara. El amarillo de acento se emplea para el descubrimiento (ej. etiquetas de dominio) creando un llamado a la acción enérgico. Crucialmente, el rojo de error (`#DC3545`) se reserva para acciones destructivas, como el botón "Rechazar" en el flujo del coordinador. Se emplean también colores semánticos para la retroalimentación: verde para "Confirmado" y amarillo para "Pendiente".
+* **Tipografía:** Se aplica la fuente **'Inter'** en todas las pantallas, utilizando sus diferentes pesos para establecer una jerarquía tipográfica clara. Los títulos principales son grandes y amigables (ej. "¡Hola Alexandra!"), mientras que el texto de cuerpo y las etiquetas (ej. "Correo institucional") son nítidos y legibles.
+* **Componentes (Repetición y Consistencia):** El diseño se basa en componentes reutilizables, lo que crea consistencia (Heurística de Nielsen). Se observa en:
+  * **Tarjetas (Cards):** Usadas para listar sesiones programadas, solicitudes y perfiles de tutores.
+  * **Etiquetas (Chips):** Utilizadas para mostrar "Temas de Dominio" y "Habilidades" (ej. "Física 1", "Figma") de forma visual y compacta.
+  * **Botones de Acción:** Todos los botones principales son redondeados y de color sólido, siguiendo la guía de estilos.
+
+#### Principios de Diseño Visual y Heurísticas
+
+* **Contraste y Minimalismo (Diseño Inclusivo):** Siguiendo la heurística de diseño estético y minimalista, la interfaz utiliza un fondo blanco o gris muy claro. Los mockups demuestran un fuerte contraste entre el texto y el fondo, tanto en el tema claro como en el oscuro. La inclusión de un **Modo Oscuro** ofrece una alternativa para reducir la fatiga visual en sesiones de estudio nocturnas, cumpliendo con principios de accesibilidad.
+* **Proximidad y Alineación:** La información está agrupada lógicamente. En el "Perfil de Tutor", los datos de identidad (foto, nombre, carrera) están en un bloque superior, mientras que "Etiquetas", "Comentarios" y "Habilidades" están en bloques separados. La alineación a la izquierda de los textos y formularios crea un flujo de lectura ordenado y fácil de seguir.
+* **Visibilidad del Estado del Sistema:** La interfaz mantiene al usuario informado en todos los flujos. Ejemplos claros son:
+  * El estado "seleccionado" de los botones de "Tipo de Usuario" (Alumno vs. Tutor) mediante un color sólido.
+  * El sello de **"Verificado"** en el perfil del tutor, un elemento prominente que genera confianza.
+  * Las etiquetas de estado en el dashboard del tutor: "Confirmado" (verde) y "Pendiente" (amarillo).
+  * Las marcas de verificación en la lista del coordinador, que indican visualmente las solicitudes procesadas.
+* **Reconocimiento sobre Recuerdo:** El panel de chat sigue un patrón universal (burbujas de texto, área para adjuntar documentos e imágenes) que los usuarios reconocen instantáneamente, eliminando la curva de aprendizaje.
+
+#### Arquitectura de Información
+
+* **Etiquetado (Labeling):** El sistema de etiquetado es claro, orientado a la acción y consistente con la terminología del dominio estudiantil. Se usan términos inequívocos como "Solicitar tutoría", "Califica a tu Tutor", "Sesiones programadas" o "Añadir Calendario".
+* **Sistemas de Navegación y Organización:** Los mockups demuestran una organización jerárquica y **por audiencia** (el dashboard del aprendiz es radicalmente diferente al del tutor). El usuario navega desde una pantalla general a una de detalle y luego a una acción. El uso de modales evita que el usuario pierda el contexto de la pantalla anterior, mientras que el menú de hamburguesa actúa como el sistema de navegación global.
+* **Concordancia con los User Flow Diagrams:** Los mockups cubren el total de vistas necesarias para construir los flujos de usuario definidos previamente:
+  * **Flujo del Aprendiz (Búsqueda):** Dashboard (para buscar) -> Perfil del Tutor (para revisar) -> Modal de Solicitud (para ejecutar la acción).
+  * **Flujo del Tutor (Gestión):** Dashboard (vista de tutor) -> Pantalla de Aceptación/Rechazo de solicitudes.
+  * **Flujo del Coordinador:** Lista de solicitudes pendientes (con botones de selección múltiple) -> Pantalla de detalle de un estudiante.
+  * **Flujos Transversales:** Menú de "Ajustes", personalización de apariencia y la interfaz de Chat.
+
+  ### 4.4.3. Mobile Applications User Flow Diagrams
+
+#### User Flow 1: Enviar solicitud de tutoría
+* **User Goal:** "Como estudiante que necesita ayuda, quiero encontrar un tutor verificado para un curso específico, revisar su perfil para asegurarme de que es la persona adecuada y solicitarle una sesión de forma segura y directa."
+* **User Persona:** Estudiante que quiere aprender.
+* **User Stories Implicadas:** US05 (Búsqueda por palabras clave), US07 (Visualizar perfil público del tutor), US04 (Sello de verificación institucional), US08 (Enviar solicitud de reserva al tutor).
+
+**Explicación del Flujo (Happy Path):**
+Este flujo describe el camino principal del estudiante aprendiz para conectar con un tutor.
+1. El flujo inicia en el Mock-up del Dashboard, donde el usuario introduce un término en la barra de búsqueda (ej. "Física 1").
+2. Es dirigido al Mock-up de Resultados, donde ve una lista de tutores. Toca el perfil de un tutor que le interesa.
+3. Accede al Mock-up del Perfil del Tutor. Aquí revisa las reseñas, confirma que tiene el sello de "Verificado" y presiona el botón "Solicitar Ayuda".
+4. Aparece un Mock-up de Modal de Solicitud, donde el usuario escribe un mensaje explicando su duda y presiona "Enviar".
+5. El flujo concluye con un Mock-up de Confirmación que indica "Tu solicitud ha sido enviada".
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+**Unhappy Paths (Rutas Alternativas):**
+* **Condición (Sin Resultados):** Si el usuario busca un término y no hay tutores disponibles.
+
+**Explicación del Flujo (Unhappy Path – Sin Resultados):**
+Este flujo describe lo que ocurre cuando el estudiante ingresa un término de búsqueda demasiado específico o una materia para la cual no existen tutores disponibles en la plataforma.
+1. El flujo inicia en el Mock-up del Dashboard, donde el usuario escribe un término de búsqueda que no coincide con ningún tutor registrado (ej. “Termodinámica Avanzada”).
+2. Es dirigido al Mock-up de Resultados Vacíos, donde la plataforma detecta que no existen tutores que coincidan con la búsqueda realizada.
+3. En esta pantalla, el estudiante observa un mensaje informativo que dice: "No busques materias muy específicas. Intenta con otra más general." Además, puede visualizar opciones como volver a intentar la búsqueda, limpiar el filtro o regresar al Dashboard.
+4. El flujo concluye aquí, dado que el usuario no puede continuar hacia un perfil de tutor ni enviar una solicitud. La plataforma lo orienta a reformular su búsqueda para encontrar alternativas disponibles.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+---
+
+#### User Flow 2: Recepción y Aceptación de Solicitud de Tutoría
+* **User Goal:** "Como estudiante tutor, quiero ser notificado de nuevas solicitudes de ayuda, poder revisar rápidamente el perfil del aprendiz y su mensaje, y aceptar o rechazar la solicitud de forma sencilla."
+* **User Persona:** Estudiante que quiere enseñar.
+* **User Stories Implicadas:** US09 (Aceptar o rechazar solicitud de reserva), US10 (Chat interno asincrónico de la reserva).
+
+**Explicación del Flujo (Happy Path):**
+Este flujo detalla la interacción clave del tutor para gestionar las solicitudes entrantes.
+1. El tutor recibe una notificación. Al ingresar a la aplicación, ve su Mock-up del Dashboard de Tutor con un indicador de nueva solicitud. Toca la notificación.
+2. Es dirigido al Mock-up de Revisión de Solicitud, donde lee el mensaje del aprendiz y ve su perfil. Presiona el botón "Aceptar".
+3. El flujo concluye al ser redirigido automáticamente al Mock-up del Chat, donde ya puede coordinar la sesión con el aprendiz.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+**Unhappy Path (Ruta Alternativa):**
+* **Condición (Rechazar Solicitud):** Si el tutor no puede o no desea tomar la solicitud.
+
+**Explicación del Flujo (Rechazar Solicitud):**
+Este flujo describe el escenario en el que un tutor decide no aceptar la solicitud enviada por un estudiante, ya sea por falta de disponibilidad, incompatibilidad con el tema o cualquier otra razón personal o académica.
+1. El flujo inicia en el Mock-up de Revisión de Solicitud, donde el tutor visualiza el mensaje enviado por el estudiante junto con los detalles de la materia y la opción para responder.
+2. El tutor selecciona la opción "Rechazar", indicando que no puede asumir esa tutoría.
+3. Inmediatamente aparece un Mock-up de Modal de Confirmación con el mensaje: "¿Estás seguro de que quieres rechazar esta solicitud?", para evitar rechazos accidentales.
+4. El tutor confirma la acción. La plataforma registra el rechazo, descarta la solicitud y actualiza su estado.
+5. El flujo concluye regresando al Mock-up del Dashboard del tutor, donde ya no aparece la solicitud pendiente.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+---
+
+#### User Flow 3: Calificación de Sesión y Donación Voluntaria
+* **User Goal:** "Como estudiante aprendiz, después de una tutoría, quiero calificar a mi tutor para compartir mi experiencia y poder guardarlo en una lista de 'favoritos' para contactarlo fácilmente en el futuro."
+* **User Persona:** Estudiante que quiere aprender.
+* **User Stories Implicadas:** US17 (Calificar y dejar reseña al tutor), US18 (Realizar donación monetaria voluntaria).
+
+**Explicación del Flujo (Happy Path - Calificación y Favoritos):**
+Este flujo muestra el cierre del ciclo de aprendizaje y la retención del usuario.
+1. Al finalizar una sesión (ej. al cerrar la videollamada), la plataforma muestra automáticamente el Mock-up de Calificación.
+2. El usuario selecciona 5 estrellas y escribe un comentario positivo. Presiona "Aceptar".
+3. Aparece un Mock-up de Confirmación.
+4. Posteriormente, el usuario navega al perfil del tutor y presiona el ícono de "Favorito".
+5. El usuario puede ir a la sección "Mis Favoritos" y ver al tutor guardado en su lista.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+**Explicación del Flujo (Donación Voluntaria):**
+Este flujo muestra el cierre del ciclo de aprendizaje, la retención del usuario mediante la retroalimentación y la monetización de la plataforma a través de la pasarela de pagos.
+* **Condición:** El usuario desea dejar retroalimentación para ayudar a la reputación del tutor y cuenta con la disposición de realizar un aporte económico.
+1. Al finalizar una sesión, la plataforma redirige automáticamente al usuario al Mock-up de Calificación y Donación.
+2. El usuario califica y escribe un comentario positivo sobre la enseñanza.
+3. En la misma pantalla, el usuario selecciona un monto predefinido o ingresa un monto personalizado y presiona el botón "Realizar Donación".
+4. El sistema lo redirige al Mock-up de Pasarela de Pagos (integración con Stripe/PayPal), donde ingresa los datos de su tarjeta y confirma la transacción.
+5. Aparece un Mock-up de Confirmación agradeciendo la calificación y confirmando que la donación fue procesada con éxito.
+
+**Representación visual:**
+*(Diagrama en PDF)*
+
+## 4.5. Mobile Applications Prototyping
+
+Esta sección presenta los prototipos de interfaz móvil para Android y iOS de la aplicación SkillSwap, con simulación de interacción y navegación. Estos prototipos se han desarrollado para demostrar visual y funcionalmente los 5 flujos de usuario (User Flows) claves definidos para las distintas personas del proyecto:
+
+* **User Flow 1:** Búsqueda y Solicitud de Tutoría (Estudiante).
+* **User Flow 2:** Recepción y Aceptación de Solicitud de Tutoría (Tutor).
+* **User Flow 3:** Calificación de Sesión (Estudiante).
+* **User Flow 7:** Billetera Virtual y Retiro de Fondos del Tutor.
+* **Wireflow 9:** Realización de Donación Voluntaria al Tutor.
+
+**Criterios de Interacción:** Las decisiones de diseño se basaron en dos criterios principales:
+1. **Adherencia a las Guías Nativas** (Material Design de Google y Human Interface Guidelines de Apple) para garantizar una experiencia familiar y reducir la fricción.
+2. **Eficiencia de tarea**, optimizando los "Happy Paths" de los flujos para que se completen con el mínimo de pasos.
+
+**Relación con la Arquitectura de Información (IA) y User Flows:** La Arquitectura de Información define el sistema de navegación. Esto se traduce en una Tab Bar inferior en el prototipo de iOS para acceso directo a secciones clave (como "Favoritos"), mientras que en Android se opta por un Menú Lateral para agrupar estas mismas secciones, un patrón tradicional en esa plataforma.
+
+Las interacciones grabadas en los videos de demostración siguen los pasos exactos descritos en los User Flow Diagrams, demostrando tanto los "Happy Paths" (solicitar una tutoría), como los "Unhappy Paths" (no encontrar resultados de búsqueda).
+
+---
+
+### 4.5.1. Android Mobile Applications Prototyping
+
+Esta propuesta sigue las guías de Material Design de Google. Se enfoca en el uso de Cards (tarjetas) para la jerarquía visual (como en el perfil y comentarios), una paleta de color definida y componentes interactivos propios de Android.
+
+<p align="center">
+  <a href="https://youtu.be/50YTngUrCFs" target="_blank">
+    <img src="https://img.youtube.com/vi/50YTngUrCFs/maxresdefault.jpg" alt="Prototipo Android" width="600">
+  </a>
+  <br>
+  <em>Video 1. Demostración del prototipo interactivo en Android (Clic en la imagen para reproducir).</em>
+</p>
+
+El video demuestra los flujos de usuario clave desde la perspectiva de Material Design. Se muestra la búsqueda de estudiante, donde al presionar "Solicitar Ayuda" se levanta un modal de Android. También se demuestra la Aceptación del Tutor, donde el tutor ve la solicitud en una tarjeta y, al "Rechazar" (Unhappy Path), aparece un mensaje de confirmación. Se destacan componentes nativos como menús desplegables para filtros y ventanas para confirmaciones.
+
+---
+
+### 4.5.2. iOS Mobile Applications Prototyping
+
+Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una estética limpia y animaciones fluidas. La navegación principal se centra en una Tab Bar inferior.
+
+<p align="center">
+  <a href="https://youtu.be/57n2zvjJ5Zo" target="_blank">
+    <img src="https://img.youtube.com/vi/57n2zvjJ5Zo/maxresdefault.jpg" alt="Prototipo iOS" width="600">
+  </a>
+  <br>
+  <em>Video 2. Demostración del prototipo interactivo en iOS (Clic en la imagen para reproducir).</em>
+</p>
+
+Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usuario navega a "Mis Favoritos" usando el menú desplegable o la interacción con los elementos. Al finalizar una sesión, se visualiza el modal de calificación y el mensaje de confirmación con la moda de iOS. También, se demuestra cómo las transiciones entre la búsqueda y los resultados son mediante deslizamiento. Se destacan componentes clave de iOS como los modales de confirmación, la tab bar del navegador Safari, los pickers de rueda (reloj) para configurar la disponibilidad y las alertas nativas para las confirmaciones.
