@@ -515,3 +515,289 @@ Jesús Hernández, jefe de prácticas, señala que los principales desafíos de 
 
 **Resumen descriptivo:**
 El profesor Raúl Pardo, docente en la Universidad de Lima, considera una muy buena idea y parte fundamental del estudio universitario que los alumnos compartan opiniones y se ayuden mutuamente. Destacó que las herramientas tecnológicas son productivas para la colaboración siempre que se les dé un buen uso, priorizando el aprendizaje sobre ventajas deshonestas. También mostró cierta preocupación por la carga de los alumnos tutores, ya que siente que brindar ayuda constante podría impactar negativamente en su propio tiempo y productividad, especialmente en alumnos con muchas responsabilidades académicas.
+
+
+### 2.2.3. Análisis de entrevistas
+
+#### Segmento objetivo #1: Estudiantes que quieran aprender
+
+**1. Características objetivas**
+* **Edad:** Estudiantes universitarios, generalmente entre 18 y 24 años (100%).
+* **Carrera:** Diversas carreras universitarias (Enfermería, Ingeniería, Negocios Internacionales) (100%).
+* **Ciclo:** 3° a 6° ciclo (100%).
+* **Experiencia con plataformas:**
+  * Poca experiencia con tutorías online formales (2 de 3).
+  * Uso de herramientas digitales para estudio (Meet, WhatsApp, Script) (100%).
+  * Estudio individual: Prefieren estudiar solos la mayor parte del tiempo (100%).
+
+**2. Características subjetivas**
+* **Preferencias de estudio:**
+  * Estudio individual para concentración y calma ante estrés (100%).
+  * Estudio en horarios específicos: tardes o noches (66%).
+  * Prefieren un lugar sin distracciones (33%).
+* **Dificultades académicas:**
+  * Obstáculos para pedir ayuda a compañeros o profesores: demora de respuestas, falta de disponibilidad, miedo a ser juzgado (100%).
+  * Problemas de coordinación en grupos y comunicación (33%).
+  * Cursos demandantes y prácticos aumentan estrés (66%).
+* **Uso de recursos externos:**
+  * Buscan apoyo en internet y familiares (100%).
+  * Valoran recibir ayuda de estudiantes expertos de otras universidades (100%).
+  * Prioridad en la calidad de aprendizaje sobre la inmediatez de la ayuda (33%).
+* **Herramientas digitales y funcionalidades deseadas:**
+  * Chat, pizarra virtual y grabación de sesiones (100%).
+  * Perfiles con reseñas, especialidades y mini-ejercicios (66%).
+  * Tutorías pagadas si no pueden resolver dudas por sí mismos (33%).
+
+| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| :--- | :--- | :--- |
+| Prefiere estudiar solo | 100% | Prefiere estudiar sola por las tardes/noches. |
+| Valoración ayuda de otros estudiantes | 100% | Valora recibir apoyo de estudiantes expertos de otras universidades. |
+| Obstáculos pedir ayuda | 100% | Demora de respuestas / falta de disponibilidad / miedo a ser juzgada. |
+| Uso de herramientas digitales | 100% | Utiliza plataformas como Meet, WhatsApp, Script. |
+| Funciones deseadas en aplicación | 66% | Perfiles con reseñas, chat, pizarra virtual, mini-ejercicios. |
+| Tutorías pagadas | 33% | Considera útiles tutorías pagadas cuando no puede resolver dudas por sí misma. |
+| Ciclo universitario | 100% | 3° a 6° ciclo de diversas carreras. |
+
+*(Tabla 4. Principales hallazgos de entrevistas a estudiantes universitarios - Elaboración propia. Nota: La tabla resume los comportamientos, percepciones y preferencias identificadas en las entrevistas).*
+
+---
+
+#### Segmento objetivo #2: Estudiantes que quieran enseñar
+
+**1. Características objetivas**
+* **Edad y ciclo:** Estudiantes universitarios de diversos ciclos (100%).
+* **Carrera:** Diversas carreras (Psicología, Educación, Ingeniería Civil) (100%).
+* **Experiencia:** Participan en grupos de estudio y ayudan a compañeros de manera informal antes de los exámenes (100%).
+* **Habilidades digitales:** Mencionan y sugieren el uso de herramientas digitales para tutorías (agenda, pizarra virtual, Canvas, Notion, Kahoot, sistemas de reputación) (100%).
+
+**2. Características subjetivas**
+* **Motivaciones para enseñar:**
+  * Reforzar el propio conocimiento (100%).
+  * Incentivos o recompensas tangibles (pago, créditos universitarios) (67%).
+  * Compartir ideas y adquirir experiencia (67%).
+* **Dificultades percibidas:**
+  * Falta de interés o compromiso del aprendiz (100%).
+  * Encontrar la estrategia de enseñanza adecuada para cada persona (67%).
+  * Tiempo limitado, distancia y mala organización de horarios (67%).
+* **Preferencias y necesidades en la tutoría:**
+  * Necesidad de conocer al estudiante para generar confianza (100%).
+  * Herramientas digitales para organizar y hacer didáctica la enseñanza (100%).
+  * Sistema de recompensas (créditos canjeables o pago) para incentivar la participación (67%).
+
+| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| :--- | :--- | :--- |
+| Motivo principal: reforzar conocimiento | 100% | Su motivación principal para enseñar es reforzar su conocimiento. |
+| Participa en tutorías | 100% | Todos tienen experiencia ayudando a sus compañeros de manera ocasional o regular. |
+| Uso de herramientas digitales | 100% | Herramientas como agenda, pizarra virtual, Canvas, Notion, Kahoot. |
+| Necesidad de generar confianza | 100% | Todas necesitan percibir interés o tener un sistema que valide al otro usuario. |
+| Motivación económica/recompensas | 67% | Sugiere un sistema de recompensas / no descarta recibir un pago. |
+| Dificultad: tiempo y organización | 67% | La mala gestión de horarios, el tiempo limitado y la distancia son barreras importantes. |
+| Dificultad: estrategia de enseñanza | 67% | Consideran un reto encontrar la metodología de enseñanza adecuada para cada alumno. |
+
+*(Tabla 5. Principales hallazgos de entrevistas a estudiantes tutores - Elaboración propia. Nota: La tabla sintetiza las motivaciones, desafíos y necesidades expresadas por los estudiantes que ofrecen tutorías).*
+
+---
+
+#### Segmento objetivo #3: Coordinador Institucional
+
+**1. Características objetivas**
+* **Cargo:** Jefes de prácticas o profesores universitarios (100% de los entrevistados).
+* **Experiencia:** Supervisión y acompañamiento de estudiantes en proyectos prácticos (100%).
+* **Uso de tecnología:** Familiarizados con herramientas digitales académicas, incluidas plataformas de colaboración y software de verificación de estudiantes (100%).
+
+**2. Características subjetivas**
+* **Desafíos percibidos de los estudiantes:**
+  * Gestión del tiempo frente a carga académica (50%).
+  * Acceso a información confiable (50%).
+  * Trabajo en equipo y habilidades de comunicación (50%).
+  * Necesidad de desarrollar pensamiento crítico y adaptabilidad ante cambios rápidos (50%).
+* **Beneficios percibidos de la plataforma interuniversitaria:**
+  * Integración de esfuerzos entre universidades y estudiantes (100%).
+  * Intercambio seguro y confiable de conocimientos (50%).
+  * Fortalecimiento de habilidades para enfrentar la cuarta revolución industrial (50%).
+* **Riesgos y preocupaciones:**
+  * Posible riesgo reputacional por contenidos incorrectos o mal validados (50%).
+  * Falta de reglas claras y conflictos entre instituciones (50%).
+  * Sobrecarga laboral para coordinadores si no se automatizan procesos (50%).
+  * Peligros de pereza intelectual si los estudiantes dependen demasiado de herramientas tecnológicas (50%).
+* **Recomendaciones para la plataforma:**
+  * Verificación de identidad de alumnos mediante DNI académico o reconocimiento facial (100%).
+  * Políticas claras de integridad académica y trazabilidad de actividades (100%).
+  * Panel de coordinador con historial académico, monitoreo de interacciones y aprobación de participantes (50%).
+  * Diferenciación de niveles de acceso según especialización de los espacios (50%).
+  * Espacios de discusión y debate académico sobre problemas reales, promoviendo innovación y colaboración (50%).
+
+| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| :--- | :--- | :--- |
+| Cargo coordinador | 100% | Se desempeña como jefe de prácticas / profesor. |
+| Gestión del tiempo estudiante | 50% | Los principales desafíos que enfrentan los alumnos son la gestión del tiempo. |
+| Acceso a información confiable | 50% | Dado que no toda la información disponible en internet es válida. |
+| Trabajo en equipo | 50% | Dificultad en el trabajo en equipo, que requiere habilidades de comunicación. |
+| Pensamiento crítico y adaptabilidad | 50% | Desarrollar un pensamiento crítico y adaptarse a una realidad en construcción. |
+| Beneficios de la plataforma | 100% | La integración de esfuerzos y el intercambio de conocimientos. |
+| Riesgos de reputación | 50% | Existe un riesgo reputacional si los contenidos o cursos se imparten incorrectamente. |
+| Verificación de alumnos | 100% | Panel de coordinador que permita buscar y aprobar alumnos fácilmente. |
+
+*(Tabla 6. Principales hallazgos de entrevistas a coordinadores académicos - Elaboración propia. Nota: Resultados obtenidos en las entrevistas con coordinadores o jefes de práctica).*
+
+---
+
+## 2.3. Needfinding
+
+Para el proceso de needfinding, se ha planificado la realización de entrevistas a los tres arquetipos de usuarios identificificados: "Estudiantes que quieran aprender", "Estudiantes que quieran enseñar" y el "Coordinador Institucional". El objetivo principal de esta investigación es indagar en las motivaciones, frustraciones y necesidades de los estudiantes universitarios peruanos cuando buscan o desean ofrecer apoyo académico más allá de las fronteras de su propia institución.
+
+A través de este proceso, se busca validar las hipótesis iniciales del proyecto, como la existencia de una demanda latente de colaboración interuniversitaria y la importancia crítica de la seguridad y la confianza en un entorno digital de este tipo. Los hallazgos derivados de las entrevistas permitirán comprender a fondo los problemas que la plataforma debe resolver, como el aislamiento académico y la desconfianza inicial entre pares desconocidos.
+
+### 2.3.1. User Personas
+
+Para iniciar esta sección del documento, el equipo seleccionó las características más relevantes de todas las que ofrece la plataforma UXPressia, diferenciando entre aquellas de carácter global (comunes a los tres segmentos) y las específicas que resultaban más pertinentes para determinados perfiles. Cada integrante compartió sus aportes, siempre a partir de los resultados obtenidos y analizados en las entrevistas previas. Finalmente, consensuamos la opción que consideramos más adecuada, adaptándola para que fuese más precisa y representativa del perfil que buscamos.
+
+**User Persona: Estudiantes que quieran aprender**
+<p align="center">
+  <img src="public/assets/images-doc/user1.png" alt="User Persona Aprendiz" width="800">
+  <br>
+  <em>Figura 12. User Persona - Estudiantes que quieran aprender - Elaboración propia.</em>
+</p>
+
+**User Persona: Estudiantes que quieran enseñar**
+<p align="center">
+  <img src="public/assets/images-doc/user2.png" alt="User Persona Tutor" width="800">
+  <br>
+  <em>Figura 13. User Persona - Estudiantes que quieran enseñar - Elaboración propia.</em>
+</p>
+
+**User Persona: Coordinador Institucional**
+<p align="center">
+  <img src="public/assets/images-doc/user3.png" alt="User Persona Coordinador" width="800">
+  <br>
+  <em>Figura 14. User Persona - Coordinador Institucional - Elaboración propia.</em>
+</p>
+
+---
+
+### 2.3.2. User Task Matrix
+
+En el User Task Matrix se considera a los tres segmentos evaluando sus tareas clave según frecuencia e importancia. Los aprendices priorizan estudiar independientemente y acceder a recursos de apoyo; los tutores, reforzar su conocimiento y participar en grupos de estudio; y los coordinadores, orientar casos prácticos, gestionar el tiempo y verificar la integridad académica. Todos coinciden en usar herramientas digitales y favorecer la colaboración, aunque cada segmento aplica estas tareas con objetivos distintos.
+
+#### Segmento objetivo #1: Estudiantes que quieran aprender
+
+| Tareas | Boris | Adrian | Stephanie |
+| :--- | :--- | :--- | :--- |
+| **Buscar información de Internet** | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
+| **Consultar a familiares o compañeros con experiencia** | Frec: Media<br>Imp: Media-Alta | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Media-Alta |
+| **Estudiar independientemente en horarios tranquilos** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
+| **Coordinar con compañeros** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta |
+| **Acceder a plataformas de tutorías, videos grabados o chats** | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Muy alta |
+| **Contratar un tutor particular** | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta |
+
+*(Tabla 7. Actividades de aprendizaje y su valoración por los usuarios - Elaboración propia).*
+
+#### Segmento objetivo #2: Estudiantes que quieran enseñar
+
+| Tareas | Lucero | Abigail | Katherine |
+| :--- | :--- | :--- | :--- |
+| **Estudiar y reforzar su conocimiento antes de enseñar** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
+| **Participar en grupos de estudio y colaborar con compañeros** | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Muy alta | Frec: -<br>Imp: Muy alta |
+| **Ayudar a estudiantes de otras universidades** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Media<br>Imp: Alta |
+| **Conocer al estudiante antes de brindar ayuda para generar confianza** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Alta |
+| **Utilizar herramientas digitales para tutoría** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Media<br>Imp: Alta |
+| **Gestionar motivación y recompensas de la tutoría** | Frec: Baja-Media<br>Imp: Media-Alta | Frec: Baja-Media<br>Imp: Media | Frec: Baja<br>Imp: Media |
+
+*(Tabla 8. Actividades y motivaciones de los estudiantes-tutores – Elaboración propia).*
+
+#### Segmento objetivo #3: Coordinador Institucional
+
+| Tareas | Carlos | Jesús | Raúl |
+| :--- | :--- | :--- | :--- |
+| **Guiar a los estudiantes en la aplicación práctica de conceptos mediante casos...** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Muy alta |
+| **Enseñar a los estudiantes a gestionar el tiempo y organizarse...** | Frec: Media<br>Imp: Alta | Frec: Muy alta<br>Imp: Alta | Frec: Media-Alta<br>Imp: Alta |
+| **Fomentar el trabajo en equipo y habilidades de comunicación** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
+| **Garantizar acceso a información confiable y enseñar a evaluarla...** | Frec: Media<br>Imp: Muy alta | Frec: Alta<br>Imp: Muy alta | Frec: Media<br>Imp: Alta |
+| **Verificar alumnos y asegurar integridad académica en la plataforma...** | Frec: Baja-Media<br>Imp: Alta | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
+| **Implementar herramientas digitales y plazos que faciliten la organización...** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Muy alta |
+
+*(Tabla 9. Funciones y prioridades de los coordinadores académicos – Elaboración propia).*
+
+**Conclusión:**
+Las tareas más frecuentes e importantes son estudiar de forma independiente y acceder a recursos de apoyo para los aprendices; reforzar conocimiento y participar en grupos de estudio para los tutores; y orientar casos prácticos y verificar integridad académica para los coordinadores. Todos los segmentos coinciden en usar herramientas digitales y favorecer la colaboración, aunque cada grupo las aplica con un enfoque distinto según sus objetivos.
+
+### 2.3.3. User Journey Mapping
+
+En esta sección se presentan los User Journey Maps As-Is de cada User Persona, mostrando el recorrido completo (end-to-end) de los usuarios en la situación actual, sin intervención de la nueva solución, lo que incluye procesos, puntos de dolor y oportunidades.
+
+* **Segmento 1: Estudiantes que quieran aprender.** Inicia con la necesidad de comprender un tema, pasando por dudas, búsquedas de ayuda frustrantes y coordinación complicada, hasta la evaluación del aprendizaje, evidenciando problemas de disponibilidad y confiabilidad de recursos.
+* **Segmento 2: Estudiantes que quieran enseñar.** Comienza con motivación por reforzar su conocimiento y ayudar, pero enfrenta obstáculos en la preparación de material, coordinación con el aprendiz y falta de retroalimentación para mejorar su enseñanza.
+* **Segmento 3: Coordinadores Institucionales.** Inician su recorrido al identificar la necesidad de mantener la calidad académica y fomentar la colaboración. Continúan con la planeación y preparación de estrategias, pero enfrentan complejidades al anticipar errores operativos. Durante la implementación y coordinación, sufren de sobrecarga operativa y riesgos de plagio o fraude, para finalmente en la etapa de supervisión y evaluación, lidiar con limitaciones operativas y la dificultad de medir el impacto real de sus esfuerzos.
+
+#### Segmento #1: Estudiantes que quieran aprender
+<p align="center">
+  <img src="public/assets/images-doc/jur1.png" alt="Journey Map Aprendiz" width="800">
+  <br>
+  <em>Figura 15. User Journey Mapping – Estudiantes que quieran aprender - Elaboración propia. Nota: En esta figura se aprecia nuestro primer Journey Mapping de nuestro primer segmento estudiante aprendiz.</em>
+</p>
+
+#### Segmento #2: Estudiantes que quieran enseñar
+<p align="center">
+  <img src="public/assets/images-doc/jur2.png" alt="Journey Map Tutor" width="800">
+  <br>
+  <em>Figura 16. User Journey Mapping – Estudiantes que quieran enseñar - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Journey Mapping de nuestro segundo segmento estudiante tutor.</em>
+</p>
+
+#### Segmento #3: Coordinador Institucional
+<p align="center">
+  <img src="public/assets/images-doc/jur3.png" alt="Journey Map Coordinador" width="800">
+  <br>
+  <em>Figura 17. User Journey Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Journey Mapping de nuestro segmento coordinador institucional.</em>
+</p>
+
+---
+
+### 2.3.4. Empathy Mapping
+
+#### Segmento #1: Estudiantes que quieran aprender
+<p align="center">
+  <img src="public/assets/images-doc/user1.png" alt="Empathy Map Aprendiz" width="800">
+  <br>
+  <em>Figura 18. Empathy Mapping - Estudiantes aprendices - Elaboración propia. Nota: En esta figura se aprecia nuestro Empathy Mapping de nuestro primer segmento estudiante aprendiz.</em>
+</p>
+
+#### Segmento #2: Estudiantes que quieran enseñar
+<p align="center">
+  <img src="public/assets/images-doc/user2.png" alt="Empathy Map Tutor" width="800">
+  <br>
+  <em>Figura 19. Empathy Mapping - Estudiantes tutores - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Empathy Mapping de nuestro segmento estudiantes tutores.</em>
+</p>
+
+#### Segmento #3: Coordinador Institucional
+<p align="center">
+  <img src="public/assets/images-doc/user3.png" alt="Empathy Map Coordinador" width="800">
+  <br>
+  <em>Figura 20. Empathy Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Empathy Mapping de nuestro segmento coordinador institucional.</em>
+</p>
+
+---
+
+## 2.4. Big Picture EventStorming
+
+<p align="center">
+  <img src="public/assets/images-doc/user4.png" alt="Big Picture EventStorming" width="800">
+  <br>
+  <em>Figura 21. Big Picture EventStorming - Elaboración propia.</em>
+</p>
+
+---
+
+## 2.5. Ubiquitous Language
+
+| N° | Palabra técnica | Significado |
+| :---: | :--- | :--- |
+| 1 | [Completar] | [Completar] |
+| 2 | [Completar] | [Completar] |
+| 3 | [Completar] | [Completar] |
+| 4 | [Completar] | [Completar] |
+| 5 | [Completar] | [Completar] |
+| 6 | [Completar] | [Completar] |
+| 7 | [Completar] | [Completar] |
+| 8 | [Completar] | [Completar] |
+| 9 | [Completar] | [Completar] |
+| 10 | [Completar] | [Completar] |
