@@ -1180,6 +1180,8 @@ El objetivo es captar tráfico orgánico de estudiantes y de instituciones inter
 <meta name="keywords" content="tutorías universitarias, apoyo académico, estudiantes verificados, plataforma edtech, tutorías peru, ganar dinero enseñando, innovify">
 <meta name="author" content="Innovify Team">
 
+```
+
 ### 4.2.4. Searching Systems
 
 Para evitar que los usuarios se sientan perdidos ante el volumen de información, la plataforma ofrecerá un sistema de búsqueda robusto y diversos medios de ayuda para encontrar datos. Las decisiones buscan facilitar el descubrimiento de tutores y la gestión de la información.
