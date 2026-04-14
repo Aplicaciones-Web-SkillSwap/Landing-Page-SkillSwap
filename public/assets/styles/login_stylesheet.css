@@ -243,115 +243,157 @@ body {
   font-size: var(--h2-font-size);
   font-weight: 700;
   color: var(--primary-color);
+  margin-bottom: 32px;
 }
 
 /* Línea decorativa debajo del título */
 .titulo-decorador {
-  width: 48px;
+  width: 60px;
   height: 4px;
   border-radius: 2px;
+  justify-self: center;
   background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
 }
 
 /* ═══════════════════════════════════════════════════════════════
     SECCIÓN LOGIN
 ═══════════════════════════════════════════════════════════════ */
-.seccion-registro-cuenta, .seccion-inicio-sesion
-{
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    min-height: calc(100vh - var(--footer-height));
+#inicio-sesion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - var(--footer-height)); /* Ocupa toda la pantalla */
+  padding: 60px 24px;
+  background: linear-gradient(135deg, var(--background-color) 0%, #e2e8f0 100%);
 }
 
-.formulario-registro, .formulario-inicio-sesion
-{
-    margin: 20px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px; 
+.seccion-inicio-sesion {
+  background-color: var(--surface-color);
+  width: 100%;
+  max-width: 480px;
+  padding: 48px 40px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border-color);
 }
 
-.formulario-registro-elemento, .formulario-inicio-sesion-elemento
-{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0px;
-    align-items: center;
-    max-width: 400px;
-    width: 100%;
+.seccion-inicio-sesion h1 {
+  font-size: var(--h2-font-size);
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 800;
 }
 
-.formulario-registro-elemento label, .formulario-inicio-sesion-elemento label
-{
-    font-weight: 500;
-    padding: 5px;
-    width: 100%;
+.formulario-inicio-sesion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.formulario-registro-elemento:last-child, .formulario-inicio-sesion-elemento:last-child 
-{
-    display: flex;
-    text-align: center; 
+.formulario-inicio-sesion-elemento {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.formulario-registro-elemento label a, .formulario-inicio-sesion-elemento label a
-{
-    color: var(--primary-color);
-    text-align: center;
+.formulario-inicio-sesion-elemento label {
+  font-size: var(--label-font-size);
+  font-weight: 600;
+  color: var(--primary-dark);
 }
 
-.formulario-registro-elemento input, .formulario-inicio-sesion-elemento input
-{
-    border-radius: 9999px;
-    padding: 5px 10px;
-    height: 40px;
-    width: 100%;
-    border: 1px solid var(--border-color);
+/* Estilos para los campos de texto */
+.formulario-inicio-sesion-elemento input[type="email"],
+.formulario-inicio-sesion-elemento input[type="password"] {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: var(--base-font-size);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  transition: border-color var(--transition), box-shadow var(--transition), background-color var(--transition);
 }
 
-.formulario-registro-elemento input[type=submit], .formulario-inicio-sesion-elemento input[type=submit]
-{
-   background-color: var(--primary-color);
-   border: 0px;
-   color: var(--white-color);
-   cursor: pointer;
+.formulario-inicio-sesion-elemento input::placeholder {
+  color: #94a3b8;
+  font-size: 14px;
 }
 
-.seccion-footer
-{
-  background-color: #193b69;
+.formulario-inicio-sesion-elemento input:focus {
+  outline: none;
+  background-color: var(--surface-color);
+  border-color: var(--primary-light);
+  box-shadow: 0 0 0 4px rgba(30, 77, 138, 0.1);
+}
+
+/* Botón Submit */
+.formulario-inicio-sesion-elemento input[type="submit"] {
+  margin-top: 12px;
+  background-color: var(--secondary-color);
+  color: var(--primary-dark);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 16px;
+  border: none;
+  border-radius: var(--radius-xl);
+  cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition), background-color var(--transition);
+}
+
+.formulario-inicio-sesion-elemento input[type="submit"]:hover {
+  background-color: var(--secondary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 193, 7, 0.45);
+}
+
+/* Enlace "Entra Aquí" */
+.formulario-inicio-sesion-elemento:last-child {
+  margin-top: 8px;
+  align-items: center;
+}
+
+.formulario-inicio-sesion-elemento:last-child label {
+  font-size: 14px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.formulario-inicio-sesion-elemento:last-child a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 6px;
+  transition: color var(--transition);
+}
+
+.formulario-inicio-sesion-elemento:last-child a:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════════════════════════ */
+footer {
+  margin-top: auto; /* Empuja el footer al fondo de la pantalla */
+}
+
+.seccion-footer {
+  background-color: var(--primary-color);
   color: var(--white-color);
   text-align: center;
-  padding: 20px;
-  margin-top: 50px;   
+  padding: 22px 24px;
 }
-
-.seccion-footer p, a
-{
-  margin: 0 auto;
-    color: var(--white-color);
-    text-decoration: none;
+.seccion-footer p { font-size: 14px; color: rgba(255, 255, 255, 0.85); margin: 0 auto; }
+.terminos-condiciones {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.4);
+  transition: color var(--transition), border-color var(--transition);
 }
-
-.btn-iniciarsesion,
-.btn-registrase
-{
-  /* Añadimos una transición suave para los efectos */
-  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.btn-iniciarsesion:hover,
-.btn-registrase:hover
-{
-  transform: scale(1.05); /* Zoom botón ligeramente */
-  filter: brightness(110%); /* el brillo */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* sombra sutil */
-}
+.terminos-condiciones:hover { color: var(--secondary-color); border-color: var(--secondary-color); }
 
 
 /* Tablets y pantallas medianas */
