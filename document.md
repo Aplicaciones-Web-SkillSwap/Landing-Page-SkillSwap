@@ -779,10 +779,62 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
 
 ## 2.4. Big Picture EventStorming
 
+El Big Picture EventStorming nos permite explorar el dominio de nuestra plataforma de manera colaborativa, identificando los eventos de negocio clave a lo largo de la línea de tiempo. Hemos dividido este análisis en las siguientes etapas fundamentales:
+
+### Fase 0
+
+
 <p align="center">
-  <img src="public/assets/images-doc/ES.png" alt="Big Picture EventStorming" width="800">
+  <img src="public/assets/images-doc/1.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <img src="public/assets/images-doc/2.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <img src="public/assets/images-doc/3.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <img src="public/assets/images-doc/4.png" alt="Big Picture EventStorming - Fase 0" width="1000">
   <br>
-  <em>Figura 21. Big Picture EventStorming - Elaboración propia.</em>
+  <em>Figura 21. Big Picture EventStorming: Fase 0 - Elaboración propia. Nota: En esta fase inicial se descubren y organizan cronológicamente los eventos de dominio (Domain Events) en la plataforma, representados en notas naranjas.</em>
+</p>
+
+---
+
+### Etapa 1 y 2
+
+
+<p align="center">
+  <img src="public/assets/images-doc/5.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <img src="public/assets/images-doc/6.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <img src="public/assets/images-doc/7.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <img src="public/assets/images-doc/8.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <img src="public/assets/images-doc/9.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <br>
+  <em>Figura 22. Big Picture EventStorming: Etapa 1 y 2 - Elaboración propia. Nota: Se añaden los comandos (notas azules) que desencadenan los eventos y se identifican los actores/sistemas (notas amarillas pequeñas/rosadas) que los ejecutan dentro del ecosistema.</em>
+</p>
+
+---
+
+### Etapa 3
+
+
+<p align="center">
+  <img src="public/assets/images-doc/10.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <img src="public/assets/images-doc/11.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <img src="public/assets/images-doc/12.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <img src="public/assets/images-doc/13.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <img src="public/assets/images-doc/14.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <img src="public/assets/images-doc/15.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <img src="public/assets/images-doc/16.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <img src="public/assets/images-doc/17.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <img src="public/assets/images-doc/18.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <img src="public/assets/images-doc/19.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
+  <br>
+  <em>Figura 23. Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que protegen las reglas de negocio y se agrupan los eventos en sus respectivos Contextos Delimitados (Bounded Contexts).</em>
 </p>
 
 ---
@@ -792,8 +844,8 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
 | N° | Palabra técnica | Significado |
 | :---: | :--- | :--- |
 | 1 | **Usuario** | Persona registrada en Innovify, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
-| 2 | **Estudiante** | Usuario universitario que busca apoyo académico y universitario con dominio en una materia que imparte tutorías sincrónicas. |
-| 3 | **Profesor Universitario** | Docente representante de una universidad afiliada que se encarga de crear bancos de preguntas. |
+| 2 | **WebRTC Token** | Credencial de seguridad generada dinámicamente (WebrtcToken) que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
+| 3 | **Stripe Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
 | 4 | **Session** | Espacio de tiempo programado en la plataforma donde un Aprendiz y un Tutor se conectan para repasar los temas de un curso específico. |
 | 5 | **Dashboard** | Panel analítico que procesa los resultados de los quizzes y las sesiones. |
 | 6 | **Assessment** | Evaluación estandarizada creada por un Profesor Universitario. |
@@ -1842,7 +1894,21 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 
 
 <p align="center">
-  <img src="public/assets/images-doc/Componentes.png" alt="Component Diagram" width="800">
+  <img src="public/assets/images-doc/Componentes1.png" alt="Component Diagram" width="800">
+  <br>
+  <img src="public/assets/images-doc/Componentes2.png" alt="Component Diagram" width="800">
+  <br>
+  <img src="public/assets/images-doc/Componentes3.png" alt="Component Diagram" width="800">
+  <br>
+  <img src="public/assets/images-doc/Componentes4.png" alt="Component Diagram" width="800">
+  <br>
+  <img src="public/assets/images-doc/Componentes5.png" alt="Component Diagram" width="800">
+  <br>
+  <img src="public/assets/images-doc/Componentes6.png" alt="Component Diagram" width="800">
+  <br>
+  <img src="public/assets/images-doc/Componentes7.png" alt="Component Diagram" width="800">
+  <br>
+  <img src="public/assets/images-doc/Componentes8.png" alt="Component Diagram" width="800">
   <br>
   <em>Figura 75. C4 Model: Component Diagram - Elaboración propia. Nota: Diagrama de componentes que detalla la estructura interna y las responsabilidades (Controladores, Servicios, Repositorios) de uno de los contenedores principales de la plataforma.</em>
 </p>
@@ -1851,47 +1917,84 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 
 ### 4.7.1. Class Diagrams
 
-El backend está dividido en 4 Bounded Contexts independientes. Cada contexto tiene su propio diagrama para mejorar la legibilidad, el análisis del dominio y el alineamiento con DDD.
+La arquitectura del sistema se ha modelado bajo el enfoque de Domain-Driven Design (DDD) para garantizar una alta cohesión y un bajo acoplamiento. Con el objetivo de facilitar el análisis del dominio y asegurar la legibilidad técnica, la representación visual del backend se ha segmentado. A continuación, se presentan los diagramas de clases correspondientes a los 8 Bounded Contexts identificados, detallando sus respectivos Agregados, Entidades y Objetos de Valor (Value Objects).
+
+Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
 
 <p align="center">
   <img src="public/assets/images-doc/Innovify_original.png" alt="Class Diagram - Tutoring and Operations" width="800">
+  <br>
+  <img src="public/assets/images-doc/class-identity2.png" alt="Class Diagram - Identity & Access" width="800">
+  <br>
+  <img src="public/assets/images-doc/class-identity3.png" alt="Class Diagram - Identity & Access" width="800">
   <br>
   <em>Diagrama de Clases: Innovify - Elaboración propia.</em>
 </p>
 
 
-#### Tutoring & Operations Context
+#### Identity & Access Context
 
 <p align="center">
-  <img src="public/assets/images-doc/OPERA.png" alt="Class Diagram - Tutoring and Operations" width="800">
+  <img src="public/assets/images-doc/class-identity4.png" alt="Class Diagram - Identity & Access" width="800">
   <br>
-  <em>Figura 76. Diagrama de Clases: Tutoring & Operations Context - Elaboración propia.</em>
+  <em>Figura 76. Diagrama de Clases: Identity & Access Context - Elaboración propia.</em>
 </p>
 
-#### Academic & Assessment Context
+#### Profile & Discovery Context
 
 <p align="center">
-  <img src="public/assets/images-doc/aca.png" alt="Class Diagram - Academic and Assessment" width="800">
+  <img src="public/assets/images-doc/class-profile.png" alt="Class Diagram - Profile & Discovery" width="800">
   <br>
-  <em>Figura 77. Diagrama de Clases: Academic & Assessment Context - Elaboración propia.</em>
+  <em>Figura 77. Diagrama de Clases: Profile & Discovery Context - Elaboración propia.</em>
 </p>
 
-#### Identity & Profile Context
+#### Scheduling Context
 
 <p align="center">
-  <img src="public/assets/images-doc/iDE.png" alt="Class Diagram - Identity and Profile" width="800">
+  <img src="public/assets/images-doc/class-scheduling.png" alt="Class Diagram - Scheduling" width="800">
   <br>
-  <em>Figura 78. Diagrama de Clases: Identity & Profile Context - Elaboración propia.</em>
+  <em>Figura 78. Diagrama de Clases: Scheduling Context - Elaboración propia.</em>
 </p>
 
-#### Monetization and Shared Context
+#### Collaboration Context
 
 <p align="center">
-  <img src="public/assets/images-doc/MYS.png" alt="Class Diagram - Monetization and Shared" width="800">
+  <img src="public/assets/images-doc/class-collaboration.png" alt="Class Diagram - Collaboration" width="800">
   <br>
-  <em>Figura 79. Diagrama de Clases: Monetization and Shared Context - Elaboración propia.</em>
+  <em>Figura 79. Diagrama de Clases: Collaboration Context - Elaboración propia.</em>
 </p>
 
+#### Assessment Context
+
+<p align="center">
+  <img src="public/assets/images-doc/class-assessment.png" alt="Class Diagram - Assessment" width="800">
+  <br>
+  <em>Figura 80. Diagrama de Clases: Assessment Context - Elaboración propia.</em>
+</p>
+
+#### Billing & Wallet Context
+
+<p align="center">
+  <img src="public/assets/images-doc/class-billing.png" alt="Class Diagram - Billing & Wallet" width="800">
+  <br>
+  <em>Figura 81. Diagrama de Clases: Billing & Wallet Context - Elaboración propia.</em>
+</p>
+
+#### Moderation Context
+
+<p align="center">
+  <img src="public/assets/images-doc/class-moderation.png" alt="Class Diagram - Moderation" width="800">
+  <br>
+  <em>Figura 82. Diagrama de Clases: Moderation Context - Elaboración propia.</em>
+</p>
+
+#### Analytics Context
+
+<p align="center">
+  <img src="public/assets/images-doc/class-analytics.png" alt="Class Diagram - Analytics" width="800">
+  <br>
+  <em>Figura 83. Diagrama de Clases: Analytics Context - Elaboración propia.</em>
+</p>
 ---
 
 ## 4.8. Database Design
@@ -2055,3 +2158,59 @@ Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas pa
   max-width: 1200px; 
 }
 ```
+### 5.1.4. Software Deployment Configuration
+
+En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra landing page directamente desde nuestro repositorio utilizando **GitHub Pages**.
+
+**Deploy con GitHub Pages:**
+
+1. Primero accederemos al repositorio de la Landing Page ("SkillSwap-LandingPage") y nos dirigiremos al menú de ajustes (**Settings**) ubicado en el menú horizontal de la parte superior de la pantalla.
+2. Luego, dentro de los ajustes, ubicamos la opción **Pages** en el menú vertical de la parte izquierda de la pantalla.
+3. Dentro buscaremos la sección **Branch** y en el menú desplegable que por defecto tiene la opción "None", elegiremos la rama `main`. Dejaremos por defecto la carpeta `/(root)` y finalmente haremos clic en el botón **Save**.
+4. Luego de unos pocos minutos (a veces segundos), al refrescar la página, GitHub automáticamente creará y mostrará el dominio en vivo de la página web.
+
+> **Nota:** Es importante recalcar que para que este método funcione, el archivo `.html` principal (generalmente `index.html`) debe encontrarse en la raíz del repositorio, ya que elegimos la configuración de la carpeta `/(root)`.
+
+<p align="center">
+  <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <em>Figura 84. Configuración de despliegue en GitHub Pages - Elaboración propia.</em>
+</p>
+
+---
+
+**Gestión de Ramas y Commits (GitFlow en la práctica)**
+
+A continuación, se evidencia el trabajo colaborativo del equipo y la correcta aplicación del flujo de trabajo GitFlow dentro de nuestro repositorio:
+
+<p align="center">
+  <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
+  <br>
+  <em>Figura 85. Ramas (Branches) del repositorio - Elaboración propia. Nota: En esta imagen podemos ver las branches que cada uno de los integrantes creó y que se irán creando a medida que continúe el proyecto.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits3.png" alt="Historial de Commits" width="800">
+  <br>
+  <em>Figura 86. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
+  <br>
+  <em>Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Gráfica de nuestros commits y la red (network) en la que seguimos el flujo de GitFlow. Se evidencia la creación de ramas (features), su paso a la rama `develop` (cuando se unen), y finalmente a la rama `main` (la línea principal) que contiene el código de producción.</em>
+</p>
