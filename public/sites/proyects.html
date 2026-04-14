@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="../assets/styles/styleSheet.css" />
     <link rel="stylesheet" href="../assets/styles/alianzas.css" />
      <link rel="stylesheet" href="../assets/styles/proyectos.css" />
@@ -11,25 +12,60 @@
  
          <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <title>SkillSwap - Login</title>
+=======
+
+    <!-- ── SEO Meta Tags ── -->
+    <meta name="description" content="Explora proyectos reales desarrollados por estudiantes y encuentra talento para colaborar o aprender." />
+
+    <!-- ── SEO Bilingüe: hreflang (US35) ── -->
+    <!--
+      Estas etiquetas le dicen a Google qué versión de idioma mostrar según la región.
+      Cuando el usuario esté en español, el <head> se estructura así:
+      lang="es" + hreflang="es/en/x-default" apuntando a la misma URL
+      (una SPA no tiene rutas distintas, así que href apunta al mismo index.html)
+    -->
+    <link rel="alternate" hreflang="es" href="proyects.html" />
+    <link rel="alternate" hreflang="en" href="proyects.html" />
+    <link rel="alternate" hreflang="x-default" href="proyects.html" />
+
+    <link rel="stylesheet" href="../assets/styles/proyects_stylesheet.css" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <title>SkillSwap | Proyectos</title>
+>>>>>>> Stashed changes
   </head>
 
   <body>
 
+    <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
     <nav class="barra-navegacion">
+<<<<<<< Updated upstream
        <!-- Botón menú hamburguesa -->
       <div class="menu-hamburguesa" id="btn-menu">
           <span></span>
           <span></span>
           <span></span>
       </div>
+=======
+
+      <!-- Botón menú hamburguesa -->
+      <div class="menu-hamburguesa" id="btn-menu" aria-label="Abrir menú" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Logo -->
+>>>>>>> Stashed changes
       <div class="logo">
         <a href="../index.html">
           <img src="../assets/images/SkillSwap_logo.png" alt="Logo de la aplicacion SkillSwap" />
         </a>
       </div>
 
+      <!-- Menú principal -->
       <div class="menu-horizontal">
         <ul class="menu-horizontal-opciones">
+<<<<<<< Updated upstream
             <li class="dropdown">
                 <a href="alianzas.html" class="dropbtn" id="btn-alianzas">Alianzas</a>
                 <div class="dropdown-content" id="submenu-alianzas">
@@ -51,7 +87,33 @@
             <a href="index-registrarse.html">
               <button class="btn-registrase">Registrarse</button>
             </a>
+=======
+
+          <li><a href="partnerships.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
+          <li><a href="aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
+
+          <li>
+            <a href="login.html">
+              <button class="btn-iniciarsesion" data-i18n="nav-login">Iniciar Sesión</button>
+            </a>
           </li>
+          <li>
+            <a href="signup.html">
+              <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
+            </a>
+          </li>
+
+          <!-- ── Selector de Idioma (US35) ── -->
+          <li class="lang-switcher-item">
+            <div class="lang-switcher" role="group" aria-label="Seleccionar idioma">
+              <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+              <span class="lang-divider">|</span>
+              <button class="lang-btn"        data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
+            </div>
+>>>>>>> Stashed changes
+          </li>
+
         </ul>
       </div>
       
