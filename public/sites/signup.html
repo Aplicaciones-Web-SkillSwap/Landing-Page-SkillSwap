@@ -4,18 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- ── SEO Meta Tags ── -->
     <meta name="description" content="Regístrate en SkillSwap para conectar con estudiantes universitarios y potenciar tus habilidades." />
+    
+    <!-- ── SEO Bilingüe: hreflang (US35) ── -->
+    <!--
+      Estas etiquetas le dicen a Google qué versión de idioma mostrar según la región.
+      Cuando el usuario esté en español, el <head> se estructura así:
+      lang="es" + hreflang="es/en/x-default" apuntando a la misma URL
+      (una SPA no tiene rutas distintas, así que href apunta al mismo index.html)
+    -->
+    <link rel="alternate" hreflang="es" href="signup.html" />
+    <link rel="alternate" hreflang="en" href="signup.html" />
+    <link rel="alternate" hreflang="x-default" href="signup.html" />
 
-    <link rel="alternate" hreflang="es" href="register.html" />
-    <link rel="alternate" hreflang="en" href="register.html" />
-    <link rel="alternate" hreflang="x-default" href="register.html" />
-
-<link rel="stylesheet" href="../assets/styles/register_stylesheet.css">
+    <link rel="stylesheet" href="../assets/styles/signup_stylesheet.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>SkillSwap | Registro</title>
   </head>
 
   <body>
+    
+    <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
     <nav class="barra-navegacion">
 
       <!-- Botón menú hamburguesa -->
@@ -36,7 +46,7 @@
       <div class="menu-horizontal">
         <ul class="menu-horizontal-opciones">
 
-          <li><a href="alianzas.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="partnerships.html"   data-i18n="nav-alianzas">Alianzas</a></li>
           <li><a href="proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
           <li><a href="aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
 
@@ -46,7 +56,7 @@
             </a>
           </li>
           <li>
-            <a href="sites/register.html">
+            <a href="signup.html">
               <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
             </a>
           </li>
