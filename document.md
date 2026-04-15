@@ -2212,5 +2212,250 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
   <br>
   <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
   <br>
-  <em>Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Gráfica de nuestros commits y la red (network) en la que seguimos el flujo de GitFlow. Se evidencia la creación de ramas (features), su paso a la rama `develop` (cuando se unen), y finalmente a la rama `main` (la línea principal) que contiene el código de producción.</em>
+  <em>Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Gráfica de nuestros commits y la red (network) en la que seguimos el flujo de GitFlow. Se evidencia la creación de ramas (features), su paso a la rama develop (cuando se unen), y finalmente a la rama main (la línea principal) que contiene el código de producción.</em>
 </p>
+
+---
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo. Incluye tres secciones internas: Sprint Backlog 1, User Interface & Execution, y Team Collaboration Insights.
+
+| ID | Historia de usuario | Epic | Prioridad | SP |
+| :---: | :--- | :--- | :---: | :---: |
+| **US01** | Registro validado con correo institucional | Gestión de cuentas | Alta | 5 |
+| **US02** | Inicio de sesión y redirección por roles | Gestión de cuentas | Alta | 5 |
+| **US31** | Pantalla de inicio de la plataforma | UX y personalización | Media | 3 |
+| **US32** | Visualización de la pantalla Sobre nosotros | UX y personalización | Media | 3 |
+| **US33** | Animaciones y microinteracciones | UX y personalización | Baja | 2 |
+| **US35** | Cambio de idioma ES/EN en la landing page | UX y personalización | Alta | 5 |
+| **US36** | Visualizar sección de Alianzas | UX y personalización | Media | 3 |
+| **US37** | Visualizar sección Sobre Nosotros y Proyección Tecnológica | UX y personalización | Media | 3 |
+| **US38** | Visualizar sección de Soluciones y Funcionalidades | UX y personalización | Alta | 5 |
+| **US39** | Recuperación de contraseña | Gestión de cuentas | Media | 3 |
+| | | | **Total Story Points** | **37** |
+
+#### 5.2.1.1. Sprint Planning 1
+
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2025-04-06 |
+| **Time** | 08:00 PM |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Alberca Saavedra, Victor Manuel |
+| **Attendees (to planning meeting)** | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Conde Huashuayo, Sebasthian Alex / Becerra Ninahuanca, Luis Ángel / Meza Soza, Alexandra Yamile |
+| **Sprint n – 1 Review Summary** | No aplica (primer sprint del proyecto). |
+| **Sprint n – 1 Retrospective Summary** | No aplica (primer sprint del proyecto). |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Desarrollar el landing page público de Innovify con toda su información institucional, acceso básico mediante registro e inicio de sesión, selector de idioma ES/EN y recuperación de contraseña. Métrica: cualquier visitante puede navegar el landing completo, registrarse, iniciar sesión y cambiar el idioma de la interfaz sin errores. |
+| **Sprint 1 Velocity** | 37 Story Points |
+| **Sum of Story Points** | 37 |
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+| Team Member | GitHub Username | Aspecto 1 (Hero + Navbar) | Aspecto 2 (Sobre Nosotros + Alianzas) | Aspecto 3 (Soluciones + Footer) | Aspecto 4 (Autenticación) | Aspecto 5 (Idioma + Animaciones) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Alberca Saavedra, Victor Manuel** | Victpr Alberca | L | C | C | C | C |
+| **Komatsu Dueñas, David** | DavidKomatsu | C | L | C | C | C |
+| **Conde Huashuayo, Sebasthian Alex** | SebConde | C | C | L | C | C |
+| **Becerra Ninahuanca, Luis Ángel** | LuisBecerra | C | C | C | L | C |
+| **Meza Soza, Alexandra Yamile** | AlexandraMeza | C | C | C | C | L |
+
+*(Nota: L = Leader, C = Collaborator)*
+
+#### 5.2.1.3. Sprint Backlog 1
+
+**Enlace del Trello:** [Sprint 1 - Board](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1)
+
+| User Story ID | Título | Description (Task) | Estimation | Assigned To | Status |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| **HU-01** | Registro con correo universitario | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-02** | Pantalla de inicio de la plataforma | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-03** | Configuración de perfil de aprendiz | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-04** | Búsqueda de tutores | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
+| **HU-05** | Visualización de resultados de búsqueda | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-06** | Ver perfil detallado de un tutor | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-07** | Visualización del sello de verificación | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-08** | Solicitar ayuda a un tutor | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-11** | Usar chat interno | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-12** | Dejar calificación a un tutor | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-13** | Configurar perfil de tutor | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-14** | Añadir descripción al perfil | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
+| **HU-15** | Recibir notificación de solicitud | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-17** | Aceptar o rechazar solicitud | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-18** | Chatear con el aprendiz | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
+| **HU-20** | Calificar al aprendiz | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-21** | Inicio de sesión en panel | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-22** | Ver lista de verificaciones pendientes | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-23** | Ver detalles de estudiante a verificar | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-24** | Aprobar o rechazar verificación | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
+| **HU-26** | Realizar sesión por videollamada | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-30** | Indicador de "Tutor en línea" | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-32** | Paleta de colores personalizable | Implementación de la estructura en HTML | 1 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Adrian | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-36** | Plantillas de respuestas rápidas | Implementación de la estructura en HTML | 1 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 2 hr | Adrian | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-39** | Pizarra virtual integrada | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-40** | Archivo de sesiones pasadas | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-43** | Dashboard visual con reportes | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-48** | Dashboard Principal del Coordinador | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 2 hr | Alexandra | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Adrian | DONE |
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+*(Espacio reservado para evidencias de desarrollo)*
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+*(Espacio reservado para evidencias de ejecución)*
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+*(Espacio reservado para documentación de servicios)*
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+*(Espacio reservado para evidencias de despliegue)*
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+El equipo colaboró de forma coordinada durante el desarrollo del proyecto. Cada integrante recibió tareas específicas para implementar, siguiendo la metodología Gitflow. Luego, cada miembro subió sus avances al repositorio de GitHub para su revisión y posterior integración en la rama `develop`. Tras completarse todas las tareas, el propietario del repositorio efectuó la fusión de `develop` con la rama `main`, lo que permitió habilitar la visualización de la landing page a través de GitHub Pages. 
+
+*(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
+<p align="center">
+  <img src="public/assets/images-doc/team-commits1.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/team-commits.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/team-commits.png" alt="Team Commits Evidence" width="800">
+</p>
+
+**Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
+
+---
+
+### 5.2.2. User Interface & Execution (Sprint 1)
+
+En esta versión inicial del proyecto se finalizaron todas las tareas asociadas a las historias de usuario del Sprint Backlog 1. El desarrollo contempló la incorporación de archivos `.html` y `.css`, así como una carpeta con las imágenes requeridas por el usuario. Además, se realizaron pruebas de validación para identificar y corregir posibles fallos en el código. A continuación, se muestran las capturas de las funciones implementadas y un video que describe los resultados obtenidos.
+
+<p align="center">
+  <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800">
+  <br>
+  <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800">
+   <br>
+  <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800">
+   <br>
+  <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800">
+   <br>
+</p>
+
+**Video demostrativo de las funciones del Sprint 1:**
+<p align="center">
+  <a href="https://youtu.be/FJoqkPd1Yts" target="_blank">
+    <img src="https://img.youtube.com/vi/FJoqkPd1Yts/maxresdefault.jpg" alt="Video Demostrativo Sprint 1" width="600">
+  </a>
+  <br>
+  <em>(Clic en la imagen para reproducir)</em>
+</p>
+
+---
+
+# Conclusiones y Recomendaciones
+
+## Conclusiones
+Tras finalizar el ciclo de vida del proyecto Innovify (SkillSwap), y habiendo contrastado los artefactos del proceso Lean UX con la implementación del producto y las validaciones de usabilidad, el equipo concluye lo siguiente: 
+
+1. La investigación confirmó que el aislamiento académico es una barrera real para el éxito estudiantil, y la solución implementada responde eficazmente a esta necesidad al proveer un entorno estructurado. 
+2. Las pruebas de aceptación y las entrevistas validaron que funcionalidades críticas, como la búsqueda de tutores y la validación institucional, reducen la incertidumbre y facilitan el acceso al conocimiento compartido. 
+3. Se concluye que la plataforma tiene un impacto positivo directo en el bienestar estudiantil (salud mental) al reducir el estrés y la ansiedad asociados al fracaso académico y la falta de apoyo; además, al democratizar el acceso a tutores pares de diversas universidades, la solución promueve la inclusión social y cultural, eliminando barreras geográficas y económicas que tradicionalmente limitan la colaboración interuniversitaria. 
+4. La auditoría cruzada permitió identificar y corregir brechas en la comunicación con el usuario, y la implementación de un lenguaje más empático ("¿Quién soy yo?" en lugar de "Descripción") junto con la adición de feedback visual en los formularios (validaciones en tiempo real) demostró la capacidad del equipo para iterar y perfeccionar la experiencia de usuario (UX) basándose en retroalimentación externa, logrando un producto final más intuitivo y humano. 
+5. Finalmente, la hipótesis sobre la importancia de la "Confianza" se validó exitosamente, y la implementación técnica de la restricción de registro exclusiva para correos institucionales (`.edu.pe`) y la separación de roles (Coordinador vs. Estudiante) demostró ser el factor decisivo para que los usuarios se sintieran seguros al interactuar en la plataforma, cumpliendo con los criterios de éxito establecidos en la fase Lean.
+
+## Recomendaciones
+1. Se recomienda iniciar el desarrollo de la aplicación móvil nativa para iOS y Android tomando como base los prototipos de alta fidelidad ya validados, con el fin de aprovechar funcionalidades propias del entorno móvil, como las notificaciones push y la geolocalización, que permitirán coordinar de manera más eficiente encuentros de estudio presenciales dentro de campus seguros y mejorar la inmediatez en la comunicación entre tutores y estudiantes. 
+2. A futuro, se sugiere integrar algoritmos de Inteligencia Artificial capaces de analizar estilos de aprendizaje, desempeños previos y fortalezas académicas, de modo que el sistema pueda generar recomendaciones automáticas y precisas para el emparejamiento tutor–aprendiz, incrementando así la tasa de éxito de las sesiones y personalizando la experiencia educativa. 
+3. Finalmente, se plantea la expansión del sistema de validación institucional mediante la creación de convenios formales con distintas universidades, lo que permitirá automatizar la carga y verificación de estudiantes activos a través de APIs institucionales, disminuyendo significativamente la carga operativa de los coordinadores y garantizando un ecosistema más seguro, confiable y escalable para todas las partes involucradas.
+
+---
+
+# Bibliografía y Anexos
+
+## Bibliografía
+* Davila, R. C., Aguero Corzo, E. del C., Portillo, H., & Quimbita, O. R. (2022). Deserción universitaria de los estudiantes de una universidad peruana. *Universidad y Sociedad, 14*(2), 421-427. [http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2218-36202022000200421](http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2218-36202022000200421)
+* Escalante, J., Medina, C., & Vásquez, A. (2023). La deserción universitaria: un problema no resuelto en el Perú. *Hacedor - AIAPÆC, 7*(1), 60-72. [https://doi.org/10.26495/rch.v7i1.2421](https://doi.org/10.26495/rch.v7i1.2421)
+* García-Ortiz, J., López de Castro Machado, C., & Rivero Frutos, L. (2021). Fracaso y abandono universitario: Percepción de los(as) estudiantes de Educación Social de la Universidad de Castilla-La Mancha. *Revista de Educación y Desarrollo Social, 8*(1), 54–73. [https://www.redalyc.org/journal/140/14070424012/html](https://www.redalyc.org/journal/140/14070424012/html)
+* Gobierno del Perú. (2024). *Presupuesto público para el 2024 pone énfasis en educación, salud, atención de emergencias por desastres naturales y seguridad ciudadana*. [https://www.gob.pe/institucion/mef/noticias/868273](https://www.gob.pe/institucion/mef/noticias/868273)
+* GoPeer. *Online tutoring made simple*. Recuperado de [https://gopeer.org/auth](https://gopeer.org/auth)
+* Gutiérrez Pallares, J., Bernal Pérez, M. B., & Gutiérrez Pallares, E. (2024). Habilidades blandas: Pilares fundamentales para la empleabilidad en el siglo XXI. *RILCO DS: Revista de Desarrollo sustentable, Negocios, Emprendimiento y Educación, 6*(58), 65–76. [https://dialnet.unirioja.es/servlet/articulo?codigo=9789998](https://dialnet.unirioja.es/servlet/articulo?codigo=9789998)
+* Instituto de Educación Superior Sabio Nacional Antúnez de Mayolo - TELESUP. (2019, junio). *Reglamento de Bienestar Estudiantil*. [https://isam.edu.pe/pdf/reglamento-de-bienestar-estudiantil.pdf](https://isam.edu.pe/pdf/reglamento-de-bienestar-estudiantil.pdf)
+* Knack. *Peer tutoring for college students*. Recuperado de [https://www.joinknack.com/students](https://www.joinknack.com/students)
+* Ministerio de Educación. (2021, 8 de noviembre). *Tasa de deserción en educación universitaria se redujo a 11.5 %*. Gob.pe. [https://www.gob.pe/institucion/minedu/noticias/552273](https://www.gob.pe/institucion/minedu/noticias/552273)
+* uDocz. *Plataforma de estudio colaborativo*. Recuperado de [https://www.udocz.com/home](https://www.udocz.com/home)
+* Universidad de Piura. (2020, 26 de octubre). *La importancia de las habilidades blandas en la educación*. [https://www.udep.edu.pe/admision/lima/la-importancia-de-las-habilidades-blandas-en-la-educacion](https://www.udep.edu.pe/admision/lima/la-importancia-de-las-habilidades-blandas-en-la-educacion)
+* Villamizar-Loaiza, C. (2021). La legitimidad institucional como fuente de reputación corporativa. *Investigación y Desarrollo, 29*(2), 196–222. [https://www.redalyc.org/journal/268/26871326008/html](https://www.redalyc.org/journal/268/26871326008/html)
+
+## Anexos
+
+* **Wireframes (Figma):** [Ver en Figma](https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1)
+* **Auditoría recibida:** `----`
+* **Auditoría realizada:** `----`
+* **Página Web (GitHub Pages):** [SkillSwap Landing Page](https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git/)
+
+**Video: About the Team**
+<p align="center">
+  <a href="----" target="_blank">
+    <img src="----" alt="Video About the Team" width="400">
+  </a>
+</p>
+
+
+*(Nota: Los índices de Tablas y Figuras se auto-generarán en el procesador de texto final basándose en las leyendas de cada elemento a lo largo del documento).* 
