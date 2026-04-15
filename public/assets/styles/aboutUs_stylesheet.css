@@ -239,175 +239,55 @@ body {
   margin-bottom: 12px;
 }
 
-.login-titulo {
+.nosotros-titulo,
+.socios-titulo-h,
+.atp-titulo-h {
   font-size: var(--h2-font-size);
   font-weight: 700;
   color: var(--primary-color);
-  margin-bottom: 32px;
 }
 
 /* Línea decorativa debajo del título */
 .titulo-decorador {
-  width: 60px;
+  width: 48px;
   height: 4px;
   border-radius: 2px;
-  justify-self: center;
   background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
 }
 
-/* ═══════════════════════════════════════════════════════════════
-    SECCIÓN LOGIN
-═══════════════════════════════════════════════════════════════ */
-#inicio-sesion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - var(--footer-height)); /* Ocupa toda la pantalla */
-  padding: 60px 24px;
-  background: linear-gradient(135deg, var(--background-color) 0%, #e2e8f0 100%);
-}
+/* =========================================
+   DISEÑO RESPONSIVE: SOBRE NOSOTROS
+   Archivo: assets/styles/responsive-nosotros.css
+   ========================================= */
 
-.seccion-inicio-sesion {
-  background-color: var(--surface-color);
-  width: 100%;
-  max-width: 480px;
-  padding: 48px 40px;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-  border: 1px solid var(--border-color);
-}
-
-.seccion-inicio-sesion h1 {
-  font-size: var(--h2-font-size);
-  color: var(--primary-color);
-  text-align: center;
-  font-weight: 800;
-}
-
-.formulario-inicio-sesion {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.formulario-inicio-sesion-elemento {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.formulario-inicio-sesion-elemento label {
-  font-size: var(--label-font-size);
-  font-weight: 600;
-  color: var(--primary-dark);
-}
-
-/* Estilos para los campos de texto */
-.formulario-inicio-sesion-elemento input[type="email"],
-.formulario-inicio-sesion-elemento input[type="password"] {
-  width: 100%;
-  padding: 14px 16px;
-  font-size: var(--base-font-size);
-  color: var(--text-color);
-  background-color: var(--background-color);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  transition: border-color var(--transition), box-shadow var(--transition), background-color var(--transition);
-}
-
-.formulario-inicio-sesion-elemento input::placeholder {
-  color: #94a3b8;
-  font-size: 14px;
-}
-
-.formulario-inicio-sesion-elemento input:focus {
-  outline: none;
-  background-color: var(--surface-color);
-  border-color: var(--primary-light);
-  box-shadow: 0 0 0 4px rgba(30, 77, 138, 0.1);
-}
-
-/* Botón Submit */
-.formulario-inicio-sesion-elemento input[type="submit"] {
-  margin-top: 12px;
-  background-color: var(--secondary-color);
-  color: var(--primary-dark);
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 16px;
-  border: none;
-  border-radius: var(--radius-xl);
-  cursor: pointer;
-  transition: transform var(--transition), box-shadow var(--transition), background-color var(--transition);
-}
-
-.formulario-inicio-sesion-elemento input[type="submit"]:hover {
-  background-color: var(--secondary-dark);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255, 193, 7, 0.45);
-}
-
-/* Enlace "Entra Aquí" */
-.formulario-inicio-sesion-elemento:last-child {
-  margin-top: 8px;
-  align-items: center;
-}
-
-.formulario-inicio-sesion-elemento:last-child label {
-  font-size: 14px;
-  color: var(--text-muted);
-  font-weight: 500;
-}
-
-.formulario-inicio-sesion-elemento:last-child a {
-  color: var(--primary-color);
-  text-decoration: none;
-  font-weight: 700;
-  margin-left: 6px;
-  transition: color var(--transition);
-}
-
-.formulario-inicio-sesion-elemento:last-child a:hover {
-  color: var(--primary-light);
-  text-decoration: underline;
-}
-
-/* ═══════════════════════════════════════════════════════════════
-   FOOTER
-═══════════════════════════════════════════════════════════════ */
-footer {
-  margin-top: auto; /* Empuja el footer al fondo de la pantalla */
-}
-
-.seccion-footer {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-  text-align: center;
-  padding: 22px 24px;
-}
-.seccion-footer p { font-size: 14px; color: rgba(255, 255, 255, 0.85); margin: 0 auto; }
-.terminos-condiciones {
-  color: rgba(255, 255, 255, 0.75);
-  text-decoration: none;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.4);
-  transition: color var(--transition), border-color var(--transition);
-}
-.terminos-condiciones:hover { color: var(--secondary-color); border-color: var(--secondary-color); }
-
-
-/* Tablets y pantallas medianas */
-@media screen and (max-width: 1024px) 
-{
-    .barra-navegacion 
-    {
-        padding: 0 10px;
+/* Tablets y Móviles (Pantallas menores a 768px) */
+@media (max-width: 768px) {
+    .dropdown-content {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: white;
+        border-radius: 8px;
+        padding: 10px 0;
+        min-width: 180px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        z-index: 2000;
     }
-}
+    .dropdown-content a {
+        padding: 10px 15px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        white-space: nowrap; /* evita que el texto se parta */
+    }
 
-/* Móviles (smartphones) */
-@media screen and (max-width: 768px) 
-{
+
+    .dropdown-content.activo {
+        display: block !important;
+    }
+    
     .menu-horizontal-opciones 
     {
         display: flex;
@@ -452,24 +332,24 @@ footer {
     }
 
      /* mostrar hamburguesa */
-    .menu-hamburguesa {
+  .menu-hamburguesa {
     display: flex;
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
     padding: 10px;
     z-index: 1100;
-    }
+  }
 
-    .menu-hamburguesa span {
+  .menu-hamburguesa span {
     width: 30px;
     height: 3px;
     background-color: #000;
     transition: 0.3s;
-    }
+  }
 
-     /* Ocultar menú horizontal */
-    .menu-horizontal {
+  /* Ocultar menú horizontal */
+  .menu-horizontal {
     display: none;
     position: absolute;
     top: 75px;
@@ -478,20 +358,121 @@ footer {
     background: white;
     border-bottom: 1px solid #ccc;
     z-index: 999;
-    }
+  }
 
-     /* Mostrar menú cuando esté abierto */
-    .menu-horizontal.activo {
+  /* Mostrar menú cuando esté abierto */
+  .menu-horizontal.activo {
     display: block;
-    }
+  }
 
-   /* Botones más grandes */
-    .btn-iniciarsesion,
-   .btn-registrase {
+  /* UL se hace vertical */
+  /*.menu-horizontal-opciones {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+  }*/
+
+  /* Botones más grandes */
+  .btn-iniciarsesion,
+  .btn-registrase {
     width: 100%;
     text-align: center;
   }
-  .menu-horizontal.activo .menu-horizontal-opciones {
+.menu-horizontal.activo .menu-horizontal-opciones {
         left: 0;
+    }
+
+    /* 1. Ajuste del Contenedor Principal */
+    /* Reducimos el padding para ganar espacio en pantallas pequeñas */
+    .seccion-sobre-nosotros-principal {
+        padding: 20px; 
+        width: 100%;
+    }
+
+    /* 2. Bloque de Texto (Introducción) */
+    .sobre-nosotros-texto-bloque {
+        padding: 20px; /* Menos relleno interno */
+    }
+    
+    .sobre-nosotros-texto-bloque h2 {
+        font-size: 24px; /* Fuente un poco más pequeña */
+        text-align: center;
+    }
+
+    .sobre-nosotros-texto-bloque p {
+        text-align: justify; /* Justificar texto para mejor lectura en móvil */
+        font-size: 15px;
+    }
+
+    /* 3. Grid Visión y Misión */
+    /* Pasamos de 2 columnas a 1 sola columna */
+    .vision-mision-grid {
+        grid-template-columns: 1fr; /* Una sola columna que ocupa todo el ancho */
+
+        gap: 30px; /* Reducimos el espacio entre tarjetas */
+    }
+
+    .tarjeta-info-vm {
+        padding: 20px;
+    }
+
+    /* 4. El Equipo */
+    .equipo-contenedor h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    /* Ajustamos el grid del equipo para móviles */
+    .equipo-grid {
+        /* Usamos repeat con auto-fit, pero ajustamos el minmax 
+           para asegurar que en móviles muy pequeños se vean bien.
+           Esto intentará poner 2 por fila si caben, o 1 si es muy estrecho.
+        */
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); 
+        gap: 15px;
+    }
+
+    /* Hacemos las tarjetas del equipo un poco más compactas */
+    .equipo-miembro {
+        padding: 15px;
+    }
+
+    .equipo-imagen-wrapper {
+        width: 100px; /* Imagen un poco más pequeña */
+        height: 100px;
+    }
+}
+
+/* Móviles Pequeños (Pantallas menores a 480px) */
+@media (max-width: 480px) {
+    
+    /* Ajuste temporal de la Barra de Navegación 
+       (Como NO usaremos hamburguesa aun, apilamos los links para que no se rompa el diseño) */
+    .barra-navegacion {
+        height: auto; /* Altura automática para que crezca */
+        flex-direction: column; /* Elementos uno debajo del otro */
+        padding: 10px;
+        position: relative; /* Quitamos fixed temporalmente para evitar problemas de scroll */
+    }
+
+    body {
+        margin-top: 0; /* Quitamos el margen superior porque el nav ya no es fixed */
+    }
+
+    .menu-horizontal-opciones {
+        flex-direction: column; /* Links en columna */
+        gap: 10px;
+        padding-top: 15px;
+    }
+
+    .menu-horizontal-opciones li a {
+        padding: 5px; /* Menos espacio entre links */
+        font-size: 14px;
+    }
+
+    /* Ajuste extra para el equipo en pantallas muy angostas */
+    .equipo-grid {
+        grid-template-columns: 1fr; /* Forzamos 2 columnas para que no se vea una lista eterna */
     }
 }

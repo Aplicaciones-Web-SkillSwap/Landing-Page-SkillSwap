@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ── SEO Meta Tags ── -->
-    <meta name="description" content="Conecta con estudiantes universitarios verificados para recibir tutorías en línea." />
+    <meta name="description" content="Inicia sesión y conecta con estudiantes, proyectos y oportunidades de aprendizaje en un solo lugar." />
 
     <!-- ── SEO Bilingüe: hreflang (US35) ── -->
     <!--
@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="../assets/styles/login_stylesheet.css"/>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>SkillSwap | La Red Interuniversitaria Más Grande del Perú</title>
+
   </head>
 
   <body>
@@ -46,7 +47,7 @@
       <div class="menu-horizontal">
         <ul class="menu-horizontal-opciones">
 
-          <li><a href="alianzas.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="partnerships.html"   data-i18n="nav-alianzas">Alianzas</a></li>
           <li><a href="proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
           <li><a href="aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
 
@@ -56,7 +57,7 @@
             </a>
           </li>
           <li>
-            <a href="sites/register.html">
+            <a href="signup.html">
               <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
             </a>
           </li>
@@ -78,30 +79,35 @@
   
 <section id="inicio-sesion">
       <div class="seccion-inicio-sesion">
-        <h2 class="login-titulo" data-i18n="login-title">Inicio de Sesión</h2>
-        <div class="titulo-decorador"></div>
-        
+        <div class="login-titulo">
+          <h1  data-i18n="login-title">Inicio de Sesión</h1>
+          <div class="titulo-decorador"></div>
+        </div>
+
         <form class="formulario-inicio-sesion" onsubmit="validarLogin(event)">
           
           <div class="formulario-inicio-sesion-elemento">
-            <label for="email" data-i18n="email-label">Correo Institucional *</label>
-            <input type="text" id="email" name="correo" data-i18n="email-placeholder" placeholder="Ej: admin, u20201234@upc.edu.pe" required>
+            <label for="email" data-i18n="email-label">Correo Institucional*</label>
+            <input type="email" id="email" name="correo" data-i18n="email-placeholder" placeholder="Introduce tu email (Ej: terminar en .edu.pe)" required>
           </div>
 
           <div class="formulario-inicio-sesion-elemento">
-            <label for="password" data-i18n="password-label">Contraseña *</label>
+            <label for="password" data-i18n="password-label">Contraseña*</label>
             <input type="password" id="password" name="contrasenia" data-i18n="password-placeholder" placeholder="Introduce tu contraseña" required>
           </div>
 
           <div class="formulario-inicio-sesion-elemento">
             <input type="submit" data-i18n="login-btn" value="Iniciar Sesión">
           </div>
-        </form>
 
-        <label>
-          <span data-i18n="signup-label">¿No tienes cuenta?</span>
-          <a href="register.html" data-i18n="signup-text">Regístrate</a>
-        </label>
+          <div class="formulario-inicio-sesion-elemento">
+            <label>
+            <span data-i18n="signup-label">¿No tienes cuenta?</span>
+            <a href="signup.html" data-i18n="signup-text"> Regístrate</a>
+            </label>
+          </div>
+
+        </form>
       </div>
     </section>
 
@@ -152,9 +158,9 @@
 
           /* Login */
           "login-title": "Inicio de Sesión",
-          "email-label": "Correo institucional *",
-          "email-placeholder": "Ej: u20201234@upc.edu.pe",
-          "password-label": "Contraseña *",
+          "email-label": "Correo institucional*",
+          "email-placeholder": "Introduce tu email (Ej: terminar en .edu.pe)",
+          "password-label": "Contraseña*",
           "password-placeholder": "Introduce tu contraseña",
           "login-btn": "Iniciar Sesión",
           "signup-label": "¿No tienes cuenta?",
@@ -180,9 +186,9 @@
 
           /* Login */
           "login-title": "Log In",
-          "email-label": "University Email *",
-          "email-placeholder": "e.g. u20201234@upc.edu.pe",
-          "password-label": "Password *",
+          "email-label": "University Email*",
+          "email-placeholder": "Enter your email (must end in .edu.pe)",
+          "password-label": "Password*",
           "password-placeholder": "Enter your password",
           "login-btn": "Log In",
           "signup-label": "Don't have an account?",
