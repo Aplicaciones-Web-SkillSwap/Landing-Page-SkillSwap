@@ -239,12 +239,20 @@ body {
   margin-bottom: 12px;
 }
 
+.titulo-seccion-equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
 .nosotros-titulo,
-.socios-titulo-h,
-.atp-titulo-h {
+.mision-vision-titulo,
+.equipo-titulo {
   font-size: var(--h2-font-size);
-  font-weight: 700;
-  color: var(--primary-color);
+  font-weight: 800;
 }
 
 /* Línea decorativa debajo del título */
@@ -254,6 +262,372 @@ body {
   border-radius: 2px;
   background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
 }
+
+/* ═══════════════════════════════════════
+   HERO
+═══════════════════════════════════════ */
+.hero-about {
+  background: linear-gradient(
+      160deg,
+      rgba(15, 37, 64, 0.85),
+      rgba(25, 59, 105, 0.7)
+    ),
+    url("../assets/images/imagen_banner.png") center/cover no-repeat;
+
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  text-align: center;
+  padding: 0 24px;
+  color: white;
+}
+
+.hero-badge {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero-about h1 {
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero-about p {
+  max-width: 600px;
+  opacity: 0.9;
+}
+
+.hero-btn {
+  margin-top: 16px;
+  padding: 14px 28px;
+  background: var(--secondary-color);
+  color: var(--primary-dark);
+  border-radius: var(--radius-xl);
+  font-weight: 700;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ═══════════════════════════════════════
+   SECCIÓN PRINCIPAL
+═══════════════════════════════════════ */
+
+.seccion-sobre-nosotros {
+  width: 100%;
+  padding: var(--section-padding) 24px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--surface-color);
+}
+
+.contenido-nosotros {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* TEXTO */
+.texto-nosotros{
+  border-radius: var(--radius-lg);
+  flex: 1;
+}
+
+.texto-nosotros p {
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+/* STATS 🔥 */
+.mini-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.mini-stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.mini-stats strong {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--secondary-color);
+}
+
+.mini-stats span {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 4px;
+  justify-self: center;
+}
+
+/* IMAGEN */
+.imagen-nosotros {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+}
+
+.imagen-nosotros img {
+  width: 100%;
+  max-width: 250px;
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.15));
+  transition: var(--transition);
+}
+
+.imagen-nosotros img:hover {
+  transform: scale(1.05);
+}
+
+.seccion-sobre-nosotros-principal { 
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--section-padding) 24px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-gap);
+}
+
+/* ═══════════════════════════════════════
+   BLOQUE SOBRE NOSOTROS
+═══════════════════════════════════════ */
+.sobre-nosotros-texto-bloque {
+
+  flex: 2; /* más espacio que la imagen */
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-light)
+  );
+  color: var(--white-color);
+  padding: 36px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+
+}
+
+.sobre-nosotros-texto-bloque:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.sobre-nosotros-texto-bloque h2 {
+  font-size: var(--h2-font-size);
+  font-weight: 800;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.sobre-nosotros-texto-bloque h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin-top: 8px;
+  background-color: var(--secondary-color);
+  border-radius: var(--radius-sm);
+}
+
+.sobre-nosotros-texto-bloque p {
+  font-size: var(--base-font-size);
+  line-height: var(--line-height);
+  opacity: 0.9;
+}
+
+/* ═══════════════════════════════════════
+   VISIÓN Y MISIÓN
+═══════════════════════════════════════ */
+.vision-mision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.tarjeta-info-vm {
+  background-color: var(--surface-color);
+  color: var(--text-color);
+  padding: 28px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.tarjeta-info-vm:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.tarjeta-info-vm h3 {
+  font-size: var(--h3-font-size);
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.tarjeta-info-vm p {
+  font-size: 15px;
+  color: var(--text-muted);
+  text-align: justify;
+}
+
+
+/* ═══════════════════════════════════════
+   EQUIPO
+═══════════════════════════════════════ */
+
+.seccion-equipo {
+
+  background: var(--surface-color);
+  padding: var(--section-padding) 24px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.equipo-contenedor {
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface-color);
+}
+
+.equipo-titulo {
+  font-size: var(--h2-font-size);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.subtitulo-equipo {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 16px;
+}
+
+.equipo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 28px;
+}
+
+.equipo-miembro {
+  background: var(--background-color);
+  padding: 20px;
+  border-radius: var(--radius-md);
+  transition: var(--transition);
+  display: flex;             
+  flex-direction: column;   
+  align-items: center;       
+  text-align: center;        
+  gap: 8px;
+}
+
+.equipo-miembro:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+}
+
+.equipo-miembro small {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin: -10px 0px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 6px;
+  padding: 10px 0px;
+}
+
+.redes a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 14px;
+  opacity: 0.7;
+  transition: var(--transition);
+}
+
+.redes a:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  color: var(--primary-dark);
+}
+
+.equipo-imagen-wrapper {
+  width: 110px;
+  height: 110px;
+}
+
+.equipo-imagen {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: none; /* quitamos el azul */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.equipo-miembro:hover .equipo-imagen {
+  transform: scale(1.08);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.equipo-miembro span {
+  font-size: 15px;  
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════════════════════════ */
+footer {
+  margin-top: auto; /* Empuja el footer al fondo de la pantalla */
+}
+
+.seccion-footer {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 22px 24px;
+}
+.seccion-footer p { font-size: 14px; color: rgba(255, 255, 255, 0.85); margin: 0 auto; }
+.terminos-condiciones {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.4);
+  transition: color var(--transition), border-color var(--transition);
+}
+.terminos-condiciones:hover { color: var(--secondary-color); border-color: var(--secondary-color); }
 
 /* =========================================
    DISEÑO RESPONSIVE: SOBRE NOSOTROS
