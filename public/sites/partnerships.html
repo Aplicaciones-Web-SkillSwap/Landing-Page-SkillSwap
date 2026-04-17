@@ -1,76 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- ── SEO Meta Tags ── -->
-        <meta name="description" content="Descubre nuestras alianzas académicas con universidades reconocidas y nuestra red de colaboración educativa." />
+    <!-- ── SEO Meta Tags ── -->
+    <meta name="description" content="Descubre nuestras alianzas académicas con universidades reconocidas y nuestra red de colaboración educativa." />
 
-        <!-- ── SEO Bilingüe: hreflang (US35) ── -->
-        <!--
-        Estas etiquetas le dicen a Google qué versión de idioma mostrar según la región.
-        Cuando el usuario esté en español, el <head> se estructura así:
-        lang="es" + hreflang="es/en/x-default" apuntando a la misma URL
-        (una SPA no tiene rutas distintas, así que href apunta al mismo index.html)
-        -->
-        <link rel="alternate" hreflang="es" href="partnerships.html" />
-        <link rel="alternate" hreflang="en" href="partnerships.html" />
-        <link rel="alternate" hreflang="x-default" href="partnerships.html" />
+    <!-- ── SEO Bilingüe: hreflang ── -->
+    <link rel="alternate" hreflang="es" href="partnerships.html" />
+    <link rel="alternate" hreflang="en" href="partnerships.html" />
+    <link rel="alternate" hreflang="x-default" href="partnerships.html" />
 
-        <link rel="stylesheet" href="../assets/styles/partnerships_stylesheet.css" />
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
-        <title>SkillSwap | La Red Interuniversitaria Más Grande del Perú</title>
-    </head>
-    <body>
+    <link rel="stylesheet" href="../assets/styles/partnerships_stylesheet.css" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <title>SkillSwap - Alianzas</title>
+  </head>
 
-        <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
-        <nav class="barra-navegacion">
+  <body>
 
-        <!-- Botón menú hamburguesa -->
-        <div class="menu-hamburguesa" id="btn-menu" aria-label="Abrir menú" role="button" tabindex="0">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+    <nav class="barra-navegacion">
+       <!-- Botón menú hamburguesa -->
+      <div class="menu-hamburguesa" id="btn-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../assets/images/SkillSwap_logo.png" alt="Logo de la aplicacion SkillSwap" />
+        </a>
+      </div>
 
-        <!-- Logo -->
-        <div class="logo">
-            <a href="../index.html">
-            <img src="../assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
-            </a>
-        </div>
-
-        <!-- Menú principal -->
-        <div class="menu-horizontal">
-            <ul class="menu-horizontal-opciones">
-
-            <li><a href="partnerships.html"   data-i18n="nav-alianzas">Alianzas</a></li>
-            <li><a href="proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
-            <li><a href="aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
-
-            <li>
-                <a href="login.html">
-                <button class="btn-iniciarsesion" data-i18n="nav-login">Iniciar Sesión</button>
-                </a>
-            </li>
-            <li>
-                <a href="signup.html">
-                <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
-                </a>
-            </li>
-
-            <!-- ── Selector de Idioma (US35) ── -->
-            <li class="lang-switcher-item">
-                <div class="lang-switcher" role="group" aria-label="Seleccionar idioma">
-                <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
-                <span class="lang-divider">|</span>
-                <button class="lang-btn"        data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
+      <div class="menu-horizontal">
+        <ul class="menu-horizontal-opciones">
+            <li class="dropdown">
+                <a href="#" class="dropbtn" id="btn-alianzas">Alianzas</a>
+                <div class="dropdown-content" id="submenu-alianzas">
+                    <a href="#beneficios">Beneficios</a>
+                    <a href="#universidades-afiliadas">Universidades Afiliadas</a>
+                    <a href="#contacto-form">Contacto</a>
                 </div>
             </li>
+            <li><a href="proyects.html">Proyectos</a></li>
+            <li><a href="aboutUs.html">Sobre nosotros</a></li>
 
-            </ul>
+          <li>
+            <a href="login.html">
+              <button class="btn-iniciarsesion">Iniciar Sesion</button>
+            </a>
+          </li>
+
+          <li>
+            <a href="signup.html">
+              <button class="btn-registrase">Registrarse</button>
+            </a>
+          </li>
+
+          <!-- ── Selector de Idioma ── -->
+          <li class="lang-switcher-item">
+            <div class="lang-switcher" role="group" aria-label="Seleccionar idioma">
+              <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+              <span class="lang-divider">|</span>
+              <button class="lang-btn"        data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
+
+
+    <header class="hero-alianzas">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 data-i18n="hero-title">Potencie la innovación interdisciplinaria en su universidad</h1>
+                <p data-i18n="hero-subtitle">SkillSwap rompe los silos académicos. Conecte sus facultades y prepare a sus estudiantes para el mercado laboral mediante la colaboración práctica real.</p>
+                <a href="#contacto-form" class="btn-primary" data-i18n="hero-btn">Solicitar afiliación</a>
+            </div>
         </div>
-        </nav>
-    </body>
+    </header>
+
+<section class="beneficios-institucionales" id="beneficios">
+    <div class="container">
+        <h2 data-i18n="benefits-title">¿Por qué integrar SkillSwap en su campus?</h2>
+        <div class="grid-beneficios">
+            <div class="card-beneficio">
+                <div class="icono">🎓</div>
+                <h3 data-i18n="benefit1-title">Mejora del Perfil del Egresado</h3>
+                <p data-i18n="benefit1-desc">Sus estudiantes desarrollan habilidades blandas críticas (liderazgo, comunicación) antes de graduarse.</p>
+            </div>
+            <div class="card-beneficio">
+                <div class="icono">🚀</div>
+                <h3 data-i18n="benefit2-title">Innovación Interna</h3>
+                <p data-i18n="benefit2-desc">Facilite proyectos disruptivos uniendo estudiantes de Ingeniería, Negocios y Artes en un mismo ecosistema.</p>
+            </div>
+            <div class="card-beneficio">
+                <div class="icono">📊</div>
+                <h3 data-i18n="benefit3-title">Data & Visibilidad</h3>
+                <p data-i18n="benefit3-desc">Obtenga insights sobre cómo interactúan sus facultades y posicione a su institución como líder en networking.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="proceso-afiliacion">
+    <div class="container">
+        <h2 data-i18n="process-title">Proceso de Afiliación Simplificado</h2>
+        <div class="pasos-container">
+            <div class="paso">
+                <span class="numero-paso">1</span>
+                <h4 data-i18n="step1-title">Registro Institucional</h4>
+                <p data-i18n="step1-desc">Damos de alta a su universidad y sus facultades en nuestra red segura.</p>
+            </div>
+            <div class="paso">
+                <span class="numero-paso">2</span>
+                <h4 data-i18n="step2-title">Integración Segura</h4>
+                <p data-i18n="step2-desc">Validación automática mediante correos institucionales (.edu.pe).</p>
+            </div>
+            <div class="paso">
+                <span class="numero-paso">3</span>
+                <h4 data-i18n="step3-title">Lanzamiento</h4>
+                <p data-i18n="step3-desc">Campaña de comunicación interna para activar a su comunidad estudiantil.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="universidades-afiliadas" class="universidades-section">
+        <div class="container">
+            <h2 data-i18n="unis-title">Universidades que confían en nosotros</h2>
+            <p class="subtitle" data-i18n="unis-subtitle">Únase a la red de instituciones líderes en innovación educativa.</p>
+            
+            <div class="logos-grid">
+                <div class="logo-item"><img src="../assets/images/upc_logo.png" alt="UPC"></div>
+                <div class="logo-item"><img src="../assets/images/logo-pucp-new.svg" alt="PUCP"></div>
+                <div class="logo-item"><img src="../assets/images/u_lima_logo.svg" alt="U de Lima"></div>
+                <div class="logo-item"><img src="../assets/images/logo-unmsm.svg" alt="UNMSM"></div>
+                <div class="logo-item"><img src="../assets/images/esan_logo.png" alt="ESAN"></div>
+            </div>
+        </div>
+    </section>
+
+<section id="contacto-form" class="contacto-institucional">
+    <div class="container-form">
+        <h2 data-i18n="contact-title">Hablemos sobre el futuro de su institución</h2>
+        <p data-i18n="contact-subtitle">Deje sus datos y un representante de alianzas académicas le contactará.</p>
+        <form class="form-alianza">
+            <div class="form-group">
+                <input type="text" placeholder="Nombre de la Institución" required data-i18n-placeholder="inst-name-placeholder">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Nombre del Representante" required data-i18n-placeholder="rep-name-placeholder">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Correo Institucional" required data-i18n-placeholder="email-placeholder">
+            </div>
+            <div class="form-group">
+                <select required data-i18n="role-select">
+                    <option value="" disabled selected data-i18n="role-default">Cargo en la institución</option>
+                    <option value="rectorado" data-i18n="role-rector">Rectorado / Dirección</option>
+                    <option value="coordinador" data-i18n="role-coord">Coordinador Académico</option>
+                    <option value="docente" data-i18n="role-docente">Docente</option>
+                    <option value="otro" data-i18n="role-other">Otro</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-submit" data-i18n="submit-btn">Enviar Solicitud</button>
+        </form>
+    </div>
+</section>
+
+    <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+      <footer>
+        <div class="seccion-footer">
+          <p>
+            <span data-i18n="footer-text">2026 SkillSwap. Todos los derechos reservados.</span>
+            <a href="archivos/TerminosCondiciones.pdf" class="terminos-condiciones" data-i18n="footer-terms">
+              Términos y Condiciones
+            </a>
+          </p>
+        </div>
+      </footer>
+
+
+      <script>
+// 1. MENU HAMBURGUESA PRINCIPAL
+    const btnMenu = document.getElementById('btn-menu');
+    const menu = document.querySelector('.barra-navegacion .menu-horizontal');
+    
+    if(btnMenu) {
+        btnMenu.addEventListener('click', () => {
+            menu.classList.toggle('activo');
+        });
+    }
+
+    // 2. SUBMENU ALIANZAS (SOLO MÓVIL)
+    const btnAlianzas = document.getElementById("btn-alianzas");
+    const submenuAlianzas = document.getElementById("submenu-alianzas");
+
+    if (btnAlianzas && submenuAlianzas) {
+        btnAlianzas.addEventListener("click", (event) => {
+            // Solo actuar si estamos en modo celular
+            if (window.innerWidth <= 768) {
+                event.preventDefault(); // Evita que recargue la página al tocar "Alianzas"
+                submenuAlianzas.classList.toggle("activo"); // Abre o cierra
+            }
+        });
+    }
+</script>
+
+    <!-- ── Script i18n ── -->
+    <script>
+      /* ────────────────────────────────────────────────
+         Diccionario de traducciones
+         Añade aquí cualquier nueva clave data-i18n
+      ──────────────────────────────────────────────── */
+      const translations = {
+        es: {
+          /* Página */
+          "page-title":       "SkillSwap | Alianzas",
+          "meta-description": "Descubre nuestras alianzas académicas con universidades reconocidas y nuestra red de colaboración educativa.",
+          /* Hero */
+          "hero-title": "Potencie la innovación interdisciplinaria en su universidad",
+          "hero-subtitle": "SkillSwap rompe los silos académicos. Conecte sus facultades y prepare a sus estudiantes para el mercado laboral mediante la colaboración práctica real.",
+          "hero-btn": "Solicitar afiliación",
+          /* Beneficios */
+          "benefits-title": "¿Por qué integrar SkillSwap en su campus?",
+          "benefit1-title": "Mejora del Perfil del Egresado",
+          "benefit1-desc": "Sus estudiantes desarrollan habilidades blandas críticas (liderazgo, comunicación) antes de graduarse.",
+          "benefit2-title": "Innovación Interna",
+          "benefit2-desc": "Facilite proyectos disruptivos uniendo estudiantes de Ingeniería, Negocios y Artes en un mismo ecosistema.",
+          "benefit3-title": "Data & Visibilidad",
+          "benefit3-desc": "Obtenga insights sobre cómo interactúan sus facultades y posicione a su institución como líder en networking.",
+          /* Proceso */
+          "process-title": "Proceso de Afiliación Simplificado",
+          "step1-title": "Registro Institucional",
+          "step1-desc": "Damos de alta a su universidad y sus facultades en nuestra red segura.",
+          "step2-title": "Integración Segura",
+          "step2-desc": "Validación automática mediante correos institucionales (.edu.pe).",
+          "step3-title": "Lanzamiento",
+          "step3-desc": "Campaña de comunicación interna para activar a su comunidad estudiantil.",
+          /* Universidades */
+          "unis-title": "Universidades que confían en nosotros",
+          "unis-subtitle": "Únase a la red de instituciones líderes en innovación educativa.",
+          /* Contacto */
+          "contact-title": "Hablemos sobre el futuro de su institución",
+          "contact-subtitle": "Deje sus datos y un representante de alianzas académicas le contactará.",
+          "inst-name-placeholder": "Nombre de la Institución",
+          "rep-name-placeholder": "Nombre del Representante",
+          "email-placeholder": "Correo Institucional",
+          "role-select": "Cargo en la institución",
+          "role-default": "Cargo en la institución",
+          "role-rector": "Rectorado / Dirección",
+          "role-coord": "Coordinador Académico",
+          "role-docente": "Docente",
+          "role-other": "Otro",
+          "submit-btn": "Enviar Solicitud"
+        },
+        en: {
+          /* Página */
+          "page-title":       "SkillSwap | Partnerships",
+          "meta-description": "Discover our academic partnerships with recognized universities and our educational collaboration network.",
+          /* Hero */
+          "hero-title": "Boost interdisciplinary innovation at your university",
+          "hero-subtitle": "SkillSwap breaks academic silos. Connect your faculties and prepare your students for the job market through real practical collaboration.",
+          "hero-btn": "Request affiliation",
+          /* Beneficios */
+          "benefits-title": "Why integrate SkillSwap on your campus?",
+          "benefit1-title": "Graduate Profile Improvement",
+          "benefit1-desc": "Your students develop critical soft skills (leadership, communication) before graduating.",
+          "benefit2-title": "Internal Innovation",
+          "benefit2-desc": "Facilitate disruptive projects by uniting students from Engineering, Business, and Arts in the same ecosystem.",
+          "benefit3-title": "Data & Visibility",
+          "benefit3-desc": "Get insights on how your faculties interact and position your institution as a networking leader.",
+          /* Proceso */
+          "process-title": "Simplified Affiliation Process",
+          "step1-title": "Institutional Registration",
+          "step1-desc": "We register your university and faculties in our secure network.",
+          "step2-title": "Secure Integration",
+          "step2-desc": "Automatic validation through institutional emails (.edu.pe).",
+          "step3-title": "Launch",
+          "step3-desc": "Internal communication campaign to activate your student community.",
+          /* Universidades */
+          "unis-title": "Universities that trust us",
+          "unis-subtitle": "Join the network of leading institutions in educational innovation.",
+          /* Contacto */
+          "contact-title": "Let's talk about your institution's future",
+          "contact-subtitle": "Leave your details and an academic partnerships representative will contact you.",
+          "inst-name-placeholder": "Institution Name",
+          "rep-name-placeholder": "Representative Name",
+          "email-placeholder": "Institutional Email",
+          "role-select": "Role in the institution",
+          "role-default": "Role in the institution",
+          "role-rector": "Rectorate / Management",
+          "role-coord": "Academic Coordinator",
+          "role-docente": "Teacher",
+          "role-other": "Other",
+          "submit-btn": "Send Request"
+        }
+      };
+
+      /* ────────────────────────────────────────────────
+         Función para aplicar el idioma
+      ──────────────────────────────────────────────── */
+      function applyLanguage(lang) {
+        // Actualizar botones de idioma
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+          btn.classList.remove('active');
+        });
+        document.querySelector(`[data-lang="${lang}"]`).classList.add('active');
+
+        // Actualizar elementos con data-i18n
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (translations[lang] && translations[lang][key]) {
+            if (el.tagName === 'INPUT' && el.type === 'submit') {
+              el.value = translations[lang][key];
+            } else {
+              el.textContent = translations[lang][key];
+            }
+          }
+        });
+
+        // Actualizar placeholders
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+          const key = el.getAttribute('data-i18n-placeholder');
+          if (translations[lang] && translations[lang][key]) {
+            el.placeholder = translations[lang][key];
+          }
+        });
+
+        // Actualizar meta tags
+        document.title = translations[lang]["page-title"];
+        document.querySelector('meta[name="description"]').setAttribute('content', translations[lang]["meta-description"]);
+
+        // Guardar preferencia en localStorage
+        localStorage.setItem('preferred-language', lang);
+      }
+
+      /* ────────────────────────────────────────────────
+         Inicializar idioma al cargar la página
+      ──────────────────────────────────────────────── */
+      document.addEventListener('DOMContentLoaded', () => {
+        const savedLang = localStorage.getItem('preferred-language') || 'es';
+        applyLanguage(savedLang);
+      });
+    </script>
+  </body>
 </html>
