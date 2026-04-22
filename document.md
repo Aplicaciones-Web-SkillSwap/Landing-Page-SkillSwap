@@ -1,6 +1,9 @@
 <p align="center">
   <img src="public/assets/images-doc/Logo-Upc.png" alt="Logo UPC" width="300">
 </p>
+
+<div align="center">
+
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 ## Ingeniería de Software
 
@@ -8,8 +11,11 @@
 **Curso:** 1ASI0730 | Aplicaciones Web  
 **NRC:** 12190  
 **Docente:** Hugo Allan Mori Paiva  
+</div>
 
 ---
+
+<div align="center">
 
 # INFORME DE TRABAJO FINAL
 
@@ -19,18 +25,112 @@
 | :--- | :--- |
 | U201924127 | Alberca Saavedra, Victor Manuel |
 | U201724692 | Komatsu Dueñas, David |
-| [Completar] | [Completar] |
+| [Completar] | Meza Soza, Alexandra Yamile  |
+| U20241E356  | Conde Huashuayo, Sebasthian Alex  |
+| U20231C792 | Becerra Ninahuanca, Luis Angel |
+|
+
+</div>
 
 ---
+
+# Contenido
+
+- Contenido ........................................ 2  
+- Registro de Versiones del Informe ................. 4  
+- Student Outcome ................................... 7  
+
+# Capítulo I: Introducción 
+- 1.1 Startup Profile ..................................... 10  
+  - 1.1.1 Descripción de la Startup ...................... 10  
+  - 1.1.2 Perfiles de integrantes del equipo ............. 12  
+- 1.2 Solution Profile .................................... 13  
+  - 1.2.1 Antecedentes y problemática ..................... 13  
+  - 1.2.2 Lean UX Process ................................ 16  
+- 1.3 Segmentos objetivo .................................. 1  
+
+# Capítulo II: Requirements Elicitation & Analysis 
+- 2.1 Competidores ........................................ 2  
+  - 2.1.1 Análisis competitivo ............................ 3  
+  - 2.1.2 Estrategias y tácticas frente a competidores .... 7  
+- 2.2 Entrevistas ......................................... 10  
+  - 2.2.1 Diseño de entrevistas ............................ 10  
+  - 2.2.2 Registro de entrevistas ......................... 14  
+  - 2.2.3 Análisis de entrevistas ......................... 30  
+- 2.3 Needfinding ......................................... 36  
+  - 2.3.1 User Personas .................................... 36  
+  - 2.3.2 User Task Matrix ................................ 39  
+  - 2.3.3 User Journey Mapping ............................ 43  
+  - 2.3.4 Empathy Mapping .................................. 46  
+- 2.4 Big Picture EventStorming ............................ 51  
+- 2.5 Ubiquitous Language .................................. 65  
+
+# Capítulo III: Requirements Specification 
+- 3.1 Epics ................................................ 66  
+- 3.2 User Stories ......................................... 67  
+- 3.3 Impact Mapping ....................................... 87  
+- 3.4 Product Backlog ...................................... 90  
+
+# Capítulo IV: Product UX/UI Design 
+- 4.1 Style Guidelines ..................................... 98  
+  - 4.1.1 General Style Guidelines ......................... 99  
+  - 4.1.2 Web Style Guidelines ............................. 101  
+  - 4.1.3 Mobile Style Guidelines ......................... 103  
+- 4.2 Information Architecture ............................. 110  
+  - 4.2.1 Organization Systems ............................. 110  
+  - 4.2.2 Labeling Systems ................................ 112  
+  - 4.2.3 SEO Tags and Meta Tags ......................... 113  
+  - 4.2.4 Searching Systems ............................... 115  
+  - 4.2.5 Navigation Systems .............................. 116  
+- 4.3 Landing Page UI Design ............................... 117  
+  - 4.3.1 Landing Page Wireframe .......................... 118  
+  - 4.3.2 Landing Page Mock-up ............................ 123  
+- 4.4 Mobile Applications UI Design ........................ 133  
+  - 4.4.1 Wireframes ...................................... 133  
+  - 4.4.2 Wireflow Diagrams ............................... 140  
+  - 4.4.3 Mock-ups ........................................ 159  
+  - 4.4.4 User Flow Diagrams .............................. 165  
+- 4.5 Mobile Applications Prototyping ..................... 174  
+  - 4.5.1 Android Prototyping ............................. 175  
+  - 4.5.2 iOS Prototyping .................................. 175  
+- 4.6 Domain-Driven Software Architecture .................. 176  
+  - 4.6.1 Design-Level EventStorming ...................... 176  
+  - 4.6.2 Context Diagram .................................. 185  
+  - 4.6.3 Container Diagrams .............................. 185  
+  - 4.6.4 Component Diagrams .............................. 186  
+- 4.7 Software Object-Oriented Design ...................... 193  
+  - 4.7.1 Class Diagrams ................................... 193  
+- 4.8 Database Design ...................................... 198  
+  - 4.8.1 Database Diagrams ............................... 199  
+
+# Capítulo V: Product Implementation 
+- 5.1 Software Configuration Management ................... 199  
+  - 5.1.1 Development Environment Configuration ........... 199  
+  - 5.1.2 Source Code Management .......................... 201  
+  - 5.1.3 Code Style Guide & Conventions ................. 203  
+  - 5.1.4 Deployment Configuration ........................ 205  
+- 5.2 Landing Page, Services & Applications Implementation . 210  
+  - 5.2.1 Sprint 1 ......................................... 210  
+
+
+- Conclusiones y recomendaciones .......................... 229  
+- Bibliografía y Anexos ................................... 231  
+- Anexos .................................................. 233  
+  - Índice de tablas ...................................... 233  
+  - Índice de figuras ..................................... 233  
+  - Anexo C ............................................... 235   
+
+
+
+---
+
 
 ## Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| **v.01.Tb1** | 19/04/2026 | Meza Soza, Alexandra Yamile<br>Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David | Se agregaron los tópicos correspondientes a los Capítulos I, II, III, IV y V, abarcando desde el Startup Profile y Requirements Elicitation, hasta la arquitectura, diseño UI/UX (Landing Page y Mobile) y el Sprint 1. |
-| **v.01.Tp1** | [Fecha] | [Autor] | Se agregaron los siguientes tópicos: [Completar] |
-| **v.01.Tb2** | [Fecha] | [Autor] | Se agregaron los siguientes tópicos: [Completar] |
-| **v.01.Tf** | [Fecha] | [Autor] | Se agregaron los siguientes tópicos: [Completar] |
+| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
+
 
 *(Nota: En la versión v.01.Tb1 he resumido la lista de capítulos para que la tabla sea legible en GitHub. Si necesitas el listado exhaustivo de cada subcapítulo, te recomiendo ponerlo fuera de la tabla).*
 
@@ -40,8 +140,8 @@
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Victor Alberca:**<br>TB1: Participé en todo el proceso de desarrollo del proyecto, desde la investigación hasta la validación final...<br><br>**David Komatsu:**<br>TB1: Realicé entrevistas para obtener información de la problemática...<br>TP1: Encontré requerimientos de las funcionalidades...<br>TB2: Realicé entrevistas de validación y analicé detalladamente...<br>TF: Identifique partes del código con errores y duplicados...<br><br>**Alexandra Meza:**<br>TB1: Realicé y registré entrevistas para conocer mejor las perspectivas...<br>TP1: Diseñe los Wireframes y los mockups de los Landing Pages...<br>TB2: A través de la elaboración de la landing page...<br>TF: Durante la culminación del landing page e implementación... | En la TB1, el equipo realizó diversas actividades clave: análisis competitivo, entrevistas, diseño de User Personas y validación del documento...<br><br>En el TP1, el equipo se enfocó en analizar y estructurar de manera más profunda los problemas mediante To-Be Scenario Mapping, Impact Mapping, Historias de Usuario, Wireframes y Mockups...<br><br>En la TB2, el equipo realizó entrevistas de validación, detectó oportunidades de mejora en navegación y aplicó evaluaciones heurísticas...<br><br>En el TF, el equipo identificó y resolvió problemas complejos en navegación, consistencia visual, estructura de clases y código. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Victor Alberca:**<br>TB1: Organicé y analicé la información de entrevistas...<br><br>**David Komatsu:**<br>TB1: Con la información obtenida diseñe el empathy map...<br>TP1: Alineamos las historias de usuario acorde a las necesidades...<br>TB2: Con la información obtenida, precisé los requerimientos...<br>TF: Registré el avance grupal de las nuevas funcionalidades...<br><br>**Alexandra Meza:**<br>TB1: Tras analizar los datos, reconocí los comportamientos y lo agregué al User task Matrix...<br>TP1: Para realizar el diseño de los wireframes, pensé en cómo incluir correctamente el tipo de diseño...<br>TB2: Formulé los problemas encontrados estructurando los hallazgos...<br>TF: Formulé patrones complejos de diseño para adaptar la interfaz... | En esta etapa, el equipo organizó la información para nutrir el User Task Matrix, el Empathy Map y los User Personas, y definió la problemática y el modelo de negocio...<br><br>Durante esta etapa, se formularon criterios de aceptación, el Product Backlog y flujos de navegación lógicos...<br><br>En la TB2, el equipo profundizó en la definición técnica mediante entrevistas y mejoró la arquitectura de la landing page...<br><br>En esta etapa final, se convirtieron problemas detectados en requisitos claros y se corrigieron fallas en diseño responsive y código. |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Victor Alberca:**<br>Av1: Participé en todo el proceso de desarrollo del proyecto, desde la investigación hasta la validación final. Inicialmente, realicé análisis competitivos y entrevistas para identificar problemas y necesidades de los usuarios, elaborando User Personas claras. Luego, desarrollé artefactos ágiles como Product Backlog, Impact Mapping, To-Be Scenario e Historias de Usuario, además de contribuir en los wireflows. Posteriormente, llevé a cabo entrevistas de validación, análisis de datos y evaluaciones heurísticas para detectar problemas de usabilidad en los prototipos. Finalmente, jerarquicé los hallazgos y los convertí en requisitos y tareas técnicas, fortaleciendo un enfoque centrado en el usuario y basado en metodologías ágiles.<br><br>**David Komatsu:**<br>Av1: Realicé entrevistas para identificar y validar la problemática, analicé información del público objetivo y definí requerimientos para una app móvil y web. También revisé funcionalidades del backlog para asegurar su alineación con las necesidades de los usuarios, detectando mejoras en flujos e interacción. Finalmente, identifiqué errores y duplicados en el código, así como el estado de avance de las historias de usuario del proyecto.<br><br>**Alexandra Meza:**<br>Av1: Participé en el Event Storming aportando ideas para definir eventos y procesos del sistema, y colaboré en la organización de la información. También apoyé en entrevistas y su análisis para la toma de decisiones del equipo. Además, desarrollé la sección de alianzas en HTML y CSS, coordinando con el equipo para mantener coherencia en el diseño del proyecto.<br><br>**Luis Becerra:**<br>Av1: Participé activamente en el desarrollo del Event Storming junto a mi equipo, aportando ideas para definir los eventos y procesos del sistema, y apoyando en la organización de la información para lograr una visión compartida. Además, colaboré en las entrevistas y en su análisis, contribuyendo a la toma de decisiones del grupo. También asumí responsabilidad en el desarrollo de la sección de alianzas en HTML y CSS, coordinando con el equipo para mantener coherencia con el diseño general del proyecto.<br><br>**Sebastaian Conde:**<br>Av1: Participé de manera activa en la planificación del Sprint 1 junto a mi equipo, contribuyendo en la definición de las Historias de Usuario y en la organización del Sprint Backlog, lo que permitió establecer una visión clara y compartida del trabajo a realizar. Asimismo, colaboré en la distribución de responsabilidades dentro de la matriz LACX, apoyando en la toma de decisiones del grupo para asegurar una entrega cohesionada. Asimismo, asumí la responsabilidad del desarrollo de la sección de Socios en HTML y CSS, implementando el grid de logos de universidades afiliadas con sus respectivos enlaces externos y asegurando la compatibilidad responsive de la sección.<br> | El equipo participó en todo el proceso del proyecto, desde la investigación inicial hasta la validación y desarrollo. Se realizaron entrevistas, análisis de usuarios y del entorno, y se definieron requerimientos, historias de usuario y artefactos ágiles como el Product Backlog, Impact Mapping y Event Storming. También se validaron funcionalidades y se detectaron mejoras en usabilidad, flujos y código. Finalmente, cada integrante contribuyó tanto en el análisis y toma de decisiones como en el desarrollo de secciones en HTML y CSS, asegurando coherencia, organización y cumplimiento de los objetivos del Sprint 1. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** |  **Victor Alberca:**<br>Av1: Organicé y analicé la información de entrevistas identificando patrones y tendencias, utilizando herramientas como la User Task Matrix para estructurar tareas críticas y vincularlas con requerimientos de software. A lo largo del proyecto, apliqué y actualicé constantemente artefactos ágiles como Product Backlog, Impact Mapping y Wireflows, reforzando la importancia del aprendizaje continuo. Además, realicé entrevistas de validación, diseñé guiones más precisos y ejecuté evaluaciones heurísticas que permitieron detectar problemas complejos de usabilidad en los prototipos. Finalmente, estructuré los hallazgos en métricas y matrices para formular problemas medibles y traducirlos en criterios de aceptación, escenarios técnicos y tareas verificables dentro del Sprint Backlog.<br><br>**David Komatsu:**<br>Av1:Con la información obtenida en las entrevistas diseñe el empathy map, conectando la información con los requerimientos necesarios y ayude en el task matrix.<br><br>**Alexandra Meza:**<br>Av1: Tras analizar los datos obtenidos en las entrevistas, reconocí los comportamientos de los entrevistados frente a las situaciones planteadas en las entrevistas y lo agregué al User task Matrix.<br><br>**Luis Becerra:**<br>Av1: Contribuí a generar un entorno de trabajo colaborativo al participar de manera activa y respetuosa en las actividades grupales, considerando las ideas de todos los integrantes. Apoyé en la planificación de tareas relacionadas al Event Storming, entrevistas y desarrollo frontend, cumpliendo con los entregables asignados dentro de los tiempos establecidos. Asimismo, mantuve una comunicación constante con el equipo para asegurar el avance coordinado y el cumplimiento de los objetivos del TB1.<br><br>**Sebastaian Conde:**<br>Av1: Participé de manera activa en la planificación del Sprint 1 junto a mi equipo, contribuyendo en la definición de las Historias de Usuario y en la organización del Sprint Backlog, lo que permitió establecer una visión clara y compartida del trabajo a realizar. Asimismo, colaboré en la distribución de responsabilidades dentro de la matriz LACX, apoyando en la toma de decisiones del grupo para asegurar una entrega cohesionada. Asimismo, asumí la responsabilidad del desarrollo de la sección de Socios en HTML y CSS, implementando el grid de logos de universidades afiliadas con sus respectivos enlaces externos y asegurando la compatibilidad responsive de la sección.<br> | El equipo participó en todo el proceso del proyecto, desde la investigación inicial hasta la validación y desarrollo. Se realizaron entrevistas, análisis de usuarios y del entorno, y se definieron requerimientos, historias de usuario y artefactos ágiles como el Product Backlog, Impact Mapping y Event Storming. También se validaron funcionalidades y se detectaron mejoras en usabilidad, flujos y código. Finalmente, cada integrante contribuyó tanto en el análisis y toma de decisiones como en el desarrollo de secciones en HTML y CSS, asegurando coherencia, organización y cumplimiento de los objetivos del Sprint 1.  |
 
 ---
 
@@ -58,6 +158,7 @@ A diferencia de los modelos tradicionales, nuestra plataforma se sostiene bajo u
 Todo este ecosistema se mantiene seguro y escalable gracias a un proceso de validación automatizada que exige el uso de correos institucionales (`.edu.pe` o `upc.edu.pe`, `pupc.edu.pe`) para garantizar que los usuarios sean estudiantes reales. Asimismo, la calidad académica está respaldada por la participación de los Profesores Universitarios, quienes actúan como garantes de excelencia al crear el banco oficial de quizzes y retos que los tutores utilizan para evaluar a sus aprendices, fomentando un entorno confiable, profesional y altamente colaborativo.
 
 Asimismo, pensando en la escalabilidad y el aseguramiento de la calidad a futuro, Innovify contempla la integración de tecnología IoT en su ecosistema. El roadmap tecnológico incluye el desarrollo de un **'Sensor de Calidad de Entorno'**: un dispositivo miniatura basado en un microcontrolador (ej. ESP32) equipado con sensores de luz y ruido, diseñado para ubicarse en el área de estudio del tutor. Durante el aprendizaje sincrónico, este hardware enviará métricas ambientales en tiempo real al backend. Si el entorno presenta contaminación auditiva o iluminación deficiente, la plataforma alertará al tutor para que mejore sus condiciones. Por el contrario, parámetros óptimos otorgarán automáticamente un 'Badge de Excelencia Técnica' a la sesión. Esta proyección IoT asegura que el servicio por el cual el aprendiz realiza su donación económica mantenga siempre un estándar de alta calidad profesional.
+
 
 ### Visión
 Ser la plataforma líder en educación colaborativa universitaria a nivel nacional, reconocida por ser el principal aliado estratégico de las instituciones en la prevención de la deserción académica, potenciando el aprendizaje mediante tecnología escalable, entornos validados por IoT y un ecosistema económicamente sostenible.
@@ -388,9 +489,11 @@ En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en 
 * **Distrito:** San Miguel
 
 <p align="center">
-  <img src="images/entrevista3-s1.jpg" alt="Entrevista Stephanie" width="600">
+  <img src="public/assets/images-doc/entrevista3-s1.png" alt="Entrevista Stephanie" width="600">
   <br>
-  <em>Figura 3. YouTube: Entrevista 3: Estudiante-Aprendiz | Innovify. Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
+  <em>Figura 3. YouTube: Entrevista 3: Estudiante-Aprendiz | Innovify. 
+  <br>
+  Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
 
 * **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#) *(Añadir enlace real)*
@@ -411,7 +514,9 @@ En esta tercera entrevista Stefanie estudia Negocios Internacionales en la Unive
 <p align="center">
   <img src="public/assets/images-doc/entrevista-victor2.png" alt="Entrevista Lucero" width="600">
   <br>
-  <em>Figura 4. YouTube: Entrevista 1: Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia a la primera persona entrevista de nuestro segmento estudiante-tutor.</em>
+  <em>Figura 4. YouTube: Entrevista 1: Estudiante-Tutor | Innovify. 
+  <br>
+  Nota: En esta figura se aprecia a la primera persona entrevista de nuestro segmento estudiante-tutor.</em>
 </p>
 
 * **URL:** [https://www.youtube.com/watch?v=fMeHUnvO4rA](https://www.youtube.com/watch?v=fMeHUnvO4rA)
@@ -650,7 +755,7 @@ A través de este proceso, se busca validar las hipótesis iniciales del proyect
 
 ### 2.3.1. User Personas
 
-Para iniciar esta sección del documento, el equipo seleccionó las características más relevantes de todas las que ofrece la plataforma UXPressia, diferenciando entre aquellas de carácter global (comunes a los tres segmentos) y las específicas que resultaban más pertinentes para determinados perfiles. Cada integrante compartió sus aportes, siempre a partir de los resultados obtenidos y analizados en las entrevistas previas. Finalmente, consensuamos la opción que consideramos más adecuada, adaptándola para que fuese más precisa y representativa del perfil que buscamos.
+Para iniciar esta sección del documento, el equipo seleccionó las características más relevantes de todas las que ofrece la plataforma UXPressia, diferenciando entre aquellas de carácter global (comunes a los tres segmentos) y las específicas que resultaban más pertinentes para determinados perfiles. Cada integrante compartió sus aportes en los apartados correspondientes, respondiendo preguntas puntuales sobre la persona creada, siempre a partir de los resultados obtenidos y analizados en las entrevistas previas. Finalmente, consensuamos la opción que consideramos más adecuada, adaptándola para que fuese más precisa y representativa del perfil que buscamos. Este proceso no solo permitió refinar la definición de cada segmento, sino también alinear la visión del equipo respecto al usuario objetivo.
 
 **User Persona: Estudiantes que quieran aprender**
 <p align="center">
@@ -658,6 +763,8 @@ Para iniciar esta sección del documento, el equipo seleccionó las característ
   <br>
   <em>Figura 12. User Persona - Estudiantes que quieran aprender - Elaboración propia.</em>
 </p>
+En esta figura se observa el arquetipo de usuario correspondiente al segmento de estudiantes o "Learners". El perfil de Jazmin Rosas detalla las metas, motivaciones y frustraciones de una estudiante de ingeniería, proporcionando una base clara para orientar el desarrollo hacia soluciones de aprendizaje colaborativo y soporte académico entre pares.
+<br><br>
 
 **User Persona: Estudiantes que quieran enseñar**
 <p align="center">
@@ -665,6 +772,9 @@ Para iniciar esta sección del documento, el equipo seleccionó las característ
   <br>
   <em>Figura 13. User Persona - Estudiantes que quieran enseñar - Elaboración propia.</em>
 </p>
+En esta figura se presenta el arquetipo de usuario "Lucía Torres", el cual personifica el segmento de estudiantes con un rol híbrido que actúan simultáneamente como tutores y aprendices. El perfil describe sus antecedentes académicos en ingeniería y sus objetivos de fortalecer habilidades blandas mediante la enseñanza, proporcionando información valiosa sobre los desafíos de gestión del tiempo y la necesidad de herramientas intuitivas para la organización de las sesiones de tutoría.
+<br>
+<br>
 
 **User Persona: Coordinador Institucional**
 <p align="center">
@@ -672,6 +782,18 @@ Para iniciar esta sección del documento, el equipo seleccionó las característ
   <br>
   <em>Figura 14. User Persona - Coordinador Institucional - Elaboración propia.</em>
 </p>
+En la imagen tenemos la caracterización de Renato López, quien representa el segmento administrativo y de moderación del sistema. Su perfil resalta objetivos enfocados en la seguridad, la integridad académica y el monitoreo de comportamientos, definiendo los requerimientos necesarios para las herramientas de gestión institucional de la plataforma.
+<br>
+<br>
+<br>
+
+
+
+**En conjunto**, los arquetipos de usuario presentados permiten comprender de manera clara las necesidades, motivaciones y desafíos de los principales actores dentro del sistema. El perfil de los estudiantes o “Learners” orienta el diseño hacia experiencias de aprendizaje colaborativo y soporte académico efectivo, mientras que el arquetipo del usuario administrativo establece los lineamientos necesarios para garantizar la seguridad, la integridad académica y una adecuada supervisión del comportamiento dentro de la plataforma.
+
+Por otro lado, el perfil híbrido de usuarios que cumplen simultáneamente roles de estudiante y tutor aporta una visión más dinámica del ecosistema, evidenciando la necesidad de herramientas flexibles que faciliten la gestión del tiempo y la organización de sesiones de enseñanza. En conjunto, estos arquetipos permiten alinear el desarrollo del sistema con usuarios reales y diversos, asegurando una solución más centrada en la experiencia, la eficiencia operativa y el equilibrio entre aprendizaje, enseñanza y administración.
+
+<br>
 
 ---
 
@@ -735,6 +857,9 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
   <br>
   <em>Figura 15. User Journey Mapping – Estudiantes que quieran aprender - Elaboración propia. Nota: En esta figura se aprecia nuestro primer Journey Mapping de nuestro primer segmento estudiante aprendiz.</em>
 </p>
+<br>
+En esta figura se observa el recorrido del estudiante o aprendiz a través de cinco etapas críticas: descubrimiento, duda, búsqueda, recepción de ayuda y evaluación. El diagrama detalla la curva emocional del usuario, identificando puntos de dolor como la dificultad para coordinar horarios y la falta de claridad en explicaciones, proponiendo soluciones como el uso de tutores verificados y repositorios de sesiones grabadas.
+<br>
 
 #### Segmento #2: Estudiantes que quieran enseñar
 <p align="center">
@@ -742,6 +867,9 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
   <br>
   <em>Figura 16. User Journey Mapping – Estudiantes que quieran enseñar - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Journey Mapping de nuestro segundo segmento estudiante tutor.</em>
 </p>
+<br>
+En la imagen tenemos la visualización de la experiencia desde la perspectiva del tutor. El mapa describe el proceso desde la motivación inicial y la preparación del material hasta el cierre y retroalimentación de la sesión. Se resalta la fluctuación de la experiencia según el compromiso del aprendiz y se proponen ideas de mejora como la gamificación de las sesiones y sistemas de recordatorios automáticos para optimizar la gestión del tiempo.
+<br>
 
 #### Segmento #3: Coordinador Institucional
 <p align="center">
@@ -750,30 +878,60 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
   <em>Figura 17. User Journey Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Journey Mapping de nuestro segmento coordinador institucional.</em>
 </p>
 
+En esta figura se detalla el flujo de gestión desde el ángulo administrativo y de calidad académica. El mapa abarca la planeación, implementación y supervisión de las tutorías interuniversitarias, poniendo énfasis en la mitigación de riesgos operativos como el plagio o el fraude. Se proponen herramientas técnicas de control, tales como un "DNI académico" para la validación de alumnos y paneles de control intuitivos para el monitoreo de interacciones.
+<br>
+<br>
+<br>
+
+**Entonces**, los mapas de experiencia presentados permiten comprender de manera integral cómo interactúan los distintos actores con la plataforma a lo largo de sus procesos clave. Desde la perspectiva del estudiante, se evidencia un recorrido marcado por necesidades emocionales y operativas que van desde la incertidumbre inicial hasta la evaluación final, identificando puntos críticos que pueden ser mitigados mediante herramientas de apoyo como tutores verificados y recursos grabados.
+
+Desde el lado del tutor, la experiencia se centra en la preparación, ejecución y retroalimentación de las sesiones, donde la calidad de la interacción depende del nivel de compromiso del aprendiz, proponiéndose mejoras orientadas a la motivación y la optimización del tiempo mediante gamificación y automatización de recordatorios.
+
+Finalmente, la visión administrativa incorpora una capa de control y supervisión orientada a garantizar la calidad académica y la seguridad del sistema, abordando riesgos como el fraude o el plagio mediante mecanismos de validación y paneles de monitoreo. En conjunto, estas perspectivas permiten diseñar una experiencia equilibrada, eficiente y segura para todos los participantes del ecosistema educativo.
+
+<br>
+
 ---
 
 ### 2.3.4. Empathy Mapping
 
+Para profundizar en el entendimiento de nuestros usuarios finales y diseñar una solución que responda a sus necesidades reales, se desarrollaron mapas de empatía para cada segmento identificado. Esta herramienta permite visualizar el entorno, las percepciones y las motivaciones de los actores clave (aprendiz, tutor y administrador), facilitando la identificación de puntos críticos y oportunidades de valor dentro del ecosistema de SkillSwap.
+<br>
+
+
 #### Segmento #1: Estudiantes que quieran aprender
 <p align="center">
-  <img src="public/assets/images-doc/user1.png" alt="Empathy Map Aprendiz" width="800">
+  <img src="public/assets/images-doc/Empati1.png" alt="Empathy Map Aprendiz" width="800">
   <br>
   <em>Figura 18. Empathy Mapping - Estudiantes aprendices - Elaboración propia. Nota: En esta figura se aprecia nuestro Empathy Mapping de nuestro primer segmento estudiante aprendiz.</em>
 </p>
+<br>
+Se observa el mapa de empatía de Valeria, estudiante universitaria que representa al segmento de aprendices. El diagrama detalla su necesidad de encontrar apoyo académico confiable ante una carga académica exigente, identificando como puntos de dolor la ansiedad generada por la falta de confianza en los tutores actuales y la frustración de perder tiempo buscando ayuda poco efectiva.
+
+<br>
 
 #### Segmento #2: Estudiantes que quieran enseñar
 <p align="center">
-  <img src="public/assets/images-doc/user2.png" alt="Empathy Map Tutor" width="800">
+  <img src="public/assets/images-doc/Empati2.png" alt="Empathy Map Tutor" width="800">
   <br>
   <em>Figura 19. Empathy Mapping - Estudiantes tutores - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Empathy Mapping de nuestro segmento estudiantes tutores.</em>
 </p>
+<br>
+En esta figura se detalla el mapa de empatía orientado al estudiante con rol de tutor. El análisis subraya su deseo de reafirmar conocimientos mediante la enseñanza y construir un perfil académico/profesional sólido. Se identifican como principales desafíos la falta de reconocimiento formal por su labor de apoyo y la dificultad para equilibrar las tutorías con sus propias responsabilidades de estudio.
+<br>
 
 #### Segmento #3: Coordinador Institucional
 <p align="center">
-  <img src="public/assets/images-doc/user3.png" alt="Empathy Map Coordinador" width="800">
+  <img src="public/assets/images-doc/Empati3.png" alt="Empathy Map Coordinador" width="800">
   <br>
   <em>Figura 20. Empathy Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Empathy Mapping de nuestro segmento coordinador institucional.</em>
 </p>
+
+En la imagen tenemos la caracterización empática de Romeo, representante del segmento institucional y administrativo. El mapa resalta su preocupación por mantener la calidad académica y la integridad institucional, señalando como riesgos principales el fraude o suplantación de identidad, y visualizando como ganancia el acceso a herramientas tecnológicas que agilicen la validación de los participantes.
+<br><br>
+**Entonces**, los mapas de empatía permiten profundizar en las necesidades emocionales, motivaciones y dificultades de los distintos actores del sistema, enriqueciendo la comprensión del diseño centrado en el usuario. En el caso del estudiante con rol de tutor, se evidencia una motivación orientada al refuerzo de conocimientos y al desarrollo de su perfil profesional, aunque enfrenta desafíos relacionados con el reconocimiento de su labor y la gestión del tiempo entre sus responsabilidades académicas y las tutorías.
+
+Por su parte, el perfil institucional destaca una fuerte preocupación por la calidad académica y la seguridad del sistema, priorizando la prevención de riesgos como el fraude y la suplantación, y valorando el uso de herramientas tecnológicas que optimicen los procesos de validación. Finalmente, el estudiante aprendiz refleja una necesidad urgente de apoyo académico confiable, enfrentando emociones como la ansiedad y la frustración debido a experiencias poco efectivas en la búsqueda de ayuda. En conjunto, estos mapas evidencian la importancia de diseñar una plataforma equilibrada que atienda tanto aspectos funcionales como emocionales, asegurando confianza, eficiencia y valor para todos los usuarios.
 
 ---
 
@@ -783,59 +941,163 @@ El Big Picture EventStorming nos permite explorar el dominio de nuestra platafor
 
 ### Fase 0
 
+<br>
+El siguiente apartado presenta una introducción a los requerimientos funcionales de la plataforma, destacando su estructura integral y la interrelación de sus componentes principales. Se describen los elementos clave que permiten su funcionamiento, incluyendo la gestión financiera, la resolución de conflictos, la generación de indicadores de desempeño y el módulo de aprendizaje. Asimismo, se abordan las funcionalidades de comunicación y el ciclo de vida del usuario, desde su registro hasta la interacción con tutores. A continuación, se detallarán los aspectos fundamentales que conforman esta solución robusta y escalable.
 
-<p align="center">
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/1.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa la derivación de requisitos tras el proceso de Event Storming, centrada en el ciclo de vida del usuario. Se detallan las funcionalidades de registro institucional, autenticación y gestión de perfiles, así como los criterios lógicos para el motor de búsqueda y filtrado de tutores según habilidades y disponibilidad.</em>
+  </figcaption>
+</figure>
+<br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/2.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos la clasificación de requerimientos funcionales para la comunicación síncrona. Se especifican las reglas para el sistema de mensajería (chat y envío de archivos) y la infraestructura lógica necesaria para la ejecución segura de videollamadas, incluyendo la generación de tokens de acceso y funciones de pantalla compartida.</em>
+  </figcaption>
+</figure>
+<br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/3.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla la lógica funcional para el módulo de aprendizaje, abarcando desde la gestión de bancos de preguntas y evaluación automatizada de quizzes, hasta las métricas de negocio para el procesamiento de reseñas y el cálculo del promedio de calificación de los tutores.</em>
+  </figcaption>
+</figure>
+<br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/4.png" alt="Big Picture EventStorming - Fase 0" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el mapeo de requerimientos para el flujo financiero de la plataforma (pagos y monedero digital), el sistema de resolución de conflictos y la generación de indicadores clave (KPIs). Esta vista define las métricas de rendimiento y los reportes detallados necesarios para el monitoreo administrativo de la solución.</em>
+  </figcaption>
+</figure>
+<br>
+<p style="text-align: center;">
   <em>Figura 21. Big Picture EventStorming: Fase 0 - Elaboración propia. Nota: En esta fase inicial se descubren y organizan cronológicamente los eventos de dominio (Domain Events) en la plataforma, representados en notas naranjas.</em>
 </p>
+<br>
+
+En conjunto, los elementos presentados evidencian una definición integral y estructurada de los requerimientos funcionales de la plataforma, abarcando sus componentes clave. Se articulan de manera coherente el flujo financiero, el sistema de resolución de conflictos y la generación de KPIs para el control administrativo, junto con el módulo de aprendizaje que gestiona evaluaciones, contenido y métricas de desempeño. Asimismo, se incorporan las funcionalidades de comunicación síncrona, garantizando interacción segura y eficiente entre usuarios mediante mensajería y videollamadas. Finalmente, el enfoque derivado del Event Storming permite consolidar el ciclo de vida del usuario, desde su registro y autenticación hasta la búsqueda personalizada de tutores. En conjunto, estos aspectos configuran una solución robusta, orientada tanto a la experiencia del usuario como a la gestión eficiente y escalable del sistema.
 
 ---
 
 ### Etapa 1 y 2
+<br>
+El presente apartado introduce una visión general de la arquitectura operativa de la plataforma, destacando la integración y coherencia de sus distintos módulos. Se abordan los principales procesos que permiten su funcionamiento, desde la gestión administrativa y financiera hasta los mecanismos de aprendizaje, comunicación y emparejamiento de usuarios. Asimismo, se resalta la importancia de contar con sistemas robustos de evaluación, mensajería en tiempo real y control de identidad, los cuales garantizan una experiencia segura y eficiente. A continuación, se presentarán los elementos clave que conforman esta solución integral.
 
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/5.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el flujo secuencial para la gestión de identidad y acceso, así como la administración de perfiles. Se detalla la lógica desde el ingreso de credenciales y la validación obligatoria del dominio institucional, hasta la configuración detallada del perfil de usuario, permitiendo al estudiante registrar habilidades académicas y definir su disponibilidad horaria semanal de manera estructurada.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/6.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos el mapeo de procesos para el módulo de búsqueda y selección de tutores. Se ilustra la transición desde el inicio de la búsqueda por palabras clave hasta la carga de resultados finales, destacando los puntos de validación de disponibilidad activa del tutor y la aplicación de filtros por calificación, asegurando un emparejamiento eficiente entre las necesidades del aprendiz y la oferta académica.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/7.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa la diagramación de eventos para la interacción entre usuarios en tiempo real. La sección superior detalla el flujo de mensajería y gestión de archivos adjuntos, mientras que la sección inferior establece la secuencia técnica para las sesiones síncronas (Live Sessions), abarcando la generación de tokens de seguridad para videollamadas y la detección de interrupciones de conexión durante la sesión.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/8.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se presenta la secuencia lógica para los procesos de aprendizaje y retroalimentación. Se describe el ciclo de vida de los cuestionarios (desde la creación del banco de preguntas hasta la evaluación automática y almacenamiento de puntajes) y el flujo de validación de reseñas, garantizando que las calificaciones publicadas en el perfil del tutor correspondan a sesiones efectivamente completadas.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/9.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen se evidencia el flujo operativo para los módulos de soporte y administración. Se detalla la secuencia de validación de pagos y retiros de saldo hacia el monedero digital, el proceso de reporte y resolución de disputas por comportamiento inapropiado, y finalmente la lógica de recolección de datos históricos para la generación de métricas de rendimiento en el panel de control (dashboard).</em>
+  </figcaption>
+</figure>
+
+<p style="text-align: center;">
   <em>Figura 22. Big Picture EventStorming: Etapa 1 y 2 - Elaboración propia. Nota: Se añaden los comandos (notas azules) que desencadenan los eventos y se identifican los actores/sistemas (notas amarillas pequeñas/rosadas) que los ejecutan dentro del ecosistema.</em>
 </p>
+<br>
+
+En conjunto, los procesos descritos reflejan una arquitectura operativa completa y bien orquestada de la plataforma, donde cada módulo contribuye al funcionamiento integral del sistema. Se integran los flujos de soporte y administración, garantizando la correcta gestión financiera, la resolución de disputas y la generación de métricas para la toma de decisiones. Paralelamente, el módulo de aprendizaje asegura un ciclo estructurado de evaluación y retroalimentación, validando la calidad de las interacciones académicas mediante cuestionarios y reseñas verificadas.
+
+Asimismo, la comunicación en tiempo real se encuentra respaldada por una lógica robusta que permite la mensajería eficiente y la ejecución segura de sesiones síncronas, incluso ante posibles interrupciones. A esto se suma un sistema de búsqueda y selección de tutores optimizado, que facilita el emparejamiento preciso entre usuarios mediante filtros y validaciones de disponibilidad. Finalmente, la gestión de identidad y perfiles establece una base sólida para el acceso seguro y la personalización de la experiencia del usuario. En conjunto, estos flujos consolidan una solución coherente, confiable y centrada tanto en la calidad del servicio como en la escalabilidad del sistema.
+
 
 ---
 
 ### Etapa 3
+<br>
+La plataforma integra de manera coherente sus distintos módulos para ofrecer un entorno seguro, confiable y eficiente. Combina mecanismos de control, resolución de conflictos y gestión financiera con sistemas de reputación, evaluaciones académicas y herramientas colaborativas. Todo esto permite no solo garantizar la calidad del servicio, sino también fortalecer la confianza entre los usuarios mediante procesos claros, verificados y bien estructurados.
 
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/10.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el flujo completo de gestión de usuarios, integrando políticas de verificación para correos institucionales y el uso de APIs externas de correo. Se detalla cómo los actores (Estudiante/Tutor) interactúan con el sistema para la validación de cuentas y la configuración granular de habilidades y horarios de disponibilidad.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/11.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos el flujo de búsqueda de tutores, donde se resalta la intervención del Estudiante como actor principal. La secuencia muestra la aplicación de filtros por curso, palabra clave y calificación, regidos por una política de carga de resultados que determina la visualización final del perfil detallado del tutor.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/12.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el flujo detallado del espacio de trabajo colaborativo. La captura destaca la integración de políticas para el almacenamiento de archivos y la generación de tokens de seguridad para videollamadas. Asimismo, se evidencia el uso de una API de videoconferencia y una política de destrucción de tokens al finalizar la sesión para garantizar la seguridad.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/13.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se presenta el ciclo de vida de los cuestionarios, gestionado por el Administrador/Profesor. Se detalla el proceso de registro de preguntas en el banco y la publicación de quices, seguido por la resolución del Estudiante y una política de evaluación automática que almacena puntajes y muestra resultados en tiempo real.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/14.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen se evidencia la lógica detrás de la reputación del tutor. Se muestra cómo, tras el envío de una reseña por el Estudiante, se activa una política de recálculo del promedio. También se incluye el flujo de moderación, donde un Administrador puede eliminar reseñas inapropiadas, disparando una actualización del perfil público.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/15.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el flujo financiero de la plataforma, detallando la interacción con pasarelas de pago externas. Se resalta la política de cálculo de comisión de la plataforma y el proceso de retiro de fondos solicitado por el Tutor, el cual es procesado mediante una API de transferencias bancarias para actualizar el saldo del monedero.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/16.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
-  <img src="public/assets/images-doc/17.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
-  <img src="public/assets/images-doc/18.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
-  <img src="public/assets/images-doc/19.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla el proceso de resolución de conflictos. El flujo describe el registro de reportes por parte de los usuarios y la posterior revisión manual por un Administrador, quien decide el veredicto y aplica sanciones, notificando a los involucrados a través de una API de correo externa.</em>
+  </figcaption>
+</figure>
+
+<p style="text-align: center;">
   <em>Figura 23. Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que protegen las reglas de negocio y se agrupan los eventos en sus respectivos Contextos Delimitados (Bounded Contexts).</em>
 </p>
+<br>
+
+En conjunto, los flujos descritos evidencian una plataforma diseñada con un alto nivel de control, trazabilidad y seguridad en cada uno de sus procesos críticos. Se articula un sistema de resolución de conflictos que combina la participación activa de los usuarios con la supervisión administrativa, garantizando decisiones fundamentadas y comunicación efectiva mediante servicios externos.
+
+De igual manera, el componente financiero demuestra una integración sólida con pasarelas de pago y APIs bancarias, incorporando políticas claras de comisiones y retiros que aseguran la correcta gestión del monedero digital. En paralelo, el sistema de reputación y evaluación refuerza la confianza dentro de la plataforma, mediante la validación, moderación y actualización dinámica de reseñas y calificaciones.
+
+Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colaborativo consolidan la experiencia académica, integrando evaluaciones automatizadas, almacenamiento seguro de recursos y comunicación síncrona protegida por mecanismos como tokens temporales. Finalmente, los módulos de búsqueda de tutores y gestión de usuarios completan el ecosistema, ofreciendo un emparejamiento eficiente basado en filtros y una administración de identidad robusta mediante verificaciones institucionales. En conjunto, estos elementos configuran una solución integral, segura y orientada a la calidad del servicio y la confianza entre sus usuarios.
 
 ---
 
@@ -921,10 +1183,7 @@ El Big Picture EventStorming nos permite explorar el dominio de nuestra platafor
 | **US37** | About + Innovation | As a user, I want to see vision and tech so that I trust future. | **Scenario:** View innovation<br>**Given** section<br>**When** I read<br>**Then** I understand roadmap | EP09 |
 | **US38** | Solutions Section | As a user, I want to see features so that I understand value. | **Scenario:** View features<br>**Given** section<br>**When** I explore<br>**Then** I see platform capabilities | EP09 |
 
-
-## 3.1. Impact Mapping
-
-En esta sección se expone el Impact Mapping del proyecto, una técnica que conecta los objetivos de negocio con las funcionalidades a desarrollar. El proceso inició con la definición de los Business Goals bajo criterios SMART, seguido de la identificación de los Actores (User Personas) que influyen en su cumplimiento. Para cada actor se establecieron los Impacts esperados en su comportamiento y, a partir de ellos, se listaron los Deliverables que podrían generarlos. Finalmente, cada deliverable se vinculó con User Stories concretas que lo hacen tangible.
+---
 
 <p align="center">
   <img src="public/assets/images-doc/empa1.png" alt="Impact Mapping Registro" width="800">
