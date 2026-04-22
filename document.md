@@ -2371,11 +2371,20 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 * **Landing Page:** Repositorio público para la página de presentación del producto. 
   * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](#)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
-  * Enlace: *[Añadir enlace]*
+  * Enlace: *[https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git]
 * **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
-  * Enlace: *[Añadir enlace]*
+  * Enlace: *[https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git]*
+* **Demo_repository:** Repositorio de demostración del proyecto, utilizado para integrar o mostrar de forma simplificada el funcionamiento general del sistema.
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/demo-repository.git](#)
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
   * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](#)
+
+<br><br>
+<p align="center">
+  <img src="public/assets/images-doc/repos.png" alt="Database Entity Relationship Diagram" width="1000">
+  <br>
+  <em>En esta figura se observa el panel principal de organización del proyecto en GitHub, evidenciando una arquitectura modular basada en repositorios independientes. Se muestran los distintos componentes del sistema, incluyendo la Landing Page para la presentación del producto, el Frontend Web Application para la interacción entre estudiantes y profesores, el Web Services (Backend API) encargado de la lógica del sistema, el Demo Repository como entorno de demostración del funcionamiento general, y el repositorio de Acceptance Tests donde se definen las pruebas de validación del sistema mediante archivos en formato Gherkin.</em>
+</p>
 
 #### Implementación GitFlow
 
@@ -2498,21 +2507,54 @@ En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra
 3. Dentro buscaremos la sección **Branch** y en el menú desplegable que por defecto tiene la opción "None", elegiremos la rama `main`. Dejaremos por defecto la carpeta `/(root)` y finalmente haremos clic en el botón **Save**.
 4. Luego de unos pocos minutos (a veces segundos), al refrescar la página, GitHub automáticamente creará y mostrará el dominio en vivo de la página web.
 
-> **Nota:** Es importante recalcar que para que este método funcione, el archivo `.html` principal (generalmente `index.html`) debe encontrarse en la raíz del repositorio, ya que elegimos la configuración de la carpeta `/(root)`.
 
-<p align="center">
+Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos al menú de ajustes o “Settings” ubicado en el menú horizontal de la parte superior de la pantalla.
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
+  <figcaption style="margin-top: 10px;">
   <br>
+    Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    Aquí seleccionamos la opción "None" para deshabilitar el despliegue automático del sitio web desde el repositorio.
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    Finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
-  <br>
-  <em>Figura 84. Configuración de despliegue en GitHub Pages - Elaboración propia.</em>
-</p>
+  <figcaption style="margin-top: 10px;">
+    Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.
+  </figcaption>
+</figure>
+
 
 ---
 
@@ -2520,29 +2562,54 @@ En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra
 
 A continuación, se evidencia el trabajo colaborativo del equipo y la correcta aplicación del flujo de trabajo GitFlow dentro de nuestro repositorio:
 
-<p align="center">
+<br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
-  <br>
-  <em>Figura 85. Ramas (Branches) del repositorio - Elaboración propia. Nota: En esta imagen podemos ver las branches que cada uno de los integrantes creó y que se irán creando a medida que continúe el proyecto.</em>
+  <figcaption style="margin-top: 10px;">
+    En esta imagen podemos ver algunas de las ramas o branches que cada uno de los integrantes creó y se irá creando a medida que continúe el proyecto.
+  </figcaption>
+</figure>
+
+<br><br>
+
+<p>
+  Estos son algunos de los commits realizados por los integrantes en sus ramas:
 </p>
 
-<p align="center">
-  <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800">
-  <br>
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-commits3.png" alt="Historial de Commits" width="800">
-  <br>
-  <em>Figura 86. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
-</p>
+  <figcaption style="margin-top: 10px;">
+    En estas imágenes se aprecia el contraste entre dos formas de gestionar commits en GitHub: por un lado, un historial desordenado con mensajes genéricos y poco informativos, lo que dificulta entender los cambios realizados; y por otro, un historial organizado que utiliza buenas prácticas como Conventional Commits, con descripciones claras y específicas que facilitan el seguimiento y comprensión del desarrollo del proyecto.
+  </figcaption>
+</figure>
 
-<p align="center">
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    El gráfico estadístico detalla el volumen de commits realizados en el repositorio del proyecto SkillSwap durante el último año. Se evidencia un pico de productividad técnico significativo durante el mes de abril, superando las 40 integraciones semanales. Esta métrica refleja la fase de codificación intensiva o sprint principal, correspondiente a la implementación y consolidación de las funcionalidades core del sistema.
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
-  <br>
-  <em>Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Gráfica de nuestros commits y la red (network) en la que seguimos el flujo de GitFlow. Se evidencia la creación de ramas (features), su paso a la rama develop (cuando se unen), y finalmente a la rama main (la línea principal) que contiene el código de producción.</em>
-</p>
+  <figcaption style="margin-top: 10px;">
+    El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas. Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
+  </figcaption>
+</figure>
+
+<br><br>
+En conjunto, los gráficos y evidencias presentadas reflejan un proceso de desarrollo activo, organizado y alineado con buenas prácticas. El alto volumen de commits durante el mes de abril demuestra una fase intensiva de implementación, mientras que el uso de Gitflow evidencia una estructura de trabajo clara que facilita la integración y el trabajo colaborativo. Asimismo, la comparación entre historiales de commits resalta la importancia de emplear convenciones adecuadas para mejorar la trazabilidad del proyecto. Finalmente, la gestión de ramas y los commits individuales de los integrantes muestran una participación distribuida y coordinada, contribuyendo a un desarrollo más ordenado, escalable y mantenible del sistema.
+<br>
+
+Enlace: [https://github.com/Aplicaciones-Web-SkillSwap]
 
 ---
 
@@ -2595,8 +2662,17 @@ En esta sección se registra y explica el avance en términos de producto y trab
 *(Nota: L = Leader, C = Collaborator)*
 
 #### 5.2.1.3. Sprint Backlog 1
+El objetivo principal del Sprint 1 es establecer la presencia pública de la plataforma Innovify mediante una Landing Page interactiva, bilingüe y responsiva, así como sentar las bases de seguridad implementando el Bounded Context de Identity & Access. Esto permitirá que los usuarios puedan conocer las funcionalidades de la plataforma, registrarse validando su correo institucional (.edu.pe)
+
+A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 1:
+<p align="center">
+  <img src="public/assets/images-doc/ima-trello.png" alt="Network Graph GitFlow" width="800">
+  <br>
+  <em>Aquí se logra observar el seguimiento del Sprint 1 realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
+</p>
 
 **Enlace del Trello:** [Sprint 1 - Board](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1)
+
 
 | User Story ID | Título | Description (Task) | Estimation | Assigned To | Status |
 | :---: | :--- | :--- | :---: | :---: | :---: |
@@ -2686,55 +2762,232 @@ En esta sección se registra y explica el avance en términos de producto y trab
 | | | Revisión de funcionalidad y bugs | 1 hr | Adrian | DONE |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-*(Espacio reservado para evidencias de desarrollo)*
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
-*(Espacio reservado para evidencias de ejecución)*
+El equipo colaboró de forma coordinada durante el desarrollo del proyecto. Cada integrante recibió tareas específicas para implementar, siguiendo la metodología Gitflow. Luego, cada miembro subió sus avances al repositorio de GitHub para su revisión y posterior integración en la rama `develop`.
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-*(Espacio reservado para documentación de servicios)*
+Tras completarse todas las tareas, el propietario del repositorio efectuó la fusión de `develop` con la rama `main`, lo que permitió habilitar la visualización de la landing page a través de GitHub Pages.
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-*(Espacio reservado para evidencias de despliegue)*
+A continuación, se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro:
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+| Repository         | Branch                          | Commit Id                                 | Commit Message                      | Commit Message Body                                                                                          | Commited on (Date) |
+|------------------|---------------------------------|------------------------------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------|
+| innovify/Landing-Page| feature/avance-luis    | 9d9c22330d889e598db9f204b8854bbfc64ee5eb | feat: add alliances section        | Developed Alliances for landing page.                                            | 13/04/2026         |
+| innovify/Landing-Page| feature/avance-david    | 605336f8bcd15e2d1c2db5416b2b3eab45332d23 | feat: add index section        | Developed INDEX for landing page.                                            | 11/04/2026         |
+| innovify/Landing-Page| feature/hero-navbar-santiago    | 342bac95a0cca57e6b10e6233908f4acff34e710 | feat: implement hero section        | Developed Hero component and responsive Navbar for landing page.                                            | 11/04/2026         |
+| innovify/Landing-Page| feature/about-us-victor         | 1f79cbe6d66b1fef8c54e27f3a25cb17293c8c9e | feat: add about us section          | Created team grid layout with founders information and responsive design.                                  | 11/04/2026         |
+| innovify/Landing-Page| feature/i18n-luis               | 13aa26e1774cacc0e3024dcf9b7b1ab22a9dac6f | feat: setup i18n support            | Implemented i18n library and added EN/ES                                    | 12/04/2026         |
+| innovify/Landing-Page| feature/language-toggle-david   | j3k8c5l                                   | feat: add language toggle           | Implemented dynamic language switch button in Navbar with real-time text updates.                          | 12/04/2026         |
+| innovify/Landing-Page| feature/carousel-rafael         | cf844cb30b25a4c7dad7c92ca92b6be0edf3bf35 | feat: build alliances carousel      | Created infinite slider to display partner universities logos in landing page.                             | 13/04/2026         |
+| innovify/Landing-Page| feature/animations-luis         | e11daa751bc9d0ce7fa061ca686bf355a05e968d | feat: add UI animations             | Added hover effects and scroll-based fade-in animations using CSS transitions.                             | 13/04/2026         |
 
-El equipo colaboró de forma coordinada durante el desarrollo del proyecto. Cada integrante recibió tareas específicas para implementar, siguiendo la metodología Gitflow. Luego, cada miembro subió sus avances al repositorio de GitHub para su revisión y posterior integración en la rama `develop`. Tras completarse todas las tareas, el propietario del repositorio efectuó la fusión de `develop` con la rama `main`, lo que permitió habilitar la visualización de la landing page a través de GitHub Pages. 
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-commits6.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/deploy-commits7.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/deploy-commits8.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/deploy-commits9.png" alt="Historial de Commits" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura 87. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.
+  </figcaption>
+</figure>
 
-*(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
-<p align="center">
-  <img src="public/assets/images-doc/team-commits1.png" alt="Team Commits Evidence" width="800">
-  <img src="public/assets/images-doc/team-commits.png" alt="Team Commits Evidence" width="800">
-  <img src="public/assets/images-doc/team-commits.png" alt="Team Commits Evidence" width="800">
-</p>
+**Enlace de la página web para observar la implementación del Sprint 1:**
 
-**Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
+ **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
 ---
 
-### 5.2.2. User Interface & Execution (Sprint 1)
+#### 5.2.1.5. Execution Evidence for Sprint Review
+En este Sprint logramos construir y visualizar la principal puerta de entrada a nuestra plataforma. Se finalizó completamente la Landing Page, permitiendo a los usuarios navegar por las secciones de Soluciones, Proyección Tecnológica y Alianzas, además de alternar fluidamente entre inglés y español.
 
-En esta versión inicial del proyecto se finalizaron todas las tareas asociadas a las historias de usuario del Sprint Backlog 1. El desarrollo contempló la incorporación de archivos `.html` y `.css`, así como una carpeta con las imágenes requeridas por el usuario. Además, se realizaron pruebas de validación para identificar y corregir posibles fallos en el código. A continuación, se muestran las capturas de las funciones implementadas y un video que describe los resultados obtenidos.
+Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e Inicio de Sesión, validando que el flujo de autenticación responda correctamente.
 
-<p align="center">
+### Sprint 1:
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800">
-   <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800">
-   <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800">
-   <br>
-</p>
+  <figcaption style="margin-top: 10px;">
+    <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>La figura muestra la sección de equipo del landing page de SkillSwap, con fotos, nombres y roles técnicos de cada integrante, permitiendo visualizar la estructura y composición del equipo de ingeniería.</em>
+  </figcaption>
+</figure>
+
+<br><br>
 
 **Video demostrativo de las funciones del Sprint 1:**
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <a href="https://youtu.be/FJoqkPd1Yts" target="_blank">
     <img src="https://img.youtube.com/vi/FJoqkPd1Yts/maxresdefault.jpg" alt="Video Demostrativo Sprint 1" width="600">
   </a>
-  <br>
-  <em>(Clic en la imagen para reproducir)</em>
-</p>
+  <figcaption style="margin-top: 10px;">
+    <br>
+    <em>Acá se presenta el video con todas las funcionalidades del sprint 1 explicadas.</em>
+  </figcaption>
+</figure>
+<br>
+En conjunto, los elementos presentados evidencian la construcción de una base sólida a nivel de interfaz durante el primer sprint, enfocada en el diseño estático y la validación de la experiencia de usuario. Desde la estructura del landing page hasta los formularios de autenticación y registro, se establece una visión clara de la interacción del usuario con la plataforma. Asimismo, la inclusión de la sección de equipo y el video demostrativo permite contextualizar tanto la organización del proyecto como el alcance funcional alcanzado, sentando las bases para futuras integraciones y desarrollo dinámico del sistema.
+<br>
+
+---
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1, el alcance de la implementación y los objetivos definidos en el Sprint Backlog se centraron exclusivamente en el desarrollo de la Landing Page del proyecto. En esta etapa inicial, el equipo priorizó la creación de una interfaz principal que permita presentar de manera clara la propuesta de valor, los objetivos de la plataforma y sus principales funcionalidades a los usuarios.
+
+El trabajo realizado incluyó el diseño visual, la estructuración del contenido y la organización de las secciones clave de la Landing Page, asegurando una experiencia intuitiva, atractiva y alineada con las necesidades identificadas en las fases previas de investigación. Asimismo, se buscó que la página cumpla con criterios básicos de usabilidad, coherencia visual y comunicación efectiva, facilitando que cualquier usuario comprenda rápidamente el propósito del sistema.
+
+Cabe resaltar que, debido a la naturaleza introductoria de este Sprint, no se contempló el desarrollo de otras funcionalidades adicionales del sistema. El enfoque estuvo completamente orientado a establecer una base sólida a través de la Landing Page, la cual servirá como punto de partida para futuras iteraciones del proyecto.
+
+Las siguientes etapas del desarrollo, donde se abordarán nuevas funcionalidades y componentes del sistema, se encuentran planificadas para los próximos Sprints, en los cuales se continuará ampliando progresivamente el alcance del producto.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante este primer Sprint, el enfoque de despliegue (Deployment) estuvo centrado exclusivamente en la configuración inicial del entorno de trabajo y en la publicación de la Landing Page del proyecto.
+
+Las actividades realizadas incluyeron la creación de la organización y los repositorios en GitHub, así como la definición de una estructura básica de ramas (como main y develop) para mantener un orden en el desarrollo y facilitar la colaboración entre los integrantes del equipo.
+
+Para lograr que la Landing Page sea accesible públicamente, se configuró su despliegue utilizando GitHub Pages, lo que permitió publicar el sitio de manera rápida y sencilla. Gracias a esta configuración, cualquier cambio realizado y subido al repositorio puede reflejarse automáticamente en la versión publicada, asegurando una actualización continua del contenido.
+
+En este Sprint, el objetivo principal fue establecer una base sólida de trabajo y garantizar la disponibilidad de la Landing Page en línea, permitiendo presentar de forma clara la propuesta del proyecto. Las siguientes fases del despliegue, que contemplan la incorporación de nuevas funcionalidades y una mayor complejidad en la aplicación, serán abordadas progresivamente en los próximos Sprints conforme avance el desarrollo del proyecto.
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
+  </figcaption>
+</figure>
+
+<br>
+En conjunto, las evidencias presentadas demuestran un avance integral que abarca tanto el desarrollo del frontend como su despliegue en un entorno real. Desde la estructuración del código HTML y la estandarización de estilos mediante CSS, hasta la configuración y publicación en GitHub Pages, se valida no solo la correcta implementación técnica, sino también la disponibilidad del sistema para los usuarios. Esto refleja un flujo de trabajo completo que integra desarrollo, configuración y despliegue de manera efectiva.
+
+
+<br>
+
+**Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
+
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante este Sprint, el equipo concentró sus actividades de implementación y colaboración en el desarrollo de la Landing Page. Para garantizar un trabajo ordenado y evitar conflictos, se adoptó la metodología de control de versiones Git Flow.
+
+Se creó el repositorio principal en GitHub y se establecieron las ramas main (para la versión estable) y develop (para la integración de avances). Cada miembro del equipo clonó el repositorio y trabajó en ramas locales de tipo feature/avance-nombre (por ejemplo, feature/avance-hero o feature/avance-idioma), lo que permitió organizar mejor las tareas y mantener un flujo de trabajo estructurado.
+
+Todos los integrantes del equipo participaron activamente en la construcción de la Landing Page. Para integrar el trabajo individual, se utilizaron Pull Requests (PRs), permitiendo realizar revisiones de código antes de fusionar los cambios a la rama develop. Esta práctica promovió la colaboración constante, mejoró la calidad del código y aseguró que todos los miembros comprendieran la estructura y avances del proyecto.
+
+A continuación, se presentan las capturas de los analíticos de GitHub que evidencian la participación y los commits de todos los miembros del equipo durante este Sprint:
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/D212121.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/D12122.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos el panel de estadísticas de los colaboradores, el cual detalla el volumen total de commits, así como las líneas de código agregadas (en verde) y eliminadas (en rojo) individualmente por cada miembro del equipo.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/D21213.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/D12124.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/D12126.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
+  </figcaption>
+</figure>
+<br>
+En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborativo, caracterizado por un alto volumen de contribuciones durante periodos clave y una participación equilibrada del equipo. Asimismo, se observa la aplicación de buenas prácticas como el uso de Conventional Commits y la gestión de Pull Requests bien estructurados, lo que facilita la integración del código. Sin embargo, también se identifican casos de conflictos y falta de documentación en algunas solicitudes, evidenciando la importancia de mantener estándares consistentes para garantizar un flujo de trabajo eficiente, ordenado y libre de errores.
+
+
+**Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
+
 
 ---
 
