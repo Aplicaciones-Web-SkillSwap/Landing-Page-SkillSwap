@@ -2771,20 +2771,22 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 
 | Repository         | Branch                          | Commit Id                                 | Commit Message                      | Commit Message Body                                                                                          | Commited on (Date) |
 |------------------|---------------------------------|------------------------------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------|
-| innovify/Landing-Page| feature/avance-luis    | 9d9c22330d889e598db9f204b8854bbfc64ee5eb | feat: add alliances section        | Developed Alliances for landing page.                                            | 13/04/2026         |
+| innovify/Landing-Page| feature/alexandra       |    316295d58e31642abd331622e8902064e78bc9ee      | feat: Fix file path references                    |       Fix broken path references between pages and project files                         |13/04/2026
 | innovify/Landing-Page| feature/avance-david    | 605336f8bcd15e2d1c2db5416b2b3eab45332d23 | feat: add index section        | Developed INDEX for landing page.                                            | 11/04/2026         |
-| innovify/Landing-Page| feature/hero-navbar-santiago    | 342bac95a0cca57e6b10e6233908f4acff34e710 | feat: implement hero section        | Developed Hero component and responsive Navbar for landing page.                                            | 11/04/2026         |
+| innovify/Landing-Page| feature/hero-navbar-Alexandra    | 342bac95a0cca57e6b10e6233908f4acff34e710 | feat: implement hero section        | Developed Hero component and responsive Navbar for landing page.                                            | 11/04/2026         |
 | innovify/Landing-Page| feature/about-us-victor         | 1f79cbe6d66b1fef8c54e27f3a25cb17293c8c9e | feat: add about us section          | Created team grid layout with founders information and responsive design.                                  | 11/04/2026         |
 | innovify/Landing-Page| feature/i18n-luis               | 13aa26e1774cacc0e3024dcf9b7b1ab22a9dac6f | feat: setup i18n support            | Implemented i18n library and added EN/ES                                    | 12/04/2026         |
 | innovify/Landing-Page| feature/language-toggle-david   | j3k8c5l                                   | feat: add language toggle           | Implemented dynamic language switch button in Navbar with real-time text updates.                          | 12/04/2026         |
-| innovify/Landing-Page| feature/carousel-rafael         | cf844cb30b25a4c7dad7c92ca92b6be0edf3bf35 | feat: build alliances carousel      | Created infinite slider to display partner universities logos in landing page.                             | 13/04/2026         |
-| innovify/Landing-Page| feature/animations-luis         | e11daa751bc9d0ce7fa061ca686bf355a05e968d | feat: add UI animations             | Added hover effects and scroll-based fade-in animations using CSS transitions.                             | 13/04/2026         |
+| innovify/Landing-Page| feature/sebastian-conde        | cf844cb30b25a4c7dad7c92ca92b6be0edf3bf35 | feat: build alliances carousel      | Created infinite slider to display partner universities logos in landing page.                             | 13/04/2026         |
+| innovify/Landing-Page| feature/Alexandra         | e11daa751bc9d0ce7fa061ca686bf355a05e968d | feat: add UI animations             | Added hover effects and scroll-based fade-in animations using CSS transitions.                             | 13/04/2026         |
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/deploy-commits6.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
-  <img src="public/assets/images-doc/deploy-commits7.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
-  <img src="public/assets/images-doc/deploy-commits8.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/deploy-commits6.png" alt="Historial de Commits" width="800" >
+  <img src="public/assets/images-doc/deploy-commits7.png" alt="Historial de Commits" width="800" >
+  <img src="public/assets/images-doc/deploy-commits8.png" alt="Historial de Commits" width="800" >
   <img src="public/assets/images-doc/deploy-commits9.png" alt="Historial de Commits" width="800">
+  <img src="public/assets/images-doc/deploy-commits12.png" alt="Historial de Commits" width="800">
+  <img src="public/assets/images-doc/deploy-commits10.png" alt="Historial de Commits" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura 87. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.
   </figcaption>
