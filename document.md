@@ -1185,23 +1185,38 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 
 ---
 
+## 3.1. Impact Mapping
+
+En esta sección se expone el Impact Mapping del proyecto, una técnica que conecta los objetivos de negocio con las funcionalidades a desarrollar. El proceso inició con la definición de los Business Goals bajo criterios SMART, seguido de la identificación de los Actores (User Personas) que influyen en su cumplimiento. Para cada actor se establecieron los Impacts esperados en su comportamiento y, a partir de ellos, se listaron los Deliverables que podrían generarlos. Finalmente, cada deliverable se vinculó con User Stories concretas que lo hacen tangible.
+
 <p align="center">
-  <img src="public/assets/images-doc/empa1.png" alt="Impact Mapping Registro" width="800">
+  <img src="public/assets/images-doc/IM1.png" alt="Impact Mapping Registro" width="800">
   <br>
   <em>Figura 27. Impact Mapping - Elaboración propia. Nota: Este mapa visualiza cómo alcanzar el objetivo inicial (registrar 300 estudiantes), conectando los perfiles (Personas) con cambios de comportamiento (Impacts) y funcionalidades (Deliverables).</em>
 </p>
+En esta figura se observa el Impact Map enfocado en el objetivo de lograr que 500 estudiantes de 3 universidades piloto completen su perfil en los primeros 4 meses. El diagrama vincula a los actores clave (Jazmín, Lucía y Renato) con los impactos esperados, tales como superar la desconfianza inicial y agilizar la verificación de datos. Asimismo, se detallan los entregables técnicos y las historias de usuario necesarias para garantizar un proceso de registro simple y confiable.
+
+<br>
 
 <p align="center">
-  <img src="public/assets/images-doc/empa2.png" alt="Impact Mapping Tutorías" width="800">
+  <img src="public/assets/images-doc/IM2.png" alt="Impact Mapping Tutorías" width="800">
   <br>
   <em>Figura 28. Impact Mapping - Elaboración propia. Nota: Este mapa se enfoca en lograr 200 tutorías exitosas con alta calificación, detallando cómo la búsqueda, comunicación y calificación aseguran un ciclo de alta calidad.</em>
 </p>
-
+En la imagen tenemos la planificación estratégica para alcanzar 200 intercambios de tutoría exitosos en el primer semestre de operación. El mapa destaca la importancia de que el aprendiz encuentre tutores verificados y que el tutor se sienta motivado mediante un sistema de reputación. Se identifican entregables críticos como el motor de búsqueda con filtros avanzados, el canal de comunicación integrado y las herramientas de gestión de tiempo para asegurar una coordinación sin fricciones.
+<br>
 <p align="center">
-  <img src="public/assets/images-doc/empa3.png" alt="Impact Mapping Retención" width="800">
+  <img src="public/assets/images-doc/IM3.png" alt="Impact Mapping Retención" width="800">
   <br>
   <em>Figura 29. Impact Mapping - Elaboración propia. Nota: Esta figura muestra el mapa centrado en la retención y participación activa, explicando cómo funcionalidades como el dashboard y el reconocimiento buscan que los usuarios regresen.</em>
 </p>
+Se observa el mapa de impacto orientado a la fidelización de usuarios, con la meta de que el 30% de los usuarios activos sean recurrentes y el 25% desempeñe roles híbridos (aprendiz y tutor). La figura ilustra cómo funcionalidades de experiencia de usuario (como el modo oscuro o micro-interacciones) y sistemas de gamificación incentivan la participación continua, permitiendo una transición fluida entre los perfiles de enseñanza y aprendizaje para reforzar el ciclo de reciprocidad.
+<br><br>
+
+**En resumen**, los tres mapas de impacto muestran una estrategia integral centrada en la construcción de una plataforma educativa confiable, eficiente y sostenible. En una primera etapa, se prioriza la incorporación y validación de usuarios mediante procesos de registro simples y seguros, fortaleciendo la confianza desde el inicio. Luego, se impulsa la interacción efectiva entre estudiantes y tutores a través de herramientas que facilitan la búsqueda, comunicación y coordinación de sesiones, asegurando experiencias de intercambio exitosas. Finalmente, se busca consolidar el crecimiento del sistema mediante la fidelización y la participación activa de los usuarios, promoviendo roles híbridos y el uso de mecanismos de gamificación. En conjunto, estos elementos refuerzan un ciclo continuo de aprendizaje y colaboración que sostiene la escalabilidad y el valor de la plataforma.
+<br>
+
+---
 
 ---
 
@@ -2116,11 +2131,68 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 
 
 
+
 <p align="center">
-  <img src="images/eventstorming-design.png" alt="Design-Level EventStorming" width="1000">
+  <img src="public/assets/images-doc/eventstorming-design.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 72. Design-Level EventStorming - Elaboración propia. Nota: Este diagrama detalla el flujo de los eventos de dominio, comandos, agregados y políticas dentro de la plataforma Innovify, mapeando la lógica de negocio a nivel de diseño de software.</em>
 </p>
+
+**Bounded Context**
+<p align="center">
+  <img src="public/assets/images-doc/BD1.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Este diagrama presenta el diseño físico del Identity & Profile Bounded Context, orientado a la gestión de seguridad y personalización de usuarios en Innovify. Se detalla la segregación de responsabilidades mediante perfiles diferenciados para Estudiantes y Coordinadores, además de integrar un sistema de validación de tokens que garantiza la autenticidad de las cuentas institucionales y el control de acceso basado en roles.</em>
+  <img src="public/assets/images-doc/BD2.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Este diagrama ilustra el diseño físico del Tutoring & Operations Bounded Context, núcleo operativo de Innovify para la gestión de sesiones académicas. Se detalla la integración entre la disponibilidad de los tutores, el flujo de reservación y ejecución en entornos virtuales, junto con un esquema de moderación diseñado para asegurar la calidad y trazabilidad de cada encuentro.</em>
+  <img src="public/assets/images-doc/BD3.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Este diagrama presenta el diseño físico del Academic & Assessment Bounded Context, encargado de la gestión pedagógica y la evaluación del conocimiento en Innovify. Se detalla la estructura para la creación de quizzes, la gestión de bancos de preguntas y el almacenamiento de resultados, permitiendo generar métricas de desempeño precisas para validar el progreso académico y las competencias de los estudiantes.</em>
+  <img src="public/assets/images-doc/BD4.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Este diagrama presenta el diseño físico del Monetization Bounded Context, encargado de la gestión financiera y el flujo de capital en Innovify. Se detalla la estructura de las wallets virtuales, el procesamiento de donaciones y la liquidación automática de comisiones, asegurando la transparencia, integridad y trazabilidad de todas las transacciones económicas realizadas entre los usuarios y la plataforma.</em>
+  <img src="public/assets/images-doc/BD5.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Este diagrama presenta el diseño físico del Shared Kernel & Infrastructure Context, centralizando las preocupaciones transversales de Innovify. Se detalla la estructura para el almacenamiento de logs de auditoría, la gestión de configuraciones globales y el control de notificaciones del sistema, proporcionando una base técnica común que asegura la trazabilidad de eventos y la consistencia operativa en todos los módulos de la plataforma.</em>
+  <img src="public/assets/images-doc/BD6.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Este diagrama presenta el diseño físico del Reputation & Gamification Bounded Context, orientado a gestionar la credibilidad y el sistema de logros en Innovify. Se detalla la estructura para el procesamiento de las reviews, la consolidación de métricas de desempeño y la asignación de insignias de reconocimiento, permitiendo incentivar la excelencia académica y fortalecer la confianza dentro de la comunidad.</em>
+  <img src="public/assets/images-doc/BD7.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Este diagrama presenta el diseño físico del Communication & Notifications Bounded Context, destinado a gestionar las alertas y el flujo de mensajes en Innovify. Se detalla la estructura para la entrega de notificaciones en tiempo real, la categorización de avisos y la persistencia de interacciones, asegurando una comunicación constante, efectiva y oportuna entre estudiantes, tutores y coordinadores.</em>
+</p>
+
+<br>
+
+**Flujos de escenarios**
+<p align="center">
+  <img src="public/assets/images-doc/F1.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Wireflow de Búsqueda y Solicitud de Tutoría para la aplicación móvil. Se ilustra la ruta del estudiante desde el filtrado de tutores y revisión de perfiles hasta la selección de horarios y confirmación de la reserva, garantizando una experiencia de usuario fluida y orientada a la contratación ágil de servicios académicos.</em>
+  <img src="public/assets/images-doc/F2.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Wireflow de Recepción y Aceptación de Solicitud desde la perspectiva del tutor. Se visualiza el flujo que inicia con una notificación entrante, seguido de la revisión de detalles de la sesión y culmina con la acción de confirmar o rechazar el servicio, permitiendo una administración eficiente de las solicitudes.</em>
+  <img src="public/assets/images-doc/F3.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Wireflow de Verificación de Estudiantes, donde el coordinador supervisa las solicitudes pendientes, valida la documentación institucional y aprueba el acceso al sistema, garantizando la seguridad y legitimidad de los perfiles en la comunidad.</em>
+  <img src="public/assets/images-doc/F4.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Wireflow de Calificación de Sesión y Gestión de Favoritos. Se detalla el proceso donde el estudiante otorga una valoración al tutor tras concluir la sesión y administra su lista de contactos preferidos para facilitar futuras solicitudes.</em>
+  <img src="public/assets/images-doc/F5.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Wireflow de Configuración de Perfil y Disponibilidad. Se ilustra el proceso para actualizar la información del tutor y definir sus horarios de atención, permitiendo una gestión organizada de su oferta académica en el sistema.</em>
+  <img src="public/assets/images-doc/F6.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Wireflow de Búsqueda Avanzada, detallando el uso de filtros por universidad y carrera para optimizar el descubrimiento de tutores y la navegación hacia sus perfiles detallados.</em>
+  <img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Wireflow de Realización de una Sesión de Tutoría. Se ilustra la interacción en tiempo real dentro del espacio de trabajo virtual, incluyendo el acceso a la videollamada y el chat, culminando con la finalización exitosa del encuentro académico.</em>
+  <img src="public/assets/images-doc/F8.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Wireflow de Moderación y Disputas. Se describe el flujo de reporte de comportamientos inapropiados desde el entorno de trabajo hacia el contexto de moderación, permitiendo que el administrador gestione las evidencias y aplique las sanciones correspondientes para asegurar la integridad de la comunidad de Innovify.</em>
+</p>
+
 
 ---
 
@@ -2151,24 +2223,56 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 ### 4.6.4. Software Architecture Components Diagrams
 
 
-
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes1.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el diagrama de componentes del Workplace Bounded Context. Se detalla la segregación de responsabilidades internas mediante los servicios de comandos (CommandService) y consultas (QueryService), además de exponer su integración hacia la infraestructura externa, específicamente con servicios de videollamadas (WebRTC) y almacenamiento en la nube (AWS S3) para la gestión de las sesiones de tutoría.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes2.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos la representación estructural del Reputation System Bounded Context. El diagrama ilustra cómo este módulo gestiona las calificaciones y el feedback dentro de la plataforma, evidenciando sus interacciones directas con los contextos de Moderación, Identidad y Pagos para garantizar la consistencia de los datos en los perfiles de los estudiantes.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes3.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el diseño a nivel de componentes del Payments & Wallet Bounded Context. Esta figura destaca el flujo de las operaciones financieras a través de sus controladores y capas de dominio, mostrando la delegación del procesamiento de pagos a un servicio externo (Stripe) y la conexión con una API externa para la notificación transaccional por correo electrónico.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes4.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla la estructura interna del Moderation & Disputes Bounded Context. Se representa el flujo de gestión de reportes, evidenciando cómo este módulo consulta su base de datos independiente y emite órdenes de actualización hacia los contextos de Identidad y Reputación en caso de que proceda aplicar alguna sanción a un usuario.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes5.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el diagrama de componentes del Learning & Assessment Bounded Context. Se detalla el flujo de gestión de cuestionarios (quizzes) y sesiones, mostrando su comunicación mediante el API Gateway y su integración directa con los contextos de Workplace y Reputation System para coordinar y registrar la finalización de las sesiones de tutoría.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes6.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos una representación estructural del Learning & Assessment Bounded Context que resalta la segregación de responsabilidades. Se identifican claramente los servicios de comandos (CommandService) y consultas (QueryService) interactuando a través del patrón repositorio con una base de datos PostgreSQL, la cual se encarga de persistir las calificaciones de los cuestionarios.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes7.png" alt="Component Diagram" width="800">
-  <br>
-  <img src="public/assets/images-doc/Componentes8.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla la estructura interna del Discovery Bounded Context. Se representa cómo este módulo procesa las búsquedas dentro de la plataforma, evidenciando que solicita la lista de usuarios al Identity & Profile Bounded Context y, una vez que el estudiante elige una opción, envía la información del perfil al Workplace Bounded Context para iniciar la comunicación.</em>
+  </figcaption>
+</figure>
+<br><br>
+<p style="text-align: center;">
   <em>Figura 75. C4 Model: Component Diagram - Elaboración propia. Nota: Diagrama de componentes que detalla la estructura interna y las responsabilidades (Controladores, Servicios, Repositorios) de uno de los contenedores principales de la plataforma.</em>
 </p>
 
@@ -2178,82 +2282,33 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 
 La arquitectura del sistema se ha modelado bajo el enfoque de Domain-Driven Design (DDD) para garantizar una alta cohesión y un bajo acoplamiento. Con el objetivo de facilitar el análisis del dominio y asegurar la legibilidad técnica, la representación visual del backend se ha segmentado. A continuación, se presentan los diagramas de clases correspondientes a los 8 Bounded Contexts identificados, detallando sus respectivos Agregados, Entidades y Objetos de Valor (Value Objects).
 
+
 Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Innovify_original.png" alt="Class Diagram - Tutoring and Operations" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el diagrama de clases UML que define el modelo de dominio central de la plataforma. Se detallan exhaustivamente las Entity, Aggregates y Value Objects, ilustrando las reglas y relaciones de negocio entre los actores (como Learner y Tutor) y los componentes operativos, destacando los elementos para la coordinación de sesiones, el manejo del chat y la gestión de disputas.</em>
+  </figcaption>
+</figure>
+<br>
+
+---
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/class-identity2.png" alt="Class Diagram - Identity & Access" width="800">
-  <br>
-  <img src="public/assets/images-doc/class-identity3.png" alt="Class Diagram - Identity & Access" width="800">
-  <br>
-  <em>Diagrama de Clases: Innovify - Elaboración propia.</em>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos la representación estratégica de la arquitectura bajo los principios de Domain-Driven Design (DDD). Se evidencia cómo el modelo de dominio global ha sido segmentado en múltiples contextos delimitados (Bounded Contexts) independientes, tales como Workspace, Identity & Profile y Discovery, identificando también un núcleo de elementos compartidos (Shared) que conecta los diferentes módulos para mantener la integridad del sistema.</em>
+  </figcaption>
+</figure>
+<br>
+<p style="text-align: center;">
+  <em>Nota: Diagrama de Clases & Diagrama separados respectivamente con sus Bounded Context: Innovify - Elaboración propia.</em>
 </p>
+<br>
 
+En conjunto, ambas representaciones permiten comprender tanto la estructura interna del dominio como su organización a nivel arquitectónico. Mientras el diagrama de clases detalla las entidades y sus relaciones clave, el Bounded de contextos muestra cómo estos elementos se distribuyen en módulos independientes y cohesionados. Esto facilita la escalabilidad, el mantenimiento y una mejor alineación entre las reglas de negocio y la implementación del sistema.
 
-#### Identity & Access Context
-
-<p align="center">
-  <img src="public/assets/images-doc/class-identity4.png" alt="Class Diagram - Identity & Access" width="800">
-  <br>
-  <em>Figura 76. Diagrama de Clases: Identity & Access Context - Elaboración propia.</em>
-</p>
-
-#### Profile & Discovery Context
-
-<p align="center">
-  <img src="public/assets/images-doc/class-profile.png" alt="Class Diagram - Profile & Discovery" width="800">
-  <br>
-  <em>Figura 77. Diagrama de Clases: Profile & Discovery Context - Elaboración propia.</em>
-</p>
-
-#### Scheduling Context
-
-<p align="center">
-  <img src="public/assets/images-doc/class-scheduling.png" alt="Class Diagram - Scheduling" width="800">
-  <br>
-  <em>Figura 78. Diagrama de Clases: Scheduling Context - Elaboración propia.</em>
-</p>
-
-#### Collaboration Context
-
-<p align="center">
-  <img src="public/assets/images-doc/class-collaboration.png" alt="Class Diagram - Collaboration" width="800">
-  <br>
-  <em>Figura 79. Diagrama de Clases: Collaboration Context - Elaboración propia.</em>
-</p>
-
-#### Assessment Context
-
-<p align="center">
-  <img src="public/assets/images-doc/class-assessment.png" alt="Class Diagram - Assessment" width="800">
-  <br>
-  <em>Figura 80. Diagrama de Clases: Assessment Context - Elaboración propia.</em>
-</p>
-
-#### Billing & Wallet Context
-
-<p align="center">
-  <img src="public/assets/images-doc/class-billing.png" alt="Class Diagram - Billing & Wallet" width="800">
-  <br>
-  <em>Figura 81. Diagrama de Clases: Billing & Wallet Context - Elaboración propia.</em>
-</p>
-
-#### Moderation Context
-
-<p align="center">
-  <img src="public/assets/images-doc/class-moderation.png" alt="Class Diagram - Moderation" width="800">
-  <br>
-  <em>Figura 82. Diagrama de Clases: Moderation Context - Elaboración propia.</em>
-</p>
-
-#### Analytics Context
-
-<p align="center">
-  <img src="public/assets/images-doc/class-analytics.png" alt="Class Diagram - Analytics" width="800">
-  <br>
-  <em>Figura 83. Diagrama de Clases: Analytics Context - Elaboración propia.</em>
-</p>
 ---
 
 ## 4.8. Database Design
@@ -2266,11 +2321,26 @@ Los cuatro contextos que rigen el ecosistema de Innovify son: Identity & Profile
 
 ### 4.8.1. Database Diagrams
 
+Para garantizar la persistencia, integridad y escalabilidad de la información en Innovify, el equipo ha optado por un sistema de gestión de bases de datos relacional (RDBMS), gestionado a través del ORM (Object-Relational Mapping) Entity Framework Core.
+
+El diseño físico de la base de datos se ha estructurado aplicando los principios de Domain-Driven Design (DDD). Para evitar un modelo de datos monolítico y altamente acoplado, la arquitectura de la base de datos se ha dividido en cuatro Bounded Contexts (Contextos Delimitados). Cada contexto agrupa las tablas, columnas, restricciones (Primary Keys y Foreign Keys) y relaciones estrictamente necesarias para resolver un dominio específico del negocio, promoviendo la alta cohesión y el bajo acoplamiento.
+
+Los cuatro contextos que rigen el ecosistema de Innovify son: Identity & Profile Context, Workespace Context, Learning Contex, Payment context y Discovery Context.
+
 <p align="center">
   <img src="public/assets/images-doc/database.png" alt="Database Entity Relationship Diagram" width="1000">
   <br>
   <em>Figura 80. Diagrama de Base de Datos Relacional por Bounded Contexts - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
 </p>
+
+En síntesis, el diagrama relacional evidencia una estructura de base de datos sólida y coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Este diseño no solo respalda eficientemente las operaciones del sistema, sino que también facilita su escalabilidad y mantenimiento a largo plazo.
+
+
+Constituye el núcleo funcional de Innovify, encargándose de la gestión integral del ciclo de vida de las tutorías. Este módulo orquesta la disponibilidad de los tutores mediante agendas programadas y regula el proceso de reserva, asegurando una transición fluida hacia la ejecución de las sesiones en espacios de trabajo virtuales dedicados. Además, integra mecanismos de moderación y reporte para garantizar la seguridad y calidad del intercambio académico, permitiendo una trazabilidad completa que va desde la planificación de horarios hasta la supervisión de la conducta durante la interacción entre estudiantes y tutores.
+<br><br>
+
+---
+
 # Capítulo V: Product Implementation
 
 ## 5.1. Software Configuration Management
