@@ -2428,14 +2428,6 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 
 * **Landing Page:** Repositorio público para la página de presentación del producto. 
   * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](#)
-* **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
-  * Enlace: *[https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git]
-* **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
-  * Enlace: *[https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git]*
-* **Demo_repository:** Repositorio de demostración del proyecto, utilizado para integrar o mostrar de forma simplificada el funcionamiento general del sistema.
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/demo-repository.git](#)
-* **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](#)
 
 <br><br>
 <p align="center">
