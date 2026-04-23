@@ -2798,7 +2798,7 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 #### 5.2.1.5. Execution Evidence for Sprint Review
 En este Sprint logramos construir y visualizar la principal puerta de entrada a nuestra plataforma. Se finalizó completamente la Landing Page, permitiendo a los usuarios navegar por las secciones de Soluciones, Proyección Tecnológica y Alianzas, además de alternar fluidamente entre inglés y español.
 
-Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e Inicio de Sesión, validando que el flujo de autenticación responda correctamente.
+Por el lado visual, los usuarios pueden visualizar las pantallas de Registro e Inicio de Sesión, diseñadas como vistas estáticas en HTML y CSS, estableciendo la base para la futura integración con los servicios de autenticación.
 
 ### Sprint 1:
 
