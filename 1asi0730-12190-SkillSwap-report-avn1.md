@@ -106,7 +106,7 @@
 # Capítulo V: Product Implementation 
 - 5.1 Software Configuration Management ................... 199  
   - 5.1.1 Development Environment Configuration ........... 199  
-  - 5.1.2 Source Code Management .......................... 201  
+  -  Source Code Management .......................... 201  
   - 5.1.3 Code Style Guide & Conventions ................. 203  
   - 5.1.4 Deployment Configuration ........................ 205  
 - 5.2 Landing Page, Services & Applications Implementation . 210  
@@ -129,7 +129,7 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
+| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
 
 
 *(Nota: En la versión v.01.Tb1 he resumido la lista de capítulos para que la tabla sea legible en GitHub. Si necesitas el listado exhaustivo de cada subcapítulo, te recomiendo ponerlo fuera de la tabla).*
@@ -2442,18 +2442,23 @@ Durante el desarrollo del proyecto se utilizó las siguientes herramientas de so
 
 Para administrar el código fuente del proyecto, el equipo empleará Git como sistema distribuido de control de versiones y GitHub como el entorno principal de colaboración. Esto permitirá conservar un registro detallado de todas las modificaciones, optimizar el trabajo en conjunto entre los miembros y garantizar la trazabilidad de cada versión del software.
 
-#### Repositorios GitHub
+**Repositorios GitHub**
 
-* **Landing Page:** Repositorio público para la página de presentación del producto. 
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](#)
-* **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
-  * Enlace: *[https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git]
-* **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
-  * Enlace: *[https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git]*
-* **Demo_repository:** Repositorio de demostración del proyecto, utilizado para integrar o mostrar de forma simplificada el funcionamiento general del sistema.
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/demo-repository.git](#)
-* **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](#)
+> **Landing Page:** Repositorio público para la página de presentación del producto.
+>
+> Enlace: <https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git>
+>
+> **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
+>
+> Enlace:
+>
+> **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
+>
+> Enlace:
+>
+> **Acceptance Test**: Repositorio en el que se encuentran los archivos (.feature) en formato gherkin
+>
+> Enlace: <https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git>
 
 <br><br>
 <p align="center">
@@ -2824,7 +2829,7 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 #### 5.2.1.5. Execution Evidence for Sprint Review
 En este Sprint logramos construir y visualizar la principal puerta de entrada a nuestra plataforma. Se finalizó completamente la Landing Page, permitiendo a los usuarios navegar por las secciones de Soluciones, Proyección Tecnológica y Alianzas, además de alternar fluidamente entre inglés y español.
 
-Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e Inicio de Sesión, validando que el flujo de autenticación responda correctamente.
+Por el lado visual, los usuarios pueden visualizar las pantallas de Registro e Inicio de Sesión, diseñadas como vistas estáticas en HTML y CSS, estableciendo la base para la futura integración con los servicios de autenticación.
 
 ### Sprint 1:
 
