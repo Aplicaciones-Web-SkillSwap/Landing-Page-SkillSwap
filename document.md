@@ -1182,6 +1182,7 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 | **US36** | Partnerships Section | As a user, I want to see partners so that I trust platform. | **Scenario:** View partners<br>**Given** section<br>**When** I scroll<br>**Then** I see logos | EP09 |
 | **US37** | About + Innovation | As a user, I want to see vision and tech so that I trust future. | **Scenario:** View innovation<br>**Given** section<br>**When** I read<br>**Then** I understand roadmap | EP09 |
 | **US38** | Solutions Section | As a user, I want to see features so that I understand value. | **Scenario:** View features<br>**Given** section<br>**When** I explore<br>**Then** I see platform capabilities | EP09 |
+| **US39** | Password Recovery | As a user, I want to recover my password so that I regain access to my account if I forget it. | **Scenario 1:** Successful recovery<br>**Given** I forgot my password and I am on the login screen<br>**When** I click "Forgot your password?" and enter my institutional email<br>**Then** the system sends a recovery link and I see the message "Check your inbox"<br><br>**Scenario 2:** Email not registered<br>**Given** I enter an email that does not exist on the platform<br>**When** I press "Send"<br>**Then** the system shows "If the email is registered, you will receive a link shortly" | EP01 |
 
 ---
 
