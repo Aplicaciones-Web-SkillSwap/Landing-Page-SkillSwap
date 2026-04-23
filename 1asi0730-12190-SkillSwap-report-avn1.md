@@ -3009,6 +3009,8 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D12126.png" alt="Team Commits Evidence" width="800">
+  
+  <img src="public/assets/images-doc/D12127.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
   </figcaption>
