@@ -2734,90 +2734,37 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 
 | User Story ID | Título | Description (Task) | Estimation | Assigned To | Status |
 | :---: | :--- | :--- | :---: | :---: | :---: |
-| **HU-01** | Registro con correo universitario | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-02** | Pantalla de inicio de la plataforma | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-03** | Configuración de perfil de aprendiz | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-04** | Búsqueda de tutores | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
-| **HU-05** | Visualización de resultados de búsqueda | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-06** | Ver perfil detallado de un tutor | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-07** | Visualización del sello de verificación | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-08** | Solicitar ayuda a un tutor | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-11** | Usar chat interno | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-12** | Dejar calificación a un tutor | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| **US31** | Pantalla de inicio de la plataforma | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
 | | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-13** | Configurar perfil de tutor | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-14** | Añadir descripción al perfil | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
-| **HU-15** | Recibir notificación de solicitud | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-17** | Aceptar o rechazar solicitud | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-18** | Chatear con el aprendiz | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
-| **HU-20** | Calificar al aprendiz | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-21** | Inicio de sesión en panel | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-22** | Ver lista de verificaciones pendientes | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-23** | Ver detalles de estudiante a verificar | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-24** | Aprobar o rechazar verificación | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
-| **HU-26** | Realizar sesión por videollamada | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| **US32** | Visualización de la pantalla Sobre nosotros | Implementación de la estructura en HTML | 2 hr | David | DONE |
 | | | Implementación de diseño en CSS | 1 hr | David | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-30** | Indicador de "Tutor en línea" | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-32** | Paleta de colores personalizable | Implementación de la estructura en HTML | 1 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Adrian | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-36** | Plantillas de respuestas rápidas | Implementación de la estructura en HTML | 1 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 2 hr | Adrian | DONE |
+| **US33** | Animaciones y microinteracciones | Implementación de efectos hover en botones con CSS | 1 hr | Alexandra | DONE |
+| | | Implementación de animaciones en tarjetas con CSS | 1 hr | Alexandra | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-39** | Pizarra virtual integrada | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-40** | Archivo de sesiones pasadas | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| **US35** | Cambio de idioma ES/EN en la landing page | Implementación del selector de idioma en HTML | 1 hr | Alexandra | DONE |
+| | | Implementación del diccionario de traducciones en JS | 2 hr | Alexandra | DONE |
+| | | Implementación de persistencia en LocalStorage | 1 hr | Alexandra | DONE |
+| **US36** | Visualizar sección de Alianzas | Implementación de la estructura en HTML | 2 hr | Sebasthian | DONE |
+| | | Implementación del grid de logos universitarios en CSS | 1 hr | Sebasthian | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-43** | Dashboard visual con reportes | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| **US37** | Visualizar sección Sobre Nosotros y Proyección Tecnológica | Implementación de la estructura en HTML | 2 hr | David | DONE |
 | | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **US38** | Visualizar sección de Soluciones y Funcionalidades | Implementación de la estructura en HTML | 2 hr | Sebasthian | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Sebasthian | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-48** | Dashboard Principal del Coordinador | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 2 hr | Alexandra | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Adrian | DONE |
+| **US01** | Registro validado con correo institucional | Implementación del formulario de registro en HTML | 2 hr | Luis | DONE |
+| | | Implementación de diseño del formulario en CSS | 1 hr | Luis | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **US02** | Inicio de sesión con acceso según rol | Implementación del formulario de login en HTML | 2 hr | Luis | DONE |
+| | | Implementación de diseño del formulario en CSS | 1 hr | Luis | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Sebasthian | DONE |
+| **US39** | Recuperación de contraseña | Implementación de la pantalla de recuperación en HTML | 2 hr | Luis | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Luis | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
