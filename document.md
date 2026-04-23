@@ -1264,6 +1264,7 @@ Se observa el mapa de impacto orientado a la fidelización de usuarios, con la m
 | 36 | **US36** | Como usuario, quiero ver la sección de "Alianzas" con las universidades afiliadas y un formulario de contacto, para comprobar el respaldo institucional y solicitar información. | 3 |
 | 37 | **US37** | Como usuario, quiero leer la misión, visión, conocer al equipo desarrollador e informarme sobre la proyección de sensores IoT, para confiar en la solidez y visión a futuro de Innovify. | 2 |
 | 38 | **US38** | Como usuario, quiero ver un resumen interactivo de las "Soluciones" tecnológicas que ofrece la plataforma, para entender cómo resolverá mis problemas académicos antes de registrarme. | 3 |
+| 39 | **US39** | Como usuario registrado, quiero poder recuperar mi contraseña mediante un enlace enviado a mi correo institucional, para recuperar el acceso a mi cuenta en caso de olvidarla. | 3 |
 
 *(Tabla 11. Product Backlog - SkillSwap. Nota: Esta tabla presenta el Product Backlog completo del proyecto, priorizado según orden de implementación. La columna 'Story Points' asigna una estimación del esfuerzo relativo).*
 
