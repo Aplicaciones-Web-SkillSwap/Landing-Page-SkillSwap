@@ -1715,7 +1715,7 @@ Los Wireflow Diagrams representan el flujo de interacción del usuario dentro de
 **Representación visual:**
 
 <p align="center">
-  <img src="public/assets/images-doc/W3.png" alt="Design-Level EventStorming" width="1000">
+  <img src="public/assets/images-doc/W33.png" alt="Flujo-w2" width="1000">
   <br>
   <em>Figura 69. Wireflow de Configuración de Perfil y Disponibilidad del Tutor. Nota: Este diagrama de flujo visualiza los pasos que sigue un tutor para configurar su perfil. Detalla la secuencia para añadir habilidades, establecer un calendario de disponibilidad y cambiar su estado para gestionar cuándo desea recibir solicitudes de tutoría.</em>
 </p>
