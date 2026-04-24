@@ -269,11 +269,11 @@ GoPeer es una plataforma en línea que conecta a estudiantes de primaria y secun
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-A continuación, se presentan las estrategias y tácticas que Innovify / SkillSwap puede implementar para destacarse frente a competidores que ofrecen apoyo académico, capitalizando su modelo único de colaboración interuniversitaria, su sostenibilidad financiera y su rigor académico.
+A continuación, se presentan las estrategias y tácticas que SkillSwap puede implementar para destacarse frente a competidores que ofrecen apoyo académico, capitalizando su modelo único de colaboración interuniversitaria, su sostenibilidad financiera y su rigor académico.
 
 #### Estrategias
 
-* **Diferenciación por Exclusividad y Networking:** A diferencia de Knack (limitado a un solo campus) y de uDocz (intercambio impersonal de documentos), Innovify se posiciona como una red nacional de talento universitario validado. Nuestro valor diferencial no es solo conectar estudiantes, sino garantizar que la enseñanza sea de alta calidad mediante el uso del Banco Oficial de Quizzes creado exclusivamente por Profesores Universitarios.
+* **Diferenciación por Exclusividad y Networking:** A diferencia de Knack (limitado a un solo campus) y de uDocz (intercambio impersonal de documentos), Skillswap se posiciona como una red nacional de talento universitario validado. Nuestro valor diferencial no es solo conectar estudiantes, sino garantizar que la enseñanza sea de alta calidad mediante el uso del Banco Oficial de Quizzes creado exclusivamente por Profesores Universitarios.
 * **Construcción de Confianza a través de la Verificación:** A diferencia de la anonimidad de uDocz o los grupos de WhatsApp, garantizaremos la identidad de cada usuario mediante un sistema de validación automática con correos institucionales (`.edu.pe`). Esto nos posicionará como la opción más segura del mercado.
 * **Sostenibilidad mediante un Modelo Mixto:** Buscaremos un ecosistema económicamente viable desde el primer día. Fomentaremos la retención recompensando a los tutores mediante un sistema de donaciones voluntarias (B2C, reteniendo un 5%). Por el lado institucional (B2B), comercializaremos el acceso a nuestro Dashboard Analítico.
 * **Modelo de Adopción Enfocado y Escalable:** Para atraer una masa crítica de usuarios, la estrategia será evitar un lanzamiento masivo y, en su lugar, concentrarse en crear un ecosistema denso y funcional en un grupo reducido de universidades para luego escalar.
@@ -733,47 +733,83 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
 <p align="center">
   <img src="public/assets/images-doc/jur1.png" alt="Journey Map Aprendiz" width="800">
   <br>
-  <em>Figura 15. User Journey Mapping – Estudiantes que quieran aprender - Elaboración propia. Nota: En esta figura se aprecia nuestro primer Journey Mapping de nuestro primer segmento estudiante aprendiz.</em>
+  <em>Figura 14. User Journey Mapping – Estudiantes que quieran aprender - Elaboración propia. Nota: En esta figura se aprecia nuestro primer Journey Mapping de nuestro primer segmento estudiante aprendiz.</em>
 </p>
+<br>
+En esta figura se observa el recorrido del estudiante o aprendiz a través de cinco etapas críticas: descubrimiento, duda, búsqueda, recepción de ayuda y evaluación. El diagrama detalla la curva emocional del usuario, identificando puntos de dolor como la dificultad para coordinar horarios y la falta de claridad en explicaciones, proponiendo soluciones como el uso de tutores verificados y repositorios de sesiones grabadas.
+<br>
 
 #### Segmento #2: Estudiantes que quieran enseñar
 <p align="center">
   <img src="public/assets/images-doc/jur2.png" alt="Journey Map Tutor" width="800">
   <br>
-  <em>Figura 16. User Journey Mapping – Estudiantes que quieran enseñar - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Journey Mapping de nuestro segundo segmento estudiante tutor.</em>
+  <em>Figura 15. User Journey Mapping – Estudiantes que quieran enseñar - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Journey Mapping de nuestro segundo segmento estudiante tutor.</em>
 </p>
+<br>
+En la imagen tenemos la visualización de la experiencia desde la perspectiva del tutor. El mapa describe el proceso desde la motivación inicial y la preparación del material hasta el cierre y retroalimentación de la sesión. Se resalta la fluctuación de la experiencia según el compromiso del aprendiz y se proponen ideas de mejora como la gamificación de las sesiones y sistemas de recordatorios automáticos para optimizar la gestión del tiempo.
+<br>
 
 #### Segmento #3: Coordinador Institucional
 <p align="center">
   <img src="public/assets/images-doc/jur3.png" alt="Journey Map Coordinador" width="800">
   <br>
-  <em>Figura 17. User Journey Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Journey Mapping de nuestro segmento coordinador institucional.</em>
+  <em>Figura 16. User Journey Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Journey Mapping de nuestro segmento coordinador institucional.</em>
 </p>
+
+En esta figura se detalla el flujo de gestión desde el ángulo administrativo y de calidad académica. El mapa abarca la planeación, implementación y supervisión de las tutorías interuniversitarias, poniendo énfasis en la mitigación de riesgos operativos como el plagio o el fraude. Se proponen herramientas técnicas de control, tales como un "DNI académico" para la validación de alumnos y paneles de control intuitivos para el monitoreo de interacciones.
+<br>
+<br>
+<br>
+
+**Entonces**, los mapas de experiencia presentados permiten comprender de manera integral cómo interactúan los distintos actores con la plataforma a lo largo de sus procesos clave. Desde la perspectiva del estudiante, se evidencia un recorrido marcado por necesidades emocionales y operativas que van desde la incertidumbre inicial hasta la evaluación final, identificando puntos críticos que pueden ser mitigados mediante herramientas de apoyo como tutores verificados y recursos grabados.
+
+Desde el lado del tutor, la experiencia se centra en la preparación, ejecución y retroalimentación de las sesiones, donde la calidad de la interacción depende del nivel de compromiso del aprendiz, proponiéndose mejoras orientadas a la motivación y la optimización del tiempo mediante gamificación y automatización de recordatorios.
+
+Finalmente, la visión administrativa incorpora una capa de control y supervisión orientada a garantizar la calidad académica y la seguridad del sistema, abordando riesgos como el fraude o el plagio mediante mecanismos de validación y paneles de monitoreo. En conjunto, estas perspectivas permiten diseñar una experiencia equilibrada, eficiente y segura para todos los participantes del ecosistema educativo.
+
+<br>
 
 ---
 
 ### 2.3.4. Empathy Mapping
 
+Para profundizar en el entendimiento de nuestros usuarios finales y diseñar una solución que responda a sus necesidades reales, se desarrollaron mapas de empatía para cada segmento identificado. Esta herramienta permite visualizar el entorno, las percepciones y las motivaciones de los actores clave (aprendiz, tutor y administrador), facilitando la identificación de puntos críticos y oportunidades de valor dentro del ecosistema de SkillSwap.
+<br>
+
+
 #### Segmento #1: Estudiantes que quieran aprender
 <p align="center">
-  <img src="public/assets/images-doc/user1.png" alt="Empathy Map Aprendiz" width="800">
+  <img src="public/assets/images-doc/Empati1.png" alt="Empathy Map Aprendiz" width="800">
   <br>
-  <em>Figura 18. Empathy Mapping - Estudiantes aprendices - Elaboración propia. Nota: En esta figura se aprecia nuestro Empathy Mapping de nuestro primer segmento estudiante aprendiz.</em>
+  <em>Figura 17. Empathy Mapping - Estudiantes aprendices - Elaboración propia. Nota: En esta figura se aprecia nuestro Empathy Mapping de nuestro primer segmento estudiante aprendiz.</em>
 </p>
+<br>
+Se observa el mapa de empatía de Valeria, estudiante universitaria que representa al segmento de aprendices. El diagrama detalla su necesidad de encontrar apoyo académico confiable ante una carga académica exigente, identificando como puntos de dolor la ansiedad generada por la falta de confianza en los tutores actuales y la frustración de perder tiempo buscando ayuda poco efectiva.
+
+<br>
 
 #### Segmento #2: Estudiantes que quieran enseñar
 <p align="center">
-  <img src="public/assets/images-doc/user2.png" alt="Empathy Map Tutor" width="800">
+  <img src="public/assets/images-doc/Empati2.png" alt="Empathy Map Tutor" width="800">
   <br>
-  <em>Figura 19. Empathy Mapping - Estudiantes tutores - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Empathy Mapping de nuestro segmento estudiantes tutores.</em>
+  <em>Figura 18. Empathy Mapping - Estudiantes tutores - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Empathy Mapping de nuestro segmento estudiantes tutores.</em>
 </p>
+<br>
+En esta figura se detalla el mapa de empatía orientado al estudiante con rol de tutor. El análisis subraya su deseo de reafirmar conocimientos mediante la enseñanza y construir un perfil académico/profesional sólido. Se identifican como principales desafíos la falta de reconocimiento formal por su labor de apoyo y la dificultad para equilibrar las tutorías con sus propias responsabilidades de estudio.
+<br>
 
 #### Segmento #3: Coordinador Institucional
 <p align="center">
-  <img src="public/assets/images-doc/user3.png" alt="Empathy Map Coordinador" width="800">
+  <img src="public/assets/images-doc/Empati3.png" alt="Empathy Map Coordinador" width="800">
   <br>
-  <em>Figura 20. Empathy Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Empathy Mapping de nuestro segmento coordinador institucional.</em>
+  <em>Figura 19. Empathy Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Empathy Mapping de nuestro segmento coordinador institucional.</em>
 </p>
+
+En la imagen tenemos la caracterización empática de Romeo, representante del segmento institucional y administrativo. El mapa resalta su preocupación por mantener la calidad académica y la integridad institucional, señalando como riesgos principales el fraude o suplantación de identidad, y visualizando como ganancia el acceso a herramientas tecnológicas que agilicen la validación de los participantes.
+<br><br>
+**Entonces**, los mapas de empatía permiten profundizar en las necesidades emocionales, motivaciones y dificultades de los distintos actores del sistema, enriqueciendo la comprensión del diseño centrado en el usuario. En el caso del estudiante con rol de tutor, se evidencia una motivación orientada al refuerzo de conocimientos y al desarrollo de su perfil profesional, aunque enfrenta desafíos relacionados con el reconocimiento de su labor y la gestión del tiempo entre sus responsabilidades académicas y las tutorías.
+
+Por su parte, el perfil institucional destaca una fuerte preocupación por la calidad académica y la seguridad del sistema, priorizando la prevención de riesgos como el fraude y la suplantación, y valorando el uso de herramientas tecnológicas que optimicen los procesos de validación. Finalmente, el estudiante aprendiz refleja una necesidad urgente de apoyo académico confiable, enfrentando emociones como la ansiedad y la frustración debido a experiencias poco efectivas en la búsqueda de ayuda. En conjunto, estos mapas evidencian la importancia de diseñar una plataforma equilibrada que atienda tanto aspectos funcionales como emocionales, asegurando confianza, eficiencia y valor para todos los usuarios.
 
 ---
 
@@ -782,70 +818,178 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
 El Big Picture EventStorming nos permite explorar el dominio de nuestra plataforma de manera colaborativa, identificando los eventos de negocio clave a lo largo de la línea de tiempo. Hemos dividido este análisis en las siguientes etapas fundamentales:
 
 ### Fase 0
+<br>
+El siguiente apartado presenta una introducción a los requerimientos funcionales de la plataforma, destacando su estructura integral y la interrelación de sus componentes principales. Se describen los elementos clave que permiten su funcionamiento, incluyendo la gestión financiera, la resolución de conflictos, la generación de indicadores de desempeño y el módulo de aprendizaje. Asimismo, se abordan las funcionalidades de comunicación y el ciclo de vida del usuario, desde su registro hasta la interacción con tutores. A continuación, se detallarán los aspectos fundamentales que conforman esta solución robusta y escalable.
 
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/1.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 20. En esta figura se observa la derivación de requisitos tras el proceso de Event Storming, centrada en el ciclo de vida del usuario. Se detallan las funcionalidades de registro institucional, autenticación y gestión de perfiles, así como los criterios lógicos para el motor de búsqueda y filtrado de tutores según habilidades y disponibilidad.</em>
+  </figcaption>
+</figure>
+<br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/2.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 21. En la imagen tenemos la clasificación de requerimientos funcionales para la comunicación síncrona. Se especifican las reglas para el sistema de mensajería (chat y envío de archivos) y la infraestructura lógica necesaria para la ejecución segura de videollamadas, incluyendo la generación de tokens de acceso y funciones de pantalla compartida.</em>
+  </figcaption>
+</figure>
+<br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/3.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla la lógica funcional para el módulo de aprendizaje, abarcando desde la gestión de bancos de preguntas y evaluación automatizada de quizzes, hasta las métricas de negocio para el procesamiento de reseñas y el cálculo del promedio de calificación de los tutores.</em>
+  </figcaption>
+</figure>
+<br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/4.png" alt="Big Picture EventStorming - Fase 0" width="1000">
-  <br>
-  <em>Figura 21. Big Picture EventStorming: Fase 0 - Elaboración propia. Nota: En esta fase inicial se descubren y organizan cronológicamente los eventos de dominio (Domain Events) en la plataforma, representados en notas naranjas.</em>
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 22. Se observa el mapeo de requerimientos para el flujo financiero de la plataforma (pagos y monedero digital), el sistema de resolución de conflictos y la generación de indicadores clave (KPIs). Esta vista define las métricas de rendimiento y los reportes detallados necesarios para el monitoreo administrativo de la solución.</em>
+  </figcaption>
+</figure>
+<br>
+<p style="text-align: center;">
+  <em> Big Picture EventStorming: Fase 0 - Elaboración propia. Nota: En esta fase inicial se descubren y organizan cronológicamente los eventos de dominio (Domain Events) en la plataforma, representados en notas naranjas.</em>
 </p>
+<br>
+
+En conjunto, los elementos presentados evidencian una definición integral y estructurada de los requerimientos funcionales de la plataforma, abarcando sus componentes clave. Se articulan de manera coherente el flujo financiero, el sistema de resolución de conflictos y la generación de KPIs para el control administrativo, junto con el módulo de aprendizaje que gestiona evaluaciones, contenido y métricas de desempeño. Asimismo, se incorporan las funcionalidades de comunicación síncrona, garantizando interacción segura y eficiente entre usuarios mediante mensajería y videollamadas. Finalmente, el enfoque derivado del Event Storming permite consolidar el ciclo de vida del usuario, desde su registro y autenticación hasta la búsqueda personalizada de tutores. En conjunto, estos aspectos configuran una solución robusta, orientada tanto a la experiencia del usuario como a la gestión eficiente y escalable del sistema.
 
 ---
 
 ### Etapa 1 y 2
+<br>
+El presente apartado introduce una visión general de la arquitectura operativa de la plataforma, destacando la integración y coherencia de sus distintos módulos. Se abordan los principales procesos que permiten su funcionamiento, desde la gestión administrativa y financiera hasta los mecanismos de aprendizaje, comunicación y emparejamiento de usuarios. Asimismo, se resalta la importancia de contar con sistemas robustos de evaluación, mensajería en tiempo real y control de identidad, los cuales garantizan una experiencia segura y eficiente. A continuación, se presentarán los elementos clave que conforman esta solución integral.
 
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/5.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 23. En esta figura se observa el flujo secuencial para la gestión de identidad y acceso, así como la administración de perfiles. Se detalla la lógica desde el ingreso de credenciales y la validación obligatoria del dominio institucional, hasta la configuración detallada del perfil de usuario, permitiendo al estudiante registrar habilidades académicas y definir su disponibilidad horaria semanal de manera estructurada.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/6.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 24. En la imagen tenemos el mapeo de procesos para el módulo de búsqueda y selección de tutores. Se ilustra la transición desde el inicio de la búsqueda por palabras clave hasta la carga de resultados finales, destacando los puntos de validación de disponibilidad activa del tutor y la aplicación de filtros por calificación, asegurando un emparejamiento eficiente entre las necesidades del aprendiz y la oferta académica.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/7.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 25. Se observa la diagramación de eventos para la interacción entre usuarios en tiempo real. La sección superior detalla el flujo de mensajería y gestión de archivos adjuntos, mientras que la sección inferior establece la secuencia técnica para las sesiones síncronas (Live Sessions), abarcando la generación de tokens de seguridad para videollamadas y la detección de interrupciones de conexión durante la sesión.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/8.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 26. En esta figura se presenta la secuencia lógica para los procesos de aprendizaje y retroalimentación. Se describe el ciclo de vida de los cuestionarios (desde la creación del banco de preguntas hasta la evaluación automática y almacenamiento de puntajes) y el flujo de validación de reseñas, garantizando que las calificaciones publicadas en el perfil del tutor correspondan a sesiones efectivamente completadas.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/9.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
-  <br>
-  <em>Figura 22. Big Picture EventStorming: Etapa 1 y 2 - Elaboración propia. Nota: Se añaden los comandos (notas azules) que desencadenan los eventos y se identifican los actores/sistemas (notas amarillas pequeñas/rosadas) que los ejecutan dentro del ecosistema.</em>
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 27. En la imagen se evidencia el flujo operativo para los módulos de soporte y administración. Se detalla la secuencia de validación de pagos y retiros de saldo hacia el monedero digital, el proceso de reporte y resolución de disputas por comportamiento inapropiado, y finalmente la lógica de recolección de datos históricos para la generación de métricas de rendimiento en el panel de control (dashboard).</em>
+  </figcaption>
+</figure>
+
+<p style="text-align: center;">
+  <em> Big Picture EventStorming: Etapa 1 y 2 - Elaboración propia. Nota: Se añaden los comandos (notas azules) que desencadenan los eventos y se identifican los actores/sistemas (notas amarillas pequeñas/rosadas) que los ejecutan dentro del ecosistema.</em>
 </p>
+<br>
+
+En conjunto, los procesos descritos reflejan una arquitectura operativa completa y bien orquestada de la plataforma, donde cada módulo contribuye al funcionamiento integral del sistema. Se integran los flujos de soporte y administración, garantizando la correcta gestión financiera, la resolución de disputas y la generación de métricas para la toma de decisiones. Paralelamente, el módulo de aprendizaje asegura un ciclo estructurado de evaluación y retroalimentación, validando la calidad de las interacciones académicas mediante cuestionarios y reseñas verificadas.
+
+Asimismo, la comunicación en tiempo real se encuentra respaldada por una lógica robusta que permite la mensajería eficiente y la ejecución segura de sesiones síncronas, incluso ante posibles interrupciones. A esto se suma un sistema de búsqueda y selección de tutores optimizado, que facilita el emparejamiento preciso entre usuarios mediante filtros y validaciones de disponibilidad. Finalmente, la gestión de identidad y perfiles establece una base sólida para el acceso seguro y la personalización de la experiencia del usuario. En conjunto, estos flujos consolidan una solución coherente, confiable y centrada tanto en la calidad del servicio como en la escalabilidad del sistema.
+
 
 ---
 
 ### Etapa 3
+<br>
+La plataforma integra de manera coherente sus distintos módulos para ofrecer un entorno seguro, confiable y eficiente. Combina mecanismos de control, resolución de conflictos y gestión financiera con sistemas de reputación, evaluaciones académicas y herramientas colaborativas. Todo esto permite no solo garantizar la calidad del servicio, sino también fortalecer la confianza entre los usuarios mediante procesos claros, verificados y bien estructurados.
 
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/10.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 28. En esta figura se observa el flujo completo de gestión de usuarios, integrando políticas de verificación para correos institucionales y el uso de APIs externas de correo. Se detalla cómo los actores (Estudiante/Tutor) interactúan con el sistema para la validación de cuentas y la configuración granular de habilidades y horarios de disponibilidad.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/11.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 29. En la imagen tenemos el flujo de búsqueda de tutores, donde se resalta la intervención del Estudiante como actor principal. La secuencia muestra la aplicación de filtros por curso, palabra clave y calificación, regidos por una política de carga de resultados que determina la visualización final del perfil detallado del tutor.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/12.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 30. Se observa el flujo detallado del espacio de trabajo colaborativo. La captura destaca la integración de políticas para el almacenamiento de archivos y la generación de tokens de seguridad para videollamadas. Asimismo, se evidencia el uso de una API de videoconferencia y una política de destrucción de tokens al finalizar la sesión para garantizar la seguridad.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/13.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 31. En esta figura se presenta el ciclo de vida de los cuestionarios, gestionado por el Administrador/Profesor. Se detalla el proceso de registro de preguntas en el banco y la publicación de quices, seguido por la resolución del Estudiante y una política de evaluación automática que almacena puntajes y muestra resultados en tiempo real.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/14.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 32. En la imagen se evidencia la lógica detrás de la reputación del tutor. Se muestra cómo, tras el envío de una reseña por el Estudiante, se activa una política de recálculo del promedio. También se incluye el flujo de moderación, donde un Administrador puede eliminar reseñas inapropiadas, disparando una actualización del perfil público.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/15.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 33. Se observa el flujo financiero de la plataforma, detallando la interacción con pasarelas de pago externas. Se resalta la política de cálculo de comisión de la plataforma y el proceso de retiro de fondos solicitado por el Tutor, el cual es procesado mediante una API de transferencias bancarias para actualizar el saldo del monedero.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/16.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
-  <img src="public/assets/images-doc/17.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
-  <img src="public/assets/images-doc/18.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
-  <img src="public/assets/images-doc/19.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
-  <em>Figura 23. Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que protegen las reglas de negocio y se agrupan los eventos en sus respectivos Contextos Delimitados (Bounded Contexts).</em>
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 34. En esta figura se detalla el proceso de resolución de conflictos. El flujo describe el registro de reportes por parte de los usuarios y la posterior revisión manual por un Administrador, quien decide el veredicto y aplica sanciones, notificando a los involucrados a través de una API de correo externa.</em>
+  </figcaption>
+</figure>
+
+<p style="text-align: center;">
+  <em>Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que protegen las reglas de negocio y se agrupan los eventos en sus respectivos Contextos Delimitados (Bounded Contexts).</em>
 </p>
+<br>
+
+En conjunto, los flujos descritos evidencian una plataforma diseñada con un alto nivel de control, trazabilidad y seguridad en cada uno de sus procesos críticos. Se articula un sistema de resolución de conflictos que combina la participación activa de los usuarios con la supervisión administrativa, garantizando decisiones fundamentadas y comunicación efectiva mediante servicios externos.
+
+De igual manera, el componente financiero demuestra una integración sólida con pasarelas de pago y APIs bancarias, incorporando políticas claras de comisiones y retiros que aseguran la correcta gestión del monedero digital. En paralelo, el sistema de reputación y evaluación refuerza la confianza dentro de la plataforma, mediante la validación, moderación y actualización dinámica de reseñas y calificaciones.
+
+Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colaborativo consolidan la experiencia académica, integrando evaluaciones automatizadas, almacenamiento seguro de recursos y comunicación síncrona protegida por mecanismos como tokens temporales. Finalmente, los módulos de búsqueda de tutores y gestión de usuarios completan el ecosistema, ofreciendo un emparejamiento eficiente basado en filtros y una administración de identidad robusta mediante verificaciones institucionales. En conjunto, estos elementos configuran una solución integral, segura y orientada a la calidad del servicio y la confianza entre sus usuarios.
+
 
 ---
 
 ## 2.5. Ubiquitous Language
 
+
+El Ubiquitous Language define un conjunto de términos clave utilizados dentro de Skillswap para asegurar una comunicación clara y consistente entre todos los miembros del equipo, tanto técnicos como de negocio. Este lenguaje compartido permite alinear la comprensión del sistema, facilitando el desarrollo, la documentación y la toma de decisiones a lo largo del proyecto.
+<br>
+
 | N° | Palabra técnica | Significado |
 | :---: | :--- | :--- |
-| 1 | **Usuario** | Persona registrada en Innovify, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
-| 2 | **WebRTC Token** | Credencial de seguridad generada dinámicamente (WebrtcToken) que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
-| 3 | **Stripe Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
+| 1 | **User** | Persona registrada en Innovify, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
+| 2 | **Token** | Credencial de seguridad generada dinámicamente que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
+| 3 | **Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
 | 4 | **Session** | Espacio de tiempo programado en la plataforma donde un Aprendiz y un Tutor se conectan para repasar los temas de un curso específico. |
 | 5 | **Dashboard** | Panel analítico que procesa los resultados de los quizzes y las sesiones. |
 | 6 | **Assessment** | Evaluación estandarizada creada por un Profesor Universitario. |
@@ -853,6 +997,8 @@ El Big Picture EventStorming nos permite explorar el dominio de nuestra platafor
 | 8 | **Commission Fee** | Porcentaje (5%) deducido automáticamente por el sistema de cada donación voluntaria antes de sumar el monto final a la billetera. |
 | 9 | **Dispute** | Reporte formal generado por un usuario ante inasistencias, mala conducta o enseñanza de información errónea durante una tutoría, el cual queda en estado pendiente hasta ser resuelto por un Profesor. |
 | 10 | **Universidad Afiliada** | Institución educativa superior con una alianza con Innovify, cuyo dominio de correo (.edu.pe) sirve para validar y agrupar a los usuarios de su comunidad académica. |
+
+*(Tabla 10. Ubiquitous Languages - Elaboración propia.)*
 
 # Capítulo III: Requirements Specification
 
