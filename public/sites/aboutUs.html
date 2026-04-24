@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ── SEO Meta Tags ── -->
+    <meta name="description" content="Conoce nuestra misión, visión y el equipo que impulsa una plataforma diseñada para conectar estudiantes y oportunidades." />
+
+    <!-- ── SEO Bilingüe: hreflang (US35) ── -->
+    <!--
+      Estas etiquetas le dicen a Google qué versión de idioma mostrar según la región.
+      Cuando el usuario esté en español, el <head> se estructura así:
+      lang="es" + hreflang="es/en/x-default" apuntando a la misma URL
+      (una SPA no tiene rutas distintas, así que href apunta al mismo index.html)
+    -->
+    <link rel="alternate" hreflang="es" href="aboutUs.html" />
+    <link rel="alternate" hreflang="en" href="aboutUs.html" />
+    <link rel="alternate" hreflang="x-default" href="aboutUs.html" />
+
+    <link rel="stylesheet" href="../assets/styles/aboutUs_stylesheet.css"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>SkillSwap | La Red Interuniversitaria Más Grande del Perú</title>
+
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
+    <nav class="barra-navegacion">
+
+      <!-- Botón menú hamburguesa -->
+      <div class="menu-hamburguesa" id="btn-menu" aria-label="Abrir menú" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Logo -->
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
+        </a>
+      </div>
+
+      <!-- Menú principal -->
+      <div class="menu-horizontal">
+        <ul class="menu-horizontal-opciones">
+
+          <li><a href="partnerships.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
+          <li><a href="aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
+
+          <li>
+            <a href="login.html">
+              <button class="btn-iniciarsesion" data-i18n="nav-login">Iniciar Sesión</button>
+            </a>
+          </li>
+          <li>
+            <a href="signup.html">
+              <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
+            </a>
+          </li>
+
+          <!-- ── Selector de Idioma (US35) ── -->
+          <li class="lang-switcher-item">
+            <div class="lang-switcher" role="group" aria-label="Seleccionar idioma">
+              <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+              <span class="lang-divider">|</span>
+              <button class="lang-btn"        data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero-about">
+        <span class="hero-badge" data-i18n="hero-badge">Sobre nosotros</span>
+
+        <h1 data-i18n="hero-title-1">
+        Conectando estudiantes,</h1>
+        <h1 data-i18n="hero-title-2">creando oportunidades reales
+        </h1>
+
+        <p data-i18n="hero-desc">
+        En SkillSwap creemos en el aprendizaje colaborativo...
+        </p>
+
+        <a href="signup.html" class="hero-btn" data-i18n="hero-btn">Únete ahora</a>
+    </section>
+
+    <section class="seccion-sobre-nosotros">
+        <div class="contenido-nosotros">
+            <div class="texto-nosotros">
+
+                <div class="titulo-seccion">
+                <h2 class="nosotros-titulo" data-i18n="about-title">Sobre nosotros</h2>
+                <div class="titulo-decorador"></div>
+                </div>
+
+        
+                <p data-i18n="about-text-1">
+                    Innovify es un startup que busca brindar una plataforma en línea cuyo propósito es conectar a estudiantes de distintas universidades para que puedan compartir e intercambiar conocimientos bajo un modelo de trueque, con la validación de tutores especializados en cada tema.
+                </p>
+
+                <p data-i18n="about-text-2">
+                    Esta iniciativa busca resolver de manera ágil y sencilla las dudas académicas de los alumnos, permitiéndoles
+                    interactuar con otros estudiantes, fortalecer sus habilidades sociales, obtener diversos puntos de vista y generar
+                    contactos valiosos tanto para su vida universitaria como para su futuro profesional.
+                </p>
+
+                <div class="mini-stats">
+                    <div><strong>+500</strong><span data-i18n="stats-students">Estudiantes</span></div>
+                    <div><strong>+20</strong><span data-i18n="stats-universities">Universidades</span></div>
+                    <div><strong>+1000</strong><span data-i18n="stats-connections">Conexiones</span></div>
+                </div>
+            </div> 
+            <div class="imagen-nosotros">
+            <img src="../assets/images/Innovify_logo.png" alt="Logo Innovify">
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-sobre-nosotros-principal">
+        <div class="titulo-seccion">
+        <h2 class="nosotros-titulo" data-i18n="mv-title">Mision y Vision</h2>
+        <div class="titulo-decorador"></div>
+        </div>
+    <div class="vision-mision-grid">
+        <div class="tarjeta-info-vm">
+            <h3 data-i18n="mission-title">Misión</h3>
+            <p data-i18n="mission-text">
+                Facilitar el aprendizaje colaborativo entre estudiantes de distintas
+                universidades mediante el intercambio de conocimientos, promoviendo la
+                interacción académica, la mejora de habilidades sociales y el acceso a
+                tutores especializados, de manera ágil, confiable y accesible.
+            </p>
+        </div>
+        
+        <div class="tarjeta-info-vm">
+            <h3 data-i18n="vision-title">Visión</h3>
+            <p data-i18n="vision-text">
+                Ser la plataforma líder en educación colaborativa universitaria,
+                reconocida por conectar estudiantes de manera efectiva,
+                fomentar el aprendizaje mutuo y potenciar el desarrollo profesional y
+                académico de sus usuarios a nivel nacional e internacional.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="seccion-equipo">
+
+    <div class="equipo-contenedor">
+
+        <div class="titulo-seccion-equipo">
+            <h2 class="equipo-titulo" data-i18n="team-title">El equipo</h2>
+            <div class="titulo-decorador"></div>
+            <p class="subtitulo-equipo" data-i18n="team-subtitle">
+            Conoce al equipo detrás de SkillSwap
+            </p>
+        </div>
+
+        <div class="equipo-grid">
+            
+            <div class="equipo-miembro">
+                <div class="equipo-imagen-wrapper">
+                    <img src="../assets/images/ima-chica1.png" alt="Foto de Integrante 1" class="equipo-imagen">
+                </div>
+                <span>Alexandra Meza</span>
+                <small>UI/UX Designer</small>
+
+                <div class="redes">
+                    <a href="https://linkedin.com/in/usuario" 
+                    target="_blank" 
+                    title="LinkedIn"
+                    aria-label="Perfil de LinkedIn">
+                    💼 LinkedIn
+                    </a>
+                    <a href="https://github.com/AlexandraYMS" 
+                    target="_blank" 
+                    title="Github"
+                    aria-label="Perfil de Github">
+                    🌐 Github
+                    </a>
+                </div>  
+            </div>
+            
+            
+            <div class="equipo-miembro">
+                <div class="equipo-imagen-wrapper">
+                    <img src="../assets/images/image-david.png" alt="Foto de Integrante 3" class="equipo-imagen">
+                </div>
+                <span>David Komatsu</span>
+                <small>Frontend Developer</small>
+                <div class="redes">
+                    <a href="https://linkedin.com/in/usuario" 
+                    target="_blank" 
+                    title="LinkedIn"
+                    aria-label="Perfil de LinkedIn">
+                    💼 LinkedIn
+                    </a>
+                    <a href="https://github.com/dakoduz" 
+                    target="_blank" 
+                    title="Github"
+                    aria-label="Perfil de Github">
+                    🌐 Github
+                    </a>
+                </div> 
+            </div>
+            
+            <div class="equipo-miembro">
+                <div class="equipo-imagen-wrapper">
+                    <img src="../assets/images/ima-foto-victor.png" alt="Foto de Integrante 4" class="equipo-imagen">
+                </div>
+                <span>Victor Alberca</span>
+                <small>Backend Developer</small>
+                <div class="redes">
+                    <a href="https://pe.linkedin.com/in/victor-alberca-saavedra-15856127a" 
+                    target="_blank" 
+                    title="LinkedIn"
+                    aria-label="Perfil de LinkedIn">
+                    💼 LinkedIn
+                    </a>
+                    <a href="https://github.com/Agnizzz" 
+                    target="_blank" 
+                    title="Github"
+                    aria-label="Perfil de Github">
+                    🌐 Github
+                    </a>
+                </div> 
+            </div>
+            
+            <div class="equipo-miembro">
+                <div class="equipo-imagen-wrapper">
+                    <img src="../assets/images/ima-foto-luis.jpeg" alt="Foto de Integrante 5" class="equipo-imagen">
+                </div>
+                <span>Luis Becerra</span>
+                <small>Frontend Developer</small>
+                <div class="redes">
+                    <a href="https://linkedin.com/in/usuario" 
+                    target="_blank" 
+                    title="LinkedIn"
+                    aria-label="Perfil de LinkedIn">
+                    💼 LinkedIn
+                    </a>
+                    <a href="https://github.com/blafyy" 
+                    target="_blank" 
+                    title="Github"
+                    aria-label="Perfil de Github">
+                    🌐 Github
+                    </a>
+                </div> 
+            </div>
+            
+            <div class="equipo-miembro">
+                <div class="equipo-imagen-wrapper">
+                    <img src="../assets/images/ima-chico1.png" alt="Foto de Integrante 6" class="equipo-imagen">
+                </div>
+                <span>Sebastian Conde</span>
+                <small>Frontend Developer</small>
+                <div class="redes">
+                    <a href="https://linkedin.com/in/usuario" 
+                    target="_blank" 
+                    title="LinkedIn"
+                    aria-label="Perfil de LinkedIn">
+                    💼 LinkedIn
+                    </a>
+                    <a href="https://github.com/Wolf2911-P" 
+                    target="_blank" 
+                    title="Github"
+                    aria-label="Perfil de Github">
+                    🌐 Github
+                    </a>
+                </div> 
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+
+<!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+    <footer>
+      <div class="seccion-footer">
+        <p>
+          <span data-i18n="footer-text">2026 SkillSwap. Todos los derechos reservados.</span>
+          <a href="archivos/TerminosCondiciones.pdf" class="terminos-condiciones" data-i18n="footer-terms">
+            Términos y Condiciones
+          </a>
+        </p>
+      </div>
+    </footer>
+
+<script>
+// 1. MENU HAMBURGUESA PRINCIPAL
+    const btnMenu = document.getElementById('btn-menu');
+    const menu = document.querySelector('.barra-navegacion .menu-horizontal');
+    
+    if(btnMenu) {
+        btnMenu.addEventListener('click', () => {
+            menu.classList.toggle('activo');
+        });
+    }
+
+    // 2. SUBMENU ALIANZAS (SOLO MÓVIL)
+    const btnAlianzas = document.getElementById("btn-alianzas");
+    const submenuAlianzas = document.getElementById("submenu-alianzas");
+
+    if (btnAlianzas && submenuAlianzas) {
+        btnAlianzas.addEventListener("click", (event) => {
+            // Solo actuar si estamos en modo celular
+            if (window.innerWidth <= 768) {
+                event.preventDefault(); // Evita que recargue la página al tocar "Alianzas"
+                submenuAlianzas.classList.toggle("activo"); // Abre o cierra
+            }
+        });
+    }
+</script>
+
+<script>
+const translations = {
+  es: {
+
+    /* Page */
+    "page-title": "SkillSwap | La Red Interuniversitaria Más Grande del Perú",
+    "meta-description": "Conoce nuestra misión, visión y el equipo que impulsa una plataforma diseñada para conectar estudiantes y oportunidades.",
+
+    /* Hero */
+    "hero-badge": "Sobre nosotros",
+    "hero-title-1": "Conectando estudiantes,",
+    "hero-title-2": " creando oportunidades reales",
+    "hero-desc": "En SkillSwap creemos en el aprendizaje colaborativo y en el poder de compartir conocimiento para crecer juntos.",
+    "hero-btn": "Únete ahora",
+
+    /* About */
+    "about-title": "Sobre nosotros",
+    "about-text-1": "Innovify es un startup que busca brindar una plataforma en línea cuyo propósito es conectar a estudiantes de distintas universidades para que puedan compartir e intercambiar conocimientos bajo un modelo de trueque, con la validación de tutores especializados en cada tema.",
+    "about-text-2": "Esta iniciativa busca resolver de manera ágil y sencilla las dudas académicas de los alumnos, permitiéndoles interactuar con otros estudiantes, fortalecer sus habilidades sociales, obtener diversos puntos de vista y generar contactos valiosos tanto para su vida universitaria como para su futuro profesional.",
+
+    /* Stats */
+    "stats-students": "Estudiantes",
+    "stats-universities": "Universidades",
+    "stats-connections": "Conexiones",
+
+    /* Mission & Vision */
+    "mv-title": "Misión y Visión",
+    "mission-title": "Misión",
+    "mission-text": "Facilitar el aprendizaje colaborativo entre estudiantes de distintas universidades mediante el intercambio de conocimientos, promoviendo la interacción académica, la mejora de habilidades sociales y el acceso a tutores especializados, de manera ágil, confiable y accesible.",
+    "vision-title": "Visión",
+    "vision-text": "Ser la plataforma líder en educación colaborativa universitaria,reconocida por conectar estudiantes de manera efectiva, fomentar el aprendizaje mutuo y potenciar el desarrollo profesional y académico de sus usuarios a nivel nacional e internacional.",
+
+    /* Team */
+    "team-title": "El equipo",
+    "team-subtitle": "Conoce al equipo detrás de SkillSwap",
+
+    /* Footer */
+    "footer-text": "2026 SkillSwap. Todos los derechos reservados.",
+    "footer-terms": "Términos y Condiciones",
+
+    /* Navbar */
+    "nav-alianzas": "Alianzas",
+    "nav-proyectos": "Proyectos",
+    "nav-sobre-nosotros": "Sobre nosotros",
+    "nav-login": "Iniciar Sesión",
+    "nav-register": "Registrarse"
+  },
+
+  en: {
+    /* Page */
+    "page-title": "SkillSwap | Peru's Largest Inter-University Network",
+    "meta-description": "Learn about our mission, vision, and the team behind a platform that connects students and opportunities.",
+
+    /* Hero */
+    "hero-badge": "About us",
+    "hero-title-1": "Connecting students,",
+    "hero-title-2": " creating real opportunities",
+    "hero-desc": "At SkillSwap, we believe in collaborative learning and the power of sharing knowledge to grow together.",
+    "hero-btn": "Join now",
+
+    /* About */
+    "about-title": "About us",
+    "about-text-1": "Innovify is a startup that aims to provide an online platform designed to connect students from different universities, allowing them to share and exchange knowledge through a barter-based model, with validation from specialized tutors in each subject.",
+    "about-text-2": "This initiative aims to solve students’ academic questions in a fast and simple way, allowing them to interact with peers, strengthen their social skills, gain different perspectives, and build valuable connections for both their university life and future careers.",
+
+    /* Stats */
+    "stats-students": "Students",
+    "stats-universities": "Universities",
+    "stats-connections": "Connections",
+
+    /* Mission & Vision */
+    "mv-title": "Mission & Vision",
+    "mission-title": "Mission",
+    "mission-text": "To facilitate collaborative learning among students from different universities through knowledge exchange, promoting academic interaction, the development of social skills, and access to specialized tutors in a fast, reliable, and accessible way.",
+    "vision-title": "Vision",
+    "vision-text": "To become the leading platform in collaborative university education, recognized for effectively connecting students, fostering mutual learning, and enhancing users’ academic and professional development at both national and international levels.",
+
+    /* Team */
+    "team-title": "Our Team",
+    "team-subtitle": "Meet the team behind SkillSwap",
+
+    /* Footer */
+    "footer-text": "2026 SkillSwap. All rights reserved.",
+    "footer-terms": "Terms and Conditions",
+
+    /* Navbar */
+    "nav-alianzas": "Alliances",
+    "nav-proyectos": "Projects",
+    "nav-sobre-nosotros": "About us",
+    "nav-login": "Log In",
+    "nav-register": "Sign Up"
+  }
+};
+
+function applyLanguage(lang) {
+  if (!translations[lang]) return;
+  const t = translations[lang];
+
+  document.documentElement.lang = lang;
+  document.title = t["page-title"];
+
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.setAttribute('content', t["meta-description"]);
+
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (!t[key]) return;
+
+    if (el.tagName === "INPUT") {
+      el.value = t[key];
+    } else {
+      el.textContent = t[key];
+    }
+  });
+
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+
+  localStorage.setItem('skillswap-lang', lang);
+}
+
+(function init() {
+  const savedLang = localStorage.getItem('skillswap-lang') || 'es';
+  applyLanguage(savedLang);
+})();
+</script>
+
+</body>
+</html>
