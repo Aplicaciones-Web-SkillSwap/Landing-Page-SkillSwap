@@ -10,9 +10,6 @@
   font-family: "Inter", sans-serif;
 }
 
-/* ═══════════════════════════════════════════════════════════════
-   VARIABLES DE DISEÑO
-═══════════════════════════════════════════════════════════════ */
 :root {
   /* Colores principales */
   --primary-color:     #193b69;
@@ -34,7 +31,6 @@
   --nav-bar-height:    72px;
   --footer-height:     60px;
   --section-padding:   80px;
-  --section-gap:       60px;
 
   /* Tipografía */
   --h1-font-size:   36px;
@@ -57,14 +53,14 @@
   --transition: 0.25s ease;
 }
 
-/* ═══════════════════════════════════════════════════════════════
-   BODY
-═══════════════════════════════════════════════════════════════ */
 body {
   background-color: var(--background-color);
   margin-top: var(--nav-bar-height);
   color: var(--text-color);
   line-height: var(--line-height);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que el footer quede abajo */
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -86,20 +82,9 @@ body {
   box-shadow: var(--shadow-sm);
 }
 
-/* Logo */
-.logo {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
+.logo { display: flex; align-items: center; flex-shrink: 0; }
+.logo img { width: 160px; max-width: 160px; display: block; }
 
-.logo img {
-  width: 160px;
-  max-width: 160px;
-  display: block;
-}
-
-/* Menú horizontal */
 .menu-horizontal-opciones {
   list-style: none;
   display: flex;
@@ -124,46 +109,61 @@ body {
   background-color: #f0f5ff;
 }
 
-/* Botones navbar */
-.btn-iniciarsesion {
+/* Dropdown Alianzas */
+.dropdown { position: relative; display: inline-block; }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--surface-color);
+  min-width: 200px;
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  z-index: 1;
+  top: 100%;
+  overflow: hidden;
+}
+.dropdown-content a {
+  color: var(--text-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+.dropdown-content a:hover { background-color: var(--background-color); color: var(--primary-color); }
+.dropdown:hover .dropdown-content { display: block; }
+
+/* Botones Navbar */
+.btn-iniciarsesion, .btn-registrase {
   border-radius: var(--radius-xl);
   padding: 8px 18px;
   font-size: 14px;
   font-weight: 600;
-  background-color: var(--primary-color);
-  color: var(--button-text-color);
-  border: 2px solid var(--primary-color);
   cursor: pointer;
   transition: transform var(--transition), background-color var(--transition), box-shadow var(--transition);
 }
-
+.btn-iniciarsesion {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  border: 2px solid var(--primary-color);
+}
 .btn-iniciarsesion:hover {
   background-color: var(--primary-dark);
   transform: translateY(-1px);
   box-shadow: 0 4px 14px rgba(25, 59, 105, 0.35);
 }
-
 .btn-registrase {
-  border-radius: var(--radius-xl);
-  padding: 8px 18px;
-  font-size: 14px;
-  font-weight: 600;
   background-color: var(--secondary-color);
   color: var(--primary-dark);
   border: 2px solid var(--secondary-color);
-  cursor: pointer;
-  transition: transform var(--transition), background-color var(--transition), box-shadow var(--transition);
 }
-
 .btn-registrase:hover {
   background-color: var(--secondary-dark);
   transform: translateY(-1px);
   box-shadow: 0 4px 14px rgba(255, 193, 7, 0.45);
 }
-
 /* ─────────────────────────────────────────
-   SELECTOR DE IDIOMA — US35
-   Pill con dos botones ES | EN
+   SELECTOR DE IDIOMA
 ───────────────────────────────────────── */
 .lang-switcher-item {
   margin-left: 8px;
@@ -209,7 +209,6 @@ body {
   user-select: none;
 }
 
-/* Hamburguesa */
 .menu-hamburguesa {
   display: none;
   flex-direction: column;
@@ -218,7 +217,6 @@ body {
   padding: 8px;
   border-radius: var(--radius-sm);
 }
-
 .menu-hamburguesa span {
   width: 26px;
   height: 2.5px;
@@ -229,152 +227,18 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════════════════
-   TÍTULO DE SECCIÓN (compartido)
+   MÓDULO: REGISTRO DE CUENTA
 ═══════════════════════════════════════════════════════════════ */
-.titulo-seccion {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  margin-bottom: 12px;
-}
-
-.login-titulo {
-  font-size: var(--h2-font-size);
-  font-weight: 700;
-  color: var(--primary-color);
-<<<<<<< HEAD
-=======
-  margin-bottom: 32px;
->>>>>>> origin/develop
-}
-
-/* Línea decorativa debajo del título */
-.titulo-decorador {
-<<<<<<< HEAD
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-=======
-  width: 60px;
-  height: 4px;
-  border-radius: 2px;
-  justify-self: center;
->>>>>>> origin/develop
-  background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
-}
-
-/* ═══════════════════════════════════════════════════════════════
-    SECCIÓN LOGIN
-═══════════════════════════════════════════════════════════════ */
-<<<<<<< HEAD
-.seccion-registro-cuenta, .seccion-inicio-sesion
-{
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    min-height: calc(100vh - var(--footer-height));
-}
-
-.formulario-registro, .formulario-inicio-sesion
-{
-    margin: 20px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px; 
-}
-
-.formulario-registro-elemento, .formulario-inicio-sesion-elemento
-{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0px;
-    align-items: center;
-    max-width: 400px;
-    width: 100%;
-}
-
-.formulario-registro-elemento label, .formulario-inicio-sesion-elemento label
-{
-    font-weight: 500;
-    padding: 5px;
-    width: 100%;
-}
-
-.formulario-registro-elemento:last-child, .formulario-inicio-sesion-elemento:last-child 
-{
-    display: flex;
-    text-align: center; 
-}
-
-.formulario-registro-elemento label a, .formulario-inicio-sesion-elemento label a
-{
-    color: var(--primary-color);
-    text-align: center;
-}
-
-.formulario-registro-elemento input, .formulario-inicio-sesion-elemento input
-{
-    border-radius: 9999px;
-    padding: 5px 10px;
-    height: 40px;
-    width: 100%;
-    border: 1px solid var(--border-color);
-}
-
-.formulario-registro-elemento input[type=submit], .formulario-inicio-sesion-elemento input[type=submit]
-{
-   background-color: var(--primary-color);
-   border: 0px;
-   color: var(--white-color);
-   cursor: pointer;
-}
-
-.seccion-footer
-{
-  background-color: #193b69;
-  color: var(--white-color);
-  text-align: center;
-  padding: 20px;
-  margin-top: 50px;   
-}
-
-.seccion-footer p, a
-{
-  margin: 0 auto;
-    color: var(--white-color);
-    text-decoration: none;
-}
-
-.btn-iniciarsesion,
-.btn-registrase
-{
-  /* Añadimos una transición suave para los efectos */
-  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.btn-iniciarsesion:hover,
-.btn-registrase:hover
-{
-  transform: scale(1.05); /* Zoom botón ligeramente */
-  filter: brightness(110%); /* el brillo */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* sombra sutil */
-}
-=======
-#inicio-sesion {
+#registro-cuenta {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - var(--footer-height)); /* Ocupa toda la pantalla */
+  flex: 1; /* Ocupa el espacio disponible entre nav y footer */
   padding: 60px 24px;
   background: linear-gradient(135deg, var(--background-color) 0%, #e2e8f0 100%);
 }
 
-.seccion-inicio-sesion {
+.seccion-registro-cuenta {
   background-color: var(--surface-color);
   width: 100%;
   max-width: 480px;
@@ -384,34 +248,36 @@ body {
   border: 1px solid var(--border-color);
 }
 
-.seccion-inicio-sesion h1 {
+.seccion-registro-cuenta h1 {
   font-size: var(--h2-font-size);
   color: var(--primary-color);
   text-align: center;
+  margin-bottom: 32px;
   font-weight: 800;
 }
 
-.formulario-inicio-sesion {
+.formulario-registro {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.formulario-inicio-sesion-elemento {
+.formulario-registro-elemento {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.formulario-inicio-sesion-elemento label {
+.formulario-registro-elemento label {
   font-size: var(--label-font-size);
   font-weight: 600;
   color: var(--primary-dark);
 }
 
 /* Estilos para los campos de texto */
-.formulario-inicio-sesion-elemento input[type="email"],
-.formulario-inicio-sesion-elemento input[type="password"] {
+.formulario-registro-elemento input[type="text"],
+.formulario-registro-elemento input[type="email"],
+.formulario-registro-elemento input[type="password"] {
   width: 100%;
   padding: 14px 16px;
   font-size: var(--base-font-size);
@@ -422,12 +288,12 @@ body {
   transition: border-color var(--transition), box-shadow var(--transition), background-color var(--transition);
 }
 
-.formulario-inicio-sesion-elemento input::placeholder {
+.formulario-registro-elemento input::placeholder {
   color: #94a3b8;
   font-size: 14px;
 }
 
-.formulario-inicio-sesion-elemento input:focus {
+.formulario-registro-elemento input:focus {
   outline: none;
   background-color: var(--surface-color);
   border-color: var(--primary-light);
@@ -435,7 +301,7 @@ body {
 }
 
 /* Botón Submit */
-.formulario-inicio-sesion-elemento input[type="submit"] {
+.formulario-registro-elemento input[type="submit"] {
   margin-top: 12px;
   background-color: var(--secondary-color);
   color: var(--primary-dark);
@@ -449,25 +315,25 @@ body {
   transition: transform var(--transition), box-shadow var(--transition), background-color var(--transition);
 }
 
-.formulario-inicio-sesion-elemento input[type="submit"]:hover {
+.formulario-registro-elemento input[type="submit"]:hover {
   background-color: var(--secondary-dark);
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(255, 193, 7, 0.45);
 }
 
 /* Enlace "Entra Aquí" */
-.formulario-inicio-sesion-elemento:last-child {
+.formulario-registro-elemento:last-child {
   margin-top: 8px;
   align-items: center;
 }
 
-.formulario-inicio-sesion-elemento:last-child label {
+.formulario-registro-elemento:last-child label {
   font-size: 14px;
   color: var(--text-muted);
   font-weight: 500;
 }
 
-.formulario-inicio-sesion-elemento:last-child a {
+.formulario-registro-elemento:last-child a {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 700;
@@ -475,7 +341,7 @@ body {
   transition: color var(--transition);
 }
 
-.formulario-inicio-sesion-elemento:last-child a:hover {
+.formulario-registro-elemento:last-child a:hover {
   color: var(--primary-light);
   text-decoration: underline;
 }
@@ -501,105 +367,75 @@ footer {
   transition: color var(--transition), border-color var(--transition);
 }
 .terminos-condiciones:hover { color: var(--secondary-color); border-color: var(--secondary-color); }
->>>>>>> origin/develop
 
-
-/* Tablets y pantallas medianas */
-@media screen and (max-width: 1024px) 
-{
-    .barra-navegacion 
-    {
-        padding: 0 10px;
-    }
-}
-
-/* Móviles (smartphones) */
-@media screen and (max-width: 768px) 
-{
-    .menu-horizontal-opciones 
-    {
-        display: flex;
-        flex-direction: column; 
-        align-items: center;            
-        gap: 20px;                
-        padding: 30px 0;               
-        background-color: #ffffff;
-        position: absolute;   
-        top: 0;     
-        left: -100%;         
-        width: 100%;
-        height: auto;       
-        transition: left 0.3s ease; 
-        z-index: 1000;
-        box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
-    }
-
-    .llamado-accion-texto {
-        font-size: 28px;
-    }
-
-    .division-nosotros-ima img {
-        width: 90%;
-        max-width: 400px;
-    }
-
-    .seccion-nosotros {
-        margin: 20px;
-    }
-
-    .elementos-nosotros-txt
-    {
-        width: 90%;
-    }
-
-    .llamado-accion-boton,
-    .llamado-accion-boton2 {
-        width: 80%;
-        font-size: 16px;
-        padding: 12px 20px;
-    }
-
-     /* mostrar hamburguesa */
-    .menu-hamburguesa {
+/* ═══════════════════════════════════════════════════════════════
+   RESPONSIVE (MÓVILES Y TABLETS)
+═══════════════════════════════════════════════════════════════ */
+@media screen and (max-width: 768px) {
+  /* Navbar Móvil */
+  .menu-hamburguesa { display: flex; }
+  
+  .menu-horizontal-opciones {
     display: flex;
     flex-direction: column;
-    cursor: pointer;
-    gap: 5px;
-    padding: 10px;
-    z-index: 1100;
-    }
-
-    .menu-hamburguesa span {
-    width: 30px;
-    height: 3px;
-    background-color: #000;
-    transition: 0.3s;
-    }
-
-     /* Ocultar menú horizontal */
-    .menu-horizontal {
-    display: none;
-    position: absolute;
-    top: 75px;
-    left: 0;
-    width: 100%;
-    background: white;
-    border-bottom: 1px solid #ccc;
+    align-items: flex-start;
+    padding: 24px 20px;
+    background-color: var(--surface-color);
+    position: fixed;
+    top: var(--nav-bar-height);
+    left: -100%;
+    width: 270px;
+    height: calc(100vh - var(--nav-bar-height));
+    transition: left 0.3s ease;
     z-index: 999;
-    }
+    box-shadow: 4px 0 20px rgba(0,0,0,0.08);
+    border-right: 1px solid var(--border-color);
+    overflow-y: auto;
+  }
+  
+  .menu-horizontal.activo .menu-horizontal-opciones { left: 0; }
+  .menu-horizontal-opciones li { width: 100%; }
+  .menu-horizontal-opciones li a {
+    padding: 12px 8px;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 0;
+  }
+  /* Selector de idioma en móvil */
+  .lang-switcher-item {
+    margin-left: 0;
+    margin-top: 8px;
+  }
 
-     /* Mostrar menú cuando esté abierto */
-    .menu-horizontal.activo {
-    display: block;
-    }
-
-   /* Botones más grandes */
-    .btn-iniciarsesion,
-   .btn-registrase {
+  .lang-switcher {
+    width: fit-content;
+  }
+  .btn-iniciarsesion, .btn-registrase {
     width: 100%;
     text-align: center;
+    margin-top: 8px;
+    display: block;
   }
-  .menu-horizontal.activo .menu-horizontal-opciones {
-        left: 0;
-    }
+
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    border: none;
+    border-top: 1px solid var(--border-color);
+    min-width: 100%;
+  }
+
+  /* Formulario Móvil */
+  #registro-cuenta {
+    padding: 40px 16px;
+  }
+
+  .seccion-registro-cuenta {
+    padding: 32px 24px;
+    border-radius: var(--radius-md);
+  }
+
+  .seccion-registro-cuenta h1 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
 }
