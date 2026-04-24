@@ -1103,18 +1103,25 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 
 ## 2.5. Ubiquitous Language
 
+El Ubiquitous Language define un conjunto de términos clave utilizados dentro de Skillswap para asegurar una comunicación clara y consistente entre todos los miembros del equipo, tanto técnicos como de negocio. Este lenguaje compartido permite alinear la comprensión del sistema, facilitando el desarrollo, la documentación y la toma de decisiones a lo largo del proyecto.
+<br>
+
 | N° | Palabra técnica | Significado |
 | :---: | :--- | :--- |
-| 1 | **Usuario** | Persona registrada en SkillSwap, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
-| 2 | **WebRTC Token** | Credencial de seguridad generada dinámicamente (WebrtcToken) que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
-| 3 | **Stripe Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
+| 1 | **User** | Persona registrada en Innovify, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
+| 2 | **Token** | Credencial de seguridad generada dinámicamente que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
+| 3 | **Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
 | 4 | **Session** | Espacio de tiempo programado en la plataforma donde un Aprendiz y un Tutor se conectan para repasar los temas de un curso específico. |
 | 5 | **Dashboard** | Panel analítico que procesa los resultados de los quizzes y las sesiones. |
 | 6 | **Assessment** | Evaluación estandarizada creada por un Profesor Universitario. |
 | 7 | **Wallet** | Registro financiero interno del sistema donde se acumulan los fondos netos. |
 | 8 | **Commission Fee** | Porcentaje (5%) deducido automáticamente por el sistema de cada donación voluntaria antes de sumar el monto final a la billetera. |
 | 9 | **Dispute** | Reporte formal generado por un usuario ante inasistencias, mala conducta o enseñanza de información errónea durante una tutoría, el cual queda en estado pendiente hasta ser resuelto por un Profesor. |
-| 10 | **Universidad Afiliada** | Institución educativa superior con una alianza con SkillSwap, cuyo dominio de correo (.edu.pe) sirve para validar y agrupar a los usuarios de su comunidad académica. |
+| 10 | **Universidad Afiliada** | Institución educativa superior con una alianza con Innovify, cuyo dominio de correo (.edu.pe) sirve para validar y agrupar a los usuarios de su comunidad académica. |
+
+*(Tabla 10. Ubiquitous Languages - Elaboración propia.)*
+
+---
 
 # Capítulo III: Requirements Specification
 
@@ -1715,7 +1722,7 @@ Los Wireflow Diagrams representan el flujo de interacción del usuario dentro de
 **Representación visual:**
 
 <p align="center">
-  <img src="public/assets/images-doc/W33.png" alt="Flujo-w2" width="1000">
+  <img src="public/assets/images-doc/W3.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 69. Wireflow de Configuración de Perfil y Disponibilidad del Tutor. Nota: Este diagrama de flujo visualiza los pasos que sigue un tutor para configurar su perfil. Detalla la secuencia para añadir habilidades, establecer un calendario de disponibilidad y cambiar su estado para gestionar cuándo desea recibir solicitudes de tutoría.</em>
 </p>
