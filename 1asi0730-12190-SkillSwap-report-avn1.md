@@ -566,23 +566,36 @@ Katherine Tatiana Isuiza Vela es estudiante de Ingeniería Civil en la Universid
 
 #### Segmento objetivo #3: Coordinador Institucional
 
-**Entrevista 1 (Parte 1 y 2)**
-* **Nombres:** Carlos Alberto
-* **Apellidos:** Gonzales Mendoza
-* **Edad:** 53 años
-* **Distrito:** Surco
+**Entrevista 1**
+* **Nombres:** Armando  
+* **Apellidos:** Novoa  
+* **Edad:** 49 años  
+* **Distrito:** San Miguel  
 
+---
 <p align="center">
-  <img src="images/entrevista1-s3.jpg" alt="Entrevista Carlos" width="600">
+  <img src="public/assets/images-doc/entre-rafa.png" alt="Entrevista Raúl" width="600">
+
   <br>
-  <em>Figura 7 y 8. YouTube: Entrevista 1 Segmento Coordinador Institucional | SkillSwap. Nota: Entrevista dividida en dos partes por longitud.</em>
+  <em>Figura 10. YouTube: Entrevista 3 Segmento Coordinador institucional | Innovify: En esta figura se aprecia la cuarta persona entrevistada de nuestro tercer segmento: coordinador institucional.</em>
 </p>
 
-* **URL Parte 1:** [https://youtu.be/-sObCCOuD-o](https://youtu.be/-sObCCOuD-o) | **Inicio:** 0:00 | **Duración:** 10m 27s
-* **URL Parte 2:** [https://youtu.be/CFcFcg2ZEu8](https://youtu.be/CFcFcg2ZEu8) | **Inicio:** 0:00 | **Duración:** 9m 50s
 
-**Resumen descriptivo:**
-El profesor Carlos Alberto González Mendoza expone que los principales desafíos para los estudiantes actualmente son mantenerse actualizados frente a los rápidos cambios, desarrollar un pensamiento crítico, y adaptarse a una realidad en construcción. Advierte que el uso de IA puede fomentar la pereza intelectual si no se ajustan las evaluaciones para exigir análisis. Respecto a la plataforma interuniversitaria, destaca como beneficio la integración de esfuerzos y el intercambio de conocimientos. Resaltó que uno de los principales riesgos al conectar estudiantes es la falta de reglas claras, proponiendo explorar herramientas como blockchain para algoritmos imparciales. Sobre la verificación, sugirió un "DNI académico" que certifique al alumno y evite la burocracia de las validaciones humanas. Recomendó niveles de acceso diferenciados y la creación de espacios de debate sobre problemas reales para mejorar el apoyo estudiantil.
+* **URL:** https://youtu.be/YDpJ_S8Ik2g  
+* **Inicio:** 0:00  
+* **Duración:** 13 minutos con 54 segundos  
+
+---
+
+### Resumen descriptivo
+
+Esta entrevista fue realizada a un docente de Cálculo 2 de la Universidad Peruana de Ciencias Aplicadas (UPC).
+
+De acuerdo con lo conversado, el profesor considera que la propuesta es una muy buena idea y la percibe como fundamental para el desarrollo profesional de los estudiantes. Destaca la importancia de que los alumnos colaboren e intercambien conocimientos, incluso entre diferentes universidades, con el fin de adaptarse a un mercado laboral cada vez más exigente.
+
+Asimismo, mostró cautela en sus declaraciones para no vulnerar su contrato con la universidad, pero enfatizó que las plataformas tecnológicas tienen un gran potencial siempre que se utilicen bajo un marco de ética y respeto a las normas institucionales. Señaló que la educación en valores debe prevalecer sobre la simple restricción del uso de la tecnología.
+
+Finalmente, evidenció interés en la funcionalidad operativa de la propuesta, sugiriendo que la validación y el acceso a la información se gestionen por niveles académicos, con el objetivo de asegurar que el contenido sea adecuado y pertinente para cada etapa del estudiante.
 
 **Entrevista 2 (Parte 1 y 2)**
 * **Nombres:** Jesús
@@ -706,42 +719,62 @@ El profesor Raúl Pardo, docente en la Universidad de Lima, considera una muy bu
 #### Segmento objetivo #3: Coordinador Institucional
 
 **1. Características objetivas**
-* **Cargo:** Jefes de prácticas o profesores universitarios (100% de los entrevistados).
-* **Experiencia:** Supervisión y acompañamiento de estudiantes en proyectos prácticos (100%).
-* **Uso de tecnología:** Familiarizados con herramientas digitales académicas, incluidas plataformas de colaboración y software de verificación de estudiantes (100%).
+* **Edad y rol:**
+  * Profesionales entre 29 y 53 años (100%).
+  * Docentes, coordinadores o jefes de práctica (100%).
+* **Ámbito laboral:**
+  * Universidades (100%).
+* **Responsabilidades:**
+  * Supervisión del aprendizaje (100%).
+  * Garantizar integridad académica (100%).
+  * Evaluación del desempeño (100%).
+* **Relación con tecnología:**
+  * Uso de herramientas digitales educativas (100%).
+  * Sistemas de control académico (100%).
 
 **2. Características subjetivas**
-* **Desafíos percibidos de los estudiantes:**
-  * Gestión del tiempo frente a carga académica (50%).
-  * Acceso a información confiable (50%).
-  * Trabajo en equipo y habilidades de comunicación (50%).
-  * Necesidad de desarrollar pensamiento crítico y adaptabilidad ante cambios rápidos (50%).
-* **Beneficios percibidos de la plataforma interuniversitaria:**
-  * Integración de esfuerzos entre universidades y estudiantes (100%).
-  * Intercambio seguro y confiable de conocimientos (50%).
-  * Fortalecimiento de habilidades para enfrentar la cuarta revolución industrial (50%).
-* **Riesgos y preocupaciones:**
-  * Posible riesgo reputacional por contenidos incorrectos o mal validados (50%).
-  * Falta de reglas claras y conflictos entre instituciones (50%).
-  * Sobrecarga laboral para coordinadores si no se automatizan procesos (50%).
-  * Peligros de pereza intelectual si los estudiantes dependen demasiado de herramientas tecnológicas (50%).
-* **Recomendaciones para la plataforma:**
-  * Verificación de identidad de alumnos mediante DNI académico o reconocimiento facial (100%).
-  * Políticas claras de integridad académica y trazabilidad de actividades (100%).
-  * Panel de coordinador con historial académico, monitoreo de interacciones y aprobación de participantes (50%).
-  * Diferenciación de niveles de acceso según especialización de los espacios (50%).
-  * Espacios de discusión y debate académico sobre problemas reales, promoviendo innovación y colaboración (50%).
+* **Percepción del aprendizaje colaborativo:**
+  * Considerado fundamental (100%).
+  * Positiva colaboración interuniversitaria (100%).
+  * Mejora la preparación profesional (66%).
+* **Preocupaciones:**
+  * Plagio, fraude y suplantación (100%).
+  * Uso indebido de tecnología (100%).
+  * Información poco confiable (100%).
+  * Riesgo reputacional (66%).
+* **Barreras:**
+  * Validación de estudiantes (100%).
+  * Carga operativa (67%).
+  * Costos (67%).
+  * Necesidad de automatización (33%).
+* **Limitaciones del estudiante:**
+  * Falta de tiempo (100%).
+  * Mala gestión del tiempo (100%).
+  * Problemas de trabajo en equipo (66%).
+* **Requisitos de la plataforma:**
+  * Verificación de identidad (100%).
+  * Validación académica (100%).
+  * Políticas claras (100%).
+  * Trazabilidad de interacciones (100%).
+  * Panel de monitoreo (100%).
+* **Condiciones de aceptación:**
+  * Enfoque en aprendizaje (100%).
+  * Marco ético claro (100%).
+  * No afectar rendimiento (66%).
+  * No sobrecargar usuarios (66%).
 
-| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| Característica | % entrevistados | Insight clave |
 | :--- | :--- | :--- |
-| Cargo coordinador | 100% | Se desempeña como jefe de prácticas / profesor. |
-| Gestión del tiempo estudiante | 50% | Los principales desafíos que enfrentan los alumnos son la gestión del tiempo. |
-| Acceso a información confiable | 50% | Dado que no toda la información disponible en internet es válida. |
-| Trabajo en equipo | 50% | Dificultad en el trabajo en equipo, que requiere habilidades de comunicación. |
-| Pensamiento crítico y adaptabilidad | 50% | Desarrollar un pensamiento crítico y adaptarse a una realidad en construcción. |
-| Beneficios de la plataforma | 100% | La integración de esfuerzos y el intercambio de conocimientos. |
-| Riesgos de reputación | 50% | Existe un riesgo reputacional si los contenidos o cursos se imparten incorrectamente. |
-| Verificación de alumnos | 100% | Panel de coordinador que permita buscar y aprobar alumnos fácilmente. |
+| Aprendizaje colaborativo | 100% | Fundamental |
+| Colaboración interuniversitaria | 100% | Positiva si se controla |
+| Preocupación por fraude | 100% | Riesgo principal |
+| Validación de identidad | 100% | Requisito crítico |
+| Uso responsable de tecnología | 100% | Condición base |
+| Riesgo reputacional | 66% | Preocupación relevante |
+| Problemas de tiempo | 100% | Limita uso |
+| Sistema de monitoreo | 100% | Necesario |
+| Carga operativa | 67% | Barrera |
+| Segmentación académica | 33% | Mejora pertinencia |
 
 *(Tabla 6. Principales hallazgos de entrevistas a coordinadores académicos - Elaboración propia. Nota: Resultados obtenidos en las entrevistas con coordinadores o jefes de práctica).*
 
@@ -829,7 +862,7 @@ En el User Task Matrix se considera a los tres segmentos evaluando sus tareas cl
 
 #### Segmento objetivo #3: Coordinador Institucional
 
-| Tareas | Carlos | Jesús | Raúl |
+| Tareas | Armando | Jesús | Raúl |
 | :--- | :--- | :--- | :--- |
 | **Guiar a los estudiantes en la aplicación práctica de conceptos mediante casos...** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Muy alta |
 | **Enseñar a los estudiantes a gestionar el tiempo y organizarse...** | Frec: Media<br>Imp: Alta | Frec: Muy alta<br>Imp: Alta | Frec: Media-Alta<br>Imp: Alta |
