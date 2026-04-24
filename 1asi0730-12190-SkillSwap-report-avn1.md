@@ -2296,9 +2296,9 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 * **Landing Page:** Repositorio público para la página de presentación del producto. 
   * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](#)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
-  * Enlace: *[https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git]
+  * Enlace:[https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git](#)
 * **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
-  * Enlace: *[https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git]*
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git](#)
 * **Demo_repository:** Repositorio de demostración del proyecto, utilizado para integrar o mostrar de forma simplificada el funcionamiento general del sistema.
   * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/demo-repository.git](#)
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
@@ -2363,25 +2363,25 @@ El equipo seguirá las recomendaciones de *HTML Style Guide and Coding Conventio
 Para la realización del código hemos utilizado diversos elementos semánticos como `<nav>` para el menú, `<ul>` y `<li>` para listas, `<button>` para llamadas a la acción, `<section>` para dividir el contenido, `<img>` para imágenes y `<footer>` para el pie de página. También se utilizaron atributos clave como `class`, `src` y `alt`.
 
 ```html
-<nav class="barra-navegacion">
-  <div class="menu-horizontal">
-    <ul class="menu-horizontal-opciones">
-      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alianzas</a></li>
-      <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Proyectos</a></li>
-      <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
-      <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+<nav class="navigation-bar">
+  <div class="horizontal-menu">
+    <ul class="horizontal-menu-options">
+      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alliances</a></li>
+      <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Projects</a></li>
+      <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">About Us</a></li>
+      <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Spanish">ES</button>
       <span class="lang-divider">|</span>
       <button class="lang-btn" data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
     </ul>
   </div>
 </nav>
 
-<section class="seccion-llamado-accion">
-  <div class="hero-badge" data-i18n="hero-badge">Red Interuniversitaria del Perú</div>
-  <h1 class="llamado-accion-texto" data-i18n="hero-title">
-    <img src="assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
+<section class="call-to-action-section">
+  <div class="hero-badge" data-i18n="hero-badge">Interuniversity Network of Peru</div>
+  <h1 class="call-to-action-text" data-i18n="hero-title">
+    <img src="assets/images/SkillSwap_logo.png" alt="SkillSwap Logo" />
   </h1>
-  <a href="sites/login.html">Regístrate</a>
+  <a href="sites/login.html">Sign Up</a>
 </section>
 ```
 
@@ -2390,7 +2390,7 @@ Para la realización del código hemos utilizado diversos elementos semánticos 
 Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas para estructurar la apariencia del sitio. Las propiedades fueron organizadas en un orden coherente (posicionamiento, modelo de caja, tipografía, color y efectos) con el fin de mantener claridad y uniformidad en el código. Asimismo, se utilizaron nombres de clases claros y descriptivos, alineados a variables CSS globales.
 
 ```css
-.barra-navegacion {
+.navigation-bar {
   display: flex;
   background-color: var(--surface-color);
   justify-content: space-between;
@@ -2412,7 +2412,7 @@ Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas pa
   flex-shrink: 0;
 }
 
-.formulario-registro, .formulario-inicio-sesion {
+.registration-form, .login-form {
   margin: 20px 0px;
   display: flex;
   flex-direction: column;
@@ -2543,42 +2543,39 @@ Enlace: [https://github.com/Aplicaciones-Web-SkillSwap]
 ### 5.2.1. Sprint 1
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo. Incluye tres secciones internas: Sprint Backlog 1, User Interface & Execution, y Team Collaboration Insights.
 
-| ID | Historia de usuario | Epic | Prioridad | SP |
+| ID | User Story | Epic | Priority | SP |
 | :---: | :--- | :--- | :---: | :---: |
-| **US01** | Registro validado con correo institucional | Gestión de cuentas | Alta | 5 |
-| **US02** | Inicio de sesión y redirección por roles | Gestión de cuentas | Alta | 5 |
-| **US31** | Pantalla de inicio de la plataforma | UX y personalización | Media | 3 |
-| **US32** | Visualización de la pantalla Sobre nosotros | UX y personalización | Media | 3 |
-| **US33** | Animaciones y microinteracciones | UX y personalización | Baja | 2 |
-| **US35** | Cambio de idioma ES/EN en la landing page | UX y personalización | Alta | 5 |
-| **US36** | Visualizar sección de Alianzas | UX y personalización | Media | 3 |
-| **US37** | Visualizar sección Sobre Nosotros y Proyección Tecnológica | UX y personalización | Media | 3 |
-| **US38** | Visualizar sección de Soluciones y Funcionalidades | UX y personalización | Alta | 5 |
-| **US39** | Recuperación de contraseña | Gestión de cuentas | Media | 3 |
-| | | | **Total Story Points** | **37** |
+| **US31** | Platform home screen | User Experience and Personalization | Medium | 3 |
+| **US32** | View the About Us screen | User Experience and Personalization | Medium | 2 |
+| **US33** | Animations and micro-interactions | User Experience and Personalization | Low | 2 |
+| **US35** | Language change (ES / EN) on the Landing Page | User Experience and Personalization | High | 3 |
+| **US36** | View Alliances section | User Experience and Personalization | Medium | 3 |
+| **US37** | View About Us section and Technological Projection | User Experience and Personalization | Medium | 2 |
+| **US38** | View Solutions and Features section | User Experience and Personalization | High | 3 |
+| | | | **Total Story Points** | **18** |
 
 #### 5.2.1.1. Sprint Planning 1
 
 | Sprint # | Sprint 1 |
 | :--- | :--- |
 | **Sprint Planning Background** | |
-| **Date** | 2025-04-06 |
+| **Date** | 2026-04-06 |
 | **Time** | 08:00 PM |
 | **Location** | Reunión virtual (Google Meet) |
 | **Prepared By** | Alberca Saavedra, Victor Manuel |
 | **Attendees (to planning meeting)** | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Conde Huashuayo, Sebasthian Alex / Becerra Ninahuanca, Luis Ángel / Meza Soza, Alexandra Yamile |
 | **Sprint n – 1 Review Summary** | No aplica (primer sprint del proyecto). |
 | **Sprint n – 1 Retrospective Summary** | No aplica (primer sprint del proyecto). |
-| **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | Desarrollar el landing page público de Innovify con toda su información institucional, acceso básico mediante registro e inicio de sesión, selector de idioma ES/EN y recuperación de contraseña. Métrica: cualquier visitante puede navegar el landing completo, registrarse, iniciar sesión y cambiar el idioma de la interfaz sin errores. |
-| **Sprint 1 Velocity** | 37 Story Points |
-| **Sum of Story Points** | 37 |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 1 Goal** | Nuestro enfoque está en publicar una Landing Page completa, bilingüe (ES/EN) y responsiva que comunique la propuesta de valor de SkillSwap. Creemos que esto genera confianza e interés en la plataforma a los estudiantes universitarios y coordinadores institucionales que la visiten por primera vez. Esto se confirmará cuando cualquier visitante pueda navegar fluidamente por las secciones de Inicio, Sobre Nosotros, Alianzas y Soluciones, alternar entre español e inglés en tiempo real, y revisar el formulario de registro — todo ello sin errores de visualización en el escritorio. |
+| **Sprint 1 Velocity** | 18 Story Points |
+| **Sum of Story Points** | 18 |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 | Team Member | GitHub Username | Aspecto 1 (Hero + Navbar) | Aspecto 2 (Sobre Nosotros + Alianzas) | Aspecto 3 (Soluciones + Footer) | Aspecto 4 (Autenticación) | Aspecto 5 (Idioma + Animaciones) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Alberca Saavedra, Victor Manuel** | Victpr Alberca | L | C | C | C | C |
+| **Alberca Saavedra, Victor Manuel** | Victor Alberca | L | C | C | C | C |
 | **Komatsu Dueñas, David** | DavidKomatsu | C | L | C | C | C |
 | **Conde Huashuayo, Sebasthian Alex** | SebConde | C | C | L | C | C |
 | **Becerra Ninahuanca, Luis Ángel** | LuisBecerra | C | C | C | L | C |
@@ -2666,7 +2663,7 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 
 **Enlace de la página web para observar la implementación del Sprint 1:**
 
- **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ **https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git**
 
 ---
 
@@ -2724,7 +2721,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 
 **Video demostrativo de las funciones del Sprint 1:**
 <figure style="text-align: center; margin-bottom: 40px;">
-  <a href="https://youtu.be/FJoqkPd1Yts" target="_blank">
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
     <img src="https://img.youtube.com/vi/FJoqkPd1Yts/maxresdefault.jpg" alt="Video Demostrativo Sprint 1" width="600">
   </a>
   <figcaption style="margin-top: 10px;">
@@ -3072,7 +3069,7 @@ Tras finalizar el ciclo de vida del proyecto Innovify (SkillSwap), y habiendo co
 | :--- | :--- | :--- | :--- |
 | **Needfinding Interviews** | upc-pre-202610-1asi0730---needfinding-sprint-1 | Consolida todas las entrevistas realizadas, incluyendo en cada entrevista títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. |  |
 | **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección, resumiendo los flujos de navegación que se incluyen en el video. Seguir especificaciones del enunciado. |
-| **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección y redacción de registro de cada entrevista, junto con la evaluación de heurísticas de usabilidad, arquitectura de información y diseño inclusivo para la sesión de evaluación. Seguir especificaciones del enunciado y formatos indicados. |
+| **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | Subir el video en Microsoft Stream y en YouTube. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
 | **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | Subir el video en Microsoft Stream y en YouTube. Incluir redacción de introducción a la sección, resumiendo el proceso de trabajo y los logros alcanzados por los miembros del equipo. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
 
