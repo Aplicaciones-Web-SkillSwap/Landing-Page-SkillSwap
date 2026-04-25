@@ -25,8 +25,8 @@
 | :--- | :--- |
 | U201924127 | Alberca Saavedra, Victor Manuel |
 | U201724692 | Komatsu Dueñas, David |
-| U20241b451 | Meza Soza, Alexandra Yamile  |
-| U20241E356 | Conde Huashuayo, Sebasthian Alex  |
+| [Completar] | Meza Soza, Alexandra Yamile  |
+| U20241E356  | Conde Huashuayo, Sebasthian Alex  |
 | U20231C792 | Becerra Ninahuanca, Luis Angel |
 |
 
@@ -66,10 +66,10 @@
 - 2.5 Ubiquitous Language .................................. 65  
 
 # Capítulo III: Requirements Specification 
-- 3 Epics ................................................ 66  
-- 3.1 User Stories ......................................... 67  
-- 3.2 Impact Mapping ....................................... 87  
-- 3.3 Product Backlog ...................................... 90  
+- 3.1 Epics ................................................ 66  
+- 3.2 User Stories ......................................... 67  
+- 3.3 Impact Mapping ....................................... 87  
+- 3.4 Product Backlog ...................................... 90  
 
 # Capítulo IV: Product UX/UI Design 
 - 4.1 Style Guidelines ..................................... 98  
@@ -132,6 +132,8 @@
 | **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
 
 
+*(Nota: En la versión v.01.Tb1 he resumido la lista de capítulos para que la tabla sea legible en GitHub. Si necesitas el listado exhaustivo de cada subcapítulo, te recomiendo ponerlo fuera de la tabla).*
+
 ---
 
 ## Student Outcome
@@ -167,11 +169,12 @@ Facilitar el aprendizaje sincrónico y asincrónico entre estudiantes universita
 
 | Foto | Integrante | Carrera | Descripción |
 | :---: | :--- | :--- | :--- |
-| <img src="public/assets/images/image-perfil-victor.png" width="100"> | **Alberca Saavedra, Victor Manuel**<br>(U201924127) | Ingeniería de Software | Puedo aportar mis conocimientos básicos de investigación para los temas y tengo experiencia en el leguaje C#. También puedo aportar al grupo con el aspecto comunicativo y organizativo para si poder realizar un mejor trabajo. |
-| <img src="public/assets/images/image-david.png" width="100"> | **Komatsu Dueñas, David**<br>(U201724692) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos adquiridos en investigación y sus respectivas metodologías, y la experiencia universitaria adquirida en el lenguaje C# y JavaScript. También, aportare con mis habilidades de comunicación asertiva y buen trabajo en equipo. |
-| <img src="images/foto-integrante3.jpg" width="100"> | **Meza Soza, Alexandra Yamile**<br>(U20241b451) | Ingeniería de Sistemas de Información | Estudiante de Ingeniería de Sistemas de Información con enfoque en análisis de datos y desarrollo básico en Python/C#. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto. |
-| <img src="images/foto-integrante4.jpg" width="100"> | **Becerra Ninahuanca, Luis Angel**<br>(U20231C792) | Ingeniería de Sistemas de Información | Estudiante de la carrera de ingeniería de sistemas en la UPC. Domino C#, Java, C# y me gusta trabajar en equipo para lograr un objetivo. Tengo habilidades además de programar con el diseño. En el equipo aportaré a nuestra landing page con mis conocimientos, un diseño limpio y agradable para el usuario. |
-| <img src="images/foto-integrante5.jpg" width="100"> | **Conde Huashuayo, Sebasthian Alex**<br>(U20241E356) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en programación en los lenguajes C#, Python, HTML y CSS. Asimismo, puedo contribuir al equipo con habilidades en trabajo colaborativo, organización y resolución de problemas. |
+| <img src="public/assets/images/image-perfil-victor.png" width="100"> | **Alberca Saavedra, Victor Manuel**<br>(U201924127) | Ingeniería de Software | Puedo aportar mis conocimientos básicos de investigación para los temas y tengo experiencia en el leguaje C++. También puedo aportar al grupo con el aspecto comunicativo y organizativo para si poder realizar un mejor trabajo. |
+| <img src="public/assets/images/image-david.png" width="100"> | **Komatsu Dueñas, David**<br>(U201724692) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos adquiridos en investigación y sus respectivas metodologías, y la experiencia universitaria adquirida en el lenguaje C++ y JavaScript. También, aportare con mis habilidades de comunicación asertiva y buen trabajo en equipo. |
+| <img src="images/foto-integrante3.jpg" width="100"> | **[Nombre Integrante 3]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de Ingeniería de Sistemas de Información con enfoque en análisis de datos y desarrollo básico en Python/C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto. |
+| <img src="images/foto-integrante4.jpg" width="100"> | **[Nombre Integrante 4]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de la carrera de ingeniería de sistemas en la UPC. Domino C#, Java, C++ y me gusta trabajar en equipo para lograr un objetivo. Tengo habilidades además de programar con el diseño. En el equipo aportaré a nuestra landing page con mis conocimientos, un diseño limpio y agradable para el usuario. |
+| <img src="images/foto-integrante5.jpg" width="100"> | **[Nombre Integrante 5]**<br>([Código]) | Ingeniería de Sistemas de Información | Puedo aportar mis conocimientos en C++ y Python. Además de la generación de tablas y gráficos estadísticos desde la depuración de un mismo código y el acceso a una base de datos desde las hojas de cálculo de Excel en sus diferentes formatos hasta base de datos en SQL Server. |
+| <img src="public/assets/images/image-perfil-Sebasthian.png" width="100"> | **Conde Huashuayo, Sebasthian Alex**<br>(U20241E356) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en programación en los lenguajes C++, Python, HTML y CSS. Asimismo, puedo contribuir al equipo con habilidades en trabajo colaborativo, organización y resolución de problemas. |
 
 *(Tabla 1. Perfiles integrantes de equipo - Elaboración propia. Nota: En esta tabla se aprecia los perfiles de los integrantes de equipo).*
 
@@ -472,7 +475,7 @@ En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San 
   <em>Figura 2. YouTube: Entrevista 2: Estudiante-Aprendiz | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](#)
+* **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](#) *(Añadir enlace real)*
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 25 segundos
 
@@ -493,7 +496,7 @@ En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en 
   Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#)
+* **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#) *(Añadir enlace real)*
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 17 segundos
 
@@ -535,7 +538,7 @@ En esta entrevista, Lucero Campos cursa el octavo ciclo en la Universidad César
   <em>Figura 5. YouTube: Entrevista 2: Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#)
+* **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#) *(Añadir enlace real)*
 * **Inicio:** 0:12
 * **Duración:** 10 minutos con 28 segundos
 
@@ -563,36 +566,23 @@ Katherine Tatiana Isuiza Vela es estudiante de Ingeniería Civil en la Universid
 
 #### Segmento objetivo #3: Coordinador Institucional
 
-**Entrevista 1**
-* **Nombres:** Armando  
-* **Apellidos:** Novoa  
-* **Edad:** 49 años  
-* **Distrito:** San Miguel  
+**Entrevista 1 (Parte 1 y 2)**
+* **Nombres:** Carlos Alberto
+* **Apellidos:** Gonzales Mendoza
+* **Edad:** 53 años
+* **Distrito:** Surco
 
----
 <p align="center">
-  <img src="public/assets/images-doc/entre-rafa.png" alt="Entrevista Raúl" width="600">
-
+  <img src="images/entrevista1-s3.jpg" alt="Entrevista Carlos" width="600">
   <br>
-  <em>Figura 10. YouTube: Entrevista 3 Segmento Coordinador institucional | Innovify: En esta figura se aprecia la cuarta persona entrevistada de nuestro tercer segmento: coordinador institucional.</em>
+  <em>Figura 7 y 8. YouTube: Entrevista 1 Segmento Coordinador Institucional | SkillSwap. Nota: Entrevista dividida en dos partes por longitud.</em>
 </p>
 
+* **URL Parte 1:** [https://youtu.be/-sObCCOuD-o](https://youtu.be/-sObCCOuD-o) | **Inicio:** 0:00 | **Duración:** 10m 27s
+* **URL Parte 2:** [https://youtu.be/CFcFcg2ZEu8](https://youtu.be/CFcFcg2ZEu8) | **Inicio:** 0:00 | **Duración:** 9m 50s
 
-* **URL:** https://youtu.be/YDpJ_S8Ik2g  
-* **Inicio:** 0:00  
-* **Duración:** 13 minutos con 54 segundos  
-
----
-
-### Resumen descriptivo
-
-Esta entrevista fue realizada a un docente de Cálculo 2 de la Universidad Peruana de Ciencias Aplicadas (UPC).
-
-De acuerdo con lo conversado, el profesor considera que la propuesta es una muy buena idea y la percibe como fundamental para el desarrollo profesional de los estudiantes. Destaca la importancia de que los alumnos colaboren e intercambien conocimientos, incluso entre diferentes universidades, con el fin de adaptarse a un mercado laboral cada vez más exigente.
-
-Asimismo, mostró cautela en sus declaraciones para no vulnerar su contrato con la universidad, pero enfatizó que las plataformas tecnológicas tienen un gran potencial siempre que se utilicen bajo un marco de ética y respeto a las normas institucionales. Señaló que la educación en valores debe prevalecer sobre la simple restricción del uso de la tecnología.
-
-Finalmente, evidenció interés en la funcionalidad operativa de la propuesta, sugiriendo que la validación y el acceso a la información se gestionen por niveles académicos, con el objetivo de asegurar que el contenido sea adecuado y pertinente para cada etapa del estudiante.
+**Resumen descriptivo:**
+El profesor Carlos Alberto González Mendoza expone que los principales desafíos para los estudiantes actualmente son mantenerse actualizados frente a los rápidos cambios, desarrollar un pensamiento crítico, y adaptarse a una realidad en construcción. Advierte que el uso de IA puede fomentar la pereza intelectual si no se ajustan las evaluaciones para exigir análisis. Respecto a la plataforma interuniversitaria, destaca como beneficio la integración de esfuerzos y el intercambio de conocimientos. Resaltó que uno de los principales riesgos al conectar estudiantes es la falta de reglas claras, proponiendo explorar herramientas como blockchain para algoritmos imparciales. Sobre la verificación, sugirió un "DNI académico" que certifique al alumno y evite la burocracia de las validaciones humanas. Recomendó niveles de acceso diferenciados y la creación de espacios de debate sobre problemas reales para mejorar el apoyo estudiantil.
 
 **Entrevista 2 (Parte 1 y 2)**
 * **Nombres:** Jesús
@@ -716,62 +706,42 @@ El profesor Raúl Pardo, docente en la Universidad de Lima, considera una muy bu
 #### Segmento objetivo #3: Coordinador Institucional
 
 **1. Características objetivas**
-* **Edad y rol:**
-  * Profesionales entre 29 y 53 años (100%).
-  * Docentes, coordinadores o jefes de práctica (100%).
-* **Ámbito laboral:**
-  * Universidades (100%).
-* **Responsabilidades:**
-  * Supervisión del aprendizaje (100%).
-  * Garantizar integridad académica (100%).
-  * Evaluación del desempeño (100%).
-* **Relación con tecnología:**
-  * Uso de herramientas digitales educativas (100%).
-  * Sistemas de control académico (100%).
+* **Cargo:** Jefes de prácticas o profesores universitarios (100% de los entrevistados).
+* **Experiencia:** Supervisión y acompañamiento de estudiantes en proyectos prácticos (100%).
+* **Uso de tecnología:** Familiarizados con herramientas digitales académicas, incluidas plataformas de colaboración y software de verificación de estudiantes (100%).
 
 **2. Características subjetivas**
-* **Percepción del aprendizaje colaborativo:**
-  * Considerado fundamental (100%).
-  * Positiva colaboración interuniversitaria (100%).
-  * Mejora la preparación profesional (66%).
-* **Preocupaciones:**
-  * Plagio, fraude y suplantación (100%).
-  * Uso indebido de tecnología (100%).
-  * Información poco confiable (100%).
-  * Riesgo reputacional (66%).
-* **Barreras:**
-  * Validación de estudiantes (100%).
-  * Carga operativa (67%).
-  * Costos (67%).
-  * Necesidad de automatización (33%).
-* **Limitaciones del estudiante:**
-  * Falta de tiempo (100%).
-  * Mala gestión del tiempo (100%).
-  * Problemas de trabajo en equipo (66%).
-* **Requisitos de la plataforma:**
-  * Verificación de identidad (100%).
-  * Validación académica (100%).
-  * Políticas claras (100%).
-  * Trazabilidad de interacciones (100%).
-  * Panel de monitoreo (100%).
-* **Condiciones de aceptación:**
-  * Enfoque en aprendizaje (100%).
-  * Marco ético claro (100%).
-  * No afectar rendimiento (66%).
-  * No sobrecargar usuarios (66%).
+* **Desafíos percibidos de los estudiantes:**
+  * Gestión del tiempo frente a carga académica (50%).
+  * Acceso a información confiable (50%).
+  * Trabajo en equipo y habilidades de comunicación (50%).
+  * Necesidad de desarrollar pensamiento crítico y adaptabilidad ante cambios rápidos (50%).
+* **Beneficios percibidos de la plataforma interuniversitaria:**
+  * Integración de esfuerzos entre universidades y estudiantes (100%).
+  * Intercambio seguro y confiable de conocimientos (50%).
+  * Fortalecimiento de habilidades para enfrentar la cuarta revolución industrial (50%).
+* **Riesgos y preocupaciones:**
+  * Posible riesgo reputacional por contenidos incorrectos o mal validados (50%).
+  * Falta de reglas claras y conflictos entre instituciones (50%).
+  * Sobrecarga laboral para coordinadores si no se automatizan procesos (50%).
+  * Peligros de pereza intelectual si los estudiantes dependen demasiado de herramientas tecnológicas (50%).
+* **Recomendaciones para la plataforma:**
+  * Verificación de identidad de alumnos mediante DNI académico o reconocimiento facial (100%).
+  * Políticas claras de integridad académica y trazabilidad de actividades (100%).
+  * Panel de coordinador con historial académico, monitoreo de interacciones y aprobación de participantes (50%).
+  * Diferenciación de niveles de acceso según especialización de los espacios (50%).
+  * Espacios de discusión y debate académico sobre problemas reales, promoviendo innovación y colaboración (50%).
 
-| Característica | % entrevistados | Insight clave |
+| Característica | % Entrevistados | Fuente / Frase de entrevista |
 | :--- | :--- | :--- |
-| Aprendizaje colaborativo | 100% | Fundamental |
-| Colaboración interuniversitaria | 100% | Positiva si se controla |
-| Preocupación por fraude | 100% | Riesgo principal |
-| Validación de identidad | 100% | Requisito crítico |
-| Uso responsable de tecnología | 100% | Condición base |
-| Riesgo reputacional | 66% | Preocupación relevante |
-| Problemas de tiempo | 100% | Limita uso |
-| Sistema de monitoreo | 100% | Necesario |
-| Carga operativa | 67% | Barrera |
-| Segmentación académica | 33% | Mejora pertinencia |
+| Cargo coordinador | 100% | Se desempeña como jefe de prácticas / profesor. |
+| Gestión del tiempo estudiante | 50% | Los principales desafíos que enfrentan los alumnos son la gestión del tiempo. |
+| Acceso a información confiable | 50% | Dado que no toda la información disponible en internet es válida. |
+| Trabajo en equipo | 50% | Dificultad en el trabajo en equipo, que requiere habilidades de comunicación. |
+| Pensamiento crítico y adaptabilidad | 50% | Desarrollar un pensamiento crítico y adaptarse a una realidad en construcción. |
+| Beneficios de la plataforma | 100% | La integración de esfuerzos y el intercambio de conocimientos. |
+| Riesgos de reputación | 50% | Existe un riesgo reputacional si los contenidos o cursos se imparten incorrectamente. |
+| Verificación de alumnos | 100% | Panel de coordinador que permita buscar y aprobar alumnos fácilmente. |
 
 *(Tabla 6. Principales hallazgos de entrevistas a coordinadores académicos - Elaboración propia. Nota: Resultados obtenidos en las entrevistas con coordinadores o jefes de práctica).*
 
@@ -859,7 +829,7 @@ En el User Task Matrix se considera a los tres segmentos evaluando sus tareas cl
 
 #### Segmento objetivo #3: Coordinador Institucional
 
-| Tareas | Armando | Jesús | Raúl |
+| Tareas | Carlos | Jesús | Raúl |
 | :--- | :--- | :--- | :--- |
 | **Guiar a los estudiantes en la aplicación práctica de conceptos mediante casos...** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Muy alta |
 | **Enseñar a los estudiantes a gestionar el tiempo y organizarse...** | Frec: Media<br>Imp: Alta | Frec: Muy alta<br>Imp: Alta | Frec: Media-Alta<br>Imp: Alta |
@@ -1133,25 +1103,18 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 
 ## 2.5. Ubiquitous Language
 
-El Ubiquitous Language define un conjunto de términos clave utilizados dentro de Skillswap para asegurar una comunicación clara y consistente entre todos los miembros del equipo, tanto técnicos como de negocio. Este lenguaje compartido permite alinear la comprensión del sistema, facilitando el desarrollo, la documentación y la toma de decisiones a lo largo del proyecto.
-<br>
-
 | N° | Palabra técnica | Significado |
 | :---: | :--- | :--- |
-| 1 | **User** | Persona registrada en Innovify, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
-| 2 | **Token** | Credencial de seguridad generada dinámicamente que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
-| 3 | **Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
+| 1 | **Usuario** | Persona registrada en SkillSwap, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
+| 2 | **WebRTC Token** | Credencial de seguridad generada dinámicamente (WebrtcToken) que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
+| 3 | **Stripe Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
 | 4 | **Session** | Espacio de tiempo programado en la plataforma donde un Aprendiz y un Tutor se conectan para repasar los temas de un curso específico. |
 | 5 | **Dashboard** | Panel analítico que procesa los resultados de los quizzes y las sesiones. |
 | 6 | **Assessment** | Evaluación estandarizada creada por un Profesor Universitario. |
 | 7 | **Wallet** | Registro financiero interno del sistema donde se acumulan los fondos netos. |
 | 8 | **Commission Fee** | Porcentaje (5%) deducido automáticamente por el sistema de cada donación voluntaria antes de sumar el monto final a la billetera. |
 | 9 | **Dispute** | Reporte formal generado por un usuario ante inasistencias, mala conducta o enseñanza de información errónea durante una tutoría, el cual queda en estado pendiente hasta ser resuelto por un Profesor. |
-| 10 | **Universidad Afiliada** | Institución educativa superior con una alianza con Innovify, cuyo dominio de correo (.edu.pe) sirve para validar y agrupar a los usuarios de su comunidad académica. |
-
-*(Tabla 10. Ubiquitous Languages - Elaboración propia.)*
-
----
+| 10 | **Universidad Afiliada** | Institución educativa superior con una alianza con SkillSwap, cuyo dominio de correo (.edu.pe) sirve para validar y agrupar a los usuarios de su comunidad académica. |
 
 # Capítulo III: Requirements Specification
 
@@ -1208,7 +1171,7 @@ Las Historias de Usuario describen de manera detallada las funcionalidades del s
 | **US23** | View Academic Metrics | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. | • The Dashboard must render a chart (bar or pie) with the Top courses.<br>• Data must be dynamic based on the number of completed reservations on the platform. | **Scenario 1 - Identify at-risk course:**<br>• **Given** that I enter my Dashboard<br>• **When** I observe the chart for this month<br>• **Then** I discover that "Calculus II" has 50 reservations, indicating I should reinforce that topic in my in-person classes.<br><br>**Scenario 2 - No data for selected period (Negative):**<br>• **Given** that I enter my Dashboard as a professor<br>• **When** no completed reservations exist for the selected period<br>• **Then** the chart appears empty and the system displays the message "Not enough data to generate statistics for this period." | Dashboard and Moderation | | **US24** | Report user for misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." | Dashboard and Moderation |
 | **US24** | Report user for misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." | Dashboard and Moderation |
 | **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | • The teacher panel must have a "Pending Disputes" module.<br>• The professor can review the asynchronous chat of the reported case.<br>• The professor can mark the case as "Dismissed" or "Warning Applied" to the offender. | **Scenario 1 - Sanction tutor:**<br>• **Given** that I review a dispute about "Incorrect Information" taught in a Physics tutoring session<br>• **When** I verify the chat and see that the tutor used false formulas<br>• **Then** I apply a warning on the tutor's profile and close the ticket.<br><br>**Scenario 2 - Insufficient evidence (Negative):**<br>• **Given** that I review a dispute as a professor<br>• **When** I analyze the chat history and find no sufficient evidence of misconduct<br>• **Then** I mark the case as "Dismissed" and the system notifies both parties that the dispute was closed without sanctions. | Dashboard and Moderation |
-| **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. | Backend RESTful API & Security |
+| **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C++ that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. | Backend RESTful API & Security |
 | **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | • The backend must build an encrypted request toward the payment API.<br>• Upon receiving confirmation from the gateway, the backend calculates 5% and 95%.<br>• The transaction must be recorded in the local database and the tutor's net balance updated in the corresponding table. | **Scenario 1 - Approved transaction:**<br>• **Given** a donation request of S/ 20.00<br>• **When** the external API responds with status "succeeded"<br>• **Then** the backend saves S/ 1.00 for the platform and S/ 19.00 in the tutor's wallet.<br><br>**Scenario 2 - Insufficient funds:**<br>• **Given** a payment request<br>• **When** the external API returns the code "insufficient_funds"<br>• **Then** the backend handles the exception and returns an HTTP 402 to the frontend. | Backend RESTful API & Integrations |
 | **US28** | Token generation for WebRTC | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. | • Endpoint GET /api/sessions/{id}/token protected by JWT.<br>• The backend validates in the database that the requesting user belongs to that reservation and that the time is correct.<br>• Returns a JSON response with the appId, channel and temporary token. | **Scenario 1 - Successful generation:**<br>• **Given** a request at the exact time of the reservation<br>• **When** the backend verifies the permissions<br>• **Then** it returns a JSON with the WebRTC credentials to start the video.<br><br>**Scenario 2 - Access outside schedule:**<br>• **Given** a GET request at 8:00 AM for a reservation at 10:00 AM<br>• **When** the backend verifies the time<br>• **Then** it returns an HTTP 403 Forbidden. | Backend RESTful API & Integrations |
 | **US29** | Cloud Storage API integration for chat | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. | • Endpoint POST /api/chat/upload that accepts multipart/form-data.<br>• The backend must validate that the maximum size does not exceed 5MB and that the extension is permitted (.pdf, .png, .jpg).<br>• After a successful upload to the cloud, the database saves the public URL to display it in the chat. | **Scenario 1 - Successful upload:**<br>• **Given** a 2MB PDF file in the request<br>• **When** it is transferred to Cloudinary<br>• **Then** the service responds with the secure URL and the backend returns an HTTP 200 with the link.<br><br>**Scenario 2 - File too large:**<br>• **Given** a 15MB file<br>• **When** the endpoint validates the size in the headers<br>• **Then** it stops the process and returns an HTTP 413 Payload Too Large. | Backend RESTful API & Integrations |
@@ -1232,7 +1195,7 @@ En resumen, estas son las 39 User Stories que definen el ciclo de vida completo 
 
 ---
 
-## 3.2. Impact Mapping
+## 3.1. Impact Mapping
 
 En esta sección se expone el Impact Mapping del proyecto, una técnica que conecta los objetivos de negocio con las funcionalidades a desarrollar. El proceso inició con la definición de los Business Goals bajo criterios SMART, seguido de la identificación de los Actores (User Personas) que influyen en su cumplimiento. Para cada actor se establecieron los Impacts esperados en su comportamiento y, a partir de ellos, se listaron los Deliverables que podrían generarlos. Finalmente, cada deliverable se vinculó con User Stories concretas que lo hacen tangible.
 
@@ -1267,7 +1230,7 @@ Se observa el mapa de impacto orientado a la fidelización de usuarios, con la m
 
 ---
 
-## 3.3. Product Backlog
+## 3.2. Product Backlog
 
 El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del sistema mediante historias de usuario, representando las necesidades de estudiantes, tutores, profesores y desarrolladores. Cada historia define el valor a entregar y cuenta con una estimación en Story Points, lo que permite organizar el desarrollo de forma ágil y progresiva, desde funciones básicas hasta características más avanzadas como videollamadas, donaciones y analítica académica.
 
@@ -2403,7 +2366,7 @@ Para la realización del código hemos utilizado diversos elementos semánticos 
 <nav class="navigation-bar">
   <div class="horizontal-menu">
     <ul class="horizontal-menu-options">
-      <li><a href="sites/partnerships.html" data-i18n="nav-alianzas">Alliances</a></li>
+      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alliances</a></li>
       <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Projects</a></li>
       <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">About Us</a></li>
       <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Spanish">ES</button>
