@@ -2030,7 +2030,7 @@ Este flujo muestra el cierre del ciclo de aprendizaje, la retención del usuario
 1. Al finalizar una sesión, la plataforma redirige automáticamente al usuario al Mock-up de Calificación y Donación.
 2. El usuario califica y escribe un comentario positivo sobre la enseñanza.
 3. En la misma pantalla, el usuario selecciona un monto predefinido o ingresa un monto personalizado y presiona el botón "Realizar Donación".
-4. Le pide agregar su tarjeta si es que es necesario y no tiene la opción de guardado (opcional![alt text](image-1.png))
+4. Le pide agregar su tarjeta si es que es necesario y no tiene la opción de guardado
 5. El sistema lo redirige al Mock-up de Pasarela de Pagos (integración con Stripe/PayPal), donde ingresa los datos de su tarjeta y confirma la transacción.
 
 **Representación visual:**
