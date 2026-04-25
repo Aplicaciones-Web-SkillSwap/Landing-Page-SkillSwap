@@ -2406,7 +2406,7 @@ Para la realización del código hemos utilizado diversos elementos semánticos 
 <nav class="navigation-bar">
   <div class="horizontal-menu">
     <ul class="horizontal-menu-options">
-      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alliances</a></li>
+      <li><a href="sites/partnerships.html" data-i18n="nav-alianzas">Alliances</a></li>
       <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Projects</a></li>
       <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">About Us</a></li>
       <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Spanish">ES</button>
