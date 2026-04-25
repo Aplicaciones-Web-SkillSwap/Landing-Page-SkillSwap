@@ -25,7 +25,7 @@
 | :--- | :--- |
 | U201924127 | Alberca Saavedra, Victor Manuel |
 | U201724692 | Komatsu Dueñas, David |
-| [Completar] | Meza Soza, Alexandra Yamile  |
+| U20241b451 | Meza Soza, Alexandra Yamile  |
 | U20241E356  | Conde Huashuayo, Sebasthian Alex  |
 | U20231C792 | Becerra Ninahuanca, Luis Angel |
 |
@@ -171,10 +171,9 @@ Facilitar el aprendizaje sincrónico y asincrónico entre estudiantes universita
 | :---: | :--- | :--- | :--- |
 | <img src="public/assets/images/image-perfil-victor.png" width="100"> | **Alberca Saavedra, Victor Manuel**<br>(U201924127) | Ingeniería de Software | Puedo aportar mis conocimientos básicos de investigación para los temas y tengo experiencia en el leguaje C++. También puedo aportar al grupo con el aspecto comunicativo y organizativo para si poder realizar un mejor trabajo. |
 | <img src="public/assets/images/image-david.png" width="100"> | **Komatsu Dueñas, David**<br>(U201724692) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos adquiridos en investigación y sus respectivas metodologías, y la experiencia universitaria adquirida en el lenguaje C++ y JavaScript. También, aportare con mis habilidades de comunicación asertiva y buen trabajo en equipo. |
-| <img src="images/foto-integrante3.jpg" width="100"> | **[Nombre Integrante 3]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de Ingeniería de Sistemas de Información con enfoque en análisis de datos y desarrollo básico en Python/C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto. |
-| <img src="images/foto-integrante4.jpg" width="100"> | **[Nombre Integrante 4]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de la carrera de ingeniería de sistemas en la UPC. Domino C#, Java, C++ y me gusta trabajar en equipo para lograr un objetivo. Tengo habilidades además de programar con el diseño. En el equipo aportaré a nuestra landing page con mis conocimientos, un diseño limpio y agradable para el usuario. |
-| <img src="images/foto-integrante5.jpg" width="100"> | **[Nombre Integrante 5]**<br>([Código]) | Ingeniería de Sistemas de Información | Puedo aportar mis conocimientos en C++ y Python. Además de la generación de tablas y gráficos estadísticos desde la depuración de un mismo código y el acceso a una base de datos desde las hojas de cálculo de Excel en sus diferentes formatos hasta base de datos en SQL Server. |
-| <img src="public/assets/images/image-perfil-Sebasthian.png" width="100"> | **Conde Huashuayo, Sebasthian Alex**<br>(U20241E356) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en programación en los lenguajes C++, Python, HTML y CSS. Asimismo, puedo contribuir al equipo con habilidades en trabajo colaborativo, organización y resolución de problemas. |
+| <img src="public/assets/images-doc/foto-integrante3.png" width="100"> | **Meza Soza, Alexandra Yamile**<br>(U20241b451) | Ingeniería de Software | Estudiante de Ingeniería de Software con enfoque en análisis de datos y desarrollo básico en Python/C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto. |
+| <img src="public/assets/images-doc/image-luis1.png" width="100"> | **Becerra Ninahuanca, Luis Angel**<br>(U20231C792) |  Ingeniería de Software | Estudiante de la carrera de  Ingeniería de Software en la UPC. Domino C#, Java, C++ y me gusta trabajar en equipo para lograr un objetivo. Tengo habilidades además de programar con el diseño. En el equipo aportaré a nuestra landing page con mis conocimientos, un diseño limpio y agradable para el usuario. |
+| <img src="public/assets/images-doc/foto-integrante5.png" width="100"> | **Conde Huashuayo, Sebasthian Alex**<br>(U20241E356) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en programación en los lenguajes C++, Python, HTML y CSS. Asimismo, puedo contribuir al equipo con habilidades en trabajo colaborativo, organización y resolución de problemas. |
 
 *(Tabla 1. Perfiles integrantes de equipo - Elaboración propia. Nota: En esta tabla se aprecia los perfiles de los integrantes de equipo).*
 
@@ -475,7 +474,7 @@ En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San 
   <em>Figura 2. YouTube: Entrevista 2: Estudiante-Aprendiz | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](#) *(Añadir enlace real)*
+* **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](#) *(https://www.youtube.com/watch?v=Ci4k50FULHE)*
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 25 segundos
 
@@ -496,7 +495,7 @@ En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en 
   Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#) *(Añadir enlace real)*
+* **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#) *(https://www.youtube.com/watch?v=RvON7FjKH8g)*
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 17 segundos
 
@@ -538,7 +537,7 @@ En esta entrevista, Lucero Campos cursa el octavo ciclo en la Universidad César
   <em>Figura 5. YouTube: Entrevista 2: Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#) *(Añadir enlace real)*
+* **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#) *(https://www.youtube.com/watch?v=zFAWYnoZSzU)*
 * **Inicio:** 0:12
 * **Duración:** 10 minutos con 28 segundos
 
@@ -566,23 +565,36 @@ Katherine Tatiana Isuiza Vela es estudiante de Ingeniería Civil en la Universid
 
 #### Segmento objetivo #3: Coordinador Institucional
 
-**Entrevista 1 (Parte 1 y 2)**
-* **Nombres:** Carlos Alberto
-* **Apellidos:** Gonzales Mendoza
-* **Edad:** 53 años
-* **Distrito:** Surco
+**Entrevista 1**
+* **Nombres:** Armando  
+* **Apellidos:** Novoa  
+* **Edad:** 49 años  
+* **Distrito:** San Miguel  
 
+---
 <p align="center">
-  <img src="images/entrevista1-s3.jpg" alt="Entrevista Carlos" width="600">
+  <img src="public/assets/images-doc/entre-rafa.png" alt="Entrevista Raúl" width="600">
+
   <br>
-  <em>Figura 7 y 8. YouTube: Entrevista 1 Segmento Coordinador Institucional | SkillSwap. Nota: Entrevista dividida en dos partes por longitud.</em>
+  <em>Figura 10. YouTube: Entrevista 3 Segmento Coordinador institucional | Innovify: En esta figura se aprecia la cuarta persona entrevistada de nuestro tercer segmento: coordinador institucional.</em>
 </p>
 
-* **URL Parte 1:** [https://youtu.be/-sObCCOuD-o](https://youtu.be/-sObCCOuD-o) | **Inicio:** 0:00 | **Duración:** 10m 27s
-* **URL Parte 2:** [https://youtu.be/CFcFcg2ZEu8](https://youtu.be/CFcFcg2ZEu8) | **Inicio:** 0:00 | **Duración:** 9m 50s
 
-**Resumen descriptivo:**
-El profesor Carlos Alberto González Mendoza expone que los principales desafíos para los estudiantes actualmente son mantenerse actualizados frente a los rápidos cambios, desarrollar un pensamiento crítico, y adaptarse a una realidad en construcción. Advierte que el uso de IA puede fomentar la pereza intelectual si no se ajustan las evaluaciones para exigir análisis. Respecto a la plataforma interuniversitaria, destaca como beneficio la integración de esfuerzos y el intercambio de conocimientos. Resaltó que uno de los principales riesgos al conectar estudiantes es la falta de reglas claras, proponiendo explorar herramientas como blockchain para algoritmos imparciales. Sobre la verificación, sugirió un "DNI académico" que certifique al alumno y evite la burocracia de las validaciones humanas. Recomendó niveles de acceso diferenciados y la creación de espacios de debate sobre problemas reales para mejorar el apoyo estudiantil.
+* **URL:** https://youtu.be/YDpJ_S8Ik2g  
+* **Inicio:** 0:00  
+* **Duración:** 13 minutos con 54 segundos  
+
+---
+
+### Resumen descriptivo
+
+Esta entrevista fue realizada a un docente de Cálculo 2 de la Universidad Peruana de Ciencias Aplicadas (UPC).
+
+De acuerdo con lo conversado, el profesor considera que la propuesta es una muy buena idea y la percibe como fundamental para el desarrollo profesional de los estudiantes. Destaca la importancia de que los alumnos colaboren e intercambien conocimientos, incluso entre diferentes universidades, con el fin de adaptarse a un mercado laboral cada vez más exigente.
+
+Asimismo, mostró cautela en sus declaraciones para no vulnerar su contrato con la universidad, pero enfatizó que las plataformas tecnológicas tienen un gran potencial siempre que se utilicen bajo un marco de ética y respeto a las normas institucionales. Señaló que la educación en valores debe prevalecer sobre la simple restricción del uso de la tecnología.
+
+Finalmente, evidenció interés en la funcionalidad operativa de la propuesta, sugiriendo que la validación y el acceso a la información se gestionen por niveles académicos, con el objetivo de asegurar que el contenido sea adecuado y pertinente para cada etapa del estudiante.
 
 **Entrevista 2 (Parte 1 y 2)**
 * **Nombres:** Jesús
@@ -706,42 +718,62 @@ El profesor Raúl Pardo, docente en la Universidad de Lima, considera una muy bu
 #### Segmento objetivo #3: Coordinador Institucional
 
 **1. Características objetivas**
-* **Cargo:** Jefes de prácticas o profesores universitarios (100% de los entrevistados).
-* **Experiencia:** Supervisión y acompañamiento de estudiantes en proyectos prácticos (100%).
-* **Uso de tecnología:** Familiarizados con herramientas digitales académicas, incluidas plataformas de colaboración y software de verificación de estudiantes (100%).
+* **Edad y rol:**
+  * Profesionales entre 29 y 53 años (100%).
+  * Docentes, coordinadores o jefes de práctica (100%).
+* **Ámbito laboral:**
+  * Universidades (100%).
+* **Responsabilidades:**
+  * Supervisión del aprendizaje (100%).
+  * Garantizar integridad académica (100%).
+  * Evaluación del desempeño (100%).
+* **Relación con tecnología:**
+  * Uso de herramientas digitales educativas (100%).
+  * Sistemas de control académico (100%).
 
 **2. Características subjetivas**
-* **Desafíos percibidos de los estudiantes:**
-  * Gestión del tiempo frente a carga académica (50%).
-  * Acceso a información confiable (50%).
-  * Trabajo en equipo y habilidades de comunicación (50%).
-  * Necesidad de desarrollar pensamiento crítico y adaptabilidad ante cambios rápidos (50%).
-* **Beneficios percibidos de la plataforma interuniversitaria:**
-  * Integración de esfuerzos entre universidades y estudiantes (100%).
-  * Intercambio seguro y confiable de conocimientos (50%).
-  * Fortalecimiento de habilidades para enfrentar la cuarta revolución industrial (50%).
-* **Riesgos y preocupaciones:**
-  * Posible riesgo reputacional por contenidos incorrectos o mal validados (50%).
-  * Falta de reglas claras y conflictos entre instituciones (50%).
-  * Sobrecarga laboral para coordinadores si no se automatizan procesos (50%).
-  * Peligros de pereza intelectual si los estudiantes dependen demasiado de herramientas tecnológicas (50%).
-* **Recomendaciones para la plataforma:**
-  * Verificación de identidad de alumnos mediante DNI académico o reconocimiento facial (100%).
-  * Políticas claras de integridad académica y trazabilidad de actividades (100%).
-  * Panel de coordinador con historial académico, monitoreo de interacciones y aprobación de participantes (50%).
-  * Diferenciación de niveles de acceso según especialización de los espacios (50%).
-  * Espacios de discusión y debate académico sobre problemas reales, promoviendo innovación y colaboración (50%).
+* **Percepción del aprendizaje colaborativo:**
+  * Considerado fundamental (100%).
+  * Positiva colaboración interuniversitaria (100%).
+  * Mejora la preparación profesional (66%).
+* **Preocupaciones:**
+  * Plagio, fraude y suplantación (100%).
+  * Uso indebido de tecnología (100%).
+  * Información poco confiable (100%).
+  * Riesgo reputacional (66%).
+* **Barreras:**
+  * Validación de estudiantes (100%).
+  * Carga operativa (67%).
+  * Costos (67%).
+  * Necesidad de automatización (33%).
+* **Limitaciones del estudiante:**
+  * Falta de tiempo (100%).
+  * Mala gestión del tiempo (100%).
+  * Problemas de trabajo en equipo (66%).
+* **Requisitos de la plataforma:**
+  * Verificación de identidad (100%).
+  * Validación académica (100%).
+  * Políticas claras (100%).
+  * Trazabilidad de interacciones (100%).
+  * Panel de monitoreo (100%).
+* **Condiciones de aceptación:**
+  * Enfoque en aprendizaje (100%).
+  * Marco ético claro (100%).
+  * No afectar rendimiento (66%).
+  * No sobrecargar usuarios (66%).
 
-| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| Característica | % entrevistados | Insight clave |
 | :--- | :--- | :--- |
-| Cargo coordinador | 100% | Se desempeña como jefe de prácticas / profesor. |
-| Gestión del tiempo estudiante | 50% | Los principales desafíos que enfrentan los alumnos son la gestión del tiempo. |
-| Acceso a información confiable | 50% | Dado que no toda la información disponible en internet es válida. |
-| Trabajo en equipo | 50% | Dificultad en el trabajo en equipo, que requiere habilidades de comunicación. |
-| Pensamiento crítico y adaptabilidad | 50% | Desarrollar un pensamiento crítico y adaptarse a una realidad en construcción. |
-| Beneficios de la plataforma | 100% | La integración de esfuerzos y el intercambio de conocimientos. |
-| Riesgos de reputación | 50% | Existe un riesgo reputacional si los contenidos o cursos se imparten incorrectamente. |
-| Verificación de alumnos | 100% | Panel de coordinador que permita buscar y aprobar alumnos fácilmente. |
+| Aprendizaje colaborativo | 100% | Fundamental |
+| Colaboración interuniversitaria | 100% | Positiva si se controla |
+| Preocupación por fraude | 100% | Riesgo principal |
+| Validación de identidad | 100% | Requisito crítico |
+| Uso responsable de tecnología | 100% | Condición base |
+| Riesgo reputacional | 66% | Preocupación relevante |
+| Problemas de tiempo | 100% | Limita uso |
+| Sistema de monitoreo | 100% | Necesario |
+| Carga operativa | 67% | Barrera |
+| Segmentación académica | 33% | Mejora pertinencia |
 
 *(Tabla 6. Principales hallazgos de entrevistas a coordinadores académicos - Elaboración propia. Nota: Resultados obtenidos en las entrevistas con coordinadores o jefes de práctica).*
 
@@ -829,7 +861,7 @@ En el User Task Matrix se considera a los tres segmentos evaluando sus tareas cl
 
 #### Segmento objetivo #3: Coordinador Institucional
 
-| Tareas | Carlos | Jesús | Raúl |
+| Tareas | Armando | Jesús | Raúl |
 | :--- | :--- | :--- | :--- |
 | **Guiar a los estudiantes en la aplicación práctica de conceptos mediante casos...** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Muy alta |
 | **Enseñar a los estudiantes a gestionar el tiempo y organizarse...** | Frec: Media<br>Imp: Alta | Frec: Muy alta<br>Imp: Alta | Frec: Media-Alta<br>Imp: Alta |
@@ -1103,18 +1135,25 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 
 ## 2.5. Ubiquitous Language
 
+El Ubiquitous Language define un conjunto de términos clave utilizados dentro de Skillswap para asegurar una comunicación clara y consistente entre todos los miembros del equipo, tanto técnicos como de negocio. Este lenguaje compartido permite alinear la comprensión del sistema, facilitando el desarrollo, la documentación y la toma de decisiones a lo largo del proyecto.
+<br>
+
 | N° | Palabra técnica | Significado |
 | :---: | :--- | :--- |
-| 1 | **Usuario** | Persona registrada en SkillSwap, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
-| 2 | **WebRTC Token** | Credencial de seguridad generada dinámicamente (WebrtcToken) que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
-| 3 | **Stripe Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
+| 1 | **User** | Persona registrada en Innovify, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
+| 2 | **Token** | Credencial de seguridad generada dinámicamente que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
+| 3 | **Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
 | 4 | **Session** | Espacio de tiempo programado en la plataforma donde un Aprendiz y un Tutor se conectan para repasar los temas de un curso específico. |
 | 5 | **Dashboard** | Panel analítico que procesa los resultados de los quizzes y las sesiones. |
 | 6 | **Assessment** | Evaluación estandarizada creada por un Profesor Universitario. |
 | 7 | **Wallet** | Registro financiero interno del sistema donde se acumulan los fondos netos. |
 | 8 | **Commission Fee** | Porcentaje (5%) deducido automáticamente por el sistema de cada donación voluntaria antes de sumar el monto final a la billetera. |
 | 9 | **Dispute** | Reporte formal generado por un usuario ante inasistencias, mala conducta o enseñanza de información errónea durante una tutoría, el cual queda en estado pendiente hasta ser resuelto por un Profesor. |
-| 10 | **Universidad Afiliada** | Institución educativa superior con una alianza con SkillSwap, cuyo dominio de correo (.edu.pe) sirve para validar y agrupar a los usuarios de su comunidad académica. |
+| 10 | **Universidad Afiliada** | Institución educativa superior con una alianza con Innovify, cuyo dominio de correo (.edu.pe) sirve para validar y agrupar a los usuarios de su comunidad académica. |
+
+*(Tabla 10. Ubiquitous Languages - Elaboración propia.)*
+
+---
 
 # Capítulo III: Requirements Specification
 
@@ -1195,7 +1234,7 @@ En resumen, estas son las 39 User Stories que definen el ciclo de vida completo 
 
 ---
 
-## 3.1. Impact Mapping
+## 3.2. Impact Mapping
 
 En esta sección se expone el Impact Mapping del proyecto, una técnica que conecta los objetivos de negocio con las funcionalidades a desarrollar. El proceso inició con la definición de los Business Goals bajo criterios SMART, seguido de la identificación de los Actores (User Personas) que influyen en su cumplimiento. Para cada actor se establecieron los Impacts esperados en su comportamiento y, a partir de ellos, se listaron los Deliverables que podrían generarlos. Finalmente, cada deliverable se vinculó con User Stories concretas que lo hacen tangible.
 
@@ -1230,7 +1269,7 @@ Se observa el mapa de impacto orientado a la fidelización de usuarios, con la m
 
 ---
 
-## 3.2. Product Backlog
+## 3.3. Product Backlog
 
 El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del sistema mediante historias de usuario, representando las necesidades de estudiantes, tutores, profesores y desarrolladores. Cada historia define el valor a entregar y cuenta con una estimación en Story Points, lo que permite organizar el desarrollo de forma ágil y progresiva, desde funciones básicas hasta características más avanzadas como videollamadas, donaciones y analítica académica.
 
@@ -2366,7 +2405,7 @@ Para la realización del código hemos utilizado diversos elementos semánticos 
 <nav class="navigation-bar">
   <div class="horizontal-menu">
     <ul class="horizontal-menu-options">
-      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alliances</a></li>
+      <li><a href="sites/partnerships.html" data-i18n="nav-alianzas">Alliances</a></li>
       <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Projects</a></li>
       <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">About Us</a></li>
       <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Spanish">ES</button>
