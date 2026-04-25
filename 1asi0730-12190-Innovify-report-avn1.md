@@ -5,12 +5,13 @@
 <div align="center">
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-## Ingeniería de Software
+## Ingeniería de Software - 5to ciclo
 
 **Período:** 2026-1  
 **Curso:** 1ASI0730 | Aplicaciones Web  
 **NRC:** 12190  
 **Docente:** Hugo Allan Mori Paiva  
+ 
 </div>
 
 ---
@@ -18,6 +19,16 @@
 <div align="center">
 
 # INFORME DE TRABAJO FINAL
+
+
+<div align="center">
+
+**Startup:** Innovify  
+**Producto:** SkillSwap
+ 
+</div>
+
+---
 
 ## Relación de integrantes
 
@@ -31,6 +42,55 @@
 |
 
 </div>
+
+---
+
+ 
+## Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| :--- | :--- | :--- | :--- |
+| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
+
+
+
+---
+
+# Project Report Collaboration Insights
+
+En esta sección se indica el URL del repositorio utilizado para la elaboración colaborativa del Informe de Trabajo Final, así como las evidencias de participación de cada integrante del equipo durante el desarrollo de la entrega AV1.
+
+**URL del repositorio del Project Report (GitHub):**
+[https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git]
+
+---
+
+### AV1
+
+Durante el desarrollo de la entrega AV1, el equipo distribuyó la elaboración del informe asignando capítulos y secciones específicas a cada integrante según sus áreas de responsabilidad. Cada miembro realizó sus aportes directamente en el repositorio de GitHub mediante commits en ramas individuales, siguiendo la convención de Conventional Commits, y luego integrando los cambios mediante Pull Requests hacia la rama `develop` y después pasando todo a la rama `main`. Todos los integrantes participaron activamente en la redacción de secciones del informe, asegurando coherencia y calidad en el contenido entregado.
+
+A continuación, se presentan las capturas de los analíticos de colaboración del repositorio del informe:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/PR1.png" alt="Analíticos de colaboración - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Gráfico de contribuciones al repositorio del Project Report durante AV1. Se evidencia la participación de todos los integrantes del equipo mediante commits realizados en el período correspondiente.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/PR2.png" alt="Historial de commits - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Historial de commits en el repositorio del Project Report, evidenciando los aportes individuales de cada miembro con sus respectivos mensajes bajo la convención de Conventional Commits.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/PR3.png" alt="Contribuciones por integrante - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Panel de contribuciones individuales al repositorio del Project Report, mostrando el volumen de commits, líneas añadidas y eliminadas por cada integrante durante la elaboración de AV1.</em>
+  </figcaption>
+</figure>
 
 ---
 
@@ -90,7 +150,7 @@
   - 4.4.2 Wireflow Diagrams ............................... 140  
   - 4.4.3 Mock-ups ........................................ 159  
   - 4.4.4 User Flow Diagrams .............................. 165  
-- 4.5 Mobile Applications Prototyping ..................... 174  
+- 4.5 Web Applications Prototyping ..................... 174  
   - 4.5.1 Android Prototyping ............................. 175  
   - 4.5.2 iOS Prototyping .................................. 175  
 - 4.6 Domain-Driven Software Architecture .................. 176  
@@ -103,7 +163,7 @@
 - 4.8 Database Design ...................................... 198  
   - 4.8.1 Database Diagrams ............................... 199  
 
-# Capítulo V: Product Implementation 
+# Capítulo V: Product Implementation, Validation & Deployment
 - 5.1 Software Configuration Management ................... 199  
   - 5.1.1 Development Environment Configuration ........... 199  
   - 5.1.2 Source Code Management .......................... 201  
@@ -118,21 +178,7 @@
 - Anexos .................................................. 233  
   - Índice de tablas ...................................... 233  
   - Índice de figuras ..................................... 233  
-  - Anexo C ............................................... 235   
-
-
-
----
-
-
-## Registro de Versiones del Informe
-
-| Versión | Fecha | Autor | Descripción de modificación |
-| :--- | :--- | :--- | :--- |
-| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
-
-
-*(Nota: En la versión v.01.Tb1 he resumido la lista de capítulos para que la tabla sea legible en GitHub. Si necesitas el listado exhaustivo de cada subcapítulo, te recomiendo ponerlo fuera de la tabla).*
+  - Anexo C ............................................... 235  
 
 ---
 
@@ -141,7 +187,7 @@
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
 | **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Victor Alberca:**<br>Av1: Participé en todo el proceso de desarrollo del proyecto, desde la investigación hasta la validación final. Inicialmente, realicé análisis competitivos y entrevistas para identificar problemas y necesidades de los usuarios, elaborando User Personas claras. Luego, desarrollé artefactos ágiles como Product Backlog, Impact Mapping, To-Be Scenario e Historias de Usuario, además de contribuir en los wireflows. Posteriormente, llevé a cabo entrevistas de validación, análisis de datos y evaluaciones heurísticas para detectar problemas de usabilidad en los prototipos. Finalmente, jerarquicé los hallazgos y los convertí en requisitos y tareas técnicas, fortaleciendo un enfoque centrado en el usuario y basado en metodologías ágiles.<br><br>**David Komatsu:**<br>Av1: Realicé entrevistas para identificar y validar la problemática, analicé información del público objetivo y definí requerimientos para una app móvil y web. También revisé funcionalidades del backlog para asegurar su alineación con las necesidades de los usuarios, detectando mejoras en flujos e interacción. Finalmente, identifiqué errores y duplicados en el código, así como el estado de avance de las historias de usuario del proyecto.<br><br>**Alexandra Meza:**<br>Av1: Participé en el Event Storming aportando ideas para definir eventos y procesos del sistema, y colaboré en la organización de la información. También apoyé en entrevistas y su análisis para la toma de decisiones del equipo. Además, desarrollé la sección de alianzas en HTML y CSS, coordinando con el equipo para mantener coherencia en el diseño del proyecto.<br><br>**Luis Becerra:**<br>Av1: Participé activamente en el desarrollo del Event Storming junto a mi equipo, aportando ideas para definir los eventos y procesos del sistema, y apoyando en la organización de la información para lograr una visión compartida. Además, colaboré en las entrevistas y en su análisis, contribuyendo a la toma de decisiones del grupo. También asumí responsabilidad en el desarrollo de la sección de alianzas en HTML y CSS, coordinando con el equipo para mantener coherencia con el diseño general del proyecto.<br><br>**Sebastaian Conde:**<br>Av1: Participé de manera activa en la planificación del Sprint 1 junto a mi equipo, contribuyendo en la definición de las Historias de Usuario y en la organización del Sprint Backlog, lo que permitió establecer una visión clara y compartida del trabajo a realizar. Asimismo, colaboré en la distribución de responsabilidades dentro de la matriz LACX, apoyando en la toma de decisiones del grupo para asegurar una entrega cohesionada. Asimismo, asumí la responsabilidad del desarrollo de la sección de Socios en HTML y CSS, implementando el grid de logos de universidades afiliadas con sus respectivos enlaces externos y asegurando la compatibilidad responsive de la sección.<br> | El equipo participó en todo el proceso del proyecto, desde la investigación inicial hasta la validación y desarrollo. Se realizaron entrevistas, análisis de usuarios y del entorno, y se definieron requerimientos, historias de usuario y artefactos ágiles como el Product Backlog, Impact Mapping y Event Storming. También se validaron funcionalidades y se detectaron mejoras en usabilidad, flujos y código. Finalmente, cada integrante contribuyó tanto en el análisis y toma de decisiones como en el desarrollo de secciones en HTML y CSS, asegurando coherencia, organización y cumplimiento de los objetivos del Sprint 1. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** |  **Victor Alberca:**<br>Av1: Organicé y analicé la información de entrevistas identificando patrones y tendencias, utilizando herramientas como la User Task Matrix para estructurar tareas críticas y vincularlas con requerimientos de software. A lo largo del proyecto, apliqué y actualicé constantemente artefactos ágiles como Product Backlog, Impact Mapping y Wireflows, reforzando la importancia del aprendizaje continuo. Además, realicé entrevistas de validación, diseñé guiones más precisos y ejecuté evaluaciones heurísticas que permitieron detectar problemas complejos de usabilidad en los prototipos. Finalmente, estructuré los hallazgos en métricas y matrices para formular problemas medibles y traducirlos en criterios de aceptación, escenarios técnicos y tareas verificables dentro del Sprint Backlog.<br><br>**David Komatsu:**<br>Av1:Con la información obtenida en las entrevistas diseñe el empathy map, conectando la información con los requerimientos necesarios y ayude en el task matrix.<br><br>**Alexandra Meza:**<br>Av1: Tras analizar los datos obtenidos en las entrevistas, reconocí los comportamientos de los entrevistados frente a las situaciones planteadas en las entrevistas y lo agregué al User task Matrix.<br><br>**Luis Becerra:**<br>Av1: Contribuí a generar un entorno de trabajo colaborativo al participar de manera activa y respetuosa en las actividades grupales, considerando las ideas de todos los integrantes. Apoyé en la planificación de tareas relacionadas al Event Storming, entrevistas y desarrollo frontend, cumpliendo con los entregables asignados dentro de los tiempos establecidos. Asimismo, mantuve una comunicación constante con el equipo para asegurar el avance coordinado y el cumplimiento de los objetivos del TB1.<br><br>**Sebastaian Conde:**<br>Av1: Participé de manera activa en la planificación del Sprint 1 junto a mi equipo, contribuyendo en la definición de las Historias de Usuario y en la organización del Sprint Backlog, lo que permitió establecer una visión clara y compartida del trabajo a realizar. Asimismo, colaboré en la distribución de responsabilidades dentro de la matriz LACX, apoyando en la toma de decisiones del grupo para asegurar una entrega cohesionada. Asimismo, asumí la responsabilidad del desarrollo de la sección de Socios en HTML y CSS, implementando el grid de logos de universidades afiliadas con sus respectivos enlaces externos y asegurando la compatibilidad responsive de la sección.<br> | El equipo participó en todo el proceso del proyecto, desde la investigación inicial hasta la validación y desarrollo. Se realizaron entrevistas, análisis de usuarios y del entorno, y se definieron requerimientos, historias de usuario y artefactos ágiles como el Product Backlog, Impact Mapping y Event Storming. También se validaron funcionalidades y se detectaron mejoras en usabilidad, flujos y código. Finalmente, cada integrante contribuyó tanto en el análisis y toma de decisiones como en el desarrollo de secciones en HTML y CSS, asegurando coherencia, organización y cumplimiento de los objetivos del Sprint 1.  |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** |  **Victor Alberca:**<br>Av1: Organicé y analicé la información de entrevistas identificando patrones y tendencias, utilizando herramientas como la User Task Matrix para estructurar tareas críticas y vincularlas con requerimientos de software. A lo largo del proyecto, apliqué y actualicé constantemente artefactos ágiles como Product Backlog, Impact Mapping y Wireflows, reforzando la importancia del aprendizaje continuo. Además, realicé entrevistas de validación, diseñé guiones más precisos y ejecuté evaluaciones heurísticas que permitieron detectar problemas complejos de usabilidad en los prototipos. Finalmente, estructuré los hallazgos en métricas y matrices para formular problemas medibles y traducirlos en criterios de aceptación, escenarios técnicos y tareas verificables dentro del Sprint Backlog.<br><br>**David Komatsu:**<br>Av1:Con la información obtenida en las entrevistas diseñe el empathy map, conectando la información con los requerimientos necesarios y ayude en el task matrix.<br><br>**Alexandra Meza:**<br>Av1: Tras analizar los datos obtenidos en las entrevistas, reconocí los comportamientos de los entrevistados frente a las situaciones planteadas en las entrevistas y lo agregué al User task Matrix.<br><br>**Luis Becerra:**<br>Av1: Contribuí a generar un entorno de trabajo colaborativo al participar de manera activa y respetuosa en las actividades grupales, considerando las ideas de todos los integrantes. Apoyé en la planificación de tareas relacionadas al Event Storming, entrevistas y desarrollo frontend, cumpliendo con los entregables asignados dentro de los tiempos establecidos. Asimismo, mantuve una comunicación constante con el equipo para asegurar el avance coordinado y el cumplimiento de los objetivos del TB1.<br><br>**Sebastaian Conde:**<br>Av1: Participé de manera activa en la planificación del Sprint 1 junto a mi equipo, contribuyendo en la definición de las Historias de Usuario y en la organización del Sprint Backlog, lo que permitió establecer una visión clara y compartida del trabajo a realizar. Asimismo, colaboré en la distribución de responsabilidades dentro de la matriz LACX, apoyando en la toma de decisiones del grupo para asegurar una entrega cohesionada. Asimismo, asumí la responsabilidad del desarrollo de la sección de Socios en HTML y CSS, implementando el grid de logos de universidades afiliadas con sus respectivos enlaces externos y asegurando la compatibilidad responsive de la sección.<br> | El equipo trabajó de forma colaborativa e inclusiva, participando activamente en la organización y análisis de entrevistas para identificar necesidades del usuario. A partir de ello, se establecieron metas claras y se planificaron tareas mediante herramientas ágiles como el Product Backlog y el Sprint Backlog. Finalmente, se cumplieron los objetivos mediante la validación de prototipos, desarrollo de soluciones y entrega oportuna de los resultados.|
 
 ---
 
@@ -195,7 +241,7 @@ Para conocer aún más la problemática usaremos la técnica de las **5W y 2H**:
 
 #### What (¿Qué? / ¿Cuál?)
 * **¿Cuál es el problema?** El problema es la deserción universitaria ocasionada por diversos factores tales como falta de aprendizaje, estrés académico, bajos niveles económicos, etc. Por consecuencia, muchos estudiantes terminan suspendiendo sus estudios universitarios y, en el peor de los casos, muchos de ellos nunca llegan a terminarlos.
-* **¿Qué soluciones existen actualmente?** Actualmente existen plataformas académicas como *[Colocar las empresas aquí]*. Sin embargo, en el país no han alcanzado gran popularidad debido al limitado impacto que han tenido en la comunidad universitaria peruana. Con nuestra propuesta de valor buscamos generar ese impacto a través de un sistema de conexión entre estudiantes, facilitando un aprendizaje sincrónico mediante videollamadas integradas y asincrónico a través de recursos compartidos, todo esto bajo un modelo sostenible de donaciones voluntarias.
+* **¿Qué soluciones existen actualmente?** Actualmente existen plataformas académicas como Studocz, GoToPeer. Sin embargo, en el país no han alcanzado gran popularidad debido al limitado impacto que han tenido en la comunidad universitaria peruana. Con nuestra propuesta de valor buscamos generar ese impacto a través de un sistema de conexión entre estudiantes, facilitando un aprendizaje sincrónico mediante videollamadas integradas y asincrónico a través de recursos compartidos, todo esto bajo un modelo sostenible de donaciones voluntarias.
 * **¿Cuál es la relación con el usuario?** El usuario es el eje central de nuestra plataforma, ya que es quien le da vida mediante la realización de consultas y el intercambio de conocimientos. En caso de asumir el rol de tutor, también tendrá la responsabilidad de guiar al aprendiz, recibiendo donaciones monetarias por su tiempo invertido, lo que aporta mayor seguridad y confianza al ecosistema.
 
 #### Why (¿Por qué?)
@@ -2305,7 +2351,7 @@ Constituye el núcleo funcional de Innovify, encargándose de la gestión integr
 
 ---
 
-# Capítulo V: Product Implementation
+# Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
 
@@ -2702,7 +2748,7 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 
 **Enlace de la página web para observar la implementación del Sprint 1:**
 
- **https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git**
+ **https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/**
 
 ---
 
