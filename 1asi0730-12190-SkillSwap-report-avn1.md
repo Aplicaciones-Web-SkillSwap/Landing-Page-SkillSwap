@@ -25,7 +25,7 @@
 | :--- | :--- |
 | U201924127 | Alberca Saavedra, Victor Manuel |
 | U201724692 | Komatsu Dueñas, David |
-| [Completar] | Meza Soza, Alexandra Yamile  |
+| U20241b451 | Meza Soza, Alexandra Yamile  |
 | U20241E356  | Conde Huashuayo, Sebasthian Alex  |
 | U20231C792 | Becerra Ninahuanca, Luis Angel |
 |
@@ -66,10 +66,10 @@
 - 2.5 Ubiquitous Language .................................. 65  
 
 # Capítulo III: Requirements Specification 
-- 3.1 Epics ................................................ 66  
-- 3.2 User Stories ......................................... 67  
-- 3.3 Impact Mapping ....................................... 87  
-- 3.4 Product Backlog ...................................... 90  
+- 3 Epics ................................................ 66  
+- 3.1 User Stories ......................................... 67  
+- 3.2 Impact Mapping ....................................... 87  
+- 3.3 Product Backlog ...................................... 90  
 
 # Capítulo IV: Product UX/UI Design 
 - 4.1 Style Guidelines ..................................... 98  
@@ -131,8 +131,6 @@
 | :--- | :--- | :--- | :--- |
 | **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
 
-
-*(Nota: En la versión v.01.Tb1 he resumido la lista de capítulos para que la tabla sea legible en GitHub. Si necesitas el listado exhaustivo de cada subcapítulo, te recomiendo ponerlo fuera de la tabla).*
 
 ---
 
@@ -475,7 +473,7 @@ En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San 
   <em>Figura 2. YouTube: Entrevista 2: Estudiante-Aprendiz | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](#) *(Añadir enlace real)*
+* **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](#)
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 25 segundos
 
@@ -496,7 +494,7 @@ En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en 
   Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#) *(Añadir enlace real)*
+* **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#)
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 17 segundos
 
@@ -538,7 +536,7 @@ En esta entrevista, Lucero Campos cursa el octavo ciclo en la Universidad César
   <em>Figura 5. YouTube: Entrevista 2: Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#) *(Añadir enlace real)*
+* **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#)
 * **Inicio:** 0:12
 * **Duración:** 10 minutos con 28 segundos
 
@@ -1211,7 +1209,7 @@ Las Historias de Usuario describen de manera detallada las funcionalidades del s
 | **US23** | View Academic Metrics | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. | • The Dashboard must render a chart (bar or pie) with the Top courses.<br>• Data must be dynamic based on the number of completed reservations on the platform. | **Scenario 1 - Identify at-risk course:**<br>• **Given** that I enter my Dashboard<br>• **When** I observe the chart for this month<br>• **Then** I discover that "Calculus II" has 50 reservations, indicating I should reinforce that topic in my in-person classes.<br><br>**Scenario 2 - No data for selected period (Negative):**<br>• **Given** that I enter my Dashboard as a professor<br>• **When** no completed reservations exist for the selected period<br>• **Then** the chart appears empty and the system displays the message "Not enough data to generate statistics for this period." | Dashboard and Moderation | | **US24** | Report user for misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." | Dashboard and Moderation |
 | **US24** | Report user for misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." | Dashboard and Moderation |
 | **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | • The teacher panel must have a "Pending Disputes" module.<br>• The professor can review the asynchronous chat of the reported case.<br>• The professor can mark the case as "Dismissed" or "Warning Applied" to the offender. | **Scenario 1 - Sanction tutor:**<br>• **Given** that I review a dispute about "Incorrect Information" taught in a Physics tutoring session<br>• **When** I verify the chat and see that the tutor used false formulas<br>• **Then** I apply a warning on the tutor's profile and close the ticket.<br><br>**Scenario 2 - Insufficient evidence (Negative):**<br>• **Given** that I review a dispute as a professor<br>• **When** I analyze the chat history and find no sufficient evidence of misconduct<br>• **Then** I mark the case as "Dismissed" and the system notifies both parties that the dispute was closed without sanctions. | Dashboard and Moderation |
-| **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C++ that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. | Backend RESTful API & Security |
+| **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. | Backend RESTful API & Security |
 | **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | • The backend must build an encrypted request toward the payment API.<br>• Upon receiving confirmation from the gateway, the backend calculates 5% and 95%.<br>• The transaction must be recorded in the local database and the tutor's net balance updated in the corresponding table. | **Scenario 1 - Approved transaction:**<br>• **Given** a donation request of S/ 20.00<br>• **When** the external API responds with status "succeeded"<br>• **Then** the backend saves S/ 1.00 for the platform and S/ 19.00 in the tutor's wallet.<br><br>**Scenario 2 - Insufficient funds:**<br>• **Given** a payment request<br>• **When** the external API returns the code "insufficient_funds"<br>• **Then** the backend handles the exception and returns an HTTP 402 to the frontend. | Backend RESTful API & Integrations |
 | **US28** | Token generation for WebRTC | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. | • Endpoint GET /api/sessions/{id}/token protected by JWT.<br>• The backend validates in the database that the requesting user belongs to that reservation and that the time is correct.<br>• Returns a JSON response with the appId, channel and temporary token. | **Scenario 1 - Successful generation:**<br>• **Given** a request at the exact time of the reservation<br>• **When** the backend verifies the permissions<br>• **Then** it returns a JSON with the WebRTC credentials to start the video.<br><br>**Scenario 2 - Access outside schedule:**<br>• **Given** a GET request at 8:00 AM for a reservation at 10:00 AM<br>• **When** the backend verifies the time<br>• **Then** it returns an HTTP 403 Forbidden. | Backend RESTful API & Integrations |
 | **US29** | Cloud Storage API integration for chat | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. | • Endpoint POST /api/chat/upload that accepts multipart/form-data.<br>• The backend must validate that the maximum size does not exceed 5MB and that the extension is permitted (.pdf, .png, .jpg).<br>• After a successful upload to the cloud, the database saves the public URL to display it in the chat. | **Scenario 1 - Successful upload:**<br>• **Given** a 2MB PDF file in the request<br>• **When** it is transferred to Cloudinary<br>• **Then** the service responds with the secure URL and the backend returns an HTTP 200 with the link.<br><br>**Scenario 2 - File too large:**<br>• **Given** a 15MB file<br>• **When** the endpoint validates the size in the headers<br>• **Then** it stops the process and returns an HTTP 413 Payload Too Large. | Backend RESTful API & Integrations |
@@ -1235,7 +1233,7 @@ En resumen, estas son las 39 User Stories que definen el ciclo de vida completo 
 
 ---
 
-## 3.1. Impact Mapping
+## 3.2. Impact Mapping
 
 En esta sección se expone el Impact Mapping del proyecto, una técnica que conecta los objetivos de negocio con las funcionalidades a desarrollar. El proceso inició con la definición de los Business Goals bajo criterios SMART, seguido de la identificación de los Actores (User Personas) que influyen en su cumplimiento. Para cada actor se establecieron los Impacts esperados en su comportamiento y, a partir de ellos, se listaron los Deliverables que podrían generarlos. Finalmente, cada deliverable se vinculó con User Stories concretas que lo hacen tangible.
 
@@ -1270,7 +1268,7 @@ Se observa el mapa de impacto orientado a la fidelización de usuarios, con la m
 
 ---
 
-## 3.2. Product Backlog
+## 3.3. Product Backlog
 
 El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del sistema mediante historias de usuario, representando las necesidades de estudiantes, tutores, profesores y desarrolladores. Cada historia define el valor a entregar y cuenta con una estimación en Story Points, lo que permite organizar el desarrollo de forma ágil y progresiva, desde funciones básicas hasta características más avanzadas como videollamadas, donaciones y analítica académica.
 
