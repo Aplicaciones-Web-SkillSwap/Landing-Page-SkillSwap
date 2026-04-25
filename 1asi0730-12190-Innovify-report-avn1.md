@@ -1319,6 +1319,14 @@ Se observa el mapa de impacto orientado a la fidelización de usuarios, con la m
 
 El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del sistema mediante historias de usuario, representando las necesidades de estudiantes, tutores, profesores y desarrolladores. Cada historia define el valor a entregar y cuenta con una estimación en Story Points, lo que permite organizar el desarrollo de forma ágil y progresiva, desde funciones básicas hasta características más avanzadas como videollamadas, donaciones y analítica académica.
 
+<p align="center">
+  <img src="public/assets/images-doc/IM3.png" alt="Impact Mapping Retención" width="800">
+  <br>
+  <em>Figura . Product Backlog - Elaboración propia. Nota: Esta figura muestra la tabla realizada por el grupo para ordenar el product backlog del proyecto.</em>
+</p>
+
+url: [https://trello.com/invite/b/68e353c594f09e671b636f51/ATTIb5441351e50cdc8914cef6195966155d23769D30/product-backlog]
+
 <br>
 
 | # Order | User Story Id | Title | Description | Story Points |
@@ -2035,7 +2043,7 @@ Este flujo muestra el cierre del ciclo de aprendizaje, la retención del usuario
 </p>
 
 
-## 4.5. web Applications Prototyping
+## 4.5. Web Applications Prototyping
 
 Esta sección presenta los prototipos de interfaz móvil para Android y iOS de la aplicación SkillSwap, con simulación de interacción y navegación. Estos prototipos se han desarrollado para demostrar visual y funcionalmente los 5 flujos de usuario (User Flows) claves definidos para las distintas personas del proyecto:
 
@@ -2071,7 +2079,7 @@ El video demuestra los flujos de usuario clave desde la perspectiva de Material 
 
 ---
 
-### 4.5.2. iOS Mobile Applications Prototyping
+### 4.5.2. Desktop  Prototyping
 
 Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una estética limpia y animaciones fluidas. La navegación principal se centra en una Tab Bar inferior.
 
@@ -2953,18 +2961,10 @@ En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborat
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
-Tras finalizar el ciclo de vida del proyecto Innovify (SkillSwap), y habiendo contrastado los artefactos del proceso Lean UX con la implementación del producto y las validaciones de usabilidad, el equipo concluye lo siguiente: 
-
-1. La investigación confirmó que el aislamiento académico es una barrera real para el éxito estudiantil, y la solución implementada responde eficazmente a esta necesidad al proveer un entorno estructurado. 
-2. Las pruebas de aceptación y las entrevistas validaron que funcionalidades críticas, como la búsqueda de tutores y la validación institucional, reducen la incertidumbre y facilitan el acceso al conocimiento compartido. 
-3. Se concluye que la plataforma tiene un impacto positivo directo en el bienestar estudiantil (salud mental) al reducir el estrés y la ansiedad asociados al fracaso académico y la falta de apoyo; además, al democratizar el acceso a tutores pares de diversas universidades, la solución promueve la inclusión social y cultural, eliminando barreras geográficas y económicas que tradicionalmente limitan la colaboración interuniversitaria. 
-4. La auditoría cruzada permitió identificar y corregir brechas en la comunicación con el usuario, y la implementación de un lenguaje más empático ("¿Quién soy yo?" en lugar de "Descripción") junto con la adición de feedback visual en los formularios (validaciones en tiempo real) demostró la capacidad del equipo para iterar y perfeccionar la experiencia de usuario (UX) basándose en retroalimentación externa, logrando un producto final más intuitivo y humano. 
-5. Finalmente, la hipótesis sobre la importancia de la "Confianza" se validó exitosamente, y la implementación técnica de la restricción de registro exclusiva para correos institucionales (`.edu.pe`) y la separación de roles (Coordinador vs. Estudiante) demostró ser el factor decisivo para que los usuarios se sintieran seguros al interactuar en la plataforma, cumpliendo con los criterios de éxito establecidos en la fase Lean.
+Tras finalizar el Sprint 1 del proyecto Innovify (SkillSwap), y habiendo contrastado los artefactos del proceso Lean UX con los primeros prototipos y hallazgos de investigación, el equipo concluye que el aislamiento académico representa una barrera relevante para el desempeño estudiantil, validando los Problem Statements planteados. Asimismo, la síntesis de entrevistas y la elaboración de artefactos como el Empathy Map y la User Task Matrix permitieron comprender mejor las necesidades del usuario y traducirlas en requerimientos funcionales iniciales. En esta etapa, la definición de hipótesis Lean UX orientó el diseño de los primeros prototipos, enfocándose en generar confianza y facilitar la conexión entre estudiantes para el intercambio de conocimiento. Además, la planificación del Sprint 1, junto con la construcción del Product Backlog y Sprint Backlog, permitió organizar el trabajo del equipo y establecer una base sólida para el desarrollo incremental. Finalmente, se identificó la confianza como una hipótesis clave a validar en las siguientes iteraciones mediante pruebas con usuarios.
 
 ## Recomendaciones
-1. Se recomienda iniciar el desarrollo de la aplicación móvil nativa para iOS y Android tomando como base los prototipos de alta fidelidad ya validados, con el fin de aprovechar funcionalidades propias del entorno móvil, como las notificaciones push y la geolocalización, que permitirán coordinar de manera más eficiente encuentros de estudio presenciales dentro de campus seguros y mejorar la inmediatez en la comunicación entre tutores y estudiantes. 
-2. A futuro, se sugiere integrar algoritmos de Inteligencia Artificial capaces de analizar estilos de aprendizaje, desempeños previos y fortalezas académicas, de modo que el sistema pueda generar recomendaciones automáticas y precisas para el emparejamiento tutor–aprendiz, incrementando así la tasa de éxito de las sesiones y personalizando la experiencia educativa. 
-3. Finalmente, se plantea la expansión del sistema de validación institucional mediante la creación de convenios formales con distintas universidades, lo que permitirá automatizar la carga y verificación de estudiantes activos a través de APIs institucionales, disminuyendo significativamente la carga operativa de los coordinadores y garantizando un ecosistema más seguro, confiable y escalable para todas las partes involucradas.
+Para las siguientes iteraciones del proyecto, se recomienda continuar con el desarrollo progresivo de la solución basándose en los prototipos iniciales, priorizando la validación constante con usuarios para comprobar las hipótesis planteadas en el enfoque Lean UX. Asimismo, es importante profundizar en el diseño de funcionalidades clave como la conexión entre estudiantes y la generación de confianza dentro de la plataforma, asegurando que respondan a las necesidades identificadas en la investigación. También se sugiere seguir refinando los artefactos ágiles, como el Product Backlog y las Historias de Usuario, para facilitar la planificación de los próximos sprints y mantener una visión clara del producto. Finalmente, se recomienda ampliar la investigación con más usuarios para obtener mayor evidencia que respalde las decisiones de diseño y permita iterar la solución de manera informada.
 
 ---
 
