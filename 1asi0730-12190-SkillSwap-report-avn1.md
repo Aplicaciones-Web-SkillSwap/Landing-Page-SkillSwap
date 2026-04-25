@@ -26,7 +26,7 @@
 | U201924127 | Alberca Saavedra, Victor Manuel |
 | U201724692 | Komatsu Dueñas, David |
 | U20241b451 | Meza Soza, Alexandra Yamile  |
-| U20241E356  | Conde Huashuayo, Sebasthian Alex  |
+| U20241E356 | Conde Huashuayo, Sebasthian Alex  |
 | U20231C792 | Becerra Ninahuanca, Luis Angel |
 |
 
@@ -167,12 +167,11 @@ Facilitar el aprendizaje sincrónico y asincrónico entre estudiantes universita
 
 | Foto | Integrante | Carrera | Descripción |
 | :---: | :--- | :--- | :--- |
-| <img src="public/assets/images/image-perfil-victor.png" width="100"> | **Alberca Saavedra, Victor Manuel**<br>(U201924127) | Ingeniería de Software | Puedo aportar mis conocimientos básicos de investigación para los temas y tengo experiencia en el leguaje C++. También puedo aportar al grupo con el aspecto comunicativo y organizativo para si poder realizar un mejor trabajo. |
-| <img src="public/assets/images/image-david.png" width="100"> | **Komatsu Dueñas, David**<br>(U201724692) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos adquiridos en investigación y sus respectivas metodologías, y la experiencia universitaria adquirida en el lenguaje C++ y JavaScript. También, aportare con mis habilidades de comunicación asertiva y buen trabajo en equipo. |
-| <img src="images/foto-integrante3.jpg" width="100"> | **[Nombre Integrante 3]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de Ingeniería de Sistemas de Información con enfoque en análisis de datos y desarrollo básico en Python/C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto. |
-| <img src="images/foto-integrante4.jpg" width="100"> | **[Nombre Integrante 4]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de la carrera de ingeniería de sistemas en la UPC. Domino C#, Java, C++ y me gusta trabajar en equipo para lograr un objetivo. Tengo habilidades además de programar con el diseño. En el equipo aportaré a nuestra landing page con mis conocimientos, un diseño limpio y agradable para el usuario. |
-| <img src="images/foto-integrante5.jpg" width="100"> | **[Nombre Integrante 5]**<br>([Código]) | Ingeniería de Sistemas de Información | Puedo aportar mis conocimientos en C++ y Python. Además de la generación de tablas y gráficos estadísticos desde la depuración de un mismo código y el acceso a una base de datos desde las hojas de cálculo de Excel en sus diferentes formatos hasta base de datos en SQL Server. |
-| <img src="images/foto-integrante6.jpg" width="100"> | **Conde Huashuayo, Sebasthian Alex**<br>(U20241E356) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en programación en los lenguajes C++, Python, HTML y CSS. Asimismo, puedo contribuir al equipo con habilidades en trabajo colaborativo, organización y resolución de problemas. |
+| <img src="public/assets/images/image-perfil-victor.png" width="100"> | **Alberca Saavedra, Victor Manuel**<br>(U201924127) | Ingeniería de Software | Puedo aportar mis conocimientos básicos de investigación para los temas y tengo experiencia en el leguaje C#. También puedo aportar al grupo con el aspecto comunicativo y organizativo para si poder realizar un mejor trabajo. |
+| <img src="public/assets/images/image-david.png" width="100"> | **Komatsu Dueñas, David**<br>(U201724692) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos adquiridos en investigación y sus respectivas metodologías, y la experiencia universitaria adquirida en el lenguaje C# y JavaScript. También, aportare con mis habilidades de comunicación asertiva y buen trabajo en equipo. |
+| <img src="images/foto-integrante3.jpg" width="100"> | **Meza Soza, Alexandra Yamile**<br>(U20241b451) | Ingeniería de Sistemas de Información | Estudiante de Ingeniería de Sistemas de Información con enfoque en análisis de datos y desarrollo básico en Python/C#. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto. |
+| <img src="images/foto-integrante4.jpg" width="100"> | **Becerra Ninahuanca, Luis Angel**<br>(U20231C792) | Ingeniería de Sistemas de Información | Estudiante de la carrera de ingeniería de sistemas en la UPC. Domino C#, Java, C# y me gusta trabajar en equipo para lograr un objetivo. Tengo habilidades además de programar con el diseño. En el equipo aportaré a nuestra landing page con mis conocimientos, un diseño limpio y agradable para el usuario. |
+| <img src="images/foto-integrante5.jpg" width="100"> | **Conde Huashuayo, Sebasthian Alex**<br>(U20241E356) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en programación en los lenguajes C#, Python, HTML y CSS. Asimismo, puedo contribuir al equipo con habilidades en trabajo colaborativo, organización y resolución de problemas. |
 
 *(Tabla 1. Perfiles integrantes de equipo - Elaboración propia. Nota: En esta tabla se aprecia los perfiles de los integrantes de equipo).*
 
