@@ -152,7 +152,7 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
   - 4.4.4 User Flow Diagrams .............................. 165  
 - 4.5 Web Applications Prototyping ..................... 174  
   - 4.5.1 Android Prototyping ............................. 175  
-  - 4.5.2 iOS Prototyping .................................. 175  
+  - 4.5.2 Web Prototyping .................................. 175  
 - 4.6 Domain-Driven Software Architecture .................. 176  
   - 4.6.1 Design-Level EventStorming ...................... 176  
   - 4.6.2 Context Diagram .................................. 185  
@@ -1320,7 +1320,7 @@ Se observa el mapa de impacto orientado a la fidelización de usuarios, con la m
 El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del sistema mediante historias de usuario, representando las necesidades de estudiantes, tutores, profesores y desarrolladores. Cada historia define el valor a entregar y cuenta con una estimación en Story Points, lo que permite organizar el desarrollo de forma ágil y progresiva, desde funciones básicas hasta características más avanzadas como videollamadas, donaciones y analítica académica.
 
 <p align="center">
-  <img src="public/assets/images-doc/IM3.png" alt="Impact Mapping Retención" width="800">
+  <img src="public/assets/images-doc/Product-backlog.png" alt="Impact Mapping Retención" width="800">
   <br>
   <em>Figura . Product Backlog - Elaboración propia. Nota: Esta figura muestra la tabla realizada por el grupo para ordenar el product backlog del proyecto.</em>
 </p>
@@ -2079,19 +2079,19 @@ El video demuestra los flujos de usuario clave desde la perspectiva de Material 
 
 ---
 
-### 4.5.2. Desktop  Prototyping
+### 4.5.2. Desktop Prototyping
 
 Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una estética limpia y animaciones fluidas. La navegación principal se centra en una Tab Bar inferior.
 
 <p align="center">
-  <a href="https://youtu.be/57n2zvjJ5Zo" target="_blank">
-    <img src="https://img.youtube.com/vi/57n2zvjJ5Zo/maxresdefault.jpg" alt="Prototipo iOS" width="600">
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBqw5ZJB_CbSIhskmvCqC8yAdJ-JYnYdHlOJnjl7YZxBD8?e=yURAgh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
+    <img src="public/assets/images-doc/proWEB.png" alt="Prototipo iOS" width="600">
   </a>
   <br>
-  <em>Video 2. Demostración del prototipo interactivo en iOS (Clic en la imagen para reproducir).</em>
+  <em>Video 2. Demostración del prototipo interactivo en Web (Clic en la imagen para reproducir).</em>
 </p>
 
-Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usuario navega a "Mis Favoritos" usando el menú desplegable o la interacción con los elementos. Al finalizar una sesión, se visualiza el modal de calificación y el mensaje de confirmación con la moda de iOS. También, se demuestra cómo las transiciones entre la búsqueda y los resultados son mediante deslizamiento. Se destacan componentes clave de iOS como los modales de confirmación, la tab bar del navegador Safari, los pickers de rueda (reloj) para configurar la disponibilidad y las alertas nativas para las confirmaciones.
+ Este prototipo muestra los flujos adaptados a una versión web en navegador de escritorio. Se observa la navegación a sesiones mediante menús, el modal de calificación al finalizar una sesión y mensajes de confirmación propios de interfaces web como donación y califiación. Las transiciones entre búsqueda y resultados se realizan mediante cambios de vista.
 
 ## 4.6. Domain-Driven Software Architecture
 
