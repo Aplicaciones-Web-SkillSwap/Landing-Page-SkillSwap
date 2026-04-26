@@ -74,21 +74,21 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/PR1.png" alt="Analíticos de colaboración - Project Report" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Gráfico de contribuciones al repositorio del Project Report durante AV1. Se evidencia la participación de todos los integrantes del equipo mediante commits realizados en el período correspondiente.</em>
+    <em>Figura 1. Gráfico de contribuciones al repositorio del Project Report durante AV1. Se evidencia la participación de todos los integrantes del equipo mediante commits realizados en el período correspondiente.</em>
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/PR2.png" alt="Historial de commits - Project Report" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Historial de commits en el repositorio del Project Report, evidenciando los aportes individuales de cada miembro con sus respectivos mensajes bajo la convención de Conventional Commits.</em>
+    <em>Figura 2. Historial de commits en el repositorio del Project Report, evidenciando los aportes individuales de cada miembro con sus respectivos mensajes bajo la convención de Conventional Commits.</em>
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/PR3.png" alt="Contribuciones por integrante - Project Report" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Panel de contribuciones individuales al repositorio del Project Report, mostrando el volumen de commits, líneas añadidas y eliminadas por cada integrante durante la elaboración de AV1.</em>
+    <em>Figura 3. Panel de contribuciones individuales al repositorio del Project Report, mostrando el volumen de commits, líneas añadidas y eliminadas por cada integrante durante la elaboración de AV1.</em>
   </figcaption>
 </figure>
 
@@ -498,7 +498,7 @@ A continuación, se presentan las estrategias y tácticas que Innovify / SkillSw
 <p align="center">
   <img src="public/assets/images-doc/Entrevista-victor1.png" alt="Entrevista Boris" width="600">
   <br>
-  <em>Figura 1. YouTube: Entrevista 1: Estudiante-Aprendiz | SkillSwap. Nota: En esta figura se aprecia la entrevista a una persona de segmento estudiante-aprendiz.</em>
+  <em>Figura 4. YouTube: Entrevista 1: Estudiante-Aprendiz | SkillSwap. Nota: En esta figura se aprecia la entrevista a una persona de segmento estudiante-aprendiz.</em>
 </p>
 
 * **URL:** [https://youtu.be/7ffbEWaAAts](https://youtu.be/7ffbEWaAAts)
@@ -517,7 +517,7 @@ En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San 
 <p align="center">
   <img src="public/assets/images-doc/entrevista-ale1.png" alt="Entrevista Adrian" width="600">
   <br>
-  <em>Figura 2. YouTube: Entrevista 2: Estudiante-Aprendiz | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
+  <em>Figura 5. YouTube: Entrevista 2: Estudiante-Aprendiz | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
 </p>
 
 * **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](#) *(https://www.youtube.com/watch?v=Ci4k50FULHE)*
@@ -536,7 +536,7 @@ En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en 
 <p align="center">
   <img src="public/assets/images-doc/entrevista3-s1.png" alt="Entrevista Stephanie" width="600">
   <br>
-  <em>Figura 3. YouTube: Entrevista 3: Estudiante-Aprendiz | SkillSwap. 
+  <em>Figura 6. YouTube: Entrevista 3: Estudiante-Aprendiz | SkillSwap. 
   <br>
   Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
@@ -559,7 +559,7 @@ En esta tercera entrevista Stefanie estudia Negocios Internacionales en la Unive
 <p align="center">
   <img src="public/assets/images-doc/entrevista-victor2.png" alt="Entrevista Lucero" width="600">
   <br>
-  <em>Figura 4. YouTube: Entrevista 1: Estudiante-Tutor | SkillSwap. 
+  <em>Figura 7. YouTube: Entrevista 1: Estudiante-Tutor | SkillSwap. 
   <br>
   Nota: En esta figura se aprecia a la primera persona entrevista de nuestro segmento estudiante-tutor.</em>
 </p>
@@ -580,7 +580,7 @@ En esta entrevista, Lucero Campos cursa el octavo ciclo en la Universidad César
 <p align="center">
   <img src="public/assets/images-doc/entrevista-ale2.png" alt="Entrevista Abigail" width="600">
   <br>
-  <em>Figura 5. YouTube: Entrevista 2: Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
+  <em>Figura 8. YouTube: Entrevista 2: Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
 * **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#) *(https://www.youtube.com/watch?v=zFAWYnoZSzU)*
@@ -599,7 +599,7 @@ En esta segunda entrevista, Abigail estudia Psicología en la Universidad Peruan
 <p align="center">
   <img src="public/assets/images-doc/entrevista-victor2-1.png" alt="Entrevista Katherine" width="600">
   <br>
-  <em>Figura 6. YouTube: Entrevista 3 Segmento Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia a la tercera persona entrevistada de nuestro segundo segmento estudiante-tutor.</em>
+  <em>Figura 9. YouTube: Entrevista 3 Segmento Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia a la tercera persona entrevistada de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
 * **URL:** [https://www.youtube.com/watch?v=Otu_waadCj4](https://www.youtube.com/watch?v=Otu_waadCj4)
@@ -651,7 +651,7 @@ Finalmente, evidenció interés en la funcionalidad operativa de la propuesta, s
 <p align="center">
   <img src="public/assets/images-doc/entrevista-victor3-1.png" alt="Entrevista Jesús" width="600">
   <br>
-  <em>Figura 9 y 10. YouTube: Entrevista 2 Segmento Coordinador Institucional | SkillSwap. Nota: Entrevista dividida en dos partes.</em>
+  <em>Figura 11 y 12. YouTube: Entrevista 2 Segmento Coordinador Institucional | SkillSwap. Nota: Entrevista dividida en dos partes.</em>
 </p>
 
 * **URL Parte 1:** [https://youtu.be/oRoAbwVAjxI](https://youtu.be/oRoAbwVAjxI) | **Inicio:** 0:00 | **Duración:** 10m 12s
@@ -669,7 +669,7 @@ Jesús Hernández, jefe de prácticas, señala que los principales desafíos de 
 <p align="center">
   <img src="public/assets/images-doc/entrevista-david1.png" alt="Entrevista Raúl" width="600">
   <br>
-  <em>Figura 11. YouTube: Entrevista 3 Segmento Coordinador Institucional | SkillSwap. Nota: En esta figura se aprecia la tercera persona entrevistada de nuestro tercer segmento coordinador institucional.</em>
+  <em>Figura 13. YouTube: Entrevista 3 Segmento Coordinador Institucional | SkillSwap. Nota: En esta figura se aprecia la tercera persona entrevistada de nuestro tercer segmento coordinador institucional.</em>
 </p>
 
 * **URL:** [https://youtu.be/cP_YiYr2VD8](https://youtu.be/cP_YiYr2VD8)
@@ -848,7 +848,7 @@ En esta figura se observa el arquetipo de usuario correspondiente al segmento de
 <p align="center">
   <img src="public/assets/images-doc/user2.png" alt="User Persona Tutor" width="800">
   <br>
-  <em>Figura 13. User Persona - Estudiantes que quieran enseñar - Elaboración propia.</em>
+  <em>Figura 14. User Persona - Estudiantes que quieran enseñar - Elaboración propia.</em>
 </p>
 En esta figura se presenta el arquetipo de usuario "Lucía Torres", el cual personifica el segmento de estudiantes con un rol híbrido que actúan simultáneamente como tutores y aprendices. El perfil describe sus antecedentes académicos en ingeniería y sus objetivos de fortalecer habilidades blandas mediante la enseñanza, proporcionando información valiosa sobre los desafíos de gestión del tiempo y la necesidad de herramientas intuitivas para la organización de las sesiones de tutoría.
 <br>
@@ -858,7 +858,7 @@ En esta figura se presenta el arquetipo de usuario "Lucía Torres", el cual pers
 <p align="center">
   <img src="public/assets/images-doc/user3.png" alt="User Persona Coordinador" width="800">
   <br>
-  <em>Figura 14. User Persona - Coordinador Institucional - Elaboración propia.</em>
+  <em>Figura 15. User Persona - Coordinador Institucional - Elaboración propia.</em>
 </p>
 En la imagen tenemos la caracterización de Renato López, quien representa el segmento administrativo y de moderación del sistema. Su perfil resalta objetivos enfocados en la seguridad, la integridad académica y el monitoreo de comportamientos, definiendo los requerimientos necesarios para las herramientas de gestión institucional de la plataforma.
 <br>
@@ -933,7 +933,7 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
 <p align="center">
   <img src="public/assets/images-doc/jur1.png" alt="Journey Map Aprendiz" width="800">
   <br>
-  <em>Figura 15. User Journey Mapping – Estudiantes que quieran aprender - Elaboración propia. Nota: En esta figura se aprecia nuestro primer Journey Mapping de nuestro primer segmento estudiante aprendiz.</em>
+  <em>Figura 16. User Journey Mapping – Estudiantes que quieran aprender - Elaboración propia. Nota: En esta figura se aprecia nuestro primer Journey Mapping de nuestro primer segmento estudiante aprendiz.</em>
 </p>
 <br>
 En esta figura se observa el recorrido del estudiante o aprendiz a través de cinco etapas críticas: descubrimiento, duda, búsqueda, recepción de ayuda y evaluación. El diagrama detalla la curva emocional del usuario, identificando puntos de dolor como la dificultad para coordinar horarios y la falta de claridad en explicaciones, proponiendo soluciones como el uso de tutores verificados y repositorios de sesiones grabadas.
@@ -943,7 +943,7 @@ En esta figura se observa el recorrido del estudiante o aprendiz a través de ci
 <p align="center">
   <img src="public/assets/images-doc/jur2.png" alt="Journey Map Tutor" width="800">
   <br>
-  <em>Figura 16. User Journey Mapping – Estudiantes que quieran enseñar - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Journey Mapping de nuestro segundo segmento estudiante tutor.</em>
+  <em>Figura 17. User Journey Mapping – Estudiantes que quieran enseñar - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Journey Mapping de nuestro segundo segmento estudiante tutor.</em>
 </p>
 <br>
 En la imagen tenemos la visualización de la experiencia desde la perspectiva del tutor. El mapa describe el proceso desde la motivación inicial y la preparación del material hasta el cierre y retroalimentación de la sesión. Se resalta la fluctuación de la experiencia según el compromiso del aprendiz y se proponen ideas de mejora como la gamificación de las sesiones y sistemas de recordatorios automáticos para optimizar la gestión del tiempo.
@@ -953,7 +953,7 @@ En la imagen tenemos la visualización de la experiencia desde la perspectiva de
 <p align="center">
   <img src="public/assets/images-doc/jur3.png" alt="Journey Map Coordinador" width="800">
   <br>
-  <em>Figura 17. User Journey Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Journey Mapping de nuestro segmento coordinador institucional.</em>
+  <em>Figura 18. User Journey Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Journey Mapping de nuestro segmento coordinador institucional.</em>
 </p>
 
 En esta figura se detalla el flujo de gestión desde el ángulo administrativo y de calidad académica. El mapa abarca la planeación, implementación y supervisión de las tutorías interuniversitarias, poniendo énfasis en la mitigación de riesgos operativos como el plagio o el fraude. Se proponen herramientas técnicas de control, tales como un "DNI académico" para la validación de alumnos y paneles de control intuitivos para el monitoreo de interacciones.
@@ -981,7 +981,7 @@ Para profundizar en el entendimiento de nuestros usuarios finales y diseñar una
 <p align="center">
   <img src="public/assets/images-doc/Empati1.png" alt="Empathy Map Aprendiz" width="800">
   <br>
-  <em>Figura 18. Empathy Mapping - Estudiantes aprendices - Elaboración propia. Nota: En esta figura se aprecia nuestro Empathy Mapping de nuestro primer segmento estudiante aprendiz.</em>
+  <em>Figura 19. Empathy Mapping - Estudiantes aprendices - Elaboración propia. Nota: En esta figura se aprecia nuestro Empathy Mapping de nuestro primer segmento estudiante aprendiz.</em>
 </p>
 <br>
 Se observa el mapa de empatía de Valeria, estudiante universitaria que representa al segmento de aprendices. El diagrama detalla su necesidad de encontrar apoyo académico confiable ante una carga académica exigente, identificando como puntos de dolor la ansiedad generada por la falta de confianza en los tutores actuales y la frustración de perder tiempo buscando ayuda poco efectiva.
@@ -992,7 +992,7 @@ Se observa el mapa de empatía de Valeria, estudiante universitaria que represen
 <p align="center">
   <img src="public/assets/images-doc/Empati2.png" alt="Empathy Map Tutor" width="800">
   <br>
-  <em>Figura 19. Empathy Mapping - Estudiantes tutores - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Empathy Mapping de nuestro segmento estudiantes tutores.</em>
+  <em>Figura 20. Empathy Mapping - Estudiantes tutores - Elaboración propia. Nota: En esta figura se aprecia nuestro segundo Empathy Mapping de nuestro segmento estudiantes tutores.</em>
 </p>
 <br>
 En esta figura se detalla el mapa de empatía orientado al estudiante con rol de tutor. El análisis subraya su deseo de reafirmar conocimientos mediante la enseñanza y construir un perfil académico/profesional sólido. Se identifican como principales desafíos la falta de reconocimiento formal por su labor de apoyo y la dificultad para equilibrar las tutorías con sus propias responsabilidades de estudio.
@@ -1002,7 +1002,7 @@ En esta figura se detalla el mapa de empatía orientado al estudiante con rol de
 <p align="center">
   <img src="public/assets/images-doc/Empati3.png" alt="Empathy Map Coordinador" width="800">
   <br>
-  <em>Figura 20. Empathy Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Empathy Mapping de nuestro segmento coordinador institucional.</em>
+  <em>Figura 21. Empathy Mapping - Coordinador Institucional - Elaboración propia. Nota: En esta figura se aprecia nuestro tercer Empathy Mapping de nuestro segmento coordinador institucional.</em>
 </p>
 
 En la imagen tenemos la caracterización empática de Romeo, representante del segmento institucional y administrativo. El mapa resalta su preocupación por mantener la calidad académica y la integridad institucional, señalando como riesgos principales el fraude o suplantación de identidad, y visualizando como ganancia el acceso a herramientas tecnológicas que agilicen la validación de los participantes.
@@ -1287,7 +1287,7 @@ En esta sección se expone el Impact Mapping del proyecto, una técnica que cone
 <p align="center">
   <img src="public/assets/images-doc/IM1.png" alt="Impact Mapping Registro" width="800">
   <br>
-  <em>Figura 27. Impact Mapping - Elaboración propia. Nota: Este mapa visualiza cómo alcanzar el objetivo inicial (registrar 300 estudiantes), conectando los perfiles (Personas) con cambios de comportamiento (Impacts) y funcionalidades (Deliverables).</em>
+  <em>Figura 24. Impact Mapping - Elaboración propia. Nota: Este mapa visualiza cómo alcanzar el objetivo inicial (registrar 300 estudiantes), conectando los perfiles (Personas) con cambios de comportamiento (Impacts) y funcionalidades (Deliverables).</em>
 </p>
 En esta figura se observa el Impact Map enfocado en el objetivo de lograr que 500 estudiantes de 3 universidades piloto completen su perfil en los primeros 4 meses. El diagrama vincula a los actores clave (Jazmín, Lucía y Renato) con los impactos esperados, tales como superar la desconfianza inicial y agilizar la verificación de datos. Asimismo, se detallan los entregables técnicos y las historias de usuario necesarias para garantizar un proceso de registro simple y confiable.
 
@@ -1296,14 +1296,14 @@ En esta figura se observa el Impact Map enfocado en el objetivo de lograr que 50
 <p align="center">
   <img src="public/assets/images-doc/IM2.png" alt="Impact Mapping Tutorías" width="800">
   <br>
-  <em>Figura 28. Impact Mapping - Elaboración propia. Nota: Este mapa se enfoca en lograr 200 tutorías exitosas con alta calificación, detallando cómo la búsqueda, comunicación y calificación aseguran un ciclo de alta calidad.</em>
+  <em>Figura 25. Impact Mapping - Elaboración propia. Nota: Este mapa se enfoca en lograr 200 tutorías exitosas con alta calificación, detallando cómo la búsqueda, comunicación y calificación aseguran un ciclo de alta calidad.</em>
 </p>
 En la imagen tenemos la planificación estratégica para alcanzar 200 intercambios de tutoría exitosos en el primer semestre de operación. El mapa destaca la importancia de que el aprendiz encuentre tutores verificados y que el tutor se sienta motivado mediante un sistema de reputación. Se identifican entregables críticos como el motor de búsqueda con filtros avanzados, el canal de comunicación integrado y las herramientas de gestión de tiempo para asegurar una coordinación sin fricciones.
 <br>
 <p align="center">
   <img src="public/assets/images-doc/IM3.png" alt="Impact Mapping Retención" width="800">
   <br>
-  <em>Figura 29. Impact Mapping - Elaboración propia. Nota: Esta figura muestra el mapa centrado en la retención y participación activa, explicando cómo funcionalidades como el dashboard y el reconocimiento buscan que los usuarios regresen.</em>
+  <em>Figura 26. Impact Mapping - Elaboración propia. Nota: Esta figura muestra el mapa centrado en la retención y participación activa, explicando cómo funcionalidades como el dashboard y el reconocimiento buscan que los usuarios regresen.</em>
 </p>
 Se observa el mapa de impacto orientado a la fidelización de usuarios, con la meta de que el 30% de los usuarios activos sean recurrentes y el 25% desempeñe roles híbridos (aprendiz y tutor). La figura ilustra cómo funcionalidades de experiencia de usuario (como el modo oscuro o micro-interacciones) y sistemas de gamificación incentivan la participación continua, permitiendo una transición fluida entre los perfiles de enseñanza y aprendizaje para reforzar el ciclo de reciprocidad.
 <br><br>
@@ -1322,7 +1322,7 @@ El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del 
 <p align="center">
   <img src="public/assets/images-doc/Product-backlog.png" alt="Impact Mapping Retención" width="800">
   <br>
-  <em>Figura . Product Backlog - Elaboración propia. Nota: Esta figura muestra la tabla realizada por el grupo para ordenar el product backlog del proyecto.</em>
+  <em>Figura 27. Product Backlog - Elaboración propia. Nota: Esta figura muestra la tabla realizada por el grupo para ordenar el product backlog del proyecto.</em>
 </p>
 
 url: [https://trello.com/invite/b/68e353c594f09e671b636f51/ATTIb5441351e50cdc8914cef6195966155d23769D30/product-backlog]
@@ -1396,7 +1396,7 @@ Aquí se sientan las bases de la identidad visual y verbal de la plataforma, ase
 <p align="center">
   <img src="public/assets/images-doc/logo-grande.png" alt="Logo Innovify" width="400">
   <br>
-  <em>Figura 30. Logo Innovify.</em>
+  <em>Figura 28. Logo Innovify.</em>
 </p>
 
 * **Typography:** Se propone utilizar la familia tipográfica **Inter**, una fuente *sans-serif* versátil y moderna, diseñada específicamente para la legibilidad en pantallas. Su claridad y neutralidad la hacen ideal para un entorno académico y digital.
@@ -1438,13 +1438,13 @@ Elegimos estos colores porque buscábamos transmitir confianza, motivación y ac
 <p align="center">
   <img src="public/assets/images-doc/index-anti.png" alt="Landing Page Inicio" width="800">
   <br>
-  <em>Figura 31. Landing page - Página inicio. Nota: Esta figura muestra el diseño de la pantalla principal o dashboard que ve el usuario al iniciar sesión.</em>
+  <em>Figura 29. Landing page - Página inicio. Nota: Esta figura muestra el diseño de la pantalla principal o dashboard que ve el usuario al iniciar sesión.</em>
 </p>
 
 <p align="center">
   <img src="public/assets/images-doc/colors.png" alt="Paleta de Colores Web" width="600">
   <br>
-  <em>Figura 32. Paleta de colores. Nota: Combinación del azul (confianza) y amarillo (energía).</em>
+  <em>Figura 30. Paleta de colores. Nota: Combinación del azul (confianza) y amarillo (energía).</em>
 </p>
 
 * **Responsive Design Standards (Mobile-first):**
@@ -1477,7 +1477,7 @@ El esquema principal de categorización será por **tópicos** (materias o habil
 <p align="center">
   <img src="public/assets/images-doc/flujo-estudiante.png" alt="Diagrama Flujo Aprendiz" width="800">
   <br>
-  <em>Figura 45. Diagrama de flujo de Estudiante aprendiz. Nota: Esta figura detalla el recorrido secuencial del usuario desde el inicio de sesión hasta la coordinación final.</em>
+  <em>Figura 31. Diagrama de flujo de Estudiante aprendiz. Nota: Esta figura detalla el recorrido secuencial del usuario desde el inicio de sesión hasta la coordinación final.</em>
 </p>
 
 * **Estudiante-Tutor:** El viaje se inicia de forma reactiva al recibir una notificación. En su Dashboard, consulta las solicitudes pendientes y revisa el perfil del aprendiz. Si acepta, el sistema lo dirige a un chat interno para coordinar. Tras realizar la tutoría con éxito, el tutor califica la experiencia y recibe créditos/donaciones como recompensa.
@@ -1485,7 +1485,7 @@ El esquema principal de categorización será por **tópicos** (materias o habil
 <p align="center">
   <img src="public/assets/images-doc/flujo-tutor.png" alt="Diagrama Flujo Tutor" width="800">
   <br>
-  <em>Figura 46. Diagrama de flujo de Estudiante tutor. Nota: Este diagrama ilustra el flujo de trabajo del tutor para revisar, aceptar, coordinar y finalizar el ciclo.</em>
+  <em>Figura 32. Diagrama de flujo de Estudiante tutor. Nota: Este diagrama ilustra el flujo de trabajo del tutor para revisar, aceptar, coordinar y finalizar el ciclo.</em>
 </p>
 
 * **Coordinador Institucional:** La experiencia está diseñada para la máxima eficiencia. Comienza al recibir una notificación de verificación pendiente. Para agilizar, el sistema permite seleccionar múltiples estudiantes y usar "Aprobar en Bloque". Se pide confirmación de la acción para evitar errores y la lista de pendientes se actualiza.
@@ -1493,7 +1493,7 @@ El esquema principal de categorización será por **tópicos** (materias o habil
 <p align="center">
   <img src="public/assets/images-doc/flujo-coorni.png" alt="Diagrama Flujo Coordinador" width="800">
   <br>
-  <em>Figura 47. Diagrama de flujo de Coordinador institucional. Nota: La figura representa el flujo diseñado para ser eficiente mediante la función "Aprobar en Bloque".</em>
+  <em>Figura 33. Diagrama de flujo de Coordinador institucional. Nota: La figura representa el flujo diseñado para ser eficiente mediante la función "Aprobar en Bloque".</em>
 </p>
 
 ---
@@ -1507,7 +1507,7 @@ Esta disposición mejora la experiencia del usuario, ya que le permite desplazar
 <p align="center">
   <img src="public/assets/images-doc/index-responsive.png" alt="Sistema de Etiquetado" width="400">
   <br>
-  <em>Figura 48. Sistema de Etiquetado en Menú de Navegación Móvil. Nota: Se emplean etiquetas claras como "Perfil", "Sesiones" y "Ajustes" para acceso intuitivo.</em>
+  <em>Figura 34. Sistema de Etiquetado en Menú de Navegación Móvil. Nota: Se emplean etiquetas claras como "Perfil", "Sesiones" y "Ajustes" para acceso intuitivo.</em>
 </p>
 
 ---
@@ -1568,13 +1568,13 @@ El objetivo principal del Landing Page es comunicar la propuesta de valor del st
 <p align="center">
   <img src="public/assets/images-doc/LP-w.png" alt="Wireframe Desktop Main" width="800">
   <br>
-  <em>Figura 51. Wireframe de la Sección Principal de la Landing Page. Nota: Este wireframe ilustra la estructura de la sección principal de la página de bienvenida. Su diseño se enfoca en comunicar la propuesta de valor de forma directa e incluye un llamado a la acción ("Call-to-Action") central para incentivar el registro de nuevos usuarios.</em>
+  <em>Figura 35. Wireframe de la Sección Principal de la Landing Page. Nota: Este wireframe ilustra la estructura de la sección principal de la página de bienvenida. Su diseño se enfoca en comunicar la propuesta de valor de forma directa e incluye un llamado a la acción ("Call-to-Action") central para incentivar el registro de nuevos usuarios.</em>
 </p>
 
 <p align="center">
   <img src="public/assets/images-doc/LP-W2.png" alt="Wireframe Desktop Structure" width="800">
   <br>
-  <em>Figura 52. Wireframe de la Estructura de la Landing Page. Nota: Este wireframe detalla la distribución de los elementos en la página de bienvenida. Se observa una sección principal donde se mostrarán imágenes del diseño de la plataforma final, seguida de una explicación del servicio en tres pasos y un área para mostrar las universidades afiliadas, guiando al visitante a través de la propuesta de valor.</em>
+  <em>Figura 36. Wireframe de la Estructura de la Landing Page. Nota: Este wireframe detalla la distribución de los elementos en la página de bienvenida. Se observa una sección principal donde se mostrarán imágenes del diseño de la plataforma final, seguida de una explicación del servicio en tres pasos y un área para mostrar las universidades afiliadas, guiando al visitante a través de la propuesta de valor.</em>
 </p>
 
 **Principios de diseño**
@@ -1602,7 +1602,7 @@ Esta organización reduce la sobrecarga cognitiva y mejora la experiencia del us
 <p align="center">
   <img src="public/assets/images-doc/LP-W3.png" alt="Wireframe Mobile Main" width="400">
   <br>
-  <em>Figura 53. Wireframe de la Página Principal. Nota: Esta figura muestra la estructura de la página principal para navegadores móviles. El diseño utiliza una columna única y tarjetas modulares para organizar el contenido de forma vertical, facilitando la navegación y la lectura en pantallas pequeñas.</em>
+  <em>Figura 37. Wireframe de la Página Principal. Nota: Esta figura muestra la estructura de la página principal para navegadores móviles. El diseño utiliza una columna única y tarjetas modulares para organizar el contenido de forma vertical, facilitando la navegación y la lectura en pantallas pequeñas.</em>
 </p>
 
 **Principios de diseño**
@@ -1632,13 +1632,13 @@ Esta estructura facilita la navegación desde el primer momento, guiando al usua
 <p align="center">
   <img src="public/assets/images-doc/index-new.png" alt="Mock-up Desktop Main" width="800">
   <br>
-  <em>Figura 54. Mock-up de la Sección Principal de la Landing Page. Nota: Este mock-up muestra el diseño visual de la sección principal de la página de bienvenida. Se utiliza una imagen de fondo atractiva, la paleta de colores de la marca y una tipografía clara para comunicar la propuesta de valor y destacar el llamado a la acción principal.</em>
+  <em>Figura 38. Mock-up de la Sección Principal de la Landing Page. Nota: Este mock-up muestra el diseño visual de la sección principal de la página de bienvenida. Se utiliza una imagen de fondo atractiva, la paleta de colores de la marca y una tipografía clara para comunicar la propuesta de valor y destacar el llamado a la acción principal.</em>
 </p>
 
 <p align="center">
   <img src="public/assets/images-doc/section-sobre.png" alt="Mock-up Desktop Body" width="800">
   <br>
-  <em>Figura 55. Mock-up del Cuerpo de la Landing Page. Nota: La figura presenta el diseño de las secciones principales de la Landing Page, donde se explica el funcionamiento del servicio ("Busca habilidades", "Pide un intercambio") y se muestra prueba social a través de los logos de las "Universidades Afiliadas".</em>
+  <em>Figura 39. Mock-up del Cuerpo de la Landing Page. Nota: La figura presenta el diseño de las secciones principales de la Landing Page, donde se explica el funcionamiento del servicio ("Busca habilidades", "Pide un intercambio") y se muestra prueba social a través de los logos de las "Universidades Afiliadas".</em>
 </p>
 
 **Aplicación del Design System**
@@ -1677,7 +1677,7 @@ Finalmente, la navegación está orientada a tareas concretas y combina la explo
 <p align="center">
   <img src="public/assets/images-doc/web-mobile.png" alt="Mock-up Mobile" width="400">
   <br>
-  <em>Figura 56. Mock-up de la Landing Page. Nota: Este mock-up muestra la adaptación del diseño de la página de bienvenida a dispositivos móviles. La estructura se organiza en una sola columna vertical para facilitar la lectura y navegación mediante el desplazamiento, manteniendo la coherencia visual y las llamadas a la acción principales.</em>
+  <em>Figura 40. Mock-up de la Landing Page. Nota: Este mock-up muestra la adaptación del diseño de la página de bienvenida a dispositivos móviles. La estructura se organiza en una sola columna vertical para facilitar la lectura y navegación mediante el desplazamiento, manteniendo la coherencia visual y las llamadas a la acción principales.</em>
 </p>
 
 **Principios de diseño**
@@ -1714,7 +1714,7 @@ La navegación está orientada a tareas y se desarrolla en un flujo descendente 
   <img src="public/assets/images-doc/arqui-estu.png" alt="Arquitectura estudiante Landing Page" width="800">
   <img src="public/assets/images-doc/arqui-coor.png" alt="Arquitectura coordinador Landing Page" width="800">
   <br>
-  <em>Figura 57. Arquitectura de la Landing Page. Nota: Diagrama estructural de la landing page tanto para su versión web como móvil.</em>
+  <em>Figura 41. Arquitectura de la Landing Page. Nota: Diagrama estructural de la landing page tanto para su versión web como móvil.</em>
 </p>
 
 ## 4.4. Web Applications UI Design
@@ -1724,13 +1724,13 @@ La navegación está orientada a tareas y se desarrolla en un flujo descendente 
 <p align="center">
   <img src="public/assets/images-doc/ww1.png" alt="Wireframes Mobile 1" width="800">
   <br>
-  <em>Figura 59. Colección de Wireframes de la Web. Nota: Esta figura presenta una colección de los wireframes principales que definen la estructura de la web. Se incluyen las pantallas clave del flujo del usuario, como el dashboard de inicio, la búsqueda avanzada de tutores, la vista de perfil detallado y el panel de administración del coordinador.</em>
+  <em>Figura 42. Colección de Wireframes de la Web. Nota: Esta figura presenta una colección de los wireframes principales que definen la estructura de la web. Se incluyen las pantallas clave del flujo del usuario, como el dashboard de inicio, la búsqueda avanzada de tutores, la vista de perfil detallado y el panel de administración del coordinador.</em>
 </p>
 
 <p align="center">
   <img src="public/assets/images-doc/ww2.png" alt="Wireframes Mobile 2" width="800">
   <br>
-  <em>Figura 60. Colección de Wireframes de la web-2. Nota: Esta figura complementa la vista estructural con wireframes adicionales. Se detallan las interfaces para funcionalidades de interacción y gestión, como el chat de conversación, el panel de notificaciones, la lista de tutores favoritos y la pantalla de calificaciones del usuario.</em>
+  <em>Figura 43. Colección de Wireframes de la web-2. Nota: Esta figura complementa la vista estructural con wireframes adicionales. Se detallan las interfaces para funcionalidades de interacción y gestión, como el chat de conversación, el panel de notificaciones, la lista de tutores favoritos y la pantalla de calificaciones del usuario.</em>
 </p>
 
 #### Principios Fundamentales de Diseño
@@ -1788,7 +1788,7 @@ Los Wireflow Diagrams representan el flujo de interacción del usuario dentro de
 <p align="center">
   <img src="public/assets/images-doc/W21.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Figura 68. Wireflow de Calificación de Sesión y Gestión de Favoritos. Nota: Este diagrama muestra el ciclo de cierre y retención para el aprendiz. Detalla los pasos para calificar a un tutor después de una sesión y la funcionalidad para marcar su perfil como "favorito", permitiendo un acceso rápido para futuras consultas.</em>
+  <em>Figura 44. Wireflow de Calificación de Sesión y Gestión de Favoritos. Nota: Este diagrama muestra el ciclo de cierre y retención para el aprendiz. Detalla los pasos para calificar a un tutor después de una sesión y la funcionalidad para marcar su perfil como "favorito", permitiendo un acceso rápido para futuras consultas.</em>
 </p>
 
 ---
@@ -1810,7 +1810,7 @@ Los Wireflow Diagrams representan el flujo de interacción del usuario dentro de
 <p align="center">
   <img src="public/assets/images-doc/W3.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Figura 69. Wireflow de Configuración de Perfil y Disponibilidad del Tutor. Nota: Este diagrama de flujo visualiza los pasos que sigue un tutor para configurar su perfil. Detalla la secuencia para añadir habilidades, establecer un calendario de disponibilidad y cambiar su estado para gestionar cuándo desea recibir solicitudes de tutoría.</em>
+  <em>Figura 45. Wireflow de Configuración de Perfil y Disponibilidad del Tutor. Nota: Este diagrama de flujo visualiza los pasos que sigue un tutor para configurar su perfil. Detalla la secuencia para añadir habilidades, establecer un calendario de disponibilidad y cambiar su estado para gestionar cuándo desea recibir solicitudes de tutoría.</em>
 </p>
 
 ---
@@ -1831,7 +1831,7 @@ Los Wireflow Diagrams representan el flujo de interacción del usuario dentro de
 <p align="center">
   <img src="public/assets/images-doc/W4.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Figura 70. Wireflow de Búsqueda Avanzada con Filtros. Nota: Este wireflow muestra cómo un estudiante puede refinar su búsqueda de tutores. Ilustra el proceso de aplicar filtros avanzados, como día y hora de disponibilidad, para que la lista de resultados se actualice y muestre únicamente a los candidatos que se ajustan a sus necesidades.</em>
+  <em>Figura 46. Wireflow de Búsqueda Avanzada con Filtros. Nota: Este wireflow muestra cómo un estudiante puede refinar su búsqueda de tutores. Ilustra el proceso de aplicar filtros avanzados, como día y hora de disponibilidad, para que la lista de resultados se actualice y muestre únicamente a los candidatos que se ajustan a sus necesidades.</em>
 </p>
 
 ---
@@ -1853,7 +1853,7 @@ Los Wireflow Diagrams representan el flujo de interacción del usuario dentro de
 <p align="center">
   <img src="public/assets/images-doc/W6.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Figura 72. Wireflow de Dashboard y Gestión de Reputación del Tutor. Nota: Este diagrama de flujo ilustra cómo el tutor interactúa con las funciones de seguimiento de la plataforma. Muestra el acceso al dashboard personal para ver estadísticas clave, consultar el historial de sesiones y revisar su reputación a través de las calificaciones recibidas.</em>
+  <em>Figura 47. Wireflow de Dashboard y Gestión de Reputación del Tutor. Nota: Este diagrama de flujo ilustra cómo el tutor interactúa con las funciones de seguimiento de la plataforma. Muestra el acceso al dashboard personal para ver estadísticas clave, consultar el historial de sesiones y revisar su reputación a través de las calificaciones recibidas.</em>
 </p>
 
 
@@ -1876,7 +1876,7 @@ Los Wireflow Diagrams representan el flujo de interacción del usuario dentro de
 <p align="center">
   <img src="public/assets/images-doc/W61.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Figura 72. Wireflow de Registro y Login con correo universitario. Nota: Este diagrama de flujo ilustra el proceso de acceso a la plataforma, desde el registro con correo institucional hasta la autenticación del usuario. Muestra la validación de la cuenta mediante verificación por correo y la posterior redirección al dashboard correspondiente según el rol del usuario..</em>
+  <em>Figura 48. Wireflow de Registro y Login con correo universitario. Nota: Este diagrama de flujo ilustra el proceso de acceso a la plataforma, desde el registro con correo institucional hasta la autenticación del usuario. Muestra la validación de la cuenta mediante verificación por correo y la posterior redirección al dashboard correspondiente según el rol del usuario..</em>
 </p>
 
 ---
@@ -1889,7 +1889,7 @@ En esta sección se presentan los mockups, que son la evolución de alta fidelid
   <img src="public/assets/images-doc/mv1.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
   <img src="public/assets/images-doc/mv2.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
   <br>
-  <em>Figura 75. Mock-ups de Alta Fidelidad de la Web Browser. Nota: Esta figura presenta el diseño final de las pantallas clave, aplicando la paleta de colores, tipografía y componentes definidos en el Design System.</em>
+  <em>Figura 49. Mock-ups de Alta Fidelidad de la Web Browser. Nota: Esta figura presenta el diseño final de las pantallas clave, aplicando la paleta de colores, tipografía y componentes definidos en el Design System.</em>
 </p>
 
 #### Aplicación del Design System y Guía de Estilos
@@ -1940,9 +1940,9 @@ Este flujo describe el camino principal del estudiante aprendiz para conectar co
 <p align="center">
   <img src="public/assets/images-doc/flujo1.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
 
-  <br>
-  <em>Se muestra el flujo de enviar solicitud</em>
+  <em>Figura 50. Se muestra el flujo de enviar solicitud</em>
 </p>
+
 
 **Unhappy Paths (Rutas Alternativas):**
 * **Condición (Sin Resultados):** Si el usuario busca un término y no hay tutores disponibles.
@@ -1958,8 +1958,7 @@ Este flujo describe lo que ocurre cuando el estudiante ingresa un término de b�
 <p align="center">
   <img src="public/assets/images-doc/flujo1-m.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
 
-  <br>
-  <em>Se muestra el flujo de no encontrar tutor</em>
+  <em>Figura 51. Se muestra el flujo de no encontrar tutor</em>
 </p>
 
 ---
@@ -1979,8 +1978,7 @@ Este flujo detalla la interacción clave del tutor para gestionar las solicitude
 <p align="center">
   <img src="public/assets/images-doc/flujo2.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
 
-  <br>
-  <em>Se muestra el flujo Recepción y Aceptación de Solicitud de Tutoría</em>
+  <em>Figura 52. Se muestra el flujo Recepción y Aceptación de Solicitud de Tutoría</em>
 </p>
 
 **Unhappy Path (Ruta Alternativa):**
@@ -1997,8 +1995,7 @@ Este flujo describe el escenario en el que un tutor decide no aceptar la solicit
 <p align="center">
   <img src="public/assets/images-doc/flujo2-m.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
 
-  <br>
-  <em>Se muestra el flujo de Rechazar Solicitud</em>
+  <em>Figura 53. Se muestra el flujo de Rechazar Solicitud</em>
 </p>
 
 ---
@@ -2019,9 +2016,7 @@ Este flujo muestra el cierre del ciclo de aprendizaje y la retención del usuari
 <p align="center">
   <img src="public/assets/images-doc/flujo3.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
   
-  <br>
-
-  <em>Se muestra el flujo de Calificación de Sesión</em>
+  <em>Figura 54. Se muestra el flujo de Calificación de Sesión</em>
 </p>
 
 **Explicación del Flujo (Donación Voluntaria):**
@@ -2036,10 +2031,8 @@ Este flujo muestra el cierre del ciclo de aprendizaje, la retención del usuario
 **Representación visual:**
 <p align="center">
   <img src="public/assets/images-doc/flujo4.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
-  
-  <br>
 
-  <em>Se muestra el flujo de Donación Voluntaria</em>
+  <em>Figura 55. Se muestra el flujo de Donación Voluntaria</em>
 </p>
 
 
@@ -2103,7 +2096,7 @@ Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una es
 <p align="center">
   <img src="public/assets/images-doc/eventstorming-design.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Figura 72. Design-Level EventStorming - Elaboración propia. Nota: Este diagrama detalla el flujo de los eventos de dominio, comandos, agregados y políticas dentro de la plataforma Innovify, mapeando la lógica de negocio a nivel de diseño de software.</em>
+  <em>Figura 56. Design-Level EventStorming - Elaboración propia. Nota: Este diagrama detalla el flujo de los eventos de dominio, comandos, agregados y políticas dentro de la plataforma Innovify, mapeando la lógica de negocio a nivel de diseño de software.</em>
 </p>
 
 **Bounded Context**
@@ -2111,49 +2104,49 @@ Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una es
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/BD1.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 77. Este diagrama presenta el diseño físico del Identity & Profile Bounded Context, orientado a la gestión de seguridad y personalización de usuarios en Innovify. Se detalla la segregación de responsabilidades mediante perfiles diferenciados para Estudiantes y Coordinadores, además de integrar un sistema de validación de tokens que garantiza la autenticidad de las cuentas institucionales y el control de acceso basado en roles.</em>
+<em>Figura 57. Este diagrama presenta el diseño físico del Identity & Profile Bounded Context, orientado a la gestión de seguridad y personalización de usuarios en Innovify. Se detalla la segregación de responsabilidades mediante perfiles diferenciados para Estudiantes y Coordinadores, además de integrar un sistema de validación de tokens que garantiza la autenticidad de las cuentas institucionales y el control de acceso basado en roles.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/BD2.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 78. Este diagrama ilustra el diseño físico del Tutoring & Operations Bounded Context, núcleo operativo de Skillswap para la gestión de sesiones académicas. Se detalla la integración entre la disponibilidad de los tutores, el flujo de reservación y ejecución en entornos virtuales, junto con un esquema de moderación diseñado para asegurar la calidad y trazabilidad de cada encuentro.</em>
+<em>Figura 58. Este diagrama ilustra el diseño físico del Tutoring & Operations Bounded Context, núcleo operativo de Skillswap para la gestión de sesiones académicas. Se detalla la integración entre la disponibilidad de los tutores, el flujo de reservación y ejecución en entornos virtuales, junto con un esquema de moderación diseñado para asegurar la calidad y trazabilidad de cada encuentro.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/BD3.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 79. Este diagrama presenta el diseño físico del Academic & Assessment Bounded Context, encargado de la gestión pedagógica y la evaluación del conocimiento en Innovify. Se detalla la estructura para la creación de quizzes, la gestión de bancos de preguntas y el almacenamiento de resultados, permitiendo generar métricas de desempeño precisas para validar el progreso académico y las competencias de los estudiantes.</em>
+<em>Figura 59. Este diagrama presenta el diseño físico del Academic & Assessment Bounded Context, encargado de la gestión pedagógica y la evaluación del conocimiento en Innovify. Se detalla la estructura para la creación de quizzes, la gestión de bancos de preguntas y el almacenamiento de resultados, permitiendo generar métricas de desempeño precisas para validar el progreso académico y las competencias de los estudiantes.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/BD4.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 80. Este diagrama presenta el diseño físico del Monetization Bounded Context, encargado de la gestión financiera y el flujo de capital en Innovify. Se detalla la estructura de las wallets virtuales, el procesamiento de donaciones y la liquidación automática de comisiones, asegurando la transparencia, integridad y trazabilidad de todas las transacciones económicas realizadas entre los usuarios y la plataforma.</em>
+<em>Figura 60. Este diagrama presenta el diseño físico del Monetization Bounded Context, encargado de la gestión financiera y el flujo de capital en Innovify. Se detalla la estructura de las wallets virtuales, el procesamiento de donaciones y la liquidación automática de comisiones, asegurando la transparencia, integridad y trazabilidad de todas las transacciones económicas realizadas entre los usuarios y la plataforma.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/BD5.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 81. Este diagrama presenta el diseño físico del Shared Kernel & Infrastructure Context, centralizando las preocupaciones transversales de Innovify. Se detalla la estructura para el almacenamiento de logs de auditoría, la gestión de configuraciones globales y el control de notificaciones del sistema, proporcionando una base técnica común que asegura la trazabilidad de eventos y la consistencia operativa en todos los módulos de la plataforma.</em>
+<em>Figura 61. Este diagrama presenta el diseño físico del Shared Kernel & Infrastructure Context, centralizando las preocupaciones transversales de Innovify. Se detalla la estructura para el almacenamiento de logs de auditoría, la gestión de configuraciones globales y el control de notificaciones del sistema, proporcionando una base técnica común que asegura la trazabilidad de eventos y la consistencia operativa en todos los módulos de la plataforma.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/BD6.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 82. Este diagrama presenta el diseño físico del Reputation & Gamification Bounded Context, orientado a gestionar la credibilidad y el sistema de logros en Innovify. Se detalla la estructura para el procesamiento de las reviews, la consolidación de métricas de desempeño y la asignación de insignias de reconocimiento, permitiendo incentivar la excelencia académica y fortalecer la confianza dentro de la comunidad.</em>
+<em>Figura 62. Este diagrama presenta el diseño físico del Reputation & Gamification Bounded Context, orientado a gestionar la credibilidad y el sistema de logros en Innovify. Se detalla la estructura para el procesamiento de las reviews, la consolidación de métricas de desempeño y la asignación de insignias de reconocimiento, permitiendo incentivar la excelencia académica y fortalecer la confianza dentro de la comunidad.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/BD7.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 83. Este diagrama presenta el diseño físico del Communication & Notifications Bounded Context, destinado a gestionar las alertas y el flujo de mensajes en Innovify. Se detalla la estructura para la entrega de notificaciones en tiempo real, la categorización de avisos y la persistencia de interacciones, asegurando una comunicación constante, efectiva y oportuna entre estudiantes, tutores y coordinadores.</em>
+<em>Figura 63. Este diagrama presenta el diseño físico del Communication & Notifications Bounded Context, destinado a gestionar las alertas y el flujo de mensajes en Innovify. Se detalla la estructura para la entrega de notificaciones en tiempo real, la categorización de avisos y la persistencia de interacciones, asegurando una comunicación constante, efectiva y oportuna entre estudiantes, tutores y coordinadores.</em>
 </figcaption>
 </figure>
 
@@ -2163,56 +2156,56 @@ Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una es
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F1.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 84. Wireflow de Búsqueda y Solicitud de Tutoría para la aplicación móvil. Se ilustra la ruta del estudiante desde el filtrado de tutores y revisión de perfiles hasta la selección de horarios y confirmación de la reserva, garantizando una experiencia de usuario fluida y orientada a la contratación ágil de servicios académicos.</em>
+<em>Figura 64. Wireflow de Búsqueda y Solicitud de Tutoría para la aplicación móvil. Se ilustra la ruta del estudiante desde el filtrado de tutores y revisión de perfiles hasta la selección de horarios y confirmación de la reserva, garantizando una experiencia de usuario fluida y orientada a la contratación ágil de servicios académicos.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F2.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 85. Wireflow de Recepción y Aceptación de Solicitud desde la perspectiva del tutor. Se visualiza el flujo que inicia con una notificación entrante, seguido de la revisión de detalles de la sesión y culmina con la acción de confirmar o rechazar el servicio, permitiendo una administración eficiente de las solicitudes.</em>
+<em>Figura 65. Wireflow de Recepción y Aceptación de Solicitud desde la perspectiva del tutor. Se visualiza el flujo que inicia con una notificación entrante, seguido de la revisión de detalles de la sesión y culmina con la acción de confirmar o rechazar el servicio, permitiendo una administración eficiente de las solicitudes.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F3.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 86. Wireflow de Verificación de Estudiantes, donde el coordinador supervisa las solicitudes pendientes, valida la documentación institucional y aprueba el acceso al sistema, garantizando la seguridad y legitimidad de los perfiles en la comunidad.</em>
+<em>Figura 66. Wireflow de Verificación de Estudiantes, donde el coordinador supervisa las solicitudes pendientes, valida la documentación institucional y aprueba el acceso al sistema, garantizando la seguridad y legitimidad de los perfiles en la comunidad.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F4.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 87. Wireflow de Calificación de Sesión y Gestión de Favoritos. Se detalla el proceso donde el estudiante otorga una valoración al tutor tras concluir la sesión y administra su lista de contactos preferidos para facilitar futuras solicitudes.</em>
+<em>Figura 67. Wireflow de Calificación de Sesión y Gestión de Favoritos. Se detalla el proceso donde el estudiante otorga una valoración al tutor tras concluir la sesión y administra su lista de contactos preferidos para facilitar futuras solicitudes.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F5.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 88. Wireflow de Configuración de Perfil y Disponibilidad. Se ilustra el proceso para actualizar la información del tutor y definir sus horarios de atención, permitiendo una gestión organizada de su oferta académica en el sistema.</em>
+<em>Figura 68. Wireflow de Configuración de Perfil y Disponibilidad. Se ilustra el proceso para actualizar la información del tutor y definir sus horarios de atención, permitiendo una gestión organizada de su oferta académica en el sistema.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F6.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 89. Wireflow de Búsqueda Avanzada, detallando el uso de filtros por universidad y carrera para optimizar el descubrimiento de tutores y la navegación hacia sus perfiles detallados.</em>
+<em>Figura 69. Wireflow de Búsqueda Avanzada, detallando el uso de filtros por universidad y carrera para optimizar el descubrimiento de tutores y la navegación hacia sus perfiles detallados.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 90. Wireflow de Realización de una Sesión de Tutoría. Se ilustra la interacción en tiempo real dentro del espacio de trabajo virtual, incluyendo el acceso a la videollamada y el chat, culminando con la finalización exitosa del encuentro académico.</em>
+<em>Figura 70. Wireflow de Realización de una Sesión de Tutoría. Se ilustra la interacción en tiempo real dentro del espacio de trabajo virtual, incluyendo el acceso a la videollamada y el chat, culminando con la finalización exitosa del encuentro académico.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F8.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 91. Wireflow de Moderación y Disputas. Se describe el flujo de reporte de comportamientos inapropiados desde el entorno de trabajo hacia el contexto de moderación, permitiendo que el administrador gestione las evidencias y aplique las sanciones correspondientes para asegurar la integridad de la comunidad de Innovify.</em>
+<em>Figura 71. Wireflow de Moderación y Disputas. Se describe el flujo de reporte de comportamientos inapropiados desde el entorno de trabajo hacia el contexto de moderación, permitiendo que el administrador gestione las evidencias y aplique las sanciones correspondientes para asegurar la integridad de la comunidad de Innovify.</em>
 </figcaption>
 </figure>
 
@@ -2226,7 +2219,7 @@ Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una es
 <p align="center">
   <img src="public/assets/images-doc/Context.png" alt="System Context Diagram" width="800">
   <br>
-  <em>Figura 73. C4 Model: Context Diagram - Elaboración propia. Nota: Diagrama de contexto que muestra el sistema Innovify en el centro y sus interacciones directas con los actores principales (Estudiante Aprendiz, Tutor, Coordinador) y los sistemas externos (Pasarela de pagos Stripe, API de videollamadas WebRTC, servicio de correos, etc.).</em>
+  <em>Figura 72. C4 Model: Context Diagram - Elaboración propia. Nota: Diagrama de contexto que muestra el sistema Innovify en el centro y sus interacciones directas con los actores principales (Estudiante Aprendiz, Tutor, Coordinador) y los sistemas externos (Pasarela de pagos Stripe, API de videollamadas WebRTC, servicio de correos, etc.).</em>
 </p>
 
 ---
@@ -2238,7 +2231,7 @@ Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una es
 <p align="center">
   <img src="public/assets/images-doc/container.png" alt="Container Diagram" width="800">
   <br>
-  <em>Figura 74. C4 Model: Container Diagram - Elaboración propia. Nota: Diagrama de contenedores que ilustra la arquitectura de alto nivel desplegable del sistema (Web App en React, Mobile App, API Gateway, Microservicios en Node.js/C#, y la Base de Datos SQL/NoSQL).</em>
+  <em>Figura 73. C4 Model: Container Diagram - Elaboración propia. Nota: Diagrama de contenedores que ilustra la arquitectura de alto nivel desplegable del sistema (Web App en React, Mobile App, API Gateway, Microservicios en Node.js/C#, y la Base de Datos SQL/NoSQL).</em>
 </p>
 
 ---
@@ -2296,7 +2289,7 @@ Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una es
 </figure>
 <br><br>
 <p style="text-align: center;">
-  <em>Figura 75. C4 Model: Component Diagram - Elaboración propia. Nota: Diagrama de componentes que detalla la estructura interna y las responsabilidades (Controladores, Servicios, Repositorios) de uno de los contenedores principales de la plataforma.</em>
+  <em>Figura 74. C4 Model: Component Diagram - Elaboración propia. Nota: Diagrama de componentes que detalla la estructura interna y las responsabilidades (Controladores, Servicios, Repositorios) de uno de los contenedores principales de la plataforma.</em>
 </p>
 
 ## 4.7. Software Object-Oriented Design
@@ -2320,7 +2313,7 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/class-identity2.png" alt="Class Diagram - Identity & Access" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 102. En la imagen tenemos la representación estratégica de la arquitectura bajo los principios de Domain-Driven Design (DDD). Se evidencia cómo el modelo de dominio global ha sido segmentado en múltiples contextos delimitados (Bounded Contexts) independientes, tales como Workspace, Identity & Profile y Discovery, identificando también un núcleo de elementos compartidos (Shared) que conecta los diferentes módulos para mantener la integridad del sistema.</em>
+    <em>Figura 75. En la imagen tenemos la representación estratégica de la arquitectura bajo los principios de Domain-Driven Design (DDD). Se evidencia cómo el modelo de dominio global ha sido segmentado en múltiples contextos delimitados (Bounded Contexts) independientes, tales como Workspace, Identity & Profile y Discovery, identificando también un núcleo de elementos compartidos (Shared) que conecta los diferentes módulos para mantener la integridad del sistema.</em>
   </figcaption>
 </figure>
 <br>
@@ -2348,7 +2341,7 @@ Acá se presenta la base de datos de nuestro proyecto con las reglas de normaliz
 <p align="center">
   <img src="public/assets/images-doc/database.png" alt="Database Entity Relationship Diagram" width="1000">
   <br>
- <em>Figura 103. Diagrama de Base de Datos Relacional por Bounded Contexts - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
+ <em>Figura 76. Diagrama de Base de Datos Relacional por Bounded Contexts - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
 </p>
 
 En síntesis, el diagrama relacional evidencia una estructura de base de datos sólida y coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Este diseño no solo respalda eficientemente las operaciones del sistema, sino que también facilita su escalabilidad y mantenimiento a largo plazo.
@@ -2401,7 +2394,9 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 <p align="center">
   <img src="public/assets/images-doc/repos.png" alt="Database Entity Relationship Diagram" width="1000">
   <br>
-  <em>En esta figura se observa el panel principal de organización del proyecto en GitHub, evidenciando una arquitectura modular basada en repositorios independientes. Se muestran los distintos componentes del sistema, incluyendo la Landing Page para la presentación del producto, el Frontend Web Application para la interacción entre estudiantes y profesores, el Web Services (Backend API) encargado de la lógica del sistema, el Demo Repository como entorno de demostración del funcionamiento general, y el repositorio de Acceptance Tests donde se definen las pruebas de validación del sistema mediante archivos en formato Gherkin.</em>
+  <em>Figura 77. Panel de los repositorios de la organizacion del proyecto SkillSwap
+  
+  En esta figura se observa el panel principal de organización del proyecto en GitHub, evidenciando una arquitectura modular basada en repositorios independientes. Se muestran los distintos componentes del sistema, incluyendo la Landing Page para la presentación del producto, el Frontend Web Application para la interacción entre estudiantes y profesores, el Web Services (Backend API) encargado de la lógica del sistema, el Demo Repository como entorno de demostración del funcionamiento general, y el repositorio de Acceptance Tests donde se definen las pruebas de validación del sistema mediante archivos en formato Gherkin.</em>
 </p>
 
 #### Implementación GitFlow
@@ -2533,6 +2528,7 @@ Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos
   <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
   <figcaption style="margin-top: 10px;">
   <br>
+
     Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.
   </figcaption>
 </figure>
@@ -2573,6 +2569,8 @@ Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos
   </figcaption>
 </figure>
 
+<em>Figura 78. Proceso de Deploy de la Landing Page</em>
+
 
 ---
 
@@ -2584,12 +2582,13 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
+  <em>Figura 79. Ramas del repositorio de la Landing Page</em>
   <figcaption style="margin-top: 10px;">
     En esta imagen podemos ver algunas de las ramas o branches que cada uno de los integrantes creó y se irá creando a medida que continúe el proyecto.
   </figcaption>
 </figure>
 
-<br><br>
+<br>
 
 <p>
   Estos son algunos de los commits realizados por los integrantes en sus ramas:
@@ -2600,6 +2599,7 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
+    <em>Figura 80. Ramas del repositorio de la Landing Page</em>
   <figcaption style="margin-top: 10px;">
     En estas imágenes se aprecia el contraste entre dos formas de gestionar commits en GitHub: por un lado, un historial desordenado con mensajes genéricos y poco informativos, lo que dificulta entender los cambios realizados; y por otro, un historial organizado que utiliza buenas prácticas como Conventional Commits, con descripciones claras y específicas que facilitan el seguimiento y comprensión del desarrollo del proyecto.
   </figcaption>
@@ -2609,6 +2609,8 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
+    <em>Figura 81. Grafico de volumen de commits en el repositorio</em>
+
   <figcaption style="margin-top: 10px;">
     El gráfico estadístico detalla el volumen de commits realizados en el repositorio del proyecto SkillSwap durante el último año. Se evidencia un pico de productividad técnico significativo durante el mes de abril, superando las 40 integraciones semanales. Esta métrica refleja la fase de codificación intensiva o sprint principal, correspondiente a la implementación y consolidación de las funcionalidades core del sistema.
   </figcaption>
@@ -2618,6 +2620,7 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
+      <em>Figura 82. Network Graph GitFlow</em>
   <figcaption style="margin-top: 10px;">
     El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas. Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
   </figcaption>
@@ -3147,6 +3150,11 @@ Para las siguientes iteraciones del proyecto, se recomienda continuar con el des
  
 
 ---
+## Anexo B. Videos de Exposiciones
+
+| Entrega | Características del video | Enlace del video |
+| :--- | :--- | :--- |
+| **AV1** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av1 <br> **Duración:** 24:22 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAxi_jri4LRSqytkMsuKWmjAVeU1rGw0gq9kwcWbMRQooI?e=naWYlc |
 
 ## Anexo C
 
