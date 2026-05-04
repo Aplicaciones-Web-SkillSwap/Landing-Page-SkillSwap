@@ -60,8 +60,7 @@
 
 En esta sección se indica el URL del repositorio utilizado para la elaboración colaborativa del Informe de Trabajo Final, así como las evidencias de participación de cada integrante del equipo durante el desarrollo de la entrega AV1.
 
-**URL del repositorio del Project Report (GitHub):**
-[https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git]
+**URL del repositorio del Project Report (GitHub):** https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git
 
 ---
 
@@ -520,7 +519,7 @@ En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San 
   <em>Figura 5. YouTube: Entrevista 2: Estudiante-Aprendiz | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](#) *(https://www.youtube.com/watch?v=Ci4k50FULHE)*
+* **URL:** https://www.youtube.com/watch?v=Ci4k50FULHE
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 25 segundos
 
@@ -541,7 +540,7 @@ En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en 
   Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#) *(https://www.youtube.com/watch?v=RvON7FjKH8g)*
+* **URL:** https://www.youtube.com/watch?v=RvON7FjKH8g
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 17 segundos
 
@@ -564,7 +563,7 @@ En esta tercera entrevista Stefanie estudia Negocios Internacionales en la Unive
   Nota: En esta figura se aprecia a la primera persona entrevista de nuestro segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** [https://www.youtube.com/watch?v=fMeHUnvO4rA](https://www.youtube.com/watch?v=fMeHUnvO4rA)
+* **URL:** https://www.youtube.com/watch?v=fMeHUnvO4rA
 * **Inicio:** 0:00
 * **Duración:** 6 minutos con 32 segundos
 
@@ -583,7 +582,7 @@ En esta entrevista, Lucero Campos cursa el octavo ciclo en la Universidad César
   <em>Figura 8. YouTube: Entrevista 2: Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#) *(https://www.youtube.com/watch?v=zFAWYnoZSzU)*
+* **URL:** https://www.youtube.com/watch?v=zFAWYnoZSzU
 * **Inicio:** 0:12
 * **Duración:** 10 minutos con 28 segundos
 
@@ -1325,7 +1324,7 @@ El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del 
   <em>Figura 27. Product Backlog - Elaboración propia. Nota: Esta figura muestra la tabla realizada por el grupo para ordenar el product backlog del proyecto.</em>
 </p>
 
-url: [https://trello.com/invite/b/68e353c594f09e671b636f51/ATTIb5441351e50cdc8914cef6195966155d23769D30/product-backlog]
+url: https://trello.com/invite/b/68e353c594f09e671b636f51/ATTIb5441351e50cdc8914cef6195966155d23769D30/product-backlog
 
 <br>
 
@@ -2620,6 +2619,7 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
+  <br>
       <em>Figura 82. Network Graph GitFlow</em>
   <figcaption style="margin-top: 10px;">
     El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas. Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
@@ -2630,7 +2630,7 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 En conjunto, los gráficos y evidencias presentadas reflejan un proceso de desarrollo activo, organizado y alineado con buenas prácticas. El alto volumen de commits durante el mes de abril demuestra una fase intensiva de implementación, mientras que el uso de Gitflow evidencia una estructura de trabajo clara que facilita la integración y el trabajo colaborativo. Asimismo, la comparación entre historiales de commits resalta la importancia de emplear convenciones adecuadas para mejorar la trazabilidad del proyecto. Finalmente, la gestión de ramas y los commits individuales de los integrantes muestran una participación distribuida y coordinada, contribuyendo a un desarrollo más ordenado, escalable y mantenible del sistema.
 <br>
 
-Enlace: [https://github.com/Aplicaciones-Web-SkillSwap]
+Enlace: https://github.com/Aplicaciones-Web-SkillSwap
 
 ---
 
@@ -2689,41 +2689,34 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
   <em>Aquí se logra observar el seguimiento del Sprint 1 realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
 </p>
 
-**Enlace del Trello:** [Sprint 1 - Board](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1)
+**Enlace del Trello-Sprint 1:** https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1
 
 
 | User Story ID | Título | Description (Task) | Estimation | Assigned To | Status |
 | :---: | :--- | :--- | :---: | :---: | :---: |
-| **US31** | Pantalla de inicio de la plataforma | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| **US31** | Platform home screen | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
 | | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **US32** | Visualización de la pantalla Sobre nosotros | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| **US32** | View the About Us screen | Implementación de la estructura en HTML | 2 hr | David | DONE |
 | | | Implementación de diseño en CSS | 1 hr | David | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **US33** | Animaciones y microinteracciones | Implementación de efectos hover en botones con CSS | 1 hr | Alexandra | DONE |
+| **US33** | Animations and micro-interactions | Implementación de efectos hover en botones con CSS | 1 hr | Alexandra | DONE |
 | | | Implementación de animaciones en tarjetas con CSS | 1 hr | Alexandra | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **US35** | Cambio de idioma ES/EN en la landing page | Implementación del selector de idioma en HTML | 1 hr | Alexandra | DONE |
+| **US35** | Language change (ES / EN) on the Landing Page | Implementación del selector de idioma en HTML | 1 hr | Alexandra | DONE |
 | | | Implementación del diccionario de traducciones en JS | 2 hr | Alexandra | DONE |
 | | | Implementación de persistencia en LocalStorage | 1 hr | Alexandra | DONE |
-| **US36** | Visualizar sección de Alianzas | Implementación de la estructura en HTML | 2 hr | Sebasthian | DONE |
+| **US36** | View Alliances section | Implementación de la estructura en HTML | 2 hr | Sebasthian | DONE |
 | | | Implementación del grid de logos universitarios en CSS | 1 hr | Sebasthian | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **US37** | Visualizar sección Sobre Nosotros y Proyección Tecnológica | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| **US37** | View About Us section and Technological Projection | Implementación de la estructura en HTML | 2 hr | David | DONE |
 | | | Implementación de diseño en CSS | 1 hr | David | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **US38** | Visualizar sección de Soluciones y Funcionalidades | Implementación de la estructura en HTML | 2 hr | Sebasthian | DONE |
+| **US38** | View Solutions and Features section | Implementación de la estructura en HTML | 2 hr | Sebasthian | DONE |
 | | | Implementación de diseño en CSS | 1 hr | Sebasthian | DONE |
 | | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **US01** | Registro validado con correo institucional | Implementación del formulario de registro en HTML | 2 hr | Luis | DONE |
-| | | Implementación de diseño del formulario en CSS | 1 hr | Luis | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **US02** | Inicio de sesión con acceso según rol | Implementación del formulario de login en HTML | 2 hr | Luis | DONE |
-| | | Implementación de diseño del formulario en CSS | 1 hr | Luis | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Sebasthian | DONE |
-| **US39** | Recuperación de contraseña | Implementación de la pantalla de recuperación en HTML | 2 hr | Luis | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Luis | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+
+
 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
@@ -2822,7 +2815,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
   </a>
   <figcaption style="margin-top: 10px;">
     <br>
-    <em>Acá se presenta el video con todas las funcionalidades del sprint 1 explicadas.</em>
+    <em>Url: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</em>
   </figcaption>
 </figure>
 <br>
