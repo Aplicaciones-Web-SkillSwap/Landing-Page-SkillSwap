@@ -243,128 +243,21 @@ body {
   font-size: var(--h2-font-size);
   font-weight: 700;
   color: var(--primary-color);
-<<<<<<< HEAD
-=======
   margin-bottom: 32px;
->>>>>>> origin/develop
 }
 
 /* Línea decorativa debajo del título */
 .titulo-decorador {
-<<<<<<< HEAD
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-=======
   width: 60px;
   height: 4px;
   border-radius: 2px;
   justify-self: center;
->>>>>>> origin/develop
   background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
 }
 
 /* ═══════════════════════════════════════════════════════════════
     SECCIÓN LOGIN
 ═══════════════════════════════════════════════════════════════ */
-<<<<<<< HEAD
-.seccion-registro-cuenta, .seccion-inicio-sesion
-{
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    min-height: calc(100vh - var(--footer-height));
-}
-
-.formulario-registro, .formulario-inicio-sesion
-{
-    margin: 20px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px; 
-}
-
-.formulario-registro-elemento, .formulario-inicio-sesion-elemento
-{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0px;
-    align-items: center;
-    max-width: 400px;
-    width: 100%;
-}
-
-.formulario-registro-elemento label, .formulario-inicio-sesion-elemento label
-{
-    font-weight: 500;
-    padding: 5px;
-    width: 100%;
-}
-
-.formulario-registro-elemento:last-child, .formulario-inicio-sesion-elemento:last-child 
-{
-    display: flex;
-    text-align: center; 
-}
-
-.formulario-registro-elemento label a, .formulario-inicio-sesion-elemento label a
-{
-    color: var(--primary-color);
-    text-align: center;
-}
-
-.formulario-registro-elemento input, .formulario-inicio-sesion-elemento input
-{
-    border-radius: 9999px;
-    padding: 5px 10px;
-    height: 40px;
-    width: 100%;
-    border: 1px solid var(--border-color);
-}
-
-.formulario-registro-elemento input[type=submit], .formulario-inicio-sesion-elemento input[type=submit]
-{
-   background-color: var(--primary-color);
-   border: 0px;
-   color: var(--white-color);
-   cursor: pointer;
-}
-
-.seccion-footer
-{
-  background-color: #193b69;
-  color: var(--white-color);
-  text-align: center;
-  padding: 20px;
-  margin-top: 50px;   
-}
-
-.seccion-footer p, a
-{
-  margin: 0 auto;
-    color: var(--white-color);
-    text-decoration: none;
-}
-
-.btn-iniciarsesion,
-.btn-registrase
-{
-  /* Añadimos una transición suave para los efectos */
-  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.btn-iniciarsesion:hover,
-.btn-registrase:hover
-{
-  transform: scale(1.05); /* Zoom botón ligeramente */
-  filter: brightness(110%); /* el brillo */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* sombra sutil */
-}
-=======
 #inicio-sesion {
   display: flex;
   justify-content: center;
@@ -501,7 +394,6 @@ footer {
   transition: color var(--transition), border-color var(--transition);
 }
 .terminos-condiciones:hover { color: var(--secondary-color); border-color: var(--secondary-color); }
->>>>>>> origin/develop
 
 
 /* Tablets y pantallas medianas */
