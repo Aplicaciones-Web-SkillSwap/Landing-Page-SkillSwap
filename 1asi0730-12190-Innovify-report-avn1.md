@@ -3238,68 +3238,62 @@ A continuación, se documentan los principales recursos (endpoints) consumidos p
 
 
 
-#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
-Durante este Sprint, el despliegue del proyecto SkillSwap se centró en la publicación del frontend mediante Firebase Hosting y la configuración de una Fake API global utilizando My JSON Server. Estas acciones permitieron que el equipo contara con un entorno de producción real y persistente para las revisiones de software.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Las actividades clave incluyeron:
+Durante este Sprint, el despliegue de la plataforma SkillSwap se centró en la publicación del Frontend mediante **Firebase Hosting** y la configuración de una Fake API global utilizando **My JSON Server**. Estas acciones permitieron que el equipo contara con un entorno de producción en la nube (Cloud) real y persistente para las revisiones de software.
 
-- Configuración de Environments: Sincronización del serverBasePath para apuntar al servidor REST remoto.
+Las actividades clave realizadas para el despliegue fueron:
 
-- Build de Producción: Generación de artefactos optimizados mediante Angular CLI.
+* **Configuración de Entornos (Environment Configuration):** Sincronización de la variable `serverBasePath` para apuntar al servidor REST remoto, asegurando que la aplicación consuma datos en vivo.
+* **Compilación de Producción (Build):** Generación de artefactos optimizados para producción mediante el uso de **Vite** y gestores de paquetes, garantizando un rendimiento eficiente del sitio.
+* **Alojamiento en Firebase (Hosting):** Inicialización y despliegue del directorio de distribución (`dist`) en la infraestructura de Google, asegurando el soporte nativo para el enrutamiento de la Single-Page Application (SPA).
 
-- Hosting en Firebase: Inicialización y despliegue del directorio dist en la infraestructura de Google, asegurando el soporte para una Single-Page Application (SPA)
-
-<br>
-
-La implementación desplegada contiene las vistas correspondientes a Workspace, Discovery, Learning, Assessment, Moderation y Reputation, todas desarrolladas utilizando componentes frontend y datos simulados mediante Fake API.
+La implementación desplegada contiene las vistas correspondientes a Workspace, Discovery, Learning, Assessment, Moderation y Reputation, integradas con datos simulados que validan la experiencia de usuario final.
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/evidencia-db-sprin2.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/evidencia-db-sprin2.png" alt="Evidencia Fake API" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Estructura del archivo db.json en el repositorio de GitHub y su visualización exitosa en el navegador a través de My JSON Server.</em>
+    <em>Figura. Estructura del archivo db.json en el repositorio de GitHub y su visualización exitosa en el navegador a través de My JSON Server para el servicio de datos simulados.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/evidencia-enviroment.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/evidencia-enviroment.png" alt="Configuración de Entorno" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Configuración del archivo environment.ts, donde se aprecia la nueva URL base apuntando al servidor de datos simulados.</em>
+    <em>Figura. Configuración del archivo de entorno donde se define la URL base (Base URL) apuntando al servidor de producción de la Fake API.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/deploy-firebase-worksapce.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/deploy-firebase-worksapce.png" alt="Consola Firebase" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura.Consola de Firebase Hosting, mostrando el historial de despliegues exitosos y la URL activa (.web.app) generada para el proyecto.</em>
+    <em>Figura. Consola de Firebase Hosting donde se evidencia el historial de despliegues (Deploys) exitosos y la URL activa con certificado SSL para el proyecto.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/despliegue-final-firebase.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/despliegue-final-firebase.png" alt="Interfaz Desplegada" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Interfaz de la página principal de SkillSwap renderizada desde el dominio de Firebase, confirmando la integración total del frontend con la API simulada.</em>
+    <em>Figura. Interfaz de la página principal de SkillSwap renderizada desde el dominio de producción en Firebase, confirmando la disponibilidad del sistema en la nube.</em>
   </figcaption>
 </figure>
 
 <br>
-En conjunto, estas evidencias demuestran la disponibilidad del frontend de SkillSwap en un entorno de hosting profesional. Asimismo, reflejan la aplicación de buenas prácticas en el manejo de ambientes de despliegue y la organización colaborativa del proyecto bajo estándares de ingeniería de software.
-
+En conjunto, estas evidencias demuestran la disponibilidad del frontend de SkillSwap en una plataforma Cloud profesional. Asimismo, reflejan la aplicación de buenas prácticas en el manejo de despliegue continuo y la organización colaborativa bajo estándares de ingeniería de software.
 
 <br>
 
-**Enlaces de la página web (Sprint 2):** 
+**Enlace del Frontend desplegado (Sprint 2):** [](#)
 
-
-
-**Enlace del repositorio de las db de los proyectos:** 
+**Enlace del repositorio de datos simulados (Fake API):** [](#)
 
 ---
 
