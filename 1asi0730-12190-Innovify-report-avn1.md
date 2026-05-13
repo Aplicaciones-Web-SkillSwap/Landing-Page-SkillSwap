@@ -3000,13 +3000,7 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 
 *(Tabla 22.  Tabla de  Sprint Planning 2  - Elaboración propia.)*
 
-
-<figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/reu-sprint2.png" alt="Evidencias UI Sprint 2" width="800">
-  <figcaption style="margin-top: 10px;">
-    <em>Figura. Se observa la reunión del grupo.</em>
-  </figcaption>
-</figure>
+<br>
 
 ---
 
@@ -3230,11 +3224,11 @@ A continuación, se documentan los principales recursos (endpoints) consumidos p
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example | Documentation Link |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `/sessions` | Obtener historial de tutorías | GET | `https://my-json-server.com/[user]/db/sessions` | None | `[{"id":1, "course":"Física", "status":"Done"}]` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
-| `/tutors` | Listar tutores disponibles | GET | `https://my-json-server.com/[user]/db/tutors` | `?skills_like=calculo` | `[{"id":10, "name":"Victor", "rating":4.5}]` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
-| `/quizzes` | Recuperar evaluaciones | GET | `https://my-json-server.com/[user]/db/quizzes` | `?courseId=1` | `[{"id":5, "title":"Quiz Cinemática"}]` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
-| `/disputes` | Reportar o listar disputas | POST / GET | `https://my-json-server.com/[user]/db/disputes` | Payload: `{userId, reason}` | `{"id":101, "status":"Pending"}` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
-| `/reviews` | Consultar reputación | GET | `https://my-json-server.com/[user]/db/reviews` | `?tutorId=5` | `[{"comment":"Excelente", "stars":5}]` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
+| `/sessions` | Obtener historial de tutorías | GET | `https://my-json-server.com/[user]/db/sessions` | None | `[{"id":1, "course":"Física", "status":"Done"}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
+| `/tutors` | Listar tutores disponibles | GET | `https://my-json-server.com/[user]/db/tutors` | `?skills_like=calculo` | `[{"id":10, "name":"Victor", "rating":4.5}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
+| `/quizzes` | Recuperar evaluaciones | GET | `https://my-json-server.com/[user]/db/quizzes` | `?courseId=1` | `[{"id":5, "title":"Quiz Cinemática"}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
+| `/disputes` | Reportar o listar disputas | POST / GET | `https://my-json-server.com/[user]/db/disputes` | Payload: `{userId, reason}` | `{"id":101, "status":"Pending"}` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
+| `/reviews` | Consultar reputación | GET | `https://my-json-server.com/[user]/db/reviews` | `?tutorId=5` | `[{"comment":"Excelente", "stars":5}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
 
 
 
@@ -3293,7 +3287,7 @@ En conjunto, estas evidencias demuestran la disponibilidad del frontend de Skill
 
 **Enlace del Frontend desplegado (Sprint 2):** [](#)
 
-**Enlace del repositorio de datos simulados (Fake API):** [](#)
+**Enlace del repositorio de datos simulados (Fake API):** https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git 
 
 ---
 
