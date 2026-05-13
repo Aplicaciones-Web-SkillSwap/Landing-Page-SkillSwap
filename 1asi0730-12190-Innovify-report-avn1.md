@@ -1019,7 +1019,7 @@ El Big Picture EventStorming nos permite explorar el dominio de nuestra platafor
 ### Fase 0
 
 <br>
-El siguiente apartado presenta una introducción a los requerimientos funcionales de la plataforma, destacando su estructura integral y la interrelación de sus componentes principales. Se describen los elementos clave que permiten su funcionamiento, incluyendo la gestión financiera, la resolución de conflictos, la generación de indicadores de desempeño y el módulo de aprendizaje. Asimismo, se abordan las funcionalidades de comunicación y el ciclo de vida del usuario, desde su registro hasta la interacción con tutores. A continuación, se detallarán los aspectos fundamentales que conforman esta solución robusta y escalable.
+La sección presenta presenta una introducción a los requerimientos funcionales de la plataforma, destacando su estructura integral y la interrelación de sus componentes principales. Se describen los elementos clave que permiten su funcionamiento, incluyendo la gestión financiera, la resolución de conflictos, la generación de indicadores de desempeño y el módulo de aprendizaje. Asimismo, se abordan las funcionalidades de comunicación y el ciclo de vida del usuario, desde su registro hasta la interacción con tutores. A continuación, se detallarán los aspectos fundamentales que conforman esta solución robusta y escalable.
 
 
 <figure style="text-align: center; margin-bottom: 40px;">
@@ -1061,7 +1061,7 @@ En conjunto, los elementos presentados evidencian una definición integral y est
 
 ### Etapa 1 y 2
 <br>
-El presente apartado introduce una visión general de la arquitectura operativa de la plataforma, destacando la integración y coherencia de sus distintos módulos. Se abordan los principales procesos que permiten su funcionamiento, desde la gestión administrativa y financiera hasta los mecanismos de aprendizaje, comunicación y emparejamiento de usuarios. Asimismo, se resalta la importancia de contar con sistemas robustos de evaluación, mensajería en tiempo real y control de identidad, los cuales garantizan una experiencia segura y eficiente. A continuación, se presentarán los elementos clave que conforman esta solución integral.
+La presente sección introduce introduce una visión general de la arquitectura operativa de la plataforma, destacando la integración y coherencia de sus distintos módulos. Se abordan los principales procesos que permiten su funcionamiento, desde la gestión administrativa y financiera hasta los mecanismos de aprendizaje, comunicación y emparejamiento de usuarios. Asimismo, se resalta la importancia de contar con sistemas robustos de evaluación, mensajería en tiempo real y control de identidad, los cuales garantizan una experiencia segura y eficiente. A continuación, se presentarán los elementos clave que conforman esta solución integral.
 
 
 <figure style="text-align: center; margin-bottom: 40px;">
@@ -2435,7 +2435,7 @@ Los tipos de commits serán:
 * `docs(cambio)` para editar la documentación.
 * `style(funciones o lugar)` para cambios en el estilo sin afectar la lógica principal.
 * `refactor(lugar)` para cambios en la estructura del código sin afectar la funcionalidad.
-* `test(objeto)` para testear cambios.
+* `test(objeto)` para probar cambios.
 * `chore(lugar)` para tareas menores de mantenimiento.
 
 #### Flujo de trabajo:
@@ -2517,9 +2517,9 @@ Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas pa
 ```
 ### 5.1.4. Software Deployment Configuration
 
-En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra landing page directamente desde nuestro repositorio utilizando **GitHub Pages**.
+En esta sección explicaremos cómo realizamos el despliegue directamente desde nuestro repositorio utilizando **GitHub Pages**.
 
-**Deploy con GitHub Pages:**
+**Despliegue con GitHub Pages:**
 
 1. Primero accederemos al repositorio de la Landing Page ("SkillSwap-LandingPage") y nos dirigiremos al menú de ajustes (**Settings**) ubicado en el menú horizontal de la parte superior de la pantalla.
 2. Luego, dentro de los ajustes, ubicamos la opción **Pages** en el menú vertical de la parte izquierda de la pantalla.
@@ -2629,7 +2629,7 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
   <br>
       <em>Figura 82. Network Graph GitFlow</em>
   <figcaption style="margin-top: 10px;">
-    El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas. Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
+    El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la flujo de trabajo. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas. Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
   </figcaption>
 </figure>
 
@@ -2728,7 +2728,7 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-El equipo colaboró de forma coordinada durante el desarrollo del proyecto. Cada integrante recibió tareas específicas para implementar, siguiendo la metodología Gitflow. Luego, cada miembro subió sus avances al repositorio de GitHub para su revisión y posterior integración en la rama `develop`.
+El equipo colaboró de forma coordinada durante el desarrollo del proyecto. Cada integrante recibió tareas específicas para implementar, siguiendo el flujo de trabajo. Luego, cada miembro subió sus avances al repositorio de GitHub para su revisión y posterior integración en la rama `develop`.
 
 Tras completarse todas las tareas, el propietario del repositorio efectuó la fusión de `develop` con la rama `main`, lo que permitió habilitar la visualización de la landing page a través de GitHub Pages.
 
@@ -3238,73 +3238,67 @@ A continuación, se documentan los principales recursos (endpoints) consumidos p
 
 
 
-#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
-Durante este Sprint, el despliegue del proyecto SkillSwap se centró en la publicación del frontend mediante Firebase Hosting y la configuración de una Fake API global utilizando My JSON Server. Estas acciones permitieron que el equipo contara con un entorno de producción real y persistente para las revisiones de software.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Las actividades clave incluyeron:
+Durante este Sprint, el despliegue de la plataforma SkillSwap se centró en la publicación del Frontend mediante **Firebase Hosting** y la configuración de una Fake API global utilizando **My JSON Server**. Estas acciones permitieron que el equipo contara con un entorno de producción en la nube (Cloud) real y persistente para las revisiones de software.
 
-- Configuración de Environments: Sincronización del serverBasePath para apuntar al servidor REST remoto.
+Las actividades clave realizadas para el despliegue fueron:
 
-- Build de Producción: Generación de artefactos optimizados mediante Angular CLI.
+* **Configuración de Entornos (Environment Configuration):** Sincronización de la variable `serverBasePath` para apuntar al servidor REST remoto, asegurando que la aplicación consuma datos en vivo.
+* **Compilación de Producción (Build):** Generación de artefactos optimizados para producción mediante el uso de **Vite** y gestores de paquetes, garantizando un rendimiento eficiente del sitio.
+* **Alojamiento en Firebase (Hosting):** Inicialización y despliegue del directorio de distribución (`dist`) en la infraestructura de Google, asegurando el soporte nativo para el enrutamiento de la Single-Page Application (SPA).
 
-- Hosting en Firebase: Inicialización y despliegue del directorio dist en la infraestructura de Google, asegurando el soporte para una Single-Page Application (SPA)
-
-<br>
-
-La implementación desplegada contiene las vistas correspondientes a Workspace, Discovery, Learning, Assessment, Moderation y Reputation, todas desarrolladas utilizando componentes frontend y datos simulados mediante Fake API.
+La implementación desplegada contiene las vistas correspondientes a Workspace, Discovery, Learning, Assessment, Moderation y Reputation, integradas con datos simulados que validan la experiencia de usuario final.
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/evidencia-db-sprin2.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/evidencia-db-sprin2.png" alt="Evidencia Fake API" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Estructura del archivo db.json en el repositorio de GitHub y su visualización exitosa en el navegador a través de My JSON Server.</em>
+    <em>Figura. Estructura del archivo db.json en el repositorio de GitHub y su visualización exitosa en el navegador a través de My JSON Server para el servicio de datos simulados.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/evidencia-enviroment.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/evidencia-enviroment.png" alt="Configuración de Entorno" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Configuración del archivo environment.ts, donde se aprecia la nueva URL base apuntando al servidor de datos simulados.</em>
+    <em>Figura. Configuración del archivo de entorno donde se define la URL base (Base URL) apuntando al servidor de producción de la Fake API.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/deploy-firebase-worksapce.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/deploy-firebase-worksapce.png" alt="Consola Firebase" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura.Consola de Firebase Hosting, mostrando el historial de despliegues exitosos y la URL activa (.web.app) generada para el proyecto.</em>
+    <em>Figura. Consola de Firebase Hosting donde se evidencia el historial de despliegues (Deploys) exitosos y la URL activa con certificado SSL para el proyecto.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/despliegue-final-firebase.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/despliegue-final-firebase.png" alt="Interfaz Desplegada" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Interfaz de la página principal de SkillSwap renderizada desde el dominio de Firebase, confirmando la integración total del frontend con la API simulada.</em>
+    <em>Figura. Interfaz de la página principal de SkillSwap renderizada desde el dominio de producción en Firebase, confirmando la disponibilidad del sistema en la nube.</em>
   </figcaption>
 </figure>
 
 <br>
-En conjunto, estas evidencias demuestran la disponibilidad del frontend de SkillSwap en un entorno de hosting profesional. Asimismo, reflejan la aplicación de buenas prácticas en el manejo de ambientes de despliegue y la organización colaborativa del proyecto bajo estándares de ingeniería de software.
-
+En conjunto, estas evidencias demuestran la disponibilidad del frontend de SkillSwap en una plataforma Cloud profesional. Asimismo, reflejan la aplicación de buenas prácticas en el manejo de despliegue continuo y la organización colaborativa bajo estándares de ingeniería de software.
 
 <br>
 
-**Enlaces de la página web (Sprint 2):** 
+**Enlace del Frontend desplegado (Sprint 2):** [](#)
 
-
-
-**Enlace del repositorio de las db de los proyectos:** 
+**Enlace del repositorio de datos simulados (Fake API):** [](#)
 
 ---
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
-Durante este Sprint, el equipo concentró sus actividades en el desarrollo colaborativo del frontend de los módulos principales de SkillSwap. Para mantener un flujo de trabajo ordenado y minimizar conflictos durante la integración, se utilizó la metodología GitFlow junto con Conventional Commits.
+Durante este Sprint, el equipo concentró sus actividades en el desarrollo colaborativo del frontend de los módulos principales de SkillSwap. Para mantener un flujo de trabajo ordenado y minimizar conflictos durante la integración, se utilizó el flujo de trabajo junto con Conventional Commits.
 
 Cada integrante trabajó en ramas independientes de tipo feature/nombre-modulo, permitiendo desarrollar paralelamente componentes asociados a Workspace, Discovery, Learning, Assessment, Moderation y Reputation.
 
