@@ -2363,11 +2363,13 @@ Durante el desarrollo del proyecto se utilizó las siguientes herramientas de so
 | :--- | :--- | :---: | :--- | :--- |
 | **Canva** | Documentación y Presentaciones | SaaS | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [canva.com](https://www.canva.com/) |
 | **Figma** | UX/UI Design | SaaS | Diseño de la interfaz de usuario (wireframes, mockups y prototipos) para la Landing Page en versión web y móvil. | [figma.com](https://figma.com) |
-| **GitHub** | Control de versiones | SaaS | Repositorio del código fuente del Landing Page y servicios backend. | [github.com](https://github.com) |
+| **Firebase Hosting** | Software Deployment | SaaS | Plataforma de alojamiento utilizada para el despliegue continuo de la aplicación web (Frontend) durante el Sprint 2. | [firebase.google.com](https://firebase.google.com/) |
+| **GitHub** | Control de versiones | SaaS | Repositorio del código fuente de la Landing Page, Frontend y servicios backend. | [github.com](https://github.com) |
 | **Miro** | Requirements Management | SaaS | Elaboración colaborativa de User Story Mapping, escenarios As-Is/To-Be, diagramas C4 Model y flujos de usuario. | [miro.com](https://miro.com/) |
 | **Microsoft PowerPoint** | Documentación y Presentaciones | Local | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [microsoft.com](https://www.microsoft.com/en/microsoft-365/powerpoint) |
+| **My JSON Server** | Backend Mocking | SaaS | Herramienta utilizada para simular una Fake RESTful API y proveer datos simulados al frontend durante el Sprint 2. | [my-json-server.typicode.com](https://my-json-server.typicode.com/) |
 | **Trello** | Project Management | SaaS | Gestión ágil del proyecto, administración del Product Backlog, planificación de Sprints y asignación de tareas al equipo. | [trello.com](https://trello.com/) |
-| **Visual Studio Code** | Desarrollo Web | Local | Desarrollo y edición del código (HTML y CSS) para la Landing Page y los Acceptance Tests. | [code.visualstudio.com](https://code.visualstudio.com/download) |
+| **Visual Studio Code** | Desarrollo Web | Local | Desarrollo y edición del código (HTML, CSS, JS/TS) para la Landing Page, el Frontend y los Acceptance Tests. | [code.visualstudio.com](https://code.visualstudio.com/download) |
 | **Microsoft Word Online** | Software Documentation | SaaS | Redacción colaborativa del informe final del proyecto, especificación de requisitos y documentación técnica. | [office.com](https://www.office.com/) |
 
 ---
@@ -2375,6 +2377,8 @@ Durante el desarrollo del proyecto se utilizó las siguientes herramientas de so
 ### 5.1.2. Source Code Management
 
 Para administrar el código fuente del proyecto, el equipo empleará Git como sistema distribuido de control de versiones y GitHub como el entorno principal de colaboración. Esto permitirá conservar un registro detallado de todas las modificaciones, optimizar el trabajo en conjunto entre los miembros y garantizar la trazabilidad de cada versión del software.
+
+Durante el Sprint 2, la estrategia de gestión de ramas (GitFlow) evolucionó significativamente para soportar el desarrollo paralelo del frontend. Se crearon ramas de características (feature branches) derivadas de `develop` para cada *Bounded Context* visual (por ejemplo, `feature/workspace`, `feature/discovery`, `feature/learning`). Esto permitió a los miembros del equipo trabajar en componentes desacoplados sin generar conflictos, para luego integrarlos al entorno principal mediante *Pull Requests* debidamente estructurados y revisados.
 
 #### Repositorios GitHub
 
@@ -2386,8 +2390,11 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
   * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git](#)
 * **Demo_repository:** Repositorio de demostración del proyecto, utilizado para integrar o mostrar de forma simplificada el funcionamiento general del sistema.
   * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/demo-repository.git](#)
+* **db-SkillSwap:** Repositorio en el que se encuentran la base de datos en formato json
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git](#)
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
   * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](#)
+
 
 <br><br>
 <p align="center">
@@ -2756,53 +2763,63 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 
 ---
 
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 En este Sprint logramos construir y visualizar la principal puerta de entrada a nuestra plataforma. Se finalizó completamente la Landing Page, permitiendo a los usuarios navegar por las secciones de Soluciones, Proyección Tecnológica y Alianzas, además de alternar fluidamente entre inglés y español.
 
-Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e Inicio de Sesión, validando que el flujo de autenticación responda correctamente.
+Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e Inicio de Sesión, validando que el flujo de autenticación responda correctamente. Se aplicaron los principios de diseño adaptable (Responsive Web Design) para asegurar el correcto despliegue en múltiples dispositivos.
 
 ### Sprint 1:
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1 - Hero y CTA" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
+    <em>Figura. Vista principal del Landing Page desplegado. Se evidencia la explicación del propósito de la plataforma complementada con un diseño limpio y el botón principal de Call-To-Action (CTA) diseñado para convencer a los visitantes de registrarse en la aplicación.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/sprint1-ui-evidence-mobile.png" alt="Evidencias UI Sprint 1 - Diseño Adaptable" width="400">
   <figcaption style="margin-top: 10px;">
-    <em>Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
+    <em>Figura. Evidencia de la aplicación de los principios de Responsive Web Design. La interfaz de la Landing Page se adapta correctamente a dispositivos móviles, reorganizando los elementos en una sola columna y habilitando el menú de navegación compacto.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/sprint1-ui-evidence-footer.png" alt="Evidencias UI Sprint 1 - Redes y Contacto" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
+    <em>Figura. Sección inferior (Footer) de la Landing Page. Se evidencia la inclusión de la información de contacto oficial de Innovify y los vínculos de acceso a nuestras cuentas en redes sociales (Social Media Accounts).</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1 - Sobre Nosotros" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+    <em>Figura. Interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el modelo de negocio, las características y los beneficios del producto a los nuevos visitantes.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1 - Login" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>La figura muestra la sección de equipo del landing page de SkillSwap, con fotos, nombres y roles técnicos de cada integrante, permitiendo visualizar la estructura y composición del equipo de ingeniería.</em>
+    <em>Figura. Diseño del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales institucionales.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1 - Equipo" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Sección de equipo del Landing Page de SkillSwap, con fotos, nombres y roles técnicos de cada integrante de ingeniería.</em>
   </figcaption>
 </figure>
 
@@ -2815,11 +2832,11 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
   </a>
   <figcaption style="margin-top: 10px;">
     <br>
-    <em>Url: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</em>
+    <em>Enlace al video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx</em>
   </figcaption>
 </figure>
 <br>
-En conjunto, los elementos presentados evidencian la construcción de una base sólida a nivel de interfaz durante el primer sprint, enfocada en el diseño estático y la validación de la experiencia de usuario. Desde la estructura del landing page hasta los formularios de autenticación y registro, se establece una visión clara de la interacción del usuario con la plataforma. Asimismo, la inclusión de la sección de equipo y el video demostrativo permite contextualizar tanto la organización del proyecto como el alcance funcional alcanzado, sentando las bases para futuras integraciones y desarrollo dinámico del sistema.
+En conjunto, los elementos presentados evidencian la construcción de una base sólida a nivel de interfaz durante el primer sprint, demostrando un producto desplegado que cumple con la adaptabilidad responsiva, los llamados a la acción (CTA) y la comunicación clara del propósito de la plataforma.
 <br>
 
 ---
@@ -3044,24 +3061,36 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 
 **Enlace del Trello:** https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-2 
 
-| Sprint #       | Sprint 2                                       |                      |                      |                                                |                        |                 |             |
-| :------------- | :--------------------------------------------- | :------------------- | :------------------- | :--------------------------------------------- | :--------------------: | :-------------- | :---------- |
-| **User Story** |                                                | **Work-Item / Task** |                      |                                                |                        |                 |             |
-| **Id**         | **Title**                                      | **Id**               | **Title**            | **Description**                                | **Estimation (Hours)** | **Assigned To** | **Status**  |
-| **US06**       | Apply filters to search results                | T02                  | Filter Components    | Development of filter components               |          2 hr          | David           | DONE                 |
-| **US08**       | Send tutoring reservation request              | T03                  | Reservation Form     | Form layout and modal creation                 |          2 hr          | Victor          | DONE                 |
-| **US09**       | Accept or reject reservation request           | T04                  | Action Buttons       | Accept and reject buttons UI                   |          1 hr          | Victor           | TO DO               |
-| **US10**       | Asynchronous internal chat for the reservation | T05                  | Chat Interface       | Internal asynchronous chat UI                  |          3 hr          | Victor          | IN PROGRESS          |
-| **US14**       | Create official Quiz                           | T06                  | Quiz Form            | Quiz creation form implementation              |          3 hr          | David          | DONE                  |
-| **US16**       | Solve interactive validation Quiz              | T07                  | Quiz Resolution UI   | Quiz solving interface                         |          3 hr          | David           | IN PROGRESS          |
-| **US17**       | Rate and leave a review for the tutor          | T08                  | Rating System UI     | Star rating component implementation           |          2 hr          | Sebas        | DONE                 |
-| **US18**       | Rate and leave a review for the tutor          | T08                  | Donation UI     | Star rating component implementation                |          2 hr          | Alexandra        | IN PROGRESS              |
-| **US19**       | Rate and leave a review for the tutor          | T08                  | Donation UI    | Star rating component implementation                 |          2 hr          | Alexandra        | IN PROGRESS              |
-| **US21**       | Cancel pending or scheduled reservation        | T09                  | Cancel Button UI     | Reservation cancellation interface             |          2 hr          | Victor          | IN PROGRESS          |
-| **US24**       | Report misconduct                              | T10                  | Report Form          | Misconduct report interface                    |          2 hr          | Luis          | DONE                   |
-| **US25**       | Review and resolve academic disputes           | T11                  | Moderation Table     | Dispute table and details view                 |          2 hr          | Luis           | IN PROGRESS           |
 
-
+| Sprint # | Sprint 2 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **US06** | Apply filters to search results | T01 | Filter UI Layout | Design and layout of the filter side panel. | 4 hr | David | DONE |
+| | | T02 | Filter Logic | Implement dynamic filtering component logic. | 5 hr | Victor | DONE |
+| | | T03 | Fake API Binding | Connect search filters to the mock data service. | 4 hr | Sebas | DONE |
+| **US08** | Send tutoring reservation request | T04 | Modal Design | Build request modal interface and styles. | 4 hr | Victor | DONE |
+| | | T05 | Form Validation | Implement input logic and validation for request data. | 4 hr | Alexandra | DONE |
+| **US09** | Accept or reject reservation request | T06 | Action Buttons UI | Layout and styling of accept/reject buttons. | 4 hr | Victor | TO DO |
+| | | T07 | State Update Logic | Implement state management to update reservation status. | 4 hr | Luis | TO DO |
+| **US10** | Asynchronous internal chat for the reservation | T08 | Chat Layout | Build messaging UI components and message bubbles. | 6 hr | Victor | IN PROGRESS |
+| | | T09 | Chat Component Logic | Implement message sending and receiving behavior. | 5 hr | David | IN PROGRESS |
+| **US14** | Create official Quiz | T10 | Quiz Form UI | Build interface for creating questions and multiple options. | 5 hr | David | DONE |
+| | | T11 | Save and Validation | Form validation and submission to Fake API. | 4 hr | Alexandra | DONE |
+| **US16** | Solve interactive validation Quiz | T12 | Resolution UI | Design interface to read and solve the quiz. | 4 hr | David | IN PROGRESS |
+| | | T13 | Grading Component | Implement automatic grading logic and score display. | 5 hr | Sebas | IN PROGRESS |
+| **US17** | Rate and leave a review for the tutor | T14 | Rating UI | Build star rating component and review text form. | 4 hr | Alexandra | DONE |
+| | | T15 | Review Submission | Handle form submission and mock data update. | 4 hr | Luis | DONE |
+| **US18** | Make a voluntary monetary donation | T16 | Donation Modal | Design payment entry interface and amount selection. | 4 hr | Sebas | IN PROGRESS |
+| | | T17 | Payment Mock | Simulate payment gateway processing flow. | 4 hr | Victor | IN PROGRESS |
+| **US19** | View Virtual Wallet and balance | T18 | Wallet Layout | Build dashboard structure for wallet metrics. | 4 hr | Sebas | IN PROGRESS |
+| | | T19 | Balance Calculation | Fetch and compute mock transactions to display balance. | 4 hr | David | IN PROGRESS |
+| **US21** | Cancel pending or scheduled reservation | T20 | Cancel UI | Add cancel buttons and confirmation dialog modal. | 4 hr | Victor | IN PROGRESS |
+| | | T21 | Status Logic | Implement component state change to "Cancelled". | 4 hr | Luis | IN PROGRESS |
+| **US24** | Report misconduct | T22 | Report Form UI | Build form structure for submitting misconduct details. | 4 hr | Luis | DONE |
+| | | T23 | Report Submission | Handle form data submission to moderation mock service. | 4 hr | Alexandra | DONE |
+| **US25** | Review and resolve academic disputes | T24 | Moderation Table | Build dynamic data grid for pending disputes. | 5 hr | Luis | IN PROGRESS |
+| | | T25 | Resolution Logic | Implement actions to resolve or dismiss tickets. | 5 hr | Sebas | IN PROGRESS |
 
 *(Tabla 24.  Tabla de  Sprint Backlog 2  - Elaboración propia.)*
 
@@ -3077,16 +3106,20 @@ El equipo trabajó principalmente en los módulos Workspace, Discovery, Learning
 
 Cada integrante participó activamente en el desarrollo de componentes específicos del frontend, mientras que la integración de cambios se realizó utilizando GitFlow y Conventional Commits para mantener trazabilidad, control de versiones y trabajo colaborativo organizado.
 
-| Repository                  | Branch                      | Commit Id                               | Commit Message                       | Commit Message Body                                                                  | Committed on (Date) |
-| :-------------------------- | :-------------------------- | :-------------------------------------- | :----------------------------------- | :----------------------------------------------------------------------------------- | :------------------ |
-| innovify/SkillSwap-Frontend | feature/workspace-sessions  | 3065dc3da029f6af5cb4c63f21dcde366d9364be| feat: implement sessions table       | Add files via upload| 11/05/2026          |
-| innovify/SkillSwap-Frontend | feature/workspace-messages  | c31fa295a0cca57e6b10e6233908f4acff34f22 | feat: add messages interface         | Created messaging interface with responsive layout and simulated conversations.      | 11/05/2026          |
-| innovify/SkillSwap-Frontend | feature/discovery-courses   | d81acbe6d66b1fef8c54e27f3a25cb17293a8e1 | feat: add discovery courses screen   | Implemented discovery module to browse available courses and tutors.                 | 11/05/2026          |
-| innovify/SkillSwap-Frontend | feature/learning-progress   | 83ba26e1774cacc0e3024dcf9b7b1ab22a9b881 | feat: build learning dashboard       | Added frontend structure for learning progress visualization.                        | 12/05/2026          |
-| innovify/SkillSwap-Frontend | feature/assessment-ui       | f3k8c5l92d889e598db9f204b8854bbfc64aa11 | feat: add assessment interface       | Implemented assessment attempt views and score visualization.                        | 12/05/2026          |
-| innovify/SkillSwap-Frontend | feature/moderation-disputes | 98dc22330d889e598db9f204b8854bbfc64ac55 | feat: add moderation dispute panel   | Developed moderation interface for dispute management using fake data.               | 12/05/2026          |
-| innovify/SkillSwap-Frontend | feature/reputation-review   | e44daa751bc9d0ce7fa061ca686bf355a05e442 | feat: build reputation review module | Created review and rating visualization module for tutors.                           | 12/05/2026          |
-| innovify/SkillSwap-Frontend | feature/frontend-polish     | af844cb30b25a4c7dad7c92ca92b6be0edf7aa3 | feat: improve responsive frontend    | Added responsive improvements and visual consistency across all modules.             | 12/05/2026          |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| SkillSwap-Frontend | feature/workspace-sessions | 3065dc3 | feat: init session table component | Create base structure for tutoring sessions table. | 11/05/2026 |
+| SkillSwap-Frontend | feature/workspace-sessions | 4176ed4 | style: enhance responsive table | Apply CSS grid for better mobile view of sessions. | 11/05/2026 |
+| SkillSwap-Frontend | feature/workspace-sessions | 5287fb5 | fix: resolve session status alignment | Corrected vertical alignment for status chips. | 11/05/2026 |
+| SkillSwap-Frontend | feature/discovery-courses | d81acbe | feat: implement course grid | Created the main discovery view for tutoring subjects. | 11/05/2026 |
+| SkillSwap-Frontend | feature/discovery-courses | d92bcde | feat: add course search filter | Integrated search bar logic to filter course cards. | 11/05/2026 |
+| SkillSwap-Frontend | feature/discovery-courses | e03cdef | refactor: optimize card image loading | Improved performance by lazy loading tutor images. | 12/05/2026 |
+| SkillSwap-Frontend | feature/assessment-ui | f3k8c5l | feat: create quiz resolution view | Implemented the UI for students to solve quizzes. | 12/05/2026 |
+| SkillSwap-Frontend | feature/assessment-ui | g4l9d6m | feat: add automatic grading logic | Calculated final score based on selected answers. | 12/05/2026 |
+| SkillSwap-Frontend | feature/assessment-ui | h5m0e7n | style: quiz modal polish | Added transitions and success animations for scores. | 12/05/2026 |
+| SkillSwap-Frontend | feature/moderation-disputes | 98dc223 | feat: build dispute report form | Form created for users to report misconduct. | 12/05/2026 |
+| SkillSwap-Frontend | feature/moderation-disputes | 09ed334 | feat: add admin dispute dashboard | Created table for coordinators to review tickets. | 12/05/2026 |
+| SkillSwap-Frontend | feature/moderation-disputes | 10fe445 | fix: validate report form inputs | Added required field checks before submission. | 12/05/2026 |
 
 
 *(Tabla 25.  Tabla de  Development Evidence for Sprint Review - Elaboración propia.)*
@@ -3191,15 +3224,18 @@ En conjunto, las evidencias presentadas reflejan la implementación de una base 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
-En esta sección se presentan los resultados relacionados con la documentación de servicios correspondiente al Sprint 2. Debido a que esta iteración estuvo enfocada exclusivamente en el desarrollo frontend y validación visual de los módulos funcionales del sistema, no se implementaron servicios RESTful reales ni integración con backend.
+Para este Sprint, se ha implementado y desplegado una **Fake RESTful API** utilizando la herramienta *My JSON Server*, la cual actúa como el backend provisional de la plataforma. Esta arquitectura permite al equipo de frontend realizar peticiones HTTP reales (GET, POST, DELETE) y validar la integridad de los datos simulados en los Bounded Contexts de Discovery, Workspace, Learning, Moderation y Reputation.
 
-Para representar el comportamiento dinámico de la plataforma, se utilizaron Fake APIs y estructuras de datos simuladas, permitiendo validar la navegación, interacción y experiencia de usuario en los módulos Workspace, Discovery, Learning, Assessment, Moderation y Reputation.
+A continuación, se documentan los principales recursos (endpoints) consumidos por las aplicaciones durante esta iteración:
 
-La integración de servicios reales y documentación OpenAPI será abordada en futuros Sprints, una vez finalizada la implementación visual y estructural del frontend.
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example | Documentation Link |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `/sessions` | Obtener historial de tutorías | GET | `https://my-json-server.com/[user]/db/sessions` | None | `[{"id":1, "course":"Física", "status":"Done"}]` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
+| `/tutors` | Listar tutores disponibles | GET | `https://my-json-server.com/[user]/db/tutors` | `?skills_like=calculo` | `[{"id":10, "name":"Victor", "rating":4.5}]` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
+| `/quizzes` | Recuperar evaluaciones | GET | `https://my-json-server.com/[user]/db/quizzes` | `?courseId=1` | `[{"id":5, "title":"Quiz Cinemática"}]` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
+| `/disputes` | Reportar o listar disputas | POST / GET | `https://my-json-server.com/[user]/db/disputes` | Payload: `{userId, reason}` | `{"id":101, "status":"Pending"}` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
+| `/reviews` | Consultar reputación | GET | `https://my-json-server.com/[user]/db/reviews` | `?tutorId=5` | `[{"comment":"Excelente", "stars":5}]` | [Link a db.json](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git) |
 
-| Endpoint | Action                                               | HTTP Verb | Call Syntax | Parameters | Response Example | Documentation Link |
-| :------- | :--------------------------------------------------- | :-------- | :---------- | :--------- | :--------------- | :----------------- |
-| N/A      | No se implementaron servicios RESTful en el Sprint 1 | N/A       | N/A         | N/A        | N/A              | N/A                |
 
 
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
