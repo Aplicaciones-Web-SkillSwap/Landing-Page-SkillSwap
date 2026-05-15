@@ -3247,7 +3247,8 @@ La implementación desplegada contiene las vistas correspondientes a Workspace, 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/evidencia-db-sprin2.png" alt="Evidencia Fake API" width="800">
+  <img src="public/assets/images-doc/evidencia1-db-sprin2.png" alt="Evidencia Fake API" width="800">
+  <img src="public/assets/images-doc/evidencia2-db-sprin2.png" alt="Evidencia Fake API" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura. Estructura del archivo db.json en el repositorio de GitHub y su visualización exitosa en el navegador a través de My JSON Server para el servicio de datos simulados.</em>
   </figcaption>
