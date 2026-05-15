@@ -3341,7 +3341,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint2-barras.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/PR3.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura 119. En la imagen tenemos el panel de estadísticas de los colaboradores, el cual detalla el volumen total de commits, así como las líneas de código agregadas (en verde) y eliminadas (en rojo) individualmente por cada miembro del equipo.</em>
   </figcaption>
@@ -3350,7 +3350,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint2-confirmando-pull.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/sprint2-overtime.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura. Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
   </figcaption>
@@ -3359,7 +3359,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint2-comparar-pull.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/sprint2-confirmando-pull.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura. En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
   </figcaption>
