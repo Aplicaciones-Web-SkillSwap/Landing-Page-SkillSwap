@@ -3175,7 +3175,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/evidencia-workspace-session.png" alt="Evidencias UI Sprint 2" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Se observa la página de session, especificamente el historial de esta.</em>
+    <em>Figura. Se observa la página de quizzes por parte del profesor.</em>
   </figcaption>
 </figure>
 
@@ -3184,7 +3184,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/evidencia-workspace-messages.png" alt="Evidencias UI Sprint 2" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Se observa la interfaz de los mensajes inscritos por los tutores y alumnos.</em>
+    <em>Figura. Se observa la interfaz de las sesiones de un tutor.</em>
   </figcaption>
 </figure>
 
@@ -3193,7 +3193,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/evidencia-reports.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Se observa la interfaz de los reportes por parte de los profesores.</em>
+    <em>Figura. Se observa la interfaz de las billeteras o wallets.</em>
   </figcaption>
 </figure>
 
@@ -3235,7 +3235,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
   </figcaption>
 </figure>
 
-**Link:** [Enlace del video](#)
+**Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCIZlm8Qlv4RaFWfiST-z0XAUw6H9qRw4eVO8nFWlnHsbk?e=b4ufwa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 
 <br>
@@ -3253,10 +3253,10 @@ A continuación, se documentan los principales recursos (endpoints) consumidos p
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example | Documentation Link |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `/sessions` | Obtener historial de tutorías | GET | `https://my-json-server.com/[user]/db/sessions` | None | `[{"id":1, "course":"Física", "status":"Done"}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
-| `/tutors` | Listar tutores disponibles | GET | `https://my-json-server.com/[user]/db/tutors` | `?skills_like=calculo` | `[{"id":10, "name":"Victor", "rating":4.5}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
-| `/quizzes` | Recuperar evaluaciones | GET | `https://my-json-server.com/[user]/db/quizzes` | `?courseId=1` | `[{"id":5, "title":"Quiz Cinemática"}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
-| `/disputes` | Reportar o listar disputas | POST / GET | `https://my-json-server.com/[user]/db/disputes` | Payload: `{userId, reason}` | `{"id":101, "status":"Pending"}` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
-| `/reviews` | Consultar reputación | GET | `https://my-json-server.com/[user]/db/reviews` | `?tutorId=5` | `[{"comment":"Excelente", "stars":5}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
+| `/tutors` | Listar tutores disponibles | GET | `https://my-json-server.com/[user]/db/tutors` | None | `[{"id":10, "name":"Victor", "rating":4.5}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
+| `/quizzes` | Recuperar evaluaciones | GET | `https://my-json-server.com/[user]/db/quizzes` | None | `[{"id":5, "title":"Quiz Cinemática"}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
+| `/disputes` | Reportar o listar disputas | POST / GET | `https://my-json-server.com/[user]/db/disputes` | None | `{"id":101, "status":"Pending"}` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
+| `/reviews` | Consultar reputación | GET | `https://my-json-server.com/[user]/db/reviews` | None| `[{"comment":"Excelente", "stars":5}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
 
 
 
