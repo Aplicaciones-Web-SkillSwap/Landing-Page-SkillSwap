@@ -173,7 +173,7 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
 - 4.3 Landing Page UI Design ............................... 117  
   - 4.3.1 Landing Page Wireframe .......................... 118  
   - 4.3.2 Landing Page Mock-up ............................ 123  
-- 4.4 Mobile Applications UI Design ........................ 133  
+- 4.4 Web Applications UI Design ........................ 133  
   - 4.4.1 Wireframes ...................................... 133  
   - 4.4.2 Wireflow Diagrams ............................... 140  
   - 4.4.3 Mock-ups ........................................ 159  
@@ -198,7 +198,13 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
   - 5.1.3 Code Style Guide & Conventions ................. 203  
   - 5.1.4 Deployment Configuration ........................ 205  
 - 5.2 Landing Page, Services & Applications Implementation . 210  
-  - 5.2.1 Sprint 1 ......................................... 210  
+  - 5.2.1 Sprint 1 ......................................... 210
+- 5.2 Software Configuration Management ................... 199  
+  - 5.2.1 Development Environment Configuration ........... 199  
+  - 5.2.2 Source Code Management .......................... 201  
+  - 5.2.3 Code Style Guide & Conventions ................. 203  
+  - 5.2.4 Deployment Configuration ........................ 205   
+- 5.2.2 Sprint 2 ......................................... 210    
 
 
 - Conclusiones y recomendaciones .......................... 229  
@@ -3019,7 +3025,7 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 | **Location**                           | Reunión virtual (Google Meet)  |
 | **Prepared By**                        | Alberca Saavedra, Victor Manuel  |
 | **Attendees (to planning meeting)**    | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Conde Huashuayo, Sebasthian Alex / Becerra Ninahuanca, Luis Ángel / Meza Soza, Alexandra Yamile           |
-| **Sprint n – 2 Review Summary**        | Se completó exitosamente la Landing Page institucional de Skillswap, incluyendo soporte bilingüe y diseño responsivo.   |
+| **Sprint n – 1 Review Summary**        | Se completó exitosamente la Landing Page institucional de Skillswap, incluyendo soporte bilingüe y diseño responsivo.   |
 | **Sprint n – 2 Retrospective Summary** | El equipo acordó priorizar bounded contexts frontend desacoplados y trabajar con Fake APIs para acelerar el desarrollo visual.   |
 | **Sprint Goal & User Stories**         |      |
 | **Sprint 2 Goal**                      | Nuestro enfoque está en desarrollar las interfaces frontend de los bounded contexts principales de Skillswap mediante componentes reutilizables, tablas CRUD, formularios y datos mockeados. Creemos que esto permitirá validar la arquitectura visual del sistema y la experiencia de usuario antes de integrar lógica backend real. Esto se confirmará cuando los usuarios puedan navegar fluidamente entre los módulos Discovery, Workspace, Reputation, Moderation y Learning & Assessment utilizando Fake APIs y navegación SPA sin errores visuales. |
@@ -3377,10 +3383,10 @@ En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborat
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
-Tras finalizar el Sprint 1 del proyecto Innovify (SkillSwap), y habiendo contrastado los artefactos del proceso Lean UX con los primeros prototipos y hallazgos de investigación, el equipo concluye que el aislamiento académico representa una barrera relevante para el desempeño estudiantil, validando los Problem Statements planteados. Asimismo, la síntesis de entrevistas y la elaboración de artefactos como el Empathy Map y la User Task Matrix permitieron comprender mejor las necesidades del usuario y traducirlas en requerimientos funcionales iniciales. En esta etapa, la definición de hipótesis Lean UX orientó el diseño de los primeros prototipos, enfocándose en generar confianza y facilitar la conexión entre estudiantes para el intercambio de conocimiento. Además, la planificación del Sprint 1, junto con la construcción del Product Backlog y Sprint Backlog, permitió organizar el trabajo del equipo y establecer una base sólida para el desarrollo incremental. Finalmente, se identificó la confianza como una hipótesis clave a validar en las siguientes iteraciones mediante pruebas con usuarios.
+Tras completar el Sprint 2 del proyecto SkillSwap, el equipo ha avanzado de manera significativa en la materialización de la plataforma, transitando desde los artefactos de diseño y planificación hacia una implementación frontend funcional y desplegada en un entorno cloud real.En relación con los Problem Statements definidos en el proceso Lean UX, los hallazgos de las entrevistas confirmaron que el aislamiento académico, la dificultad para coordinar horarios y la falta de confianza entre pares son barreras reales que impiden la colaboración entre estudiantes universitarios. Estos problemas se tradujeron directamente en los bounded contexts priorizados durante el Sprint 2: Discovery, Workspace, Learning & Assessment, Moderation y Reputation, cada uno abordando una dimensión específica de la experiencia de usuario.Respecto a los Lean UX Assumptions, se validó que los estudiantes están dispuestos a interactuar en una plataforma de tutoría entre pares siempre que cuenten con mecanismos de confianza visibles, como sistemas de reputación, reseñas y calificaciones. La implementación de los módulos de Reputation y Moderation durante este Sprint sentó las bases para validar esa hipótesis en las próximas iteraciones con usuarios reales.En cuanto a los Hypothesis Statements, la hipótesis de que una interfaz con búsqueda filtrada y perfiles detallados de tutores reduciría la fricción en el proceso de matching se vio reflejada en el módulo Discovery, donde se implementaron componentes de filtrado dinámico y visualización de tutores con datos simulados. Si bien aún no se cuenta con datos reales de uso, la arquitectura implementada permite su validación en el siguiente sprint.A nivel de implementación, el equipo logró desplegar la primera versión funcional del Frontend Web Application mediante Firebase Hosting, integrando una Fake RESTful API construida con My JSON Server que cubrió los endpoints de sesiones, tutores, cuestionarios, disputas y reseñas. Esto permitió representar visualmente los principales flujos de la plataforma sin depender aún del backend en C#/.NET, cuyo desarrollo está previsto para el Sprint 3.Finalmente, la aplicación de GitFlow, Conventional Commits y la matriz de Aspect Leaders and Collaborators demostró ser efectiva para organizar el trabajo paralelo entre los cinco integrantes del equipo, permitiendo el desarrollo desacoplado de módulos sin conflictos mayores de integración, y estableciendo una base sólida para el ciclo de entrega siguiente.
 
 ## Recomendaciones
-Para las siguientes iteraciones del proyecto, se recomienda continuar con el desarrollo progresivo de la solución basándose en los prototipos iniciales, priorizando la validación constante con usuarios para comprobar las hipótesis planteadas en el enfoque Lean UX. Asimismo, es importante profundizar en el diseño de funcionalidades clave como la conexión entre estudiantes y la generación de confianza dentro de la plataforma, asegurando que respondan a las necesidades identificadas en la investigación. También se sugiere seguir refinando los artefactos ágiles, como el Product Backlog y las Historias de Usuario, para facilitar la planificación de los próximos sprints y mantener una visión clara del producto. Finalmente, se recomienda ampliar la investigación con más usuarios para obtener mayor evidencia que respalde las decisiones de diseño y permita iterar la solución de manera informada.
+Para las próximas iteraciones del proyecto, se recomienda priorizar el desarrollo del backend RESTful bajo ASP.NET Core en C#, reemplazando progresivamente la Fake API por endpoints reales que persistan datos en base de datos. Asimismo, es importante realizar las primeras sesiones de validación con usuarios de los segmentos objetivo para contrastar las hipótesis Lean UX con comportamientos reales, particularmente en lo relacionado con la generación de confianza entre estudiantes y la usabilidad de los flujos de tutoría. Se sugiere también refinar los módulos de autenticación e identidad, actualmente excluidos del alcance del Sprint 2, de modo que en el Sprint 3 se cuente con una experiencia de usuario completa y coherente de inicio a fin. Finalmente, se recomienda actualizar el Product Backlog en función del feedback recibido durante las entrevistas de validación, reordenando las prioridades según el valor real percibido por los usuarios.
 
 ---
 
