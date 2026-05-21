@@ -51,6 +51,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
 | **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
+| **v.02.TB1** | 12/05/2026 |  Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint.<br>5.2.2. Sprint 2<br>5.2.2.1.Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3.Sprint Backlog 2.<br>5.2.2.4.Development Evidence for Sprint Review.<br>5.2.2.5.Execution Evidence for Sprint Review.<br>5.2.2.6.Services Documentation Evidence for Sprint Review.<br>5.2.2.7.Software Deployment Evidence for Sprint Review.<br>5.2.2.8.Team Collaboration Insights during Sprint.  |
 
 
 
@@ -60,7 +61,9 @@
 
 En esta sección se indica el URL del repositorio utilizado para la elaboración colaborativa del Informe de Trabajo Final, así como las evidencias de participación de cada integrante del equipo durante el desarrollo de la entrega AV1.
 
-**URL del repositorio del Project Report (GitHub):** https://github.com/orgs/Aplicaciones-Web-SkillSwap/repositories 
+**URL del repositorio del Project Report (GitHub):**
+[ https://github.com/orgs/Aplicaciones-Web-SkillSwap/repositories ]( https://github.com/orgs/Aplicaciones-Web-SkillSwap/repositories )
+
 
 ---
 
@@ -162,7 +165,7 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
 - 4.1 Style Guidelines ..................................... 98  
   - 4.1.1 General Style Guidelines ......................... 99  
   - 4.1.2 Web Style Guidelines ............................. 101  
-  - 4.1.3 Mobile Style Guidelines ......................... 103  
+  - 4.1.3 Web Style Guidelines ......................... 103  
 - 4.2 Information Architecture ............................. 110  
   - 4.2.1 Organization Systems ............................. 110  
   - 4.2.2 Labeling Systems ................................ 112  
@@ -172,7 +175,7 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
 - 4.3 Landing Page UI Design ............................... 117  
   - 4.3.1 Landing Page Wireframe .......................... 118  
   - 4.3.2 Landing Page Mock-up ............................ 123  
-- 4.4 Mobile Applications UI Design ........................ 133  
+- 4.4 Web Applications UI Design ........................ 133  
   - 4.4.1 Wireframes ...................................... 133  
   - 4.4.2 Wireflow Diagrams ............................... 140  
   - 4.4.3 Mock-ups ........................................ 159  
@@ -197,7 +200,13 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
   - 5.1.3 Code Style Guide & Conventions ................. 203  
   - 5.1.4 Deployment Configuration ........................ 205  
 - 5.2 Landing Page, Services & Applications Implementation . 210  
-  - 5.2.1 Sprint 1 ......................................... 210  
+  - 5.2.1 Sprint 1 ......................................... 210
+- 5.2 Software Configuration Management ................... 199  
+  - 5.2.1 Development Environment Configuration ........... 199  
+  - 5.2.2 Source Code Management .......................... 201  
+  - 5.2.3 Code Style Guide & Conventions ................. 203  
+  - 5.2.4 Deployment Configuration ........................ 205   
+- 5.2.2 Sprint 2 ......................................... 210    
 
 
 - Conclusiones y recomendaciones .......................... 229  
@@ -547,7 +556,9 @@ En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San 
   <em>Figura 5. YouTube: Entrevista 2: Estudiante-Aprendiz | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** https://www.youtube.com/watch?v=Ci4k50FULHE
+* **URL:** [https://www.youtube.com/watch?v=Ci4k50FULHE](https://www.youtube.com/watch?v=Ci4k50FULHE)
+
+
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 25 segundos
 
@@ -568,7 +579,8 @@ En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en 
   Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** https://www.youtube.com/watch?v=RvON7FjKH8g
+* **URL:**[https://www.youtube.com/watch?v=RvON7FjKH8g](https://www.youtube.com/watch?v=RvON7FjKH8g)
+ 
 * **Inicio:** 0:10
 * **Duración:** 9 minutos con 17 segundos
 
@@ -591,7 +603,8 @@ En esta tercera entrevista Stefanie estudia Negocios Internacionales en la Unive
   Nota: En esta figura se aprecia a la primera persona entrevista de nuestro segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** https://www.youtube.com/watch?v=fMeHUnvO4rA
+* **URL:** [https://www.youtube.com/watch?v=fMeHUnvO4rA](https://www.youtube.com/watch?v=fMeHUnvO4rA)
+
 * **Inicio:** 0:00
 * **Duración:** 6 minutos con 32 segundos
 
@@ -610,7 +623,7 @@ En esta entrevista, Lucero Campos cursa el octavo ciclo en la Universidad César
   <em>Figura 8. YouTube: Entrevista 2: Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** https://www.youtube.com/watch?v=zFAWYnoZSzU
+* **URL:**[ https://www.youtube.com/watch?v=zFAWYnoZSzU]( https://www.youtube.com/watch?v=zFAWYnoZSzU)
 * **Inicio:** 0:12
 * **Duración:** 10 minutos con 28 segundos
 
@@ -653,7 +666,8 @@ Katherine Tatiana Isuiza Vela es estudiante de Ingeniería Civil en la Universid
 </p>
 
 
-* **URL:** https://youtu.be/YDpJ_S8Ik2g  
+* **URL:** [https://youtu.be/YDpJ_S8Ik2g](https://youtu.be/YDpJ_S8Ik2g)
+  
 * **Inicio:** 0:00  
 * **Duración:** 13 minutos con 54 segundos  
 
@@ -1352,7 +1366,8 @@ El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del 
   <em>Figura 27. Product Backlog - Elaboración propia. Nota: Esta figura muestra la tabla realizada por el grupo para ordenar el product backlog del proyecto.</em>
 </p>
 
-url: https://trello.com/invite/b/68e353c594f09e671b636f51/ATTIb5441351e50cdc8914cef6195966155d23769D30/product-backlog
+**url:** [https://trello.com/invite/b/68e353c594f09e671b636f51/ATTIb5441351e50cdc8914cef6195966155d23769D30/product-backlog](https://trello.com/invite/b/68e353c594f09e671b636f51/ATTIb5441351e50cdc8914cef6195966155d23769D30/product-backlog)
+ 
 
 <br>
 
@@ -1624,7 +1639,7 @@ Esta organización reduce la sobrecarga cognitiva y mejora la experiencia del us
 
 ---
 
-#### Mobile Web Browser Wireframe
+#### Web Browser Wireframe
 
 <p align="center">
   <img src="public/assets/images-doc/LP-W3.png" alt="Wireframe Mobile Main" width="400">
@@ -1792,7 +1807,8 @@ En el diseño se aplicaron los siguientes principios para asegurar una experienc
 > **En síntesis:** El diseño de "Innovify" aplica correctamente los principios de diseño y las heurísticas de Nielsen para garantizar una alta usabilidad, consistencia y una experiencia sin errores. Al mismo tiempo, su arquitectura de información bien definida facilita que los usuarios (estudiantes y coordinadores) naveguen por la aplicación y completen sus tareas de forma intuitiva, rápida y segura.
 
 *(Nota: Todos los wireframes a detalle se pueden consultar en el prototipo funcional diseñado en Figma).*
-**Enlace:** https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=221-504&t=mcl4BJEHm24g0yCo-0 
+**Enlace:**[https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=221-504&t=mcl4BJEHm24g0yCo-0 ](https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=221-504&t=mcl4BJEHm24g0yCo-0 )
+ 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -2411,17 +2427,17 @@ Durante el Sprint 2, la estrategia de gestión de ramas (GitFlow) evolucionó si
 #### Repositorios GitHub
 
 * **Landing Page:** Repositorio público para la página de presentación del producto. 
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](#)
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
-  * Enlace:[https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git](#)
+  * Enlace:[https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git](https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git)
 * **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git](#)
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git](https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git)
 * **Demo_repository:** Repositorio de demostración del proyecto, utilizado para integrar o mostrar de forma simplificada el funcionamiento general del sistema.
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/demo-repository.git](#)
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/demo-repository.git](https://github.com/Aplicaciones-Web-SkillSwap/demo-repository.git)
 * **db-SkillSwap:** Repositorio en el que se encuentran la base de datos en formato json
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git](#)
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git)
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](#)
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git)
 
 
 <br><br>
@@ -2665,7 +2681,8 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 En conjunto, los gráficos y evidencias presentadas reflejan un proceso de desarrollo activo, organizado y alineado con buenas prácticas. El alto volumen de commits durante el mes de abril demuestra una fase intensiva de implementación, mientras que el uso de Gitflow evidencia una estructura de trabajo clara que facilita la integración y el trabajo colaborativo. Asimismo, la comparación entre historiales de commits resalta la importancia de emplear convenciones adecuadas para mejorar la trazabilidad del proyecto. Finalmente, la gestión de ramas y los commits individuales de los integrantes muestran una participación distribuida y coordinada, contribuyendo a un desarrollo más ordenado, escalable y mantenible del sistema.
 <br>
 
-Enlace: https://github.com/Aplicaciones-Web-SkillSwap
+**Enlace:**[https://github.com/Aplicaciones-Web-SkillSwap](https://github.com/Aplicaciones-Web-SkillSwap)
+ 
 
 ---
 
@@ -2724,7 +2741,7 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
   <em>Aquí se logra observar el seguimiento del Sprint 1 realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
 </p>
 
-**Enlace del Trello-Sprint 1:** https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1
+**Enlace del Trello-Sprint 1:**[https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1)
 
 
 | User Story ID | Título | Description (Task) | Estimation | Assigned To | Status |
@@ -2786,8 +2803,8 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 </figure>
 
 **Enlace de la página web para observar la implementación del Sprint 1:**
-
- **https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/**
+[https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
+ 
 
 ---
 
@@ -2860,9 +2877,13 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
   </a>
   <figcaption style="margin-top: 10px;">
     <br>
-    <em>Enlace al video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx</em>
+     
   </figcaption>
 </figure>
+Enlace al video:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
 <br>
 En conjunto, los elementos presentados evidencian la construcción de una base sólida a nivel de interfaz durante el primer sprint, demostrando un producto desplegado que cumple con la adaptabilidad responsiva, los llamados a la acción (CTA) y la comunicación clara del propósito de la plataforma.
 <br>
@@ -3018,7 +3039,7 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 | **Location**                           | Reunión virtual (Google Meet)  |
 | **Prepared By**                        | Alberca Saavedra, Victor Manuel  |
 | **Attendees (to planning meeting)**    | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Conde Huashuayo, Sebasthian Alex / Becerra Ninahuanca, Luis Ángel / Meza Soza, Alexandra Yamile           |
-| **Sprint n – 2 Review Summary**        | Se completó exitosamente la Landing Page institucional de Skillswap, incluyendo soporte bilingüe y diseño responsivo.   |
+| **Sprint n – 1 Review Summary**        | Se completó exitosamente la Landing Page institucional de Skillswap, incluyendo soporte bilingüe y diseño responsivo.   |
 | **Sprint n – 2 Retrospective Summary** | El equipo acordó priorizar bounded contexts frontend desacoplados y trabajar con Fake APIs para acelerar el desarrollo visual.   |
 | **Sprint Goal & User Stories**         |      |
 | **Sprint 2 Goal**                      | Nuestro enfoque está en desarrollar las interfaces frontend de los bounded contexts principales de Skillswap mediante componentes reutilizables, tablas CRUD, formularios y datos mockeados. Creemos que esto permitirá validar la arquitectura visual del sistema y la experiencia de usuario antes de integrar lógica backend real. Esto se confirmará cuando los usuarios puedan navegar fluidamente entre los módulos Discovery, Workspace, Reputation, Moderation y Learning & Assessment utilizando Fake APIs y navegación SPA sin errores visuales. |
@@ -3081,7 +3102,7 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
   <em>Figura. Aquí se logra observar el seguimiento del Sprint  realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
 </p>
 
-**Enlace del Trello:** https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-2 
+**Enlace del Trello:** [https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-2 ](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-2 )
 
 
 | Sprint # | Sprint 2 | | | | | | |
@@ -3093,28 +3114,34 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | | | T03 | Fake API Binding | Connect search filters to the mock data service. | 4 hr | Sebas | DONE |
 | **US08** | Send tutoring reservation request | T04 | Modal Design | Build request modal interface and styles. | 4 hr | Victor | DONE |
 | | | T05 | Form Validation | Implement input logic and validation for request data. | 4 hr | Alexandra | DONE |
-| **US09** | Accept or reject reservation request | T06 | Action Buttons UI | Layout and styling of accept/reject buttons. | 4 hr | Victor | TO DO |
-| | | T07 | State Update Logic | Implement state management to update reservation status. | 4 hr | Luis | TO DO |
+| **US09** | Accept or reject reservation request | T06 | Action Buttons UI | Layout and styling of accept/reject buttons. | 4 hr | Victor | DONE |
+| | | T07 | State Update Logic | Implement state management to update reservation status. | 4 hr | Luis | DONE |
 | **US10** | Asynchronous internal chat for the reservation | T08 | Chat Layout | Build messaging UI components and message bubbles. | 6 hr | Victor | IN PROGRESS |
 | | | T09 | Chat Component Logic | Implement message sending and receiving behavior. | 5 hr | David | IN PROGRESS |
 | **US14** | Create official Quiz | T10 | Quiz Form UI | Build interface for creating questions and multiple options. | 5 hr | David | DONE |
 | | | T11 | Save and Validation | Form validation and submission to Fake API. | 4 hr | Alexandra | DONE |
 | **US16** | Solve interactive validation Quiz | T12 | Resolution UI | Design interface to read and solve the quiz. | 4 hr | David | IN PROGRESS |
 | | | T13 | Grading Component | Implement automatic grading logic and score display. | 5 hr | Sebas | IN PROGRESS |
-| **US17** | Rate and leave a review for the tutor | T14 | Rating UI | Build star rating component and review text form. | 4 hr | Alexandra | DONE |
-| | | T15 | Review Submission | Handle form submission and mock data update. | 4 hr | Luis | DONE |
-| **US18** | Make a voluntary monetary donation | T16 | Donation Modal | Design payment entry interface and amount selection. | 4 hr | Sebas | IN PROGRESS |
-| | | T17 | Payment Mock | Simulate payment gateway processing flow. | 4 hr | Victor | IN PROGRESS |
-| **US19** | View Virtual Wallet and balance | T18 | Wallet Layout | Build dashboard structure for wallet metrics. | 4 hr | Sebas | IN PROGRESS |
-| | | T19 | Balance Calculation | Fetch and compute mock transactions to display balance. | 4 hr | David | IN PROGRESS |
-| **US21** | Cancel pending or scheduled reservation | T20 | Cancel UI | Add cancel buttons and confirmation dialog modal. | 4 hr | Victor | IN PROGRESS |
-| | | T21 | Status Logic | Implement component state change to "Cancelled". | 4 hr | Luis | IN PROGRESS |
+| **US17** | Rate and leave a review for the tutor | T14 | Rating UI | Build star rating component and review text form. | 4 hr | Alexandra | IN PROGRESS |
+| | | T15 | Review Submission | Handle form submission and mock data update. | 4 hr | Luis | IN PROGRESS |
+| **US18** | Make a voluntary monetary donation | T16 | Donation Modal | Design payment entry interface and amount selection. | 4 hr | Sebas | DONE |
+| | | T17 | Payment Mock | Simulate payment gateway processing flow. | 4 hr | Victor | DONE |
+| **US19** | View Virtual Wallet and balance | T18 | Wallet Layout | Build dashboard structure for wallet metrics. | 4 hr | Sebas | DONE |
+| | | T19 | Balance Calculation | Fetch and compute mock transactions to display balance. | 4 hr | David | DONE |
+| **US21** | Cancel pending or scheduled reservation | T20 | Cancel UI | Add cancel buttons and confirmation dialog modal. | 4 hr | Victor | DONE |
+| | | T21 | Status Logic | Implement component state change to "Cancelled". | 4 hr | Luis | DONE |
 | **US24** | Report misconduct | T22 | Report Form UI | Build form structure for submitting misconduct details. | 4 hr | Luis | DONE |
 | | | T23 | Report Submission | Handle form data submission to moderation mock service. | 4 hr | Alexandra | DONE |
 | **US25** | Review and resolve academic disputes | T24 | Moderation Table | Build dynamic data grid for pending disputes. | 5 hr | Luis | IN PROGRESS |
 | | | T25 | Resolution Logic | Implement actions to resolve or dismiss tickets. | 5 hr | Sebas | IN PROGRESS |
 
+
 *(Tabla 24.  Tabla de  Sprint Backlog 2  - Elaboración propia.)*
+
+Durante el Sprint 2, el equipo logró completar la mayor parte de las historias de usuario planificadas relacionadas con el desarrollo del frontend de la plataforma. Se implementaron correctamente funcionalidades como los filtros de búsqueda, solicitudes de reserva, gestión de reservas, quizzes, donaciones, visualización de la billetera virtual y flujos de cancelación.
+
+Algunas historias de usuario quedaron en estado **IN PROGRESS** debido a que requieren integración con el backend y lógica del lado del servidor, aspectos que no formaban parte del alcance de este sprint. En estos casos, ya se desarrollaron las interfaces, validaciones, componentes visuales y parte de la lógica frontend, pero su funcionamiento completo depende de la implementación backend en los siguientes sprints.
+
 
 ---
 
@@ -3156,8 +3183,10 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 </figure>
 
 **Enlace de la página web para observar la implementación del Sprint 2:**
+[https://skillswap-app-web.web.app](https://skillswap-app-web.web.app)
 
-
+**Enlace del repositorio del sprint 2- frontend:**
+[https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git](https://github.com/Aplicaciones-Web-SkillSwap/Frontend-SkillSwap.git)
 
 ---
 
@@ -3175,7 +3204,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/evidencia-workspace-session.png" alt="Evidencias UI Sprint 2" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Se observa la página de session, especificamente el historial de esta.</em>
+    <em>Figura. Se observa la página de quizzes por parte del profesor.</em>
   </figcaption>
 </figure>
 
@@ -3184,7 +3213,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/evidencia-workspace-messages.png" alt="Evidencias UI Sprint 2" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Se observa la interfaz de los mensajes inscritos por los tutores y alumnos.</em>
+    <em>Figura. Se observa la interfaz de las sesiones de un tutor.</em>
   </figcaption>
 </figure>
 
@@ -3193,7 +3222,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/evidencia-reports.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Se observa la interfaz de los reportes por parte de los profesores.</em>
+    <em>Figura. Se observa la interfaz de las billeteras o wallets.</em>
   </figcaption>
 </figure>
 
@@ -3235,7 +3264,9 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
   </figcaption>
 </figure>
 
-**Link:** [Enlace del video](#)
+**Link:**
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCIZlm8Qlv4RaFWfiST-z0XAUw6H9qRw4eVO8nFWlnHsbk?e=b4ufwa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCIZlm8Qlv4RaFWfiST-z0XAUw6H9qRw4eVO8nFWlnHsbk?e=b4ufwa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 
 <br>
@@ -3253,10 +3284,10 @@ A continuación, se documentan los principales recursos (endpoints) consumidos p
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example | Documentation Link |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `/sessions` | Obtener historial de tutorías | GET | `https://my-json-server.com/[user]/db/sessions` | None | `[{"id":1, "course":"Física", "status":"Done"}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
-| `/tutors` | Listar tutores disponibles | GET | `https://my-json-server.com/[user]/db/tutors` | `?skills_like=calculo` | `[{"id":10, "name":"Victor", "rating":4.5}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
-| `/quizzes` | Recuperar evaluaciones | GET | `https://my-json-server.com/[user]/db/quizzes` | `?courseId=1` | `[{"id":5, "title":"Quiz Cinemática"}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
-| `/disputes` | Reportar o listar disputas | POST / GET | `https://my-json-server.com/[user]/db/disputes` | Payload: `{userId, reason}` | `{"id":101, "status":"Pending"}` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
-| `/reviews` | Consultar reputación | GET | `https://my-json-server.com/[user]/db/reviews` | `?tutorId=5` | `[{"comment":"Excelente", "stars":5}]` | https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git |
+| `/tutors` | Listar tutores disponibles | GET | `https://my-json-server.com/[user]/db/tutors` | None | `[{"id":10, "name":"Victor", "rating":4.5}]` |  [https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git)|
+| `/quizzes` | Recuperar evaluaciones | GET | `https://my-json-server.com/[user]/db/quizzes` | None | `[{"id":5, "title":"Quiz Cinemática"}]` | [https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git)|
+| `/disputes` | Reportar o listar disputas | POST / GET | `https://my-json-server.com/[user]/db/disputes` | None | `{"id":101, "status":"Pending"}` | [https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git)|
+| `/reviews` | Consultar reputación | GET | `https://my-json-server.com/[user]/db/reviews` | None| `[{"comment":"Excelente", "stars":5}]` | [https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git)|
 
 
 
@@ -3314,9 +3345,11 @@ En conjunto, estas evidencias demuestran la disponibilidad del frontend de Skill
 
 <br>
 
-**Enlace del Frontend desplegado (Sprint 2):** https://skillswap-app-web.web.app 
+**Enlace del Frontend desplegado (Sprint 2):** 
+[https://skillswap-app-web.web.app ](https://skillswap-app-web.web.app )
 
-**Enlace del repositorio de datos simulados (Fake API):** https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git 
+**Enlace del repositorio de datos simulados (Fake API):** 
+[https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git ](https://github.com/Aplicaciones-Web-SkillSwap/db-skillswap.git )
 
 ---
 
@@ -3376,10 +3409,55 @@ En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborat
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
-Tras finalizar el Sprint 1 del proyecto Innovify (SkillSwap), y habiendo contrastado los artefactos del proceso Lean UX con los primeros prototipos y hallazgos de investigación, el equipo concluye que el aislamiento académico representa una barrera relevante para el desempeño estudiantil, validando los Problem Statements planteados. Asimismo, la síntesis de entrevistas y la elaboración de artefactos como el Empathy Map y la User Task Matrix permitieron comprender mejor las necesidades del usuario y traducirlas en requerimientos funcionales iniciales. En esta etapa, la definición de hipótesis Lean UX orientó el diseño de los primeros prototipos, enfocándose en generar confianza y facilitar la conexión entre estudiantes para el intercambio de conocimiento. Además, la planificación del Sprint 1, junto con la construcción del Product Backlog y Sprint Backlog, permitió organizar el trabajo del equipo y establecer una base sólida para el desarrollo incremental. Finalmente, se identificó la confianza como una hipótesis clave a validar en las siguientes iteraciones mediante pruebas con usuarios.
+Tras completar el Sprint 2 del proyecto SkillSwap, el equipo consolidó avances significativos tanto en la implementación técnica como en la 
+validación de las hipótesis planteadas durante el proceso Lean UX.
+
+**Sobre los Problem Statements:** Las entrevistas realizadas con los segmentos objetivo confirmaron que el aislamiento académico, la dificultad 
+para coordinar horarios entre pares y la falta de mecanismos de confianza son barreras reales que impiden la colaboración entre estudiantes 
+universitarios. Estos hallazgos validaron la pertinencia de los bounded contexts priorizados en el Sprint 2: Discovery, Workspace, Learning & 
+Assessment, Moderation y Reputation.
+
+**Sobre los Lean UX Assumptions:** Se confirmó el supuesto de que los estudiantes están dispuestos a participar en una plataforma de tutoría 
+entre pares siempre que cuenten con mecanismos de confianza visibles. La implementación de los módulos de Reputation y Moderation durante este 
+Sprint estableció la base técnica para validar este assumption con usuarios reales en la siguiente iteración.
+
+**Sobre los Hypothesis Statements:** La hipótesis de que una interfaz con búsqueda filtrada y perfiles detallados de tutores reduciría la fricción en 
+el proceso de matching se materializó en el módulo Discovery, donde se implementaron componentes de filtrado dinámico y visualización de tutores 
+con datos simulados. La validación con comportamiento real de usuarios queda pendiente para el Sprint 3.
+
+**Sobre los logros técnicos:** El equipo desplegó la primera versión funcional del Frontend Web Application mediante Firebase Hosting, 
+integrando una Fake RESTful API construida con My JSON Server que cubrió los endpoints de sesiones, tutores, cuestionarios, disputas y reseñas. 
+Esto permitió representar visualmente los principales flujos de la plataforma de forma anticipada al desarrollo del backend en C#/.NET, 
+previsto para el Sprint 3. Sin embargo, cabe señalar que de las User Stories planificadas para el Sprint 2, un subconjunto quedó en estado IN 
+PROGRESS (US08, US10, US16, US18, US19, US21 y US25), las cuales serán retomadas y completadas en la siguiente iteración.
+
+**Sobre la colaboración del equipo:** La aplicación de GitFlow, Conventional Commits y la matriz de Aspect Leaders and Collaborators 
+demostró ser efectiva para organizar el trabajo paralelo entre los cinco 
+integrantes, permitiendo el desarrollo desacoplado de módulos sin conflictos mayores de integración.
+
+---
 
 ## Recomendaciones
-Para las siguientes iteraciones del proyecto, se recomienda continuar con el desarrollo progresivo de la solución basándose en los prototipos iniciales, priorizando la validación constante con usuarios para comprobar las hipótesis planteadas en el enfoque Lean UX. Asimismo, es importante profundizar en el diseño de funcionalidades clave como la conexión entre estudiantes y la generación de confianza dentro de la plataforma, asegurando que respondan a las necesidades identificadas en la investigación. También se sugiere seguir refinando los artefactos ágiles, como el Product Backlog y las Historias de Usuario, para facilitar la planificación de los próximos sprints y mantener una visión clara del producto. Finalmente, se recomienda ampliar la investigación con más usuarios para obtener mayor evidencia que respalde las decisiones de diseño y permita iterar la solución de manera informada.
+
+Con base en los resultados del Sprint 2, el equipo plantea las siguientes recomendaciones para las próximas iteraciones:
+
+**Desarrollar el backend RESTful en ASP.NET Core (C#)** Es prioritario reemplazar progresivamente la Fake API por endpoints reales que persistan 
+datos en base de datos, como está previsto para el Sprint 3.
+
+**Realizar sesiones de validación con usuarios reales** Es necesario contrastar las hipótesis Lean UX con comportamientos reales de los 
+segmentos objetivo, en particular las relacionadas con la generación de 
+confianza entre estudiantes y la usabilidad de los flujos de tutoría.
+
+**Completar e integrar los módulos de autenticación e identidad** Estos módulos fueron excluidos del Sprint 2; deben estar operativos en el 
+Sprint 3 para ofrecer una experiencia de usuario completa de inicio a fin.
+
+**Completar las User Stories pendientes del Sprint 2** Las historias US08, US10, US16, US18, US19, US21 y US25 deben ser priorizadas al inicio 
+del Sprint 3 antes de incorporar nuevos requerimientos.
+
+**Actualizar el Product Backlog según el feedback de validación** se reordenara las prioridades en función del valor real percibido por los 
+usuarios durante las entrevistas de validación, ajustando el Roadmap del 
+producto en consecuencia.
+
 
 ---
 
@@ -3401,16 +3479,23 @@ Para las siguientes iteraciones del proyecto, se recomienda continuar con el des
 
 ## Anexos
 
-* **Wireframes (Figma):** https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1
+* **Wireframes (Figma):** 
+[https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1](https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1)
 
-* **Página Web (GitHub Pages):** https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git/
+
+* **Página Web (GitHub Pages):**
+[ https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git/]( https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git/)
+
 
 * **Miro:**
- https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 
+[https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 ](https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 )
+ 
 
 
 * **Enlace del lucidchartd para los bounded context:**
-https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397
+
+  [https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397](https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397)
+
 
 ---
 
