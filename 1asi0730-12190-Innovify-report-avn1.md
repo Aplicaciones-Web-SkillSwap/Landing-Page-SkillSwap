@@ -4292,10 +4292,10 @@ En el perfil del tutor, el botón principal para solicitar una tutoría está di
   <img src="public/assets/images-doc/heuristica-problema-1.png"
        alt="Problema 1 - Botón de solicitar tutoría en rojo" width="700">
   <br>
-  <em>Figura. Captura del perfil del tutor mostrando el botón de solicitud en color rojo.</em>
+  <em>Figura. Captura del perfil del tutor mostrando el botón de solicitud en azul. Anteriormente era rojo, pero se muestra con cuadro rojo el problema anterior.</em>
 </p>
 **Recomendación:**
-Cambiar el color del botón a un tono que denote una acción primaria positiva (como el color principal de la marca, azul o verde), reservando el rojo exclusivamente para acciones destructivas o alertas.
+Cambiar el color del botón a un tono que denote una acción primaria positiva (como el color principal de la marca, azul o verde), reservando el rojo exclusivamente para acciones destructivas o alertas, se cambió el color a azul primario.
  
 ---
  
@@ -4312,10 +4312,10 @@ Al visualizar la lista de sesiones activas, pendientes o completadas en la secci
   <img src="public/assets/images-doc/heuristica-problema-2.png"
        alt="Problema 2 - Tarjetas de sesión sin nombre" width="700">
   <br>
-  <em>Figura. Captura de la vista de sesiones donde las tarjetas omiten el nombre del tutor asignado.</em>
+  <em>Figura. Captura de la vista de sesiones donde las tarjetas omitian el nombre del tutor asignado. Actualmente se ve con nombre de los learner y tutores</em>
 </p>
 **Recomendación:**
-Incluir el nombre del tutor y, de ser posible, una miniatura de su foto de perfil directamente en la tarjeta de resumen de la sesión, agilizando así la identificación por parte del usuario.
+Incluir el nombre del tutor y, de ser posible, una miniatura de su foto de perfil directamente en la tarjeta de resumen de la sesión, agilizando así la identificación por parte del usuario. Se corrigió basandonos en el comentario del entrevistado.
  
 ---
  
@@ -4375,7 +4375,7 @@ Según la evaluación de Claudio Alberca (Coordinador), los perfiles de los tuto
   <em>Figura. Captura del perfil del tutor mostrando ausencia de estadísticas y antecedentes académicos.</em>
 </p>
 **Recomendación:**
-Enriquecer el perfil público del tutor añadiendo una sección de "Estadísticas y Experiencia" que centralice la cantidad de tutorías dictadas, especialidad y su historial de desempeño dentro de la plataforma.
+Enriquecer el perfil público del tutor añadiendo una sección de "Estadísticas y Experiencia" que centralice la cantidad de tutorías dictadas, especialidad y su historial de desempeño dentro de la plataforma. Actualmete se corrigó el problema.
  
 ---
  
