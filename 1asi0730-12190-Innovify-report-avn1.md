@@ -3646,7 +3646,7 @@ A continuación se presentan capturas representativas de la ejecución de los se
   </figcaption>
 </figure>
 
-**Enlace al video de navegación (Sprint 3):** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQABMpQ5Zi1hSpW44ZuwKNr0AT_v5L1n3DTyy5p-7QfkKNc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Z5agso](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQABMpQ5Zi1hSpW44ZuwKNr0AT_v5L1n3DTyy5p-7QfkKNc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Z5agso)
+**Enlace al video de navegación (Sprint 3):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQABMpQ5Zi1hSpW44ZuwKNr0AT_v5L1n3DTyy5p-7QfkKNc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Z5agso 
  
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-demostracion-video.png" alt="Frontend conectado al backend" width="800">
@@ -4209,6 +4209,7 @@ A continuación se presenta la evaluación de la experiencia de usuario de Skill
 *Usability – Inclusive Design – Information Architecture*
  
 <div align="center">
+
 | | |
 | :--- | :--- |
 | **CARRERA** | Ingeniería de Software |
@@ -4394,7 +4395,7 @@ El video incluye una presentación del problema que resuelve la plataforma, una 
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **URL Youtube** | [https://youtu.be/FUCpxY3n_Po](https://youtu.be/FUCpxY3n_Po)|
 | **Duración** |2:08 |
  
@@ -4464,7 +4465,7 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **URL Microsoft Stream** |  |
 | **URL YouTube** | [https://youtu.be/HbdxsbFhGaE](https://youtu.be/HbdxsbFhGaE) |
 | **Duración** | 9:17 min |
  
