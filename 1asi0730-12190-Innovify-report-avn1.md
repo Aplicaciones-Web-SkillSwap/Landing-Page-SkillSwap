@@ -3646,7 +3646,7 @@ A continuación se presentan capturas representativas de la ejecución de los se
   </figcaption>
 </figure>
 
-**Enlace al video de navegación (Sprint 3):** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQD-6tMDvmwiQpWk7m14V3oOAUhoMvbAhkTombznu7ZG3Lw?e=FRHvor&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQD-6tMDvmwiQpWk7m14V3oOAUhoMvbAhkTombznu7ZG3Lw?e=FRHvor&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Enlace al video de navegación (Sprint 3):** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQABMpQ5Zi1hSpW44ZuwKNr0AT_v5L1n3DTyy5p-7QfkKNc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Z5agso](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQABMpQ5Zi1hSpW44ZuwKNr0AT_v5L1n3DTyy5p-7QfkKNc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Z5agso)
  
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-demostracion-video.png" alt="Frontend conectado al backend" width="800">
@@ -3841,6 +3841,7 @@ Las principales actividades realizadas fueron:
 - Configuración de las variables de entorno en Railway (`DATABASE_URL`, `DATABASE_USER`, `DATABASE_PASSWORD`) apuntando a la base de datos PostgreSQL provisionada en la misma plataforma.
 - Configuración de CORS para permitir el consumo desde el Frontend Vue desplegado en Firebase.
 - Verificación de disponibilidad de los endpoints mediante Swagger UI en el entorno desplegado.
+
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-deploy-backend-railway.png" alt="Despliegue Backend Sprint 3" width="800">
   <img src="public/assets/images-doc/sprint3-deploy-backend-primer-avance.png" alt="Despliegue Backend Sprint 3" width="800">
