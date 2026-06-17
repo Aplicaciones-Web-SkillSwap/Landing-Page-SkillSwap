@@ -4169,7 +4169,7 @@ En esta entrevista, Luis Saavedra, profesor de inglés del colegio José de San 
   <em>Figura. Entrevista de validación 2: Coordinador Institucional.</em>
 </p>
 
-* **URL:** [https://youtu.be/VHzGI4_oqZE](https://youtu.be/VHzGI4_oqZE)
+* **URL:** [hhttps://youtu.be/AdTMWoLOIkk](https://youtu.be/AdTMWoLOIkk)
 * **Inicio:** 0:00
 * **Duración:** 7:19
 **Resumen descriptivo:**
@@ -4391,11 +4391,12 @@ El video incluye una presentación del problema que resuelve la plataforma, una 
   <br>
   <em>Figura. Captura representativa del Video About-the-Product de SkillSwap. El video resume el modelo de negocio, las características principales de la plataforma y testimonios de usuarios de los segmentos objetivo.</em>
 </p>
+
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | []() |
-| **URL Youtube** | []()|
-| **Duración** | |
+| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **URL Youtube** | [https://youtu.be/FUCpxY3n_Po](https://youtu.be/FUCpxY3n_Po)|
+| **Duración** |2:08 |
  
 ---
  
