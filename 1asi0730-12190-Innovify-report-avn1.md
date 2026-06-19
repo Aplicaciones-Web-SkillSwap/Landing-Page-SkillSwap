@@ -3561,13 +3561,14 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | | | T17 | Implement dispute resolution logic | Handle dispute status updates (resolve/reject) with backend API | 5 hr | Luis | DONE |
 | | | T18 | Add filtering and search to moderation table | Enable search and filter by status/category in the dispute list | 4 hr | Luis | DONE |
 | **US27** | Payment Gateway API Integration | T21 | Integrate payment gateway | Connect ASP.NET Core to Stripe API for card donation processing | 5 hr | Alexandra | TO-DO |
-| | | T22 | Implement commission calculation | Calculate and retain 5% platform commission in the backend service | 4 hr | Alexandra | DONE |
+| | | T22 | Implement commission calculation | Calculate and retain 5% platform commission in the backend service | 4 hr | Alexandra | TO-DO |
 | **US28** | Token generation for WebRTC | T23 | Implement WebRTC token endpoint | Consume Agora.io API to generate temporary access tokens from backend | 5 hr | David | TO-DO |
 | | | T24 | Integrate token with frontend video call | Pass generated token to Vue frontend for embedded video session | 4 hr | David | TO-DO |
 | **US29** | Cloud Storage API integration for chat | T25 | Integrate cloud storage service | Connect ASP.NET Core to Cloudinary for PDF and image upload management | 5 hr | Luis | TO-DO |
 | | | T26 | Implement file upload endpoint | Create POST endpoint for file upload returning accessible URL | 4 hr | Luis | TO-DO |
 | **US30** | Aggregation endpoint for Academic Dashboard | T27 | Implement aggregation query | Create EF Core aggregation query to count top requested tutoring courses | 4 hr | Sebasthian | TO-DO |
 | | | T28 | Implement dashboard endpoint | Create RESTful GET endpoint returning optimized JSON for B2B Dashboard | 5 hr | Sebasthian | TO-DO |
+
  
 *(Tabla. Tabla de Sprint Backlog 3 - Elaboración propia.)*
  
