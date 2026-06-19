@@ -3660,9 +3660,9 @@ A continuación se presentan capturas representativas de la ejecución de los se
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 En esta sección se incluye la relación de endpoints documentados con OpenAPI durante el Sprint 3. Los Web Services fueron implementados con ASP.NET Core y documentados mediante Swagger, accesibles en la URL de despliegue indicada. A continuación se detalla la documentación de cada endpoint implementado por bounded context:
  
-**URL de documentación Swagger:** []()
+**URL de documentación Swagger:** [https://skillswap-backend-t7zk.onrender.com/swagger/index.html](https://skillswap-backend-t7zk.onrender.com/swagger/index.html)
  
-**URL del repositorio backend:** []()
+**URL del repositorio backend:** [https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git](https://github.com/Aplicaciones-Web-SkillSwap/Backend-Skillswap.git)
 
 ---
  
@@ -3782,7 +3782,6 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
  
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-endpoints-Payments.png" alt="Swagger Endpoints Sprint 3" width="800">
-  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Payments2.png" alt="Swagger Endpoints Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para el bounded context Payments & Wallet.
   </figcaption>
@@ -3815,41 +3814,34 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
  
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-endpoints-Moderation.png" alt="Swagger Endpoints Sprint 3" width="800">
-  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Moderation2.png" alt="Swagger Endpoints Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para el bounded context Moderation & Disputes.
   </figcaption>
 </figure>
-> **Nota sobre el avance del backend:** Durante el Sprint 3 se implementó el
-> 40% del backend de SkillSwap, priorizando los Bounded Contexts de mayor
-> criticidad para el core del negocio. Los BC de Workspace, Reputation System
-> y Moderation & Disputes se encuentran completamente implementados y desplegados
-> en producción. Los BC de Discovery, Learning & Assessment y Payments & Wallet
-> se encuentran en proceso de implementación y serán completados en el Sprint 4,
-> junto con la integración total con el Frontend Vue y la implementación del
-> BC de IAM con autenticación JWT.
+
  
 ---
  
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
-Durante el Sprint 3 se realizaron las actividades de despliegue correspondientes al backend de SkillSwap. Se creó el repositorio del proyecto ASP.NET Core en la organización de GitHub del equipo y se configuró el entorno de despliegue en Railway.
- 
+Durante el Sprint 3 se realizaron las actividades de despliegue correspondientes al backend de SkillSwap. Se creó el repositorio del proyecto ASP.NET Core en la organización de GitHub del equipo y se configuró el entorno de despliegue en Render.
+
 Las principales actividades realizadas fueron:
- 
-- Configuración del proyecto ASP.NET Core con Entity Framework Core, PostgreSQL y Swashbuckle (OpenAPI).
-- Creación de un `Dockerfile` personalizado para compatibilidad con .NET 8 en el entorno de Railway.
-- Configuración de las variables de entorno en Railway (`DATABASE_URL`, `DATABASE_USER`, `DATABASE_PASSWORD`) apuntando a la base de datos PostgreSQL provisionada en la misma plataforma.
-- Configuración de CORS para permitir el consumo desde el Frontend Vue desplegado en Firebase.
+
+- Configuración del proyecto ASP.NET Core con SQL Server
+- Creación y configuración del servicio Web Service en Render para el despliegue automático del backend desde el repositorio de GitHub.
+- Configuración de las variables de entorno requeridas por la aplicación en Render.
+- Configuración de CORS para permitir el consumo desde el frontend desplegado.
 - Verificación de disponibilidad de los endpoints mediante Swagger UI en el entorno desplegado.
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint3-deploy-backend-railway.png" alt="Despliegue Backend Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-deploy-backend-render.png" alt="Despliegue Backend Sprint 3" width="800">
   <img src="public/assets/images-doc/sprint3-deploy-backend-primer-avance.png" alt="Despliegue Backend Sprint 3" width="800">
   <img src="public/assets/images-doc/sprint3-deploy-backend.png" alt="Despliegue Backend Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Evidencia del despliegue del backend SkillSwap en Railway, mostrando el estado activo del servicio y la URL de acceso a los endpoints.
+    Figura. Evidencia del despliegue del backend SkillSwap en Render, mostrando el estado activo del servicio y la URL de acceso a los endpoints.
   </figcaption>
 </figure>
+
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-deploy-Lp1.png" alt="Despliegue Landing Page Sprint 3" width="800">
   <img src="public/assets/images-doc/sprint3-deploy-Lp2.png" alt="Despliegue Landing Page Sprint 3" width="800">
@@ -3858,6 +3850,7 @@ Las principales actividades realizadas fueron:
     Figura. Evidencia de los cambios de la Landing Page.
   </figcaption>
 </figure>
+
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-deploy-front.png" alt="Despliegue Frontend Sprint 3" width="800">
   <img src="public/assets/images-doc/sprint3-deploy-front2.png" alt="Despliegue Frontend Sprint 3" width="800">
@@ -3867,13 +3860,15 @@ Las principales actividades realizadas fueron:
   </figcaption>
 </figure>
 
-**URL del backend desplegado:** []()
+**URL del backend desplegado:** [https://skillswap-backend-t7zk.onrender.com](https://skillswap-backend-t7zk.onrender.com)
  
-**URL Swagger UI:** []()
+**URL Swagger UI:** [https://skillswap-backend-t7zk.onrender.com/swagger/index.html](https://skillswap-backend-t7zk.onrender.com/swagger/index.html)
  
-**URL de la Landing Page:** []()
+**URL de la Landing Page:** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
  
-**URL del frontend:** []()
+**URL del frontend:** [https://skillswap-app-web.web.app/home](https://skillswap-app-web.web.app/home)
+
+> **Nota:** El backend fue desarrollado utilizando **.NET 8.0** para mantener la compatibilidad y uniformidad del entorno de desarrollo entre todos los integrantes del equipo durante el Sprint.
  
 ---
  
@@ -3892,7 +3887,6 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
 </figure>
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-contributors1.png" alt="Contributors Sprint 3" width="800">
-  <img src="public/assets/images-doc/sprint3-contributors2.png" alt="Contributors Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Gráfico de actividad de commits durante el Sprint 3, evidenciando la concentración de trabajo en el período de desarrollo del backend.
   </figcaption>
@@ -4048,10 +4042,11 @@ Finalmente, sugiere implementar funcionalidades adicionales que fomenten la inte
 ---
  
 **Entrevista 3**
-* **Nombres:** Gabriel
-* **Apellidos:** Ramírez Gutiérrez
+* **Nombres:** Jean Pierref
+* **Apellidos:** Florian
 * **Edad:** 21
 * **Distrito:** Cercado de Lima
+
 <p align="center">
   <img src="public/assets/images-doc/validacion-tutor-4.png"
        alt="Entrevista validación 3 - Estudiante Aprendiz" width="600">
@@ -4059,11 +4054,14 @@ Finalmente, sugiere implementar funcionalidades adicionales que fomenten la inte
   <em>Figura. Entrevista 3: Estudiante-Aprendiz | Innovify.</em>
 </p>
 
-* **URL:** [https://www.youtube.com/watch?v=MF0zmj_ujKs](https://www.youtube.com/watch?v=MF0zmj_ujKs)
+* **URL:** [https://youtu.be/Z3urr-qk_3c](https://youtu.be/Z3urr-qk_3c)
 * **Inicio:** 0:00
 * **Duración:** 03:48
+
 **Resumen descriptivo:**
-En esta entrevista, Gabriel Ramírez Gutiérrez, estudiante de la UPC, evalúa la landing page de la plataforma desde la perspectiva del segmento de estudiantes que desean aprender. Durante la revisión, comprende claramente el concepto del sistema, identificándolo como una plataforma social que permite acceder a tutorías ya sea mediante un intercambio monetario o a través de un sistema de apoyo mutuo, donde se enseña para poder recibir tutorías. Lo que más destaca y valora positivamente es la viabilidad de realizar intercambios académicos con estudiantes de distintas universidades; señala que esta característica permite ampliar el aprendizaje al exponer a los usuarios a realidades y puntos de vista completamente diferentes a los de su propia institución. Como propuesta de mejora, recomienda que la landing page se enfoque y resalte aún más este aspecto de la conexión interuniversitaria, dado que lo considera un elemento sumamente interesante y un gran diferenciador del proyecto.
+En esta entrevista, Jean Pierref Cocano, estudiante de Comunicación y Publicidad en la UPN, evalúa el funcionamiento de la plataforma SkillSwap desde la perspectiva de un estudiante aprendiz. Durante la demostración, comprendió con facilidad la propuesta de valor de la plataforma, destacando especialmente el apartado de sesiones programadas, ya que considera que permite visualizar de forma clara las clases disponibles y motiva a los estudiantes a explorar nuevos temas de aprendizaje. Asimismo, valoró positivamente el sistema de búsqueda de tutores, indicando que los filtros disponibles, como la calificación, el curso y la universidad, resultan suficientes para encontrar un tutor adecuado, complementándose con las reseñas de otros estudiantes para generar mayor confianza al momento de elegir.
+
+Respecto al flujo de la plataforma, manifestó que el proceso para solicitar sesiones, utilizar el chat privado con el tutor y realizar donaciones es intuitivo, práctico y fácil de comprender. También destacó que la navegación entre las diferentes secciones le pareció fluida y organizada, permitiendo acceder sin dificultad a las funcionalidades principales. Como única inquietud, consultó si era posible revisar el historial de sesiones realizadas, duda que fue aclarada durante la entrevista al explicarle que cada usuario visualiza únicamente sus propias sesiones por motivos de privacidad y seguridad. Finalmente, calificó la plataforma con un 10/10, indicando que la recomendaría a otros estudiantes debido a que facilita el aprendizaje complementario mediante tutorías entre pares y ofrece una experiencia sencilla para recibir apoyo académico.
  
 ---
  
@@ -4074,6 +4072,7 @@ En esta entrevista, Gabriel Ramírez Gutiérrez, estudiante de la UPC, evalúa l
 * **Apellidos:** Meléndez Fuentes
 * **Edad:** 20
 * **Distrito:** San Martín
+
 <p align="center">
   <img src="public/assets/images-doc/validacion-tutor-1.png"
        alt="Entrevista validación 1 - Estudiante Tutor" width="600">
@@ -4084,6 +4083,7 @@ En esta entrevista, Gabriel Ramírez Gutiérrez, estudiante de la UPC, evalúa l
 * **URL:** [https://youtu.be/4msNJROQHeQ](https://youtu.be/4msNJROQHeQ)
 * **Inicio:** 0:01
 * **Duración:** 10:50
+
 **Resumen descriptivo:**
 En esta entrevista, Alexandra Vanessa Meléndez Fuentes participa como estudiante-aprendiz y evalúa una plataforma de intercambio de conocimientos entre estudiantes. Durante la revisión de la interfaz, considera que el diseño inicial aún requiere mejoras para ser más comprensible y específico para distintas carreras, señalando que no encontró contenidos relacionados con su área de interés, como enfermería. Sin embargo, destaca que el proceso para buscar tutores y solicitar una tutoría le resultó sencillo y fácil de comprender. Asimismo, valora positivamente la funcionalidad de creación de cuestionarios, indicando que este tipo de herramientas son ampliamente utilizadas por docentes y contribuyen al aprendizaje mediante la práctica y evaluación constante de conocimientos. Respecto al sistema de reseñas, considera que es una característica importante porque permite recibir retroalimentación, identificar aspectos a mejorar en la enseñanza y fortalecer la calidad de las tutorías brindadas. En relación con la billetera virtual, inicialmente manifestó dificultades para comprender la información presentada; no obstante, luego de recibir una explicación adicional, señaló que la organización y visualización de los datos resultaban claras. También menciona que el modelo de donaciones voluntarias con una comisión del 5% requiere una explicación más detallada antes de ser aceptado completamente por los usuarios. Finalmente, asigna una calificación de 6 sobre 10 a la propuesta, recomendando mejorar la sección de bienvenida y hacer más visible la búsqueda de tutores mediante elementos gráficos y etiquetas más claras.
  
@@ -4094,6 +4094,7 @@ En esta entrevista, Alexandra Vanessa Meléndez Fuentes participa como estudiant
 * **Apellidos:** Rojas
 * **Edad:** 21
 * **Distrito:** Lima
+
 <p align="center">
   <img src="public/assets/images-doc/validacion-tutor-411.png"
        alt="Entrevista validación 2 - Estudiante Tutor" width="600">
@@ -4104,6 +4105,7 @@ En esta entrevista, Alexandra Vanessa Meléndez Fuentes participa como estudiant
 * **URL:** [https://www.youtube.com/watch?v=mlXp9NgOQW4](https://www.youtube.com/watch?v=mlXp9NgOQW4)
 * **Inicio:** 0:01
 * **Duración:** 6:50
+
 **Resumen descriptivo:**
 En esta entrevista, Carlos Rojas participa como estudiante-tutor y evalúa la plataforma desde la perspectiva de quien brinda apoyo académico a otros estudiantes. Durante la revisión del dashboard principal, considera que la interfaz presenta adecuadamente la información relevante para el tutor, como las sesiones programadas y los accesos rápidos a funcionalidades importantes. Sin embargo, señala que algunos elementos, como la sección de tutores disponibles, no resultan útiles para este perfil de usuario y podrían reemplazarse por información más pertinente, como próximas sesiones o notificaciones pendientes.
  
@@ -4118,6 +4120,7 @@ En relación con el chat integrado, lo considera una de las herramientas más va
 * **Apellidos:** Guerrero
 * **Edad:** 23
 * **Distrito:** Lima
+
 <p align="center">
   <img src="public/assets/images-doc/validacion-tutor-5.png"
        alt="Entrevista validación 3 - Estudiante Tutor" width="600">
@@ -4128,6 +4131,7 @@ En relación con el chat integrado, lo considera una de las herramientas más va
 * **URL:** [https://www.youtube.com/watch?v=LjGj-AjvMaA](https://www.youtube.com/watch?v=LjGj-AjvMaA)
 * **Inicio:** 0:00
 * **Duración:** 7:34
+
 **Resumen descriptivo:**
 En esta entrevista, el participante evalúa la plataforma SkillSwap desde la perspectiva de un estudiante-tutor encargado de brindar apoyo académico a otros alumnos. Durante la revisión del dashboard principal, considera que la información general presentada resulta útil para conocer la actividad dentro de la plataforma; sin embargo, señala que sería importante incorporar alertas visuales que permitan identificar rápidamente aquellas solicitudes o sesiones que requieren atención prioritaria.
  
@@ -4142,6 +4146,7 @@ Respecto a la sección de sesiones, menciona que la tabla cumple adecuadamente s
 * **Apellidos:** Saavedra
 * **Edad:** 32
 * **Distrito:** San Martín
+
 <p align="center">
   <img src="public/assets/images-doc/validacion-tutor-2.png"
        alt="Entrevista validación 1 - Coordinador Institucional" width="600">
@@ -4152,6 +4157,7 @@ Respecto a la sección de sesiones, menciona que la tabla cumple adecuadamente s
 * **URL:** [https://youtu.be/CCJOTfhjXx4](https://youtu.be/CCJOTfhjXx4)
 * **Inicio:** 0:00
 * **Duración:** 9:33
+
 **Resumen descriptivo:**
 En esta entrevista, Luis Saavedra, profesor de inglés del colegio José de San Martín de la ciudad de Moyobamba, evalúa la plataforma SkillSwap desde la perspectiva de un docente con funciones de moderación y supervisión. Considera que el panel principal comunica de manera clara las responsabilidades asociadas a su rol, destacando la utilidad de la información relacionada con reportes, sesiones pendientes y actividades de los estudiantes. Respecto al sistema de moderación, señala que la información presentada en los reportes es adecuada para realizar una primera evaluación; sin embargo, enfatiza la importancia de revisar detalladamente cada caso para diferenciar reportes legítimos de aquellos que podrían ser falsos. Valora positivamente la visibilidad de los indicadores generales de la comunidad y considera que la clasificación visual de los estados de los reportes es adecuada y facilita el seguimiento de los casos pendientes o resueltos. Como propuesta de mejora, recomienda incorporar la posibilidad de descargar reportes completos para analizar con mayor profundidad las evidencias. Finalmente, considera que la plataforma constituye una base sólida para la gestión y moderación de actividades académicas.
  
@@ -4162,6 +4168,7 @@ En esta entrevista, Luis Saavedra, profesor de inglés del colegio José de San 
 * **Apellidos:** Alvarado
 * **Edad:** 28
 * **Distrito:** Los Olivos
+
 <p align="center">
   <img src="public/assets/images-doc/validacion-coordinador-2-12-12.png"
        alt="Entrevista validación 2 - Coordinador Institucional" width="600">
@@ -4172,6 +4179,7 @@ En esta entrevista, Luis Saavedra, profesor de inglés del colegio José de San 
 * **URL:** [hhttps://youtu.be/AdTMWoLOIkk](https://youtu.be/AdTMWoLOIkk)
 * **Inicio:** 0:00
 * **Duración:** 7:19
+
 **Resumen descriptivo:**
 En esta entrevista, Boris participa en calidad de docente universitario del área de Ciencias de la UTP y evalúa la plataforma desde la perspectiva de un profesor encargado de la moderación de reportes y la creación de encuestas dentro del sistema. Durante la revisión inicial, señala que la plataforma comunica de manera clara cuál es la función que desempeña el usuario dentro del sistema y cuáles son las acciones que puede realizar. Respecto al módulo de reportes, indica que la información presentada en cada caso resulta suficiente para tomar decisiones relacionadas con posibles sanciones hacia los estudiantes. Además, destaca que el sistema permite corroborar la información mediante elementos visuales y el acceso al historial del chat de la sesión.
  
@@ -4184,6 +4192,7 @@ Sobre el panel principal, menciona que la información relacionada con secciones
 * **Apellidos:** Alberca
 * **Edad:** 30
 * **Distrito:** Lima
+
 <p align="center">
   <img src="public/assets/images-doc/validacion-tutor-3.png"
        alt="Entrevista validación 3 - Coordinador Institucional" width="600">
@@ -4194,6 +4203,7 @@ Sobre el panel principal, menciona que la información relacionada con secciones
 * **URL:** [https://youtu.be/BhrLGF-SjIg](https://youtu.be/BhrLGF-SjIg)
 * **Inicio:** 0:00
 * **Duración:** 10:17
+
 **Resumen descriptivo:**
 En esta entrevista, Claudio Alberca, profesor de la Pontificia Universidad Católica del Perú, evalúa la plataforma SkillSwap desde la perspectiva de un coordinador o moderador encargado de supervisar la interacción entre usuarios. Durante la revisión del sistema, señala que el panel principal comunica adecuadamente las funciones asociadas a su rol, permitiéndole identificar con facilidad los reportes pendientes, las sesiones recientes y los estudiantes vinculados a las actividades académicas. Respecto al proceso de resolución de reportes, indica que el flujo de acciones resulta claro y fácil de utilizar, especialmente si existe la posibilidad de reabrir un caso cuando sea necesario. Desde una perspectiva institucional, percibe que la plataforma transmite una imagen profesional y acorde con los estándares esperados por una universidad. No obstante, propone incorporar información adicional sobre los tutores, como experiencia docente, especialización y antecedentes de reportes. También considera importante implementar mecanismos de bloqueo temporal para aquellos usuarios que hayan incurrido en conductas inapropiadas dentro de la plataforma. Finalmente, asigna una valoración de 9 sobre 10 al sistema.
  
@@ -4220,6 +4230,7 @@ A continuación se presenta la evaluación de la experiencia de usuario de Skill
 | **CLIENTE(S)** | Entrevistados |
  
 </div>
+
 ---
  
 **SITE o APP A EVALUAR:**
@@ -4296,6 +4307,7 @@ En el perfil del tutor, el botón principal para solicitar una tutoría está di
   <br>
   <em>Figura. Captura del perfil del tutor mostrando el botón de solicitud en azul. Anteriormente era rojo, pero se muestra con cuadro rojo el problema anterior.</em>
 </p>
+
 **Recomendación:**
 Cambiar el color del botón a un tono que denote una acción primaria positiva (como el color principal de la marca, azul o verde), reservando el rojo exclusivamente para acciones destructivas o alertas, se cambió el color a azul primario.
  
@@ -4316,6 +4328,7 @@ Al visualizar la lista de sesiones activas, pendientes o completadas en la secci
   <br>
   <em>Figura. Captura de la vista de sesiones donde las tarjetas omitian el nombre del tutor asignado. Actualmente se ve con nombre de los learner y tutores</em>
 </p>
+
 **Recomendación:**
 Incluir el nombre del tutor y, de ser posible, una miniatura de su foto de perfil directamente en la tarjeta de resumen de la sesión, agilizando así la identificación por parte del usuario. Se corrigió basandonos en el comentario del entrevistado.
  
@@ -4336,6 +4349,7 @@ Durante la navegación en la sección de la billetera virtual y pagos, el Estudi
   <br>
   <em>Figura. Captura de la interfaz de pagos donde no se especifica la retención de la comisión de la plataforma.</em>
 </p>
+
 **Recomendación:**
 Agregar un texto explicativo o un tooltip en el formulario de donación que desglose el monto total ingresado, el descuento del 5% por el uso de la plataforma y el monto neto final que llegará al tutor.
  
@@ -4356,6 +4370,7 @@ En el panel de moderación utilizado por el Coordinador Institucional (evaluado 
   <br>
   <em>Figura. Captura del panel del coordinador donde no se distingue visualmente el rol de cada usuario.</em>
 </p>
+
 **Recomendación:**
 Implementar etiquetas visuales (badges o chips de colores) junto al nombre de los usuarios en el panel del coordinador para identificar de un vistazo si su rol activo es "Aprendiz" o "Tutor".
  
@@ -4376,6 +4391,7 @@ Según la evaluación de Claudio Alberca (Coordinador), los perfiles de los tuto
   <br>
   <em>Figura. Captura del perfil del tutor mostrando ausencia de estadísticas y antecedentes académicos.</em>
 </p>
+
 **Recomendación:**
 Enriquecer el perfil público del tutor añadiendo una sección de "Estadísticas y Experiencia" que centralice la cantidad de tutorías dictadas, especialidad y su historial de desempeño dentro de la plataforma. Actualmete se corrigó el problema.
  
@@ -4447,12 +4463,12 @@ El video incluye además el testimonio ante cámara de cada participante, descri
  
 | Sección | Timing |
 | :--- | :--- |
-| Introducción y proceso de trabajo del equipo Innovify | 00:00-00:00 |
 | Testimonio: Luis Becerra Ninahuanca | 00:00-2:03 |
 | Testimonio: Victor Alberca Saavedra | 2:04-4:16 |
 | Testimonio: David Komatsu Dueñas | 4:17-5:14 |
-| Testimonio: Alexandra Meza Soza | 5:15-7:00 |
-| Testimonio: Sebasthian Conde Huashuayo | 7:01-9:17 |
+| Testimonio: Sebasthian Conde Huashuayo | 5:15-7:29 |
+| Testimonio: Alexandra Meza Soza | 7:30-9:37 |
+
  
 ---
  
@@ -4465,9 +4481,9 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** |  |
-| **URL YouTube** | [https://youtu.be/HbdxsbFhGaE](https://youtu.be/HbdxsbFhGaE) |
-| **Duración** | 9:17 min |
+| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
+| **URL YouTube** | [https://youtu.be/j13Sx0HeNOE](https://youtu.be/j13Sx0HeNOE) |
+| **Duración** | 9:37 min |
  
 
 
@@ -4671,6 +4687,7 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 | Entrega | Características del video | Enlace del video |
 | :--- | :--- | :--- |
 | **AV1** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av1 <br> **Duración:** 24:22 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAxi_jri4LRSqytkMsuKWmjAVeU1rGw0gq9kwcWbMRQooI?e=naWYlc |
+| **AV2** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av2 <br> **Duración:**  |  |
 
 ## Anexo C
 
@@ -4680,5 +4697,5 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 | **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección, resumiendo los flujos de navegación que se incluyen en el video. Seguir especificaciones del enunciado. |
 | **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | Subir el video en Microsoft Stream y en YouTube. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
-| **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | Subir el video en Microsoft Stream y en YouTube. Incluir redacción de introducción a la sección, resumiendo el proceso de trabajo y los logros alcanzados por los miembros del equipo. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
+| **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
