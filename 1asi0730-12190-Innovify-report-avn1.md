@@ -3480,8 +3480,8 @@ Para este Sprint 3, el equipo se comprometió a implementar el 40% del backend d
 | **Sprint 2 Retrospective Summary** | El equipo identificó la necesidad de avanzar hacia servicios reales con ASP.NET Core para reemplazar las Fake APIs, establecer contratos de API claros entre frontend y backend, y asegurar consistencia en los nombres de endpoints y modelos de datos entre ambas capas. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 3 Goal** | Nuestro enfoque está en implementar y desplegar los Web Services RESTful con ASP.NET Core para los bounded contexts principales de SkillSwap, e iniciar su integración con el Frontend Web Application. Creemos que esto permitirá reemplazar progresivamente las Fake APIs por servicios reales, validando el flujo completo de datos entre la capa de presentación y la capa de negocio. Esto se confirmará cuando los principales flujos del sistema — búsqueda de tutores, gestión de sesiones, pagos y moderación — funcionen de extremo a extremo consumiendo los endpoints reales desplegados. |
-| **Sprint 3 Velocity** | 53 Story Points |
-| **Sum of Story Points** | 53 |
+| **Sprint 3 Velocity** | 48 Story Points |
+| **Sum of Story Points** | 48 |
  
 *(Tabla. Tabla de Sprint Planning 3 - Elaboración propia.)*
  
@@ -3519,12 +3519,13 @@ Se presenta la tabla de Sprint 3 que logramos avanzar con el grupo:
 | **US19** | View Virtual Wallet and balance | Ratings & Monetization | Medium | 3 |
 | **US21** | Cancel pending or scheduled reservation | Session Coordination & Communication | Medium | 2 |
 | **US25** | Review and resolve academic disputes | Analytics & Moderation | Medium | 3 |
-| **US26** | Institutional domain validation and token sending | Backend API & Integrations | High | 5 |
 | **US27** | Payment Gateway API Integration | Backend API & Integrations | High | 5 |
 | **US28** | Token generation for WebRTC | Backend API & Integrations | High | 8 |
 | **US29** | Cloud Storage API integration for chat | Backend API & Integrations | Medium | 5 |
 | **US30** | Aggregation endpoint for Academic Dashboard | Backend API & Integrations | Medium | 5 |
-| | | | **Total Story Points** | **53** |
+| | | | **Total Story Points** | **48** |
+ 
+> **Nota:** Las User Stories **US27** (Payment Gateway API Integration), **US28** (Token generation for WebRTC), **US29** (Cloud Storage API integration for chat) y **US30** (Aggregation endpoint for Academic Dashboard) no fueron completadas durante el Sprint 3. El equipo priorizó la implementación y despliegue de los Web Services core (Discovery, Workspace, Reputation, Payments y Moderation) y su integración con el frontend, dejando estas integraciones con servicios de terceros y funcionalidades avanzadas pendientes para el siguiente Sprint.
  
 A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 3:
  
@@ -3559,16 +3560,14 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | **US25** | Review and resolve academic disputes | T16 | Design moderation table view | Create dispute list table with status indicators and detail panel | 4 hr | Luis | DONE |
 | | | T17 | Implement dispute resolution logic | Handle dispute status updates (resolve/reject) with backend API | 5 hr | Luis | DONE |
 | | | T18 | Add filtering and search to moderation table | Enable search and filter by status/category in the dispute list | 4 hr | Luis | DONE |
-| **US26** | Institutional domain validation and token sending | T19 | Implement domain validation endpoint | Validate .edu.pe domain via regex and send JWT confirmation token by email | 5 hr | Victor | DONE |
-| | | T20 | Integrate email service | Connect ASP.NET Core to email API (SendGrid) for token delivery | 4 hr | Victor | DONE |
-| **US27** | Payment Gateway API Integration | T21 | Integrate payment gateway | Connect ASP.NET Core to Stripe API for card donation processing | 5 hr | Alexandra | DONE |
+| **US27** | Payment Gateway API Integration | T21 | Integrate payment gateway | Connect ASP.NET Core to Stripe API for card donation processing | 5 hr | Alexandra | TO-DO |
 | | | T22 | Implement commission calculation | Calculate and retain 5% platform commission in the backend service | 4 hr | Alexandra | DONE |
-| **US28** | Token generation for WebRTC | T23 | Implement WebRTC token endpoint | Consume Agora.io API to generate temporary access tokens from backend | 5 hr | David | DONE |
-| | | T24 | Integrate token with frontend video call | Pass generated token to Vue frontend for embedded video session | 4 hr | David | DONE |
-| **US29** | Cloud Storage API integration for chat | T25 | Integrate cloud storage service | Connect ASP.NET Core to Cloudinary for PDF and image upload management | 5 hr | Luis | DONE |
-| | | T26 | Implement file upload endpoint | Create POST endpoint for file upload returning accessible URL | 4 hr | Luis | DONE |
-| **US30** | Aggregation endpoint for Academic Dashboard | T27 | Implement aggregation query | Create EF Core aggregation query to count top requested tutoring courses | 4 hr | Sebasthian | DONE |
-| | | T28 | Implement dashboard endpoint | Create RESTful GET endpoint returning optimized JSON for B2B Dashboard | 5 hr | Sebasthian | DONE |
+| **US28** | Token generation for WebRTC | T23 | Implement WebRTC token endpoint | Consume Agora.io API to generate temporary access tokens from backend | 5 hr | David | TO-DO |
+| | | T24 | Integrate token with frontend video call | Pass generated token to Vue frontend for embedded video session | 4 hr | David | TO-DO |
+| **US29** | Cloud Storage API integration for chat | T25 | Integrate cloud storage service | Connect ASP.NET Core to Cloudinary for PDF and image upload management | 5 hr | Luis | TO-DO |
+| | | T26 | Implement file upload endpoint | Create POST endpoint for file upload returning accessible URL | 4 hr | Luis | TO-DO |
+| **US30** | Aggregation endpoint for Academic Dashboard | T27 | Implement aggregation query | Create EF Core aggregation query to count top requested tutoring courses | 4 hr | Sebasthian | TO-DO |
+| | | T28 | Implement dashboard endpoint | Create RESTful GET endpoint returning optimized JSON for B2B Dashboard | 5 hr | Sebasthian | TO-DO |
  
 *(Tabla. Tabla de Sprint Backlog 3 - Elaboración propia.)*
  
@@ -3670,14 +3669,12 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
  
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/tutors | Create tutor | POST | `POST /api/v1/tutors` | Body: tutor object | `{"id":1,"name":"Carlos Mendoza","university":"UPC","bio":"...","rating":4.8,"skills":["Cálculo"],"available":true,"specialty":"Matemáticas","portfolioUrl":"...","yearsExperience":2,"createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
-| /api/v1/tutors | Get all tutors | GET | `GET /api/v1/tutors` | None | `[{"id":1,"name":"Carlos Mendoza","university":"UPC","rating":4.8,"available":true}]` |
-| /api/v1/tutors/{tutorId} | Get tutor by ID | GET | `GET /api/v1/tutors/1` | tutorId (path) | `{"id":1,"name":"Carlos Mendoza","university":"UPC","rating":4.8}` |
-| /api/v1/tutors/available/{available} | Get tutors by availability | GET | `GET /api/v1/tutors/available/true` | available (path) | `[{"id":1,"name":"Carlos Mendoza","available":true}]` |
-| /api/v1/tutors/university/{university} | Get tutors by university | GET | `GET /api/v1/tutors/university/UPC` | university (path) | `[{"id":1,"name":"Carlos Mendoza","university":"UPC"}]` |
-| /api/v1/tutors/specialty/{specialty} | Get tutors by specialty | GET | `GET /api/v1/tutors/specialty/Matemáticas` | specialty (path) | `[{"id":1,"name":"Carlos Mendoza","specialty":"Matemáticas"}]` |
-| /api/v1/tutors/{tutorId} | Update tutor | PUT | `PUT /api/v1/tutors/1` | tutorId (path), Body: tutor object | `{"id":1,"name":"Carlos Mendoza","rating":4.9}` |
-| /api/v1/tutors/{tutorId} | Delete tutor | DELETE | `DELETE /api/v1/tutors/1` | tutorId (path) | 204 No Content |
+| /api/v1/Tutors | Create tutor | POST | `POST /api/v1/Tutors` | Body: tutor object | `{"id":1,"userId":1,"name":"Victor Alberca","university":"UPC","career":"Ingeniería de Software","bio":"...","skills":["Python","Java"],"avatarUrl":"...","experienceYears":2,"mainSubject":"Programación","rating":0,"reviewCount":0,"verified":false,"online":false}` |
+| /api/v1/Tutors | Get all tutors | GET | `GET /api/v1/Tutors` | None | `[{"id":1,"userId":1,"name":"Victor Alberca","rating":4.5}]` |
+| /api/v1/Tutors/{tutorId} | Get tutor by ID | GET | `GET /api/v1/Tutors/1` | tutorId (path) | `{"id":1,"name":"Victor Alberca","university":"UPC"}` |
+| /api/v1/Tutors/user/{userId} | Get tutor by user ID | GET | `GET /api/v1/Tutors/user/1` | userId (path) | `{"id":1,"userId":1,"name":"Victor Alberca"}` |
+| /api/v1/Tutors/skill/{skill} | Get tutors by skill | GET | `GET /api/v1/Tutors/skill/Python` | skill (path) | `[{"id":1,"name":"Victor Alberca","skills":["Python","Java"]}]` |
+| /api/v1/Tutors/{tutorId} | Update tutor | PUT | `PUT /api/v1/Tutors/1` | tutorId (path), Body: `{"bio":"...","skills":[...],"avatarUrl":"...","mainSubject":"..."}` | `{"id":1,"bio":"actualizado"}` |
  
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-endpoints-Discovery.png" alt="Swagger Endpoints Sprint 3" width="800">
@@ -3692,18 +3689,18 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
  
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/tutoring-sessions | Create tutoring session | POST | `POST /api/v1/tutoring-sessions` | Body: session object | `{"id":1,"topic":"Cálculo II","learnerId":1,"tutorId":1,"scheduledAt":"2026-06-10T10:00","status":"pending","message":"Necesito ayuda","studentLevel":"intermedio","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
-| /api/v1/tutoring-sessions | Get all tutoring sessions | GET | `GET /api/v1/tutoring-sessions` | None | `[{"id":1,"topic":"Cálculo II","status":"pending"}]` |
-| /api/v1/tutoring-sessions/{sessionId} | Get session by ID | GET | `GET /api/v1/tutoring-sessions/1` | sessionId (path) | `{"id":1,"topic":"Cálculo II","status":"pending"}` |
-| /api/v1/tutoring-sessions/learner/{learnerId} | Get sessions by learner | GET | `GET /api/v1/tutoring-sessions/learner/1` | learnerId (path) | `[{"id":1,"topic":"Cálculo II","learnerId":1}]` |
-| /api/v1/tutoring-sessions/tutor/{tutorId} | Get sessions by tutor | GET | `GET /api/v1/tutoring-sessions/tutor/1` | tutorId (path) | `[{"id":1,"topic":"Cálculo II","tutorId":1}]` |
-| /api/v1/tutoring-sessions/status/{status} | Get sessions by status | GET | `GET /api/v1/tutoring-sessions/status/pending` | status (path) | `[{"id":1,"topic":"Cálculo II","status":"pending"}]` |
-| /api/v1/tutoring-sessions/{sessionId} | Update tutoring session | PUT | `PUT /api/v1/tutoring-sessions/1` | sessionId (path), Body: session object | `{"id":1,"topic":"Cálculo II actualizado","status":"pending"}` |
-| /api/v1/tutoring-sessions/{sessionId}/status | Update session status | PATCH | `PATCH /api/v1/tutoring-sessions/1/status` | sessionId (path), Body: `{"status":"scheduled"}` | `{"id":1,"status":"scheduled"}` |
-| /api/v1/messages | Create message | POST | `POST /api/v1/messages` | Body: message object | `{"id":1,"content":"Hola","senderId":1,"sessionId":1,"sentAt":"2026-06-10T10:05","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
-| /api/v1/messages/session/{sessionId} | Get messages by session | GET | `GET /api/v1/messages/session/1` | sessionId (path) | `[{"id":1,"content":"Hola","senderId":1,"sessionId":1}]` |
-| /api/v1/messages/{messageId} | Get message by ID | GET | `GET /api/v1/messages/1` | messageId (path) | `{"id":1,"content":"Hola","senderId":1,"sessionId":1}` |
- 
+| /api/v1/Sessions | Create session | POST | `POST /api/v1/Sessions` | Body: `{"learnerId":20,"tutorId":3,"topic":"Cálculo II","scheduledAt":"2026-07-01T15:00:00","courseId":101}` | `{"id":1,"learnerId":20,"tutorId":3,"topic":"Cálculo II","status":"pending","scheduledAt":"2026-07-01T15:00:00","courseId":101}` |
+| /api/v1/Sessions | Get all sessions | GET | `GET /api/v1/Sessions` | None | `[{"id":1,"topic":"Cálculo II","status":"pending"}]` |
+| /api/v1/Sessions/{sessionId} | Get session by ID | GET | `GET /api/v1/Sessions/1` | sessionId (path) | `{"id":1,"topic":"Cálculo II","status":"pending"}` |
+| /api/v1/Sessions/learner/{learnerId} | Get sessions by learner | GET | `GET /api/v1/Sessions/learner/20` | learnerId (path) | `[{"id":1,"learnerId":20}]` |
+| /api/v1/Sessions/tutor/{tutorId} | Get sessions by tutor | GET | `GET /api/v1/Sessions/tutor/3` | tutorId (path) | `[{"id":1,"tutorId":3}]` |
+| /api/v1/Sessions/{sessionId} | Update session | PUT | `PUT /api/v1/Sessions/1` | sessionId (path), Body: `{"status":"scheduled"}` | `{"id":1,"status":"scheduled"}` |
+| /api/v1/Sessions/{sessionId}/status | Update session status | PATCH | `PATCH /api/v1/Sessions/1/status` | sessionId (path), Body: `{"status":"scheduled"}` | `{"id":1,"status":"scheduled"}` |
+| /api/v1/Messages | Get all messages | GET | `GET /api/v1/Messages` | None | `[{"id":1,"content":"Hola","sessionId":1}]` |
+| /api/v1/Messages | Create message | POST | `POST /api/v1/Messages` | Body: `{"sessionId":1,"senderId":20,"content":"Hola","fileUrl":null,"fileName":null}` | `{"id":1,"sessionId":1,"senderId":20,"content":"Hola","fileUrl":"","fileName":"","sentAt":"2026-06-19T..."}` |
+| /api/v1/Messages/session/{sessionId} | Get messages by session | GET | `GET /api/v1/Messages/session/1` | sessionId (path) | `[{"id":1,"content":"Hola","sessionId":1}]` |
+| /api/v1/Messages/{messageId} | Delete message | DELETE | `DELETE /api/v1/Messages/1` | messageId (path) | 204 No Content |
+
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-endpoints-Workspace.png" alt="Swagger Endpoints Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
@@ -3745,13 +3742,11 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
  
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/reviews | Submit review | POST | `POST /api/v1/reviews` | Body: review object | `{"id":1,"tutorId":1,"learnerId":1,"learnerName":"Jazmín","rating":5.0,"comment":"Excelente tutor","sessionId":1,"tutorReply":"","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
-| /api/v1/reviews | Get all reviews | GET | `GET /api/v1/reviews` | None | `[{"id":1,"tutorId":1,"rating":5.0,"comment":"Excelente tutor"}]` |
-| /api/v1/reviews/{reviewId} | Get review by ID | GET | `GET /api/v1/reviews/1` | reviewId (path) | `{"id":1,"tutorId":1,"rating":5.0}` |
-| /api/v1/reviews/tutor/{tutorId} | Get reviews by tutor | GET | `GET /api/v1/reviews/tutor/1` | tutorId (path) | `[{"id":1,"tutorId":1,"rating":5.0}]` |
-| /api/v1/reviews/learner/{learnerId} | Get reviews by learner | GET | `GET /api/v1/reviews/learner/1` | learnerId (path) | `[{"id":1,"learnerId":1,"rating":5.0}]` |
-| /api/v1/reviews/{reviewId} | Update review | PUT | `PUT /api/v1/reviews/1` | reviewId (path), Body: `{"rating":4.5,"comment":"Muy bueno","tutorReply":"Gracias"}` | `{"id":1,"rating":4.5,"tutorReply":"Gracias","updatedAt":"2026-06-15"}` |
-| /api/v1/reviews/{reviewId} | Delete review | DELETE | `DELETE /api/v1/reviews/1` | reviewId (path) | 204 No Content |
+| /api/v1/Reviews | Submit review | POST | `POST /api/v1/Reviews` | Body: `{"reviewerId":20,"tutorId":3,"sessionId":1,"rating":5,"comment":"Excelente explicación"}` | `{"id":1,"reviewerId":20,"tutorId":3,"sessionId":1,"rating":5,"comment":"Excelente explicación","reviewedAt":"2026-06-19T..."}` |
+| /api/v1/Reviews | Get all reviews | GET | `GET /api/v1/Reviews` | None | `[{"id":1,"tutorId":3,"rating":5}]` |
+| /api/v1/Reviews/{reviewId} | Get review by ID | GET | `GET /api/v1/Reviews/1` | reviewId (path) | `{"id":1,"rating":5}` |
+| /api/v1/Reviews/tutor/{tutorId} | Get reviews by tutor | GET | `GET /api/v1/Reviews/tutor/3` | tutorId (path) | `[{"id":1,"tutorId":3,"rating":5}]` |
+| /api/v1/Reviews/tutor/{tutorId}/summary | Get tutor reputation summary | GET | `GET /api/v1/Reviews/tutor/3/summary` | tutorId (path) | `{"tutorId":3,"averageRating":4.5,"reviewCount":2}` |
  
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-endpoints-Reputation.png" alt="Swagger Endpoints Sprint 3" width="800">
@@ -3766,19 +3761,15 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
  
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/donations | Process donation | POST | `POST /api/v1/donations` | Body: `{"donorId":1,"tutorId":1,"sessionId":1,"amount":20.00,"commission":5.0,"currency":"PEN"}` | `{"id":1,"amount":20.00,"netAmount":19.00,"commission":5.0,"status":"pending","currency":"PEN","createdAt":"2026-06-15"}` |
-| /api/v1/donations | Get all donations | GET | `GET /api/v1/donations` | None | `[{"id":1,"amount":20.00,"status":"pending"}]` |
-| /api/v1/donations/{donationId} | Get donation by ID | GET | `GET /api/v1/donations/1` | donationId (path) | `{"id":1,"amount":20.00,"status":"pending"}` |
-| /api/v1/donations/donor/{donorId} | Get donations by donor | GET | `GET /api/v1/donations/donor/1` | donorId (path) | `[{"id":1,"donorId":1,"amount":20.00}]` |
-| /api/v1/donations/tutor/{tutorId} | Get donations by tutor | GET | `GET /api/v1/donations/tutor/1` | tutorId (path) | `[{"id":1,"tutorId":1,"amount":20.00}]` |
-| /api/v1/donations/status/{status} | Get donations by status | GET | `GET /api/v1/donations/status/pending` | status (path) | `[{"id":1,"amount":20.00,"status":"pending"}]` |
-| /api/v1/donations/{donationId}/status | Update donation status | PATCH | `PATCH /api/v1/donations/1/status` | donationId (path), Body: `{"status":"completed"}` | `{"id":1,"status":"completed"}` |
-| /api/v1/wallets | Create wallet | POST | `POST /api/v1/wallets` | Body: `{"tutorId":1,"currency":"PEN","bankName":"BCP","accountNumber":"123456789"}` | `{"id":1,"tutorId":1,"balance":0.0,"currency":"PEN","createdAt":"2026-06-15"}` |
-| /api/v1/wallets | Get all wallets | GET | `GET /api/v1/wallets` | None | `[{"id":1,"tutorId":1,"balance":0.0,"currency":"PEN"}]` |
-| /api/v1/wallets/{walletId} | Get wallet by ID | GET | `GET /api/v1/wallets/1` | walletId (path) | `{"id":1,"tutorId":1,"balance":0.0}` |
-| /api/v1/wallets/tutor/{tutorId} | Get wallet by tutor | GET | `GET /api/v1/wallets/tutor/1` | tutorId (path) | `{"id":1,"tutorId":1,"balance":0.0}` |
-| /api/v1/wallets/{walletId}/add-funds | Add funds to wallet | PATCH | `PATCH /api/v1/wallets/1/add-funds` | walletId (path), Body: `{"amount":50.00}` | `{"id":1,"balance":50.00}` |
-| /api/v1/wallets/{walletId}/withdraw-funds | Withdraw funds from wallet | PATCH | `PATCH /api/v1/wallets/1/withdraw-funds` | walletId (path), Body: `{"amount":20.00}` | `{"id":1,"balance":30.00}` |
+| /api/v1/Wallets | Get all wallets | GET | `GET /api/v1/Wallets` | None | `[{"id":1,"userId":1,"balance":100}]` |
+| /api/v1/Wallets | Create wallet | POST | `POST /api/v1/Wallets` | Body: `{"userId":1}` | `{"id":1,"userId":1,"balance":0}` |
+| /api/v1/Wallets/{walletId} | Get wallet by ID | GET | `GET /api/v1/Wallets/1` | walletId (path) | `{"id":1,"userId":1,"balance":100}` |
+| /api/v1/Wallets/user/{userId} | Get wallet by user ID | GET | `GET /api/v1/Wallets/user/1` | userId (path) | `{"id":1,"userId":1,"balance":100}` |
+| /api/v1/Wallets/{walletId}/add-funds | Add funds to wallet | PATCH | `PATCH /api/v1/Wallets/1/add-funds` | walletId (path), Body: `{"amount":50.00}` | `{"id":1,"balance":150}` |
+| /api/v1/Transactions | Get all transactions | GET | `GET /api/v1/Transactions` | None | `[{"id":1,"walletId":1,"amount":50,"type":"deposit"}]` |
+| /api/v1/Transactions/wallet/{walletId} | Get transactions by wallet | GET | `GET /api/v1/Transactions/wallet/1` | walletId (path) | `[{"id":1,"walletId":1,"amount":50}]` |
+| /api/v1/Transactions | Create transaction | POST | `POST /api/v1/Transactions` | Body: `{"walletId":1,"amount":50,"type":"deposit","description":"..."}` | `{"id":1,"walletId":1,"amount":50,"type":"deposit"}` |
+| /api/v1/Transactions/donate | Donate to a tutor | POST | `POST /api/v1/Transactions/donate` | Body: `{"fromUserId":20,"toUserId":3,"amount":10,"description":"..."}` | `{"transactionId":1,"amountSent":10,"platformFee":0.5,"amountReceived":9.5,"newSenderBalance":90,"newReceiverBalance":109.5}` |
  
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-endpoints-Payments.png" alt="Swagger Endpoints Sprint 3" width="800">
@@ -3793,22 +3784,15 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
  
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/reports | Submit report | POST | `POST /api/v1/reports` | Body: report object | `{"id":1,"reporterUserId":1,"reportedUserId":2,"reason":"Lenguaje ofensivo","status":"pending","closed":false,"reportedAt":"2026-06-15","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
-| /api/v1/reports | Get all reports | GET | `GET /api/v1/reports` | None | `[{"id":1,"reporterUserId":1,"reportedUserId":2,"status":"pending","closed":false}]` |
-| /api/v1/reports/{reportId} | Get report by ID | GET | `GET /api/v1/reports/1` | reportId (path) | `{"id":1,"reporterUserId":1,"reportedUserId":2,"status":"pending","closed":false}` |
-| /api/v1/reports/active | Get active reports | GET | `GET /api/v1/reports/active` | None | `[{"id":1,"status":"pending","closed":false}]` |
-| /api/v1/reports/resolved | Get resolved reports | GET | `GET /api/v1/reports/resolved` | None | `[{"id":2,"status":"resolved","closed":true}]` |
-| /api/v1/reports/by-reported-user/{reportedUserId} | Get reports by reported user | GET | `GET /api/v1/reports/by-reported-user/2` | reportedUserId (path) | `[{"id":1,"reportedUserId":2,"status":"pending"}]` |
-| /api/v1/reports/{reportId} | Update report | PUT | `PUT /api/v1/reports/1` | reportId (path), Body: `{"reason":"...","status":"reviewed","closed":false}` | `{"id":1,"status":"reviewed","closed":false}` |
-| /api/v1/reports/{reportId}/close | Close report | PATCH | `PATCH /api/v1/reports/1/close` | reportId (path) | `{"id":1,"status":"resolved","closed":true}` |
-| /api/v1/reports/{reportId} | Delete report | DELETE | `DELETE /api/v1/reports/1` | reportId (path) | 204 No Content |
-| /api/v1/sanctions | Create sanction | POST | `POST /api/v1/sanctions` | Body: `{"reportId":1,"sanctionedUserId":2,"type":"warning","description":"Lenguaje ofensivo","durationDays":7}` | `{"id":1,"reportId":1,"sanctionedUserId":2,"type":"warning","durationDays":7,"createdAt":"2026-06-15"}` |
-| /api/v1/sanctions | Get all sanctions | GET | `GET /api/v1/sanctions` | None | `[{"id":1,"sanctionedUserId":2,"type":"warning"}]` |
-| /api/v1/sanctions/{sanctionId} | Get sanction by ID | GET | `GET /api/v1/sanctions/1` | sanctionId (path) | `{"id":1,"sanctionedUserId":2,"type":"warning"}` |
-| /api/v1/sanctions/by-report/{reportId} | Get sanctions by report | GET | `GET /api/v1/sanctions/by-report/1` | reportId (path) | `[{"id":1,"reportId":1,"type":"warning"}]` |
-| /api/v1/sanctions/by-user/{userId} | Get sanctions by user | GET | `GET /api/v1/sanctions/by-user/2` | userId (path) | `[{"id":1,"sanctionedUserId":2,"type":"warning"}]` |
-| /api/v1/sanctions/{sanctionId} | Update sanction | PUT | `PUT /api/v1/sanctions/1` | sanctionId (path), Body: `{"type":"suspension","description":"Reincidencia","durationDays":30}` | `{"id":1,"type":"suspension","durationDays":30}` |
-| /api/v1/sanctions/{sanctionId} | Delete sanction | DELETE | `DELETE /api/v1/sanctions/1` | sanctionId (path) | 204 No Content |
+| /api/v1/Reports | Submit report | POST | `POST /api/v1/Reports` | Body: `{"reporterUserId":1,"reportedUserId":2,"sessionId":1,"reason":"Lenguaje ofensivo"}` | `{"id":1,"reporterUserId":1,"reportedUserId":2,"sessionId":1,"reason":"...","status":"pending","closed":false,"reportedAt":"2026-06-19T..."}` |
+| /api/v1/Reports | Get all reports | GET | `GET /api/v1/Reports` | None | `[{"id":1,"status":"pending"}]` |
+| /api/v1/Reports/{reportId} | Get report by ID | GET | `GET /api/v1/Reports/1` | reportId (path) | `{"id":1,"status":"pending"}` |
+| /api/v1/Reports/reported-user/{reportedUserId} | Get reports by reported user | GET | `GET /api/v1/Reports/reported-user/2` | reportedUserId (path) | `[{"id":1,"reportedUserId":2}]` |
+| /api/v1/Reports/{reportId}/close | Close report | PATCH | `PATCH /api/v1/Reports/1/close` | reportId (path) | `{"id":1,"status":"resolved","closed":true}` |
+| /api/v1/Sanctions | Create sanction | POST | `POST /api/v1/Sanctions` | Body: `{"reportId":1,"sanctionedUserId":2,"type":"warning","description":"...","durationDays":7}` | `{"id":1,"reportId":1,"sanctionedUserId":2,"type":"warning","durationDays":7}` |
+| /api/v1/Sanctions | Get all sanctions | GET | `GET /api/v1/Sanctions` | None | `[{"id":1,"type":"warning"}]` |
+| /api/v1/Sanctions/{sanctionId} | Get sanction by ID | GET | `GET /api/v1/Sanctions/1` | sanctionId (path) | `{"id":1,"type":"warning"}` |
+| /api/v1/Sanctions/report/{reportId} | Get sanctions by report | GET | `GET /api/v1/Sanctions/report/1` | reportId (path) | `[{"id":1,"reportId":1}]` |
  
 *(Tabla. Tabla de Services Documentation Evidence for Sprint Review - Elaboración propia.)*
  
@@ -3823,13 +3807,15 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 ---
  
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
-Durante el Sprint 3 se realizaron las actividades de despliegue correspondientes al backend de SkillSwap. Se creó el repositorio del proyecto ASP.NET Core en la organización de GitHub del equipo y se configuró el entorno de despliegue en Render.
-
+Durante el Sprint 3 se realizaron las actividades de despliegue correspondientes al backend de SkillSwap. Se creó el repositorio del proyecto ASP.NET Core en la organización de GitHub del equipo y se configuró el entorno de despliegue en Render, junto con la base de datos MySQL administrada en Aiven.
+ 
 Las principales actividades realizadas fueron:
-
-- Configuración del proyecto ASP.NET Core con SQL Server
-- Creación y configuración del servicio Web Service en Render para el despliegue automático del backend desde el repositorio de GitHub.
-- Configuración de las variables de entorno requeridas por la aplicación en Render.
+ 
+- Configuración del proyecto ASP.NET Core con Entity Framework Core y MySQL como motor de base de datos.
+- Creación de una base de datos MySQL administrada en Aiven (plan gratuito) para el almacenamiento persistente de los seis bounded contexts del backend.
+- Creación y configuración del servicio Web Service en Render para el despliegue automático del backend desde el repositorio de GitHub, mediante un Dockerfile.
+- Configuración de las variables de entorno requeridas por la aplicación en Render, incluyendo el connection string hacia la base de datos en Aiven.
+- Aplicación de las migraciones de Entity Framework Core contra la base de datos de producción para la creación de las tablas correspondientes a cada bounded context.
 - Configuración de CORS para permitir el consumo desde el frontend desplegado.
 - Verificación de disponibilidad de los endpoints mediante Swagger UI en el entorno desplegado.
 
@@ -3841,7 +3827,6 @@ Las principales actividades realizadas fueron:
     Figura. Evidencia del despliegue del backend SkillSwap en Render, mostrando el estado activo del servicio y la URL de acceso a los endpoints.
   </figcaption>
 </figure>
-
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-deploy-Lp1.png" alt="Despliegue Landing Page Sprint 3" width="800">
   <img src="public/assets/images-doc/sprint3-deploy-Lp2.png" alt="Despliegue Landing Page Sprint 3" width="800">
@@ -3850,7 +3835,6 @@ Las principales actividades realizadas fueron:
     Figura. Evidencia de los cambios de la Landing Page.
   </figcaption>
 </figure>
-
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-deploy-front.png" alt="Despliegue Frontend Sprint 3" width="800">
   <img src="public/assets/images-doc/sprint3-deploy-front2.png" alt="Despliegue Frontend Sprint 3" width="800">
@@ -3859,7 +3843,6 @@ Las principales actividades realizadas fueron:
     Figura. Evidencia de los cambios y despliegue del nuevo frontend.
   </figcaption>
 </figure>
-
 **URL del backend desplegado:** [https://skillswap-backend-t7zk.onrender.com](https://skillswap-backend-t7zk.onrender.com)
  
 **URL Swagger UI:** [https://skillswap-backend-t7zk.onrender.com/swagger/index.html](https://skillswap-backend-t7zk.onrender.com/swagger/index.html)
@@ -3867,8 +3850,10 @@ Las principales actividades realizadas fueron:
 **URL de la Landing Page:** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
  
 **URL del frontend:** [https://skillswap-app-web.web.app/home](https://skillswap-app-web.web.app/home)
-
+ 
 > **Nota:** El backend fue desarrollado utilizando **.NET 8.0** para mantener la compatibilidad y uniformidad del entorno de desarrollo entre todos los integrantes del equipo durante el Sprint.
+ 
+> **Nota:** La base de datos MySQL administrada en Aiven se encuentra bajo el plan gratuito (Free-1-1gb), el cual presenta como limitación que el servicio se apaga automáticamente (estado *Powered off*) tras un período de inactividad. En caso de que el backend desplegado en Render no logre establecer conexión con la base de datos durante una demostración o evaluación, se debe verificar el estado del servicio en el panel de Aiven y reactivarlo manualmente mediante la opción *Power on*, proceso que toma aproximadamente un par de minutos en restablecer la disponibilidad completa de la base de datos.
  
 ---
  
