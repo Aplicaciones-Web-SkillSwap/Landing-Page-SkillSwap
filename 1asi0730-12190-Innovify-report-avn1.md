@@ -677,7 +677,7 @@ En esta entrevista, Lucero Campos cursa el octavo ciclo en la Universidad César
   <em>Figura 8. YouTube: Entrevista 2: Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
-* **URL:**[ https://www.youtube.com/watch?v=zFAWYnoZSzU]( https://www.youtube.com/watch?v=zFAWYnoZSzU)
+* **URL:**[https://www.youtube.com/watch?v=zFAWYnoZSzU]( https://www.youtube.com/watch?v=zFAWYnoZSzU)
 * **Inicio:** 0:12
 * **Duración:** 10 minutos con 28 segundos
 
@@ -4407,7 +4407,7 @@ El video incluye una presentación del problema que resuelve la plataforma, una 
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **URL Microsoft Stream** | |
 | **URL Youtube** | [https://youtu.be/FUCpxY3n_Po](https://youtu.be/FUCpxY3n_Po)|
 | **Duración** |2:08 |
  
@@ -4471,17 +4471,15 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 <p align="center">
   <img src="public/assets/images-doc/about-the-team-screenshot.png"
        alt="Screenshot Video About-the-Team" width="700">
-  <br>
+  <br>https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
   <em>Figura. Captura representativa del Video About-the-Team de SkillSwap, mostrando el testimonio personal de uno de los integrantes del equipo Innovify.</em>
 </p>
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
+| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/\:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
 | **URL YouTube** | [https://youtu.be/j13Sx0HeNOE](https://youtu.be/j13Sx0HeNOE) |
 | **Duración** | 9:37 min |
- 
-
 
 ---
 
@@ -4503,23 +4501,20 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 
 ## Anexos
 
-* **Wireframes (Figma):** 
-[https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1](https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1)
+* **Wireframes (Figma):** [https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1](https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1)
 
+* **Miro:** [https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 ](https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 )
 
-* **Página Web (GitHub Pages):**
-[ https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git/]( https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git/)
+* **Enlace del lucidchartd para los bounded context:** [https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397](https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397)
 
+* **Landing Page (GitHub Pages):**
+[ https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/]( https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
 
-* **Miro:**
-[https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 ](https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 )
- 
+* **Deployed Fronted (Firebase Hosting):**
+[ https://skillswap-app-web.web.app/home](https://skillswap-app-web.web.app/home)
 
-
-* **Enlace del lucidchartd para los bounded context:**
-
-  [https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397](https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397)
-
+* **Deployed Backend (Render):**
+[ https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/ ]( https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/ )
 
 ---
 
@@ -4683,15 +4678,15 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 | Entrega | Características del video | Enlace del video |
 | :--- | :--- | :--- |
 | **AV1** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av1 <br> **Duración:** 24:22 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAxi_jri4LRSqytkMsuKWmjAVeU1rGw0gq9kwcWbMRQooI?e=naWYlc |
-| **AV2** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av2 <br> **Duración:**  |  |
+| **AV2** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av2 <br> **Duración:** 20:01  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQBV3Q5hzn62QJm2Cs0mJcHdAbUDgtjwQsyvnl_Wr8f-A5c?e=WgV6lf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 ## Anexo C
 
 | Sección | Características del video | Sobre el contenido | Integración y entrega |
-| :--- | :--- | :--- | :--- |
-| **Needfinding Interviews** | upc-pre-202610-1asi0730---needfinding-sprint-1 | Consolida todas las entrevistas realizadas, incluyendo en cada entrevista títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. |  |
-| **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección, resumiendo los flujos de navegación que se incluyen en el video. Seguir especificaciones del enunciado. |
+| - | - | - | - |
+| **Needfinding Interviews** | upc-pre-202610-1asi0730---needfinding-sprint-1 | Consolida todas las entrevistas realizadas, incluyendo en cada entrevista títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | Segmento objetivo 1: Estudiantes que quieran aprender<br> Entrevista 1: https://youtu.be/7ffbEWaAAts<br> Entrevista 2: https://www.youtube.com/watch?v=Ci4k50FULHE<br> Entrevista 3: https://www.youtube.com/watch?v=RvON7FjKH8g<br><br> Segmento objetivo 2: Estudiantes que quieran enseñar<br> Entrevista 1: https://www.youtube.com/watch?v=fMeHUnvO4rA <br>Entrevista 2: https://www.youtube.com/watch?v=zFAWYnoZSzU<br> Entrevista 3: https://www.youtube.com/watch?v=Otu_waadCj4<br><br> Segmento objetivo 3: Coordinador Institucional<br> Entrevista 1: https://youtu.be/YDpJ_S8Ik2g<br> Entrevista 2: https://youtu.be/oRoAbwVAjxI y https://youtu.be/tWd_sJHLAak<br> Entrevista 3: https://youtu.be/cP_YiYr2VD8 |
+| **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBqw5ZJB_CbSIhskmvCqC8yAdJ-JYnYdHlOJnjl7YZxBD8?e=yURAgh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
-| **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | Subir el video en Microsoft Stream y en YouTube. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
+| **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D | 
 | **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
