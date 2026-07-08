@@ -2525,7 +2525,7 @@ Contiene la tabla `reviews` con los campos `tutor_id`, `learner_id`, `learner_na
 
 **Bounded Context: Learning & Assessment**
 
-Contiene las tablas `quizzes`, `quiz_questions` y `quiz_attempts`. La tabla `quizzes` almacena los quizzes creados por tutores. La tabla `quiz_questions` es una tabla de colección para las preguntas de cada quiz, relacionada con `quizzes` mediante `quiz_id`. La tabla `quiz_attempts` registra los intentos de los learners con su `score` y `status` (IN_PROGRESS, COMPLETED, ABANDONED).
+Contiene las tablas quizzes, quiz_questions y quiz_attempts. La tabla quizzes almacena los quizzes creados por el Coordinador (Profesor Universitario), quien es el único rol capacitado académicamente para elaborar el contenido de evaluación; el Tutor únicamente selecciona un quiz del Banco Oficial y lo envía al Aprendiz durante la sesión. La tabla `quiz_questions` es una tabla de colección para las preguntas de cada quiz, relacionada con `quizzes` mediante `quiz_id`. La tabla `quiz_attempts` registra los intentos de los learners con su `score` y `status` (IN_PROGRESS, COMPLETED, ABANDONED).
 
 <p align="center">
   <img src="public/assets/images-doc/db-learning.png" alt="Database Diagram Learning" width="800">
