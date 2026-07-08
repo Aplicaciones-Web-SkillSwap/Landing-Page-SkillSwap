@@ -2474,16 +2474,28 @@ En conjunto, ambas representaciones permiten comprender tanto la estructura inte
 ---
 
 ## 4.8. Database Design
-
-Para garantizar la persistencia, integridad y escalabilidad de la información en Skillswap, el equipo ha optado por un sistema de gestión de bases de datos relacional.
-
-El diseño físico de la base de datos se ha estructurado aplicando los principios de Domain-Driven Design (DDD). Para evitar un modelo de datos monolítico y altamente acoplado, la arquitectura de la base de datos se ha dividido en cuatro Bounded Contexts (Contextos Delimitados). Cada contexto agrupa las tablas, columnas, restricciones (Primary Keys y Foreign Keys) y relaciones estrictamente necesarias para resolver un dominio específico del negocio, promoviendo la alta cohesión y el bajo acoplamiento.
-
-Los cuatro contextos que rigen el ecosistema de Skillswap son: Workespace Context, Learning Contex, Payment context y Discovery Context.
+ 
+Para garantizar la persistencia, integridad y escalabilidad de la información en SkillSwap, el equipo ha optado por un sistema de gestión de bases de datos relacional (MySQL).
+ 
+El diseño físico de la base de datos se ha estructurado aplicando los principios de Domain-Driven Design (DDD). Para evitar un modelo de datos monolítico y altamente acoplado, la arquitectura de la base de datos se ha dividido en siete Bounded Contexts (Contextos Delimitados). Cada contexto agrupa las tablas, columnas, restricciones (Primary Keys y Foreign Keys) y relaciones estrictamente necesarias para resolver un dominio específico del negocio, promoviendo la alta cohesión y el bajo acoplamiento.
+ 
+Los siete contextos que rigen el ecosistema de SkillSwap son: **Identity & Access Context**, **Discovery Context**, **Workspace Context**, **Learning & Assessment Context**, **Reputation Context**, **Payments & Wallet Context** y **Moderation & Disputes Context**. De estos, seis (Discovery, Workspace, Learning & Assessment, Reputation, Payments & Wallet y Moderation & Disputes) fueron diseñados e implementados íntegramente por el equipo. El Identity & Access Context, en cambio, parte de un proyecto base entregado por el docente para todos los equipos del curso, sobre el cual el equipo extendió el esquema original con los campos necesarios para la lógica de negocio de SkillSwap.
 
 ### 4.8.1. Database Diagrams
 
 A continuación se presenta el diagrama de base de datos de SkillSwap, el cual refleja los objetos de persistencia identificados en el diagrama de clases para cada bounded context. Cada BC gestiona sus propias tablas de forma independiente, siguiendo los principios de Domain-Driven Design.
+
+---
+
+**Bounded Context: Identity & Access** 
+ 
+Contiene la tabla `users`. El agregado `User` del proyecto base entregado por el docente solo exponía los campos `id`, `username` y `password_hash`, sin concepto de rol de negocio ni de verificación institucional. El equipo extendió el esquema agregando los campos `email` (con validación de dominio `.edu.pe`), `role` (`Learner` / `Tutor` / `Coordinator`) e `is_verified`, necesarios para el control de acceso basado en roles del resto de los bounded contexts.
+
+<p align="center">
+  <img src="public/assets/images-doc/db-discovery.png" alt="Database Diagram Discovery" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Identity & Access. Se destacan en el esquema los campos `email`, `role` e `is_verified`, agregados por el equipo sobre la tabla `users` entregada como base por el docente - Elaboración propia.</em>
+</p>
 
 ---
 
@@ -2495,18 +2507,6 @@ Contiene las tablas `tutoring_sessions` y `messages`. La tabla `tutoring_session
   <img src="public/assets/images-doc/db-workspace.png" alt="Database Diagram Workspace" width="800">
   <br>
   <em>Figura. Diagrama de base de datos del Bounded Context Workspace - Elaboración propia.</em>
-</p>
-
----
-
-**Bounded Context: Discovery**
-
-Contiene las tablas `tutors` y `tutor_skills`. La tabla `tutors` almacena el perfil completo del tutor incluyendo `name`, `university`, `bio`, `rating`, `available`, `specialty`, `portfolio_url` y `years_experience`. La tabla `tutor_skills` es una tabla de colección que almacena las habilidades de cada tutor mediante `@ElementCollection`.
-
-<p align="center">
-  <img src="public/assets/images-doc/db-discovery.png" alt="Database Diagram Discovery" width="800">
-  <br>
-  <em>Figura. Diagrama de base de datos del Bounded Context Discovery - Elaboración propia.</em>
 </p>
 
 ---
@@ -2569,7 +2569,7 @@ A continuación se presenta el diagrama relacional completo de SkillSwap, mostra
   <em>Figura. Diagrama de Base de Datos Relacional completo de SkillSwap - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
 </p>
 
-En síntesis, el diagrama relacional evidencia una estructura de base de datos sólida y coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Este diseño no solo respalda eficientemente las operaciones del sistema, sino que también facilita su escalabilidad y mantenimiento a largo plazo.
+En síntesis, el diagrama relacional evidencia una estructura de base de datos coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Seis de los siete bounded contexts (Discovery, Workspace, Learning & Assessment, Reputation, Payments & Wallet y Moderation & Disputes) fueron diseñados e implementados íntegramente por el equipo, mientras que Identity & Access parte de la base entregada por el docente y fue extendido con los campos necesarios para el control de acceso por rol del resto del sistema.
 
 ---
 
