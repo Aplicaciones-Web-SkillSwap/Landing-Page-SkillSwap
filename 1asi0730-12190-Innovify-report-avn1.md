@@ -1,36 +1,44 @@
 <p align="center">
-  <img src="public/assets/images-doc/Logo-Upc.png" alt="Logo UPC" width="300">
+  <img src="public/assets/images-doc/Logo-Upc.png" alt="Logo UPC" width="150">
 </p>
 
+<h3 align="center">Universidad Peruana de Ciencias Aplicadas</h3>
+
+<h3 align="center">Carrera de Ingeniería de Software</h3>
+
+<br>
+
+<p align="center">
+<strong>1ASI0730</strong><br>
+<strong>Aplicaciones Web</strong>
+</p>
+
+<p align="center">
+<strong>NRC</strong><br>
+12190  
+</p>
+
+<h2 align="center">Informe de Trabajo Final</h2>
+
+<p align="center">
+<strong>Docente</strong><br>
+Hugo Allan Mori Paiva  
+</p>
+
+<p align="center">
+<strong>Equipo</strong><br>
+Innovify
+</p>
+
+<p align="center">
+<strong>Proyecto</strong><br>
+SkillSwap
+</p>
+
+<h3 align="center">Integrantes</h3>
+
+
 <div align="center">
-
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-## Ingeniería de Software - 5to ciclo
-
-**Período:** 2026-1  
-**Curso:** 1ASI0730 | Aplicaciones Web  
-**NRC:** 12190  
-**Docente:** Hugo Allan Mori Paiva  
- 
-</div>
-
----
-
-<div align="center">
-
-# INFORME DE TRABAJO FINAL
-
-
-<div align="center">
-
-**Startup:** Innovify  
-**Producto:** SkillSwap
- 
-</div>
-
----
-
-## Relación de integrantes
 
 | Código | Apellidos y nombres |
 | :--- | :--- |
@@ -43,6 +51,14 @@
 
 </div>
 
+<p align="center">
+<strong>Período 202610</strong>
+</p>
+
+<p align="center">
+Julio 2026
+</p>
+
 ---
 
  
@@ -52,9 +68,8 @@
 | :--- | :--- | :--- | :--- |
 | **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
 | **v.02.TB1** | 12/05/2026 |  Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Conde Huashuayo, Sebasthian Alex <br>Meza Soza, Alexandra Yamile  | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint.<br>5.2.2. Sprint 2<br>5.2.2.1.Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3.Sprint Backlog 2.<br>5.2.2.4.Development Evidence for Sprint Review.<br>5.2.2.5.Execution Evidence for Sprint Review.<br>5.2.2.6.Services Documentation Evidence for Sprint Review.<br>5.2.2.7.Software Deployment Evidence for Sprint Review.<br>5.2.2.8.Team Collaboration Insights during Sprint.  |
-| **v.03.AV2** | 15/06/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint n<br>5.2.1.1. Sprint Planning n.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog n.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>5.2.2. Sprint 2<br>5.2.2.1.Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3.Sprint Backlog 2.<br>5.2.2.4.Development Evidence for Sprint Review.<br>5.2.2.5.Execution Evidence for Sprint Review.<br>5.2.2.6.Services Documentation Evidence for Sprint Review.<br>5.2.2.7.Software Deployment Evidence for Sprint Review.<br>5.2.2.8.Team Collaboration Insights during Sprint.<br>5.2.3. Sprint 3<br>5.2.3.1.Sprint Planning 3.<br>5.2.3.2. Aspect Leaders and Collaborators.<br>5.2.3.3.Sprint Backlog 3.<br>5.2.3.4.Development Evidence for Sprint Review.<br>5.2.3.5.Execution Evidence for Sprint Review.<br>5.2.3.6.Services Documentation Evidence for Sprint Review.<br>5.2.3.7.Software Deployment Evidence for Sprint Review.<br>5.2.3.8.Team Collaboration Insights during Sprint.<br>5.3. Validation Interviews.<br>5.3.1. Diseño de Entrevistas.<br>5.3.2. Registro de Entrevistas.<br>5.3.3. Evaluaciones según heurísticas.<br>5.4. Video About-the-Product.  |
-
-
+| **v.03.AV2** | 15/06/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint n<br>5.2.1.1. Sprint Planning n.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog n.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>5.2.2. Sprint 2<br>5.2.2.1.Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3.Sprint Backlog 2.<br>5.2.2.4.Development Evidence for Sprint Review.<br>5.2.2.5.Execution Evidence for Sprint Review.<br>5.2.2.6.Services Documentation Evidence for Sprint Review.<br>5.2.2.7.Software Deployment Evidence for Sprint Review.<br>5.2.2.8.Team Collaboration Insights during Sprint.<br>5.2.3. Sprint 3<br>5.2.3.1.Sprint Planning 3.<br>5.2.3.2. Aspect Leaders and Collaborators.<br>5.2.3.3.Sprint Backlog 3.<br>5.2.3.4.Development Evidence for Sprint Review.<br>5.2.3.5.Execution Evidence for Sprint Review.<br>5.2.3.6.Services Documentation Evidence for Sprint Review.<br>5.2.3.7.Software Deployment Evidence for Sprint Review.<br>5.2.3.8.Team Collaboration Insights during Sprint.<br>5.3. Validation Interviews.<br>5.3.1. Diseño de Entrevistas.<br>5.3.2. Registro de Entrevistas.<br>5.3.3. Evaluaciones según heurísticas.<br>5.4. Video About-the-Product.| 
+|**v.04.TB2** | 04/07/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Meza Soza, Alexandra Yamile<br>Becerra Ninahuanca, Luis Ángel<br>Conde Huashuayo, Sebasthian Alex | Se agregaron los siguientes tópicos:<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.2.4. Sprint 4<br>5.2.4.1. Sprint Planning 4.<br>5.2.4.2. Aspect Leaders and Collaborators.<br>5.2.4.3. Sprint Backlog 4.<br>5.2.4.4. Development Evidence for Sprint Review.<br>5.2.4.5. Execution Evidence for Sprint Review.<br>5.2.4.6. Services Documentation Evidence for Sprint Review.<br>5.2.4.7. Software Deployment Evidence for Sprint Review.<br>5.2.4.8. Team Collaboration Insights during Sprint. |
 
 ---
 
@@ -177,98 +192,133 @@ del repositorio del informe durante la entrega AV2:
 
 
 ---
+ 
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Student Outcome](#student-outcome)
 
-# Contenido
+**[Capítulo I: Introducción](#capítulo-i-introducción)**
+- [1.1. Startup Profile](#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-- Contenido ........................................ 2  
-- Registro de Versiones del Informe ................. 4  
-- Student Outcome ................................... 7  
+**[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-analysis)**
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+- [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+- [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
-# Capítulo I: Introducción 
-- 1.1 Startup Profile ..................................... 10  
-  - 1.1.1 Descripción de la Startup ...................... 10  
-  - 1.1.2 Perfiles de integrantes del equipo ............. 12  
-- 1.2 Solution Profile .................................... 13  
-  - 1.2.1 Antecedentes y problemática ..................... 13  
-  - 1.2.2 Lean UX Process ................................ 16  
-- 1.3 Segmentos objetivo .................................. 1  
+**[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)**
+- [3.1. User Stories](#31-user-stories)
+- [3.2. Impact Mapping](#32-impact-mapping)
+- [3.3. Product Backlog](#33-product-backlog)
 
-# Capítulo II: Requirements Elicitation & Analysis 
-- 2.1 Competidores ........................................ 2  
-  - 2.1.1 Análisis competitivo ............................ 3  
-  - 2.1.2 Estrategias y tácticas frente a competidores .... 7  
-- 2.2 Entrevistas ......................................... 10  
-  - 2.2.1 Diseño de entrevistas ............................ 10  
-  - 2.2.2 Registro de entrevistas ......................... 14  
-  - 2.2.3 Análisis de entrevistas ......................... 30  
-- 2.3 Needfinding ......................................... 36  
-  - 2.3.1 User Personas .................................... 36  
-  - 2.3.2 User Task Matrix ................................ 39  
-  - 2.3.3 User Journey Mapping ............................ 43  
-  - 2.3.4 Empathy Mapping .................................. 46  
-- 2.4 Big Picture EventStorming ............................ 51  
-- 2.5 Ubiquitous Language .................................. 65  
+**[Capítulo IV: Product UX/UI Design](#capítulo-iv-product-uxui-design)**
+- [4.1. Style Guidelines](#41-style-guidelines)
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+- [4.2. Information Architecture](#42-information-architecture)
+  - [4.2.1. Organization Systems](#421-organization-systems)
+  - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+  - [4.2.4. Searching Systems](#424-searching-systems)
+  - [4.2.5. Navigation Systems](#425-navigation-systems)
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+- [4.4. Web Applications UI Design](#44-web-applications-ui-design)
+  - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+  - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+  - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+- [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
+  - [4.5.2. Desktop Prototyping](#452-desktop-prototyping)
+- [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+  - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+  - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+  - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+  - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+- [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+  - [4.7.1. Class Diagrams](#471-class-diagrams)
+- [4.8. Database Design](#48-database-design)
+  - [4.8.1. Database Diagrams](#481-database-diagrams)
 
-# Capítulo III: Requirements Specification 
-- 3.1 Epics ................................................ 66  
-- 3.2 User Stories ......................................... 67  
-- 3.3 Impact Mapping ....................................... 87  
-- 3.4 Product Backlog ...................................... 90  
+**[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation-deployment)**
+- [5.1. Software Configuration Management](#51-software-configuration-management)
+  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+  - [5.1.2. Source Code Management](#512-source-code-management)
+  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
+  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services-applications-implementation)
+  - [5.2.1. Sprint 1](#521-sprint-1)
+    - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+    - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+    - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+    - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+    - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+    - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+    - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+    - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.2.2. Sprint 2](#522-sprint-2)
+    - [5.2.2.1. Sprint Planning 2](#5221sprint-planning-2)
+    - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+    - [5.2.2.3. Sprint Backlog 2](#5223sprint-backlog-2)
+    - [5.2.2.4. Development Evidence for Sprint Review](#5224development-evidence-for-sprint-review)
+    - [5.2.2.5. Execution Evidence for Sprint Review](#5225execution-evidence-for-sprint-review)
+    - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226services-documentation-evidence-for-sprint-review)
+    - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+    - [5.2.2.8. Team Collaboration Insights during Sprint](#5228team-collaboration-insights-during-sprint)
+  - [5.2.3. Sprint 3](#523-sprint-3)
+    - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+    - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+    - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+    - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+    - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+    - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+    - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+    - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.2.4. Sprint 4](#524-sprint-4)
+    - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+    - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+    - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+    - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+    - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+    - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+    - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+    - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+- [5.3. Validation Interviews](#53-validation-interviews)
+  - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+  - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+  - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+- [5.4. Video About-the-Product](#54-video-about-the-product)
 
-# Capítulo IV: Product UX/UI Design 
-- 4.1 Style Guidelines ..................................... 98  
-  - 4.1.1 General Style Guidelines ......................... 99  
-  - 4.1.2 Web Style Guidelines ............................. 101  
-  - 4.1.3 Web Style Guidelines ......................... 103  
-- 4.2 Information Architecture ............................. 110  
-  - 4.2.1 Organization Systems ............................. 110  
-  - 4.2.2 Labeling Systems ................................ 112  
-  - 4.2.3 SEO Tags and Meta Tags ......................... 113  
-  - 4.2.4 Searching Systems ............................... 115  
-  - 4.2.5 Navigation Systems .............................. 116  
-- 4.3 Landing Page UI Design ............................... 117  
-  - 4.3.1 Landing Page Wireframe .......................... 118  
-  - 4.3.2 Landing Page Mock-up ............................ 123  
-- 4.4 Web Applications UI Design ........................ 133  
-  - 4.4.1 Wireframes ...................................... 133  
-  - 4.4.2 Wireflow Diagrams ............................... 140  
-  - 4.4.3 Mock-ups ........................................ 159  
-  - 4.4.4 User Flow Diagrams .............................. 165  
-- 4.5 Web Applications Prototyping ..................... 174  
-  - 4.5.1 Android Prototyping ............................. 175  
-  - 4.5.2 Web Prototyping .................................. 175  
-- 4.6 Domain-Driven Software Architecture .................. 176  
-  - 4.6.1 Design-Level EventStorming ...................... 176  
-  - 4.6.2 Context Diagram .................................. 185  
-  - 4.6.3 Container Diagrams .............................. 185  
-  - 4.6.4 Component Diagrams .............................. 186  
-- 4.7 Software Object-Oriented Design ...................... 193  
-  - 4.7.1 Class Diagrams ................................... 193  
-- 4.8 Database Design ...................................... 198  
-  - 4.8.1 Database Diagrams ............................... 199  
+**[Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)**
+- [Conclusiones](#conclusiones)
+- [Recomendaciones](#recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
 
-# Capítulo V: Product Implementation, Validation & Deployment
-- 5.1 Software Configuration Management ................... 199  
-  - 5.1.1 Development Environment Configuration ........... 199  
-  - 5.1.2 Source Code Management .......................... 201  
-  - 5.1.3 Code Style Guide & Conventions ................. 203  
-  - 5.1.4 Deployment Configuration ........................ 205  
-- 5.2 Landing Page, Services & Applications Implementation . 210  
-  - 5.2.1 Sprint 1 ......................................... 210
-- 5.2 Software Configuration Management ................... 199  
-  - 5.2.1 Development Environment Configuration ........... 199  
-  - 5.2.2 Source Code Management .......................... 201  
-  - 5.2.3 Code Style Guide & Conventions ................. 203  
-  - 5.2.4 Deployment Configuration ........................ 205   
-- 5.2.2 Sprint 2 ......................................... 210    
+**[Bibliografía y Anexos](#bibliografía-y-anexos)**
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+  - [Índice de Tablas](#índice-de-tablas)
+  - [Índice de Figuras](#índice-de-figuras)
+  - [Anexo B. Videos de Exposiciones](#anexo-b-videos-de-exposiciones)
+  - [Anexo C](#anexo-c)
 
-
-- Conclusiones y recomendaciones .......................... 229  
-- Bibliografía y Anexos ................................... 231  
-- Anexos .................................................. 233  
-  - Índice de tablas ...................................... 233  
-  - Índice de figuras ..................................... 233  
-  - Anexo C ............................................... 235  
 
 ---
 
@@ -276,8 +326,8 @@ del repositorio del informe durante la entrega AV2:
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Victor Alberca:**<br>AV1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, lo que me permitió crear User Personas y definir un Product Backlog con historias de usuario claras. Luego validé estos hallazgos con nuevas entrevistas y evaluaciones heurísticas, identificando problemas clave de navegación, consistencia y retroalimentación en los prototipos. Finalmente, prioricé estos problemas y los convertí en requisitos concretos, asegurando soluciones alineadas con las necesidades reales y fáciles de comunicar a distintos públicos.<br><br>TB1: Participé en la Sprint Planning 2 explicando los hallazgos obtenidos en las validaciones previas y comunicando las prioridades del Sprint Backlog 2 al equipo. Durante el Sprint Review presenté los avances relacionados con la navegación y experiencia de usuario, explicando de manera clara los problemas detectados y las mejoras implementadas. Además, colaboré en las reuniones grupales compartiendo retroalimentación sobre la documentación de servicios y el despliegue del software para asegurar una comprensión común entre todos los integrantes.<br><br>AV2: Lideré la Sprint Planning 3 comunicando al equipo el objetivo del sprint orientado al desarrollo del backend con Swagger y la integración con el frontend. Presenté los avances de los bounded contexts Discovery y Workspace durante las reuniones de seguimiento, explicando las decisiones técnicas tomadas y los endpoints implementados. Asimismo, participé en las sesiones de validación con usuarios del segmento Estudiante Aprendiz, conduciendo la entrevista y facilitando la interacción del entrevistado con el frontend desplegado.<br><br>**David Komatsu:**<br>AV1: Realicé entrevistas para obtener información de la problemática, identifiqué los puntos clave y analicé los datos con respecto a nuestro segmento objetivo.<br><br>TB1: Participé en la planificación del Sprint 2, coordinando tareas y priorizando actividades junto al equipo. Asimismo, comuniqué avances del análisis de requerimientos, colaboré en la validación de mejoras del sistema y brindé retroalimentación continua para asegurar el entendimiento de los objetivos y propuestas del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas correspondientes al bounded context Learning & Assessment y los criterios de aceptación de los endpoints a implementar. Durante las reuniones de seguimiento expuse el avance de la implementación del módulo de quizzes en Swagger, explicando las decisiones de modelado de datos tomadas. También colaboré en las sesiones de entrevistas de validación, apoyando en la conducción de las preguntas dirigidas al segmento Estudiante Tutor.<br><br>**Alexandra Meza:**<br>Av1: Participé en el Event Storming aportando ideas para definir eventos y procesos del sistema, y colaboré en la organización de la información. También apoyé en entrevistas y su análisis para la toma de decisiones del equipo. Además, desarrollé la sección de alianzas en HTML y CSS, coordinando con el equipo para mantener coherencia en el diseño del proyecto.<br><br>TB1:Participé activamente en las reuniones de Sprint Planning 2, comunicando el progreso de las funcionalidades frontend y explicando las tareas pendientes al equipo. Asimismo, presenté los avances de la interfaz desarrollada, colaboré en la coordinación de la integración entre frontend y backend y facilité una comunicación clara entre los miembros del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Payments & Wallet y explicando al equipo la lógica del cálculo de comisión del 5% a implementar en el backend. Presenté los avances de los endpoints de donaciones y billetera virtual durante las reuniones de seguimiento. Asimismo, colaboré en las entrevistas de validación apoyando en la conducción de los flujos de donación evaluados con los entrevistados del segmento Estudiante Aprendiz. <br><br>**Luis Becerra:**<br>Av1: Participé activamente en el desarrollo del Event Storming junto a mi equipo, aportando ideas para definir los eventos y procesos del sistema, y apoyando en la organización de la información para lograr una visión compartida. Además, colaboré en las entrevistas y en su análisis, contribuyendo a la toma de decisiones del grupo. También asumí responsabilidad en el desarrollo de la sección de alianzas en HTML y CSS, coordinando con el equipo para mantener coherencia con el diseño general del proyecto.<br><br>TB1: Participé en las reuniones de coordinación del Sprint 2, exponiendo avances relacionados con la documentación de servicios y el despliegue del sistema. Asimismo, comuniqué los resultados de las pruebas funcionales, compartí observaciones para mejorar el desempeño de la aplicación y brindé retroalimentación sobre la organización de tareas y validación de funcionalidades implementadas.<br><br>AV2: Participé en la Sprint Planning 3 exponiendo las tareas del bounded context Moderation & Disputes y comunicando al equipo los criterios de resolución de reportes a implementar en el backend. Durante las reuniones de revisión presenté los endpoints de reportes desarrollados en Swagger y expliqué su funcionamiento ante el equipo. Además, conduje las entrevistas de validación con representantes del segmento Coordinador Institucional, adaptando el lenguaje y las preguntas al perfil del entrevistado.<br><br>**Sebastaian Conde:**<br>AV1: Realicé una entrevista para el segmento 3 referente a coordinadores institucionales, comunicando efectivamente mis ideas e intenciones. Compartí retroalimentación con mis compañeros de grupo respecto a la implementación del dispositivo IoT en el sistema.<br><br>TB1: Participé en la Sprint Planning 2, explicando las tareas relacionadas con la base de datos y autenticación del sistema para asegurar la comprensión de los objetivos técnicos. Asimismo, presenté los avances de la implementación del login y nuevas funcionalidades, y brindé retroalimentación técnica sobre la arquitectura y despliegue del software para mejorar la coordinación del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Reputation System y los criterios de aceptación del endpoint de reseñas a implementar. Durante las reuniones de seguimiento expuse los avances del módulo de reputación en Swagger. Asimismo, colaboré en las sesiones de validación conduciendo preguntas dirigidas al segmento Estudiante Tutor sobre los flujos de reputación y billetera evaluados en el frontend desplegado. | El equipo participó en todo el proceso del proyecto, desde la investigación inicial hasta la validación y desarrollo. Se realizaron entrevistas, análisis de usuarios y del entorno, y se definieron requerimientos, historias de usuario y artefactos ágiles como el Product Backlog, Impact Mapping y Event Storming. También se validaron funcionalidades y se detectaron mejoras en usabilidad, flujos y código. Finalmente, cada integrante contribuyó tanto en el análisis y toma de decisiones como en el desarrollo de secciones en HTML y CSS, asegurando coherencia, organización y cumplimiento de los objetivos del Sprint 1. <br><br> En TB1, el equipo demostró una comunicación oral efectiva durante las reuniones de planificación, revisión y coordinación del Sprint 2.Cada integrante expuso avances, explicó problemas encontrados y compartió retroalimentación sobre funcionalidades, arquitectura y despliegue del sistema.Esto permitió mantener una comprensión común de los objetivos, mejorar la coordinación entre áreas y asegurar que las soluciones implementadas fueran entendidas claramente por todos los participantes.<br><br><br>En AV2, el equipo demostró comunicación oral efectiva durante la Sprint Planning 3, las reuniones de seguimiento del backend y las sesiones de entrevistas de validación. Cada integrante expuso los avances de su bounded context asignado, explicó decisiones técnicas tomadas durante la implementación con Swagger y condujo o apoyó entrevistas con usuarios reales de los tres segmentos objetivo. Esto permitió alinear al equipo en torno al objetivo del sprint, validar la experiencia de usuario del frontend desplegado y comunicar los resultados a distintas audiencias de forma clara y adaptada a su perfil.  |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** |  **Victor Alberca:**<br>AV1: Analicé entrevistas para identificar patrones y definir tareas clave con la User Task Matrix, vinculándolas a los requerimientos del software y manteniendo actualizadas herramientas como el Product Backlog. Validé los hallazgos con nuevas entrevistas y evaluaciones heurísticas, detectando problemas de navegación, consistencia y retroalimentación. Finalmente, convertí estos resultados en métricas, criterios de aceptación y tareas claras del Sprint Backlog, asegurando soluciones comprensibles y alineadas para distintos públicos.<br><br>TB1: Participé en la documentación de los acuerdos definidos en la Sprint Planning 2 y actualicé el Sprint Backlog 2 con tareas claras y organizadas para el equipo. Asimismo, colaboré en la redacción de evidencias relacionadas con las mejoras de experiencia de usuario y en la documentación de servicios y despliegue del software.<br><br>AV2: Redacté el Sprint Planning 3 documentando el objetivo del sprint, la velocidad del equipo y los acuerdos de la reunión de planificación. Elaboré las tablas de Development Evidence y Services Documentation Evidence para los bounded contexts Discovery y Workspace, describiendo los commits realizados y los endpoints implementados con sus respectivos verbos HTTP, sintaxis y ejemplos de respuesta. Asimismo, contribuí en la redacción de la sección de evaluaciones heurísticas documentando problemas de usabilidad identificados durante las sesiones de validación.<br><br>**David Komatsu:**<br>AV1: Con la información obtenida en las entrevistas diseñé el Empathy Map, conectando la información con los requerimientos necesarios y apoyando en el Task Matrix.<br><br>TB1: Participé en la elaboración de documentación relacionada con los requerimientos y avances del Sprint 2, organizando la información de manera clara para facilitar el seguimiento del proyecto. Asimismo, apoyé en la actualización de evidencias del Sprint Review y en la descripción de tareas técnicas realizadas durante el desarrollo.<br><br>AV2: Documenté los endpoints del bounded context Learning & Assessment en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/quizzes y /api/v1/quiz-attempts con sus parámetros y ejemplos de respuesta. Redacté las entradas correspondientes en el Sprint Backlog 3 con las tareas de implementación del módulo de quizzes. Asimismo, colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Tutor.<br><br>**Alexandra Meza:**<br>Av1: Tras analizar los datos obtenidos en las entrevistas, reconocí los comportamientos de los entrevistados frente a las situaciones planteadas en las entrevistas y lo agregué al User task Matrix.<br><br>TB1: Participé en la actualización del Sprint Backlog 2, registrando tareas frontend y avances relacionados con la interfaz del sistema. Asimismo, documenté el desarrollo e integración de componentes visuales y colaboré en la redacción de evidencias de ejecución para el Sprint Review.<br><br>AV2: Documenté los endpoints del bounded context Payments & Wallet en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/donations y /api/v1/wallets con la lógica de comisión del 5% reflejada en los ejemplos de respuesta. Redacté las tareas del Sprint Backlog 3 correspondientes a su bounded context y colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Aprendiz relacionadas con el flujo de donación.<br><br>**Luis Becerra:**<br>Av1: Contribuí a generar un entorno de trabajo colaborativo al participar de manera activa y respetuosa en las actividades grupales, considerando las ideas de todos los integrantes. Apoyé en la planificación de tareas relacionadas al Event Storming, entrevistas y desarrollo frontend, cumpliendo con los entregables asignados dentro de los tiempos establecidos. Asimismo, mantuve una comunicación constante con el equipo para asegurar el avance coordinado y el cumplimiento de los objetivos del TB1.<br><br>TB1: Participé en la redacción de documentación relacionada con las pruebas funcionales, el despliegue del sistema y la evidencia de servicios implementados durante el Sprint 2. Asimismo, apoyé en la organización de información técnica y en la validación escrita de funcionalidades desarrolladas por el equipo.<br><br>AV2: Documenté los endpoints del bounded context Moderation & Disputes en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reports con sus escenarios de request y response. Redacté las tareas correspondientes en el Sprint Backlog 3 y elaboré los resúmenes de las entrevistas de validación del segmento Coordinador Institucional. Asimismo, contribuí en la redacción de la evaluación heurística documentando los problemas identificados en el panel de moderación durante las sesiones de validación.<br><br>**Sebastaian Conde:**<br>Av1: Participé de manera activa en la planificación del Sprint 1 junto a mi equipo, contribuyendo en la definición de las Historias de Usuario y en la organización del Sprint Backlog, lo que permitió establecer una visión clara y compartida del trabajo a realizar. Asimismo, colaboré en la distribución de responsabilidades dentro de la matriz LACX, apoyando en la toma de decisiones del grupo para asegurar una entrega cohesionada. Asimismo, asumí la responsabilidad del desarrollo de la sección de Socios en HTML y CSS, implementando el grid de logos de universidades afiliadas con sus respectivos enlaces externos y asegurando la compatibilidad responsive de la sección.<br><br>TB1:Participé en la elaboración de documentación técnica relacionada con la base de datos y autenticación del sistema, describiendo claramente las funcionalidades implementadas. Asimismo, colaboré en la actualización del Sprint Backlog 2 y en la redacción de evidencias de desarrollo y despliegue del software.<br><br>AV2: Documenté los endpoints del bounded context Reputation System en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reviews con sus parámetros y ejemplos de respuesta. Redacté las tareas correspondientes en el Sprint Backlog 3 y colaboré en la elaboración de la evaluación heurística documentando los problemas de visibilidad de reseñas y reputación identificados durante las sesiones de validación con el segmento Estudiante Tutor. | El equipo trabajó de forma colaborativa e inclusiva, participando activamente en la organización y análisis de entrevistas para identificar necesidades del usuario. A partir de ello, se establecieron metas claras y se planificaron tareas mediante herramientas ágiles como el Product Backlog y el Sprint Backlog. Finalmente, se cumplieron los objetivos mediante la validación de prototipos, desarrollo de soluciones y entrega oportuna de los resultados.<br><br>En TB1, el equipo organizó y documentó la información generada durante el Sprint 2 mediante backlog, evidencias técnicas y documentación de servicios.Los integrantes redactaron avances relacionados con desarrollo, pruebas, despliegue y arquitectura del sistema, asegurando claridad y coherencia en la información presentada.Esto permitió mantener un seguimiento estructurado del proyecto y facilitar la comprensión de los resultados tanto para el equipo como para otros públicos involucrados.<br><br>En AV2, el equipo demostró comunicación escrita efectiva al documentar el Sprint 3 en sus distintas dimensiones: planificación, backlog, evidencias de desarrollo, documentación de servicios y evaluaciones de validación. Cada integrante redactó con precisión técnica los artefactos correspondientes a su bounded context, usando un lenguaje claro y adaptado tanto para audiencias técnicas como no técnicas. La evaluación heurística y los registros de entrevistas de validación evidencian la capacidad del equipo para comunicar por escrito hallazgos de UX de forma estructurada y comprensible.  |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Victor Alberca:**<br>AV1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, lo que me permitió crear User Personas y definir un Product Backlog con historias de usuario claras. Luego validé estos hallazgos con nuevas entrevistas y evaluaciones heurísticas, identificando problemas clave de navegación, consistencia y retroalimentación en los prototipos. Finalmente, prioricé estos problemas y los convertí en requisitos concretos, asegurando soluciones alineadas con las necesidades reales y fáciles de comunicar a distintos públicos.<br><br>TB1: Participé en la Sprint Planning 2 explicando los hallazgos obtenidos en las validaciones previas y comunicando las prioridades del Sprint Backlog 2 al equipo. Durante el Sprint Review presenté los avances relacionados con la navegación y experiencia de usuario, explicando de manera clara los problemas detectados y las mejoras implementadas. Además, colaboré en las reuniones grupales compartiendo retroalimentación sobre la documentación de servicios y el despliegue del software para asegurar una comprensión común entre todos los integrantes.<br><br>AV2: Lideré la Sprint Planning 3 comunicando al equipo el objetivo del sprint orientado al desarrollo del backend con Swagger y la integración con el frontend. Presenté los avances de los bounded contexts Discovery y Workspace durante las reuniones de seguimiento, explicando las decisiones técnicas tomadas y los endpoints implementados. Asimismo, participé en las sesiones de validación con usuarios del segmento Estudiante Aprendiz, conduciendo la entrevista y facilitando la interacción del entrevistado con el frontend desplegado.<br><br>TB2: Lideré la Sprint Planning 4 comunicando al equipo el objetivo de cierre del ciclo, orientado a implementar el bounded context de Identity & Access y a completar las integraciones con Stripe y WebRTC. Coordiné la asignación de aspectos entre el equipo y presenté ante el docente el cierre de la documentación OpenAPI y el despliegue final de los tres productos digitales.<br><br>**David Komatsu:**<br>AV1: Realicé entrevistas para obtener información de la problemática, identifiqué los puntos clave y analicé los datos con respecto a nuestro segmento objetivo.<br><br>TB1: Participé en la planificación del Sprint 2, coordinando tareas y priorizando actividades junto al equipo. Asimismo, comuniqué avances del análisis de requerimientos, colaboré en la validación de mejoras del sistema y brindé retroalimentación continua para asegurar el entendimiento de los objetivos y propuestas del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas correspondientes al bounded context Learning & Assessment y los criterios de aceptación de los endpoints a implementar. Durante las reuniones de seguimiento expuse el avance de la implementación del módulo de quizzes en Swagger, explicando las decisiones de modelado de datos tomadas. También colaboré en las sesiones de entrevistas de validación, apoyando en la conducción de las preguntas dirigidas al segmento Estudiante Tutor.<br><br>TB2: Lideré la implementación del endpoint de generación de tokens para WebRTC, comunicando al equipo las decisiones técnicas sobre la integración con Agora.io y las restricciones de horario y pertenencia a la sesión aplicadas en el backend. Presenté los avances de esta integración durante las reuniones de seguimiento del Sprint 4.<br><br>**Alexandra Meza:**<br>Av1: Participé en el Event Storming aportando ideas para definir eventos y procesos del sistema, y colaboré en la organización de la información. También apoyé en entrevistas y su análisis para la toma de decisiones del equipo. Además, desarrollé la sección de alianzas en HTML y CSS, coordinando con el equipo para mantener coherencia en el diseño del proyecto.<br><br>TB1:Participé activamente en las reuniones de Sprint Planning 2, comunicando el progreso de las funcionalidades frontend y explicando las tareas pendientes al equipo. Asimismo, presenté los avances de la interfaz desarrollada, colaboré en la coordinación de la integración entre frontend y backend y facilité una comunicación clara entre los miembros del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Payments & Wallet y explicando al equipo la lógica del cálculo de comisión del 5% a implementar en el backend. Presenté los avances de los endpoints de donaciones y billetera virtual durante las reuniones de seguimiento. Asimismo, colaboré en las entrevistas de validación apoyando en la conducción de los flujos de donación evaluados con los entrevistados del segmento Estudiante Aprendiz. <br><br>TB2: Lideré la integración de Stripe en el bounded context de Payments, comunicando al equipo la lógica de recálculo server-side de la comisión del 5% y presentando durante el Sprint Review el flujo de donación validado con la pasarela de pagos real.<br><br>**Luis Becerra:**<br>Av1: Participé activamente en el desarrollo del Event Storming junto a mi equipo, aportando ideas para definir los eventos y procesos del sistema, y apoyando en la organización de la información para lograr una visión compartida. Además, colaboré en las entrevistas y en su análisis, contribuyendo a la toma de decisiones del grupo. También asumí responsabilidad en el desarrollo de la sección de alianzas en HTML y CSS, coordinando con el equipo para mantener coherencia con el diseño general del proyecto.<br><br>TB1: Participé en las reuniones de coordinación del Sprint 2, exponiendo avances relacionados con la documentación de servicios y el despliegue del sistema. Asimismo, comuniqué los resultados de las pruebas funcionales, compartí observaciones para mejorar el desempeño de la aplicación y brindé retroalimentación sobre la organización de tareas y validación de funcionalidades implementadas.<br><br>AV2: Participé en la Sprint Planning 3 exponiendo las tareas del bounded context Moderation & Disputes y comunicando al equipo los criterios de resolución de reportes a implementar en el backend. Durante las reuniones de revisión presenté los endpoints de reportes desarrollados en Swagger y expliqué su funcionamiento ante el equipo. Además, conduje las entrevistas de validación con representantes del segmento Coordinador Institucional, adaptando el lenguaje y las preguntas al perfil del entrevistado.<br><br>TB2: Lideré la corrección de los cinco problemas de usabilidad detectados en la evaluación heurística del AV2, comunicando al equipo las decisiones de diseño aplicadas (color del botón, visibilidad del nombre del tutor, desglose de comisión, badges de rol y enriquecimiento del perfil del tutor) y presentando la evidencia de cierre durante el Sprint Review del Sprint 4.<br><br>**Sebastaian Conde:**<br>AV1: Realicé una entrevista para el segmento 3 referente a coordinadores institucionales, comunicando efectivamente mis ideas e intenciones. Compartí retroalimentación con mis compañeros de grupo respecto a la implementación del dispositivo IoT en el sistema.<br><br>TB1: Participé en la Sprint Planning 2, explicando las tareas relacionadas con la base de datos y autenticación del sistema para asegurar la comprensión de los objetivos técnicos. Asimismo, presenté los avances de la implementación del login y nuevas funcionalidades, y brindé retroalimentación técnica sobre la arquitectura y despliegue del software para mejorar la coordinación del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Reputation System y los criterios de aceptación del endpoint de reseñas a implementar. Durante las reuniones de seguimiento expuse los avances del módulo de reputación en Swagger. Asimismo, colaboré en las sesiones de validación conduciendo preguntas dirigidas al segmento Estudiante Tutor sobre los flujos de reputación y billetera evaluados en el frontend desplegado.<br><br>TB2: Lideré la implementación del bounded context de Identity & Access Management, comunicando al equipo el diseño del flujo de registro, login y verificación institucional, y coordinando con Victor el reemplazo del identificador de usuario simulado por la sesión autenticada real en los stores del frontend. | El equipo participó en todo el proceso del proyecto, desde la investigación inicial hasta la validación y desarrollo. Se realizaron entrevistas, análisis de usuarios y del entorno, y se definieron requerimientos, historias de usuario y artefactos ágiles como el Product Backlog, Impact Mapping y Event Storming. También se validaron funcionalidades y se detectaron mejoras en usabilidad, flujos y código. Finalmente, cada integrante contribuyó tanto en el análisis y toma de decisiones como en el desarrollo de secciones en HTML y CSS, asegurando coherencia, organización y cumplimiento de los objetivos del Sprint 1. <br><br> En TB1, el equipo demostró una comunicación oral efectiva durante las reuniones de planificación, revisión y coordinación del Sprint 2.Cada integrante expuso avances, explicó problemas encontrados y compartió retroalimentación sobre funcionalidades, arquitectura y despliegue del sistema.Esto permitió mantener una comprensión común de los objetivos, mejorar la coordinación entre áreas y asegurar que las soluciones implementadas fueran entendidas claramente por todos los participantes.<br><br><br>En AV2, el equipo demostró comunicación oral efectiva durante la Sprint Planning 3, las reuniones de seguimiento del backend y las sesiones de entrevistas de validación. Cada integrante expuso los avances de su bounded context asignado, explicó decisiones técnicas tomadas durante la implementación con Swagger y condujo o apoyó entrevistas con usuarios reales de los tres segmentos objetivo. Esto permitió alinear al equipo en torno al objetivo del sprint, validar la experiencia de usuario del frontend desplegado y comunicar los resultados a distintas audiencias de forma clara y adaptada a su perfil.<br><br>En TB2, el equipo demostró liderazgo compartido durante el cierre del ciclo de vida del proyecto: cada integrante asumió el liderazgo técnico de un frente de cierre (Identity & Access, Stripe, WebRTC, correcciones heurísticas y documentación/despliegue final), comunicando sus decisiones al resto del equipo en las reuniones de seguimiento del Sprint 4 y asegurando que la plataforma quedara desplegada en su versión final sobre servicios reales.  |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** |  **Victor Alberca:**<br>AV1: Analicé entrevistas para identificar patrones y definir tareas clave con la User Task Matrix, vinculándolas a los requerimientos del software y manteniendo actualizadas herramientas como el Product Backlog. Validé los hallazgos con nuevas entrevistas y evaluaciones heurísticas, detectando problemas de navegación, consistencia y retroalimentación. Finalmente, convertí estos resultados en métricas, criterios de aceptación y tareas claras del Sprint Backlog, asegurando soluciones comprensibles y alineadas para distintos públicos.<br><br>TB1: Participé en la documentación de los acuerdos definidos en la Sprint Planning 2 y actualicé el Sprint Backlog 2 con tareas claras y organizadas para el equipo. Asimismo, colaboré en la redacción de evidencias relacionadas con las mejoras de experiencia de usuario y en la documentación de servicios y despliegue del software.<br><br>AV2: Redacté el Sprint Planning 3 documentando el objetivo del sprint, la velocidad del equipo y los acuerdos de la reunión de planificación. Elaboré las tablas de Development Evidence y Services Documentation Evidence para los bounded contexts Discovery y Workspace, describiendo los commits realizados y los endpoints implementados con sus respectivos verbos HTTP, sintaxis y ejemplos de respuesta. Asimismo, contribuí en la redacción de la sección de evaluaciones heurísticas documentando problemas de usabilidad identificados durante las sesiones de validación.<br><br>TB2: Redacté el Sprint Planning 4 y el Sprint Backlog 4, documentando el objetivo de cierre del ciclo, la asignación de aspectos entre el equipo y las tareas de despliegue final. Elaboré las tablas de Development Evidence y de documentación OpenAPI para el bounded context de Identity & Access, asegurando que la evidencia técnica quedara organizada y trazable para la entrega TB2.<br><br>**David Komatsu:**<br>AV1: Con la información obtenida en las entrevistas diseñé el Empathy Map, conectando la información con los requerimientos necesarios y apoyando en el Task Matrix.<br><br>TB1: Participé en la elaboración de documentación relacionada con los requerimientos y avances del Sprint 2, organizando la información de manera clara para facilitar el seguimiento del proyecto. Asimismo, apoyé en la actualización de evidencias del Sprint Review y en la descripción de tareas técnicas realizadas durante el desarrollo.<br><br>AV2: Documenté los endpoints del bounded context Learning & Assessment en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/quizzes y /api/v1/quiz-attempts con sus parámetros y ejemplos de respuesta. Redacté las entradas correspondientes en el Sprint Backlog 3 con las tareas de implementación del módulo de quizzes. Asimismo, colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Tutor.<br><br>TB2: Documenté en el Sprint Backlog 4 las tareas del endpoint de generación de tokens de WebRTC, especificando las validaciones de horario y pertenencia a la sesión aplicadas, y colaboré en la redacción de la nota que documenta el alcance final de la funcionalidad de videollamada.<br><br>**Alexandra Meza:**<br>Av1: Tras analizar los datos obtenidos en las entrevistas, reconocí los comportamientos de los entrevistados frente a las situaciones planteadas en las entrevistas y lo agregué al User task Matrix.<br><br>TB1: Participé en la actualización del Sprint Backlog 2, registrando tareas frontend y avances relacionados con la interfaz del sistema. Asimismo, documenté el desarrollo e integración de componentes visuales y colaboré en la redacción de evidencias de ejecución para el Sprint Review.<br><br>AV2: Documenté los endpoints del bounded context Payments & Wallet en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/donations y /api/v1/wallets con la lógica de comisión del 5% reflejada en los ejemplos de respuesta. Redacté las tareas del Sprint Backlog 3 correspondientes a su bounded context y colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Aprendiz relacionadas con el flujo de donación.<br><br>TB2: Documenté los endpoints del Sprint 4 relacionados con la integración de Stripe, especificando el recurso `/api/v1/Wallets/{tutorId}/donations` y el desglose de la comisión en los ejemplos de respuesta, y colaboré en la actualización del Sprint Backlog 4 con las tareas de recálculo server-side de la comisión.<br><br>**Luis Becerra:**<br>Av1: Contribuí a generar un entorno de trabajo colaborativo al participar de manera activa y respetuosa en las actividades grupales, considerando las ideas de todos los integrantes. Apoyé en la planificación de tareas relacionadas al Event Storming, entrevistas y desarrollo frontend, cumpliendo con los entregables asignados dentro de los tiempos establecidos. Asimismo, mantuve una comunicación constante con el equipo para asegurar el avance coordinado y el cumplimiento de los objetivos del TB1.<br><br>TB1: Participé en la redacción de documentación relacionada con las pruebas funcionales, el despliegue del sistema y la evidencia de servicios implementados durante el Sprint 2. Asimismo, apoyé en la organización de información técnica y en la validación escrita de funcionalidades desarrolladas por el equipo.<br><br>AV2: Documenté los endpoints del bounded context Moderation & Disputes en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reports con sus escenarios de request y response. Redacté las tareas correspondientes en el Sprint Backlog 3 y elaboré los resúmenes de las entrevistas de validación del segmento Coordinador Institucional. Asimismo, contribuí en la redacción de la evaluación heurística documentando los problemas identificados en el panel de moderación durante las sesiones de validación.<br><br>TB2: Redacté las tareas del Sprint Backlog 4 correspondientes a las cinco correcciones de usabilidad del AV2, documentando cada cambio implementado (color del botón, nombre del tutor, desglose de comisión, badges de rol y estadísticas del tutor) y su vínculo con el problema heurístico correspondiente.<br><br>**Sebastaian Conde:**<br>Av1: Participé de manera activa en la planificación del Sprint 1 junto a mi equipo, contribuyendo en la definición de las Historias de Usuario y en la organización del Sprint Backlog, lo que permitió establecer una visión clara y compartida del trabajo a realizar. Asimismo, colaboré en la distribución de responsabilidades dentro de la matriz LACX, apoyando en la toma de decisiones del grupo para asegurar una entrega cohesionada. Asimismo, asumí la responsabilidad del desarrollo de la sección de Socios en HTML y CSS, implementando el grid de logos de universidades afiliadas con sus respectivos enlaces externos y asegurando la compatibilidad responsive de la sección.<br><br>TB1:Participé en la elaboración de documentación técnica relacionada con la base de datos y autenticación del sistema, describiendo claramente las funcionalidades implementadas. Asimismo, colaboré en la actualización del Sprint Backlog 2 y en la redacción de evidencias de desarrollo y despliegue del software.<br><br>AV2: Documenté los endpoints del bounded context Reputation System en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reviews con sus parámetros y ejemplos de respuesta. Redacté las tareas correspondientes en el Sprint Backlog 3 y colaboré en la elaboración de la evaluación heurística documentando los problemas de visibilidad de reseñas y reputación identificados durante las sesiones de validación con el segmento Estudiante Tutor.<br><br>TB2: Documenté los endpoints del bounded context de Identity & Access en la tabla de Services Documentation Evidence, especificando los recursos `/api/v1/Auth/register`, `/api/v1/Auth/login` y `/api/v1/Auth/verify/{token}` con sus parámetros y ejemplos de respuesta, y colaboré en la redacción de las tareas del Sprint Backlog 4 relacionadas con la validación institucional. | El equipo trabajó de forma colaborativa e inclusiva, participando activamente en la organización y análisis de entrevistas para identificar necesidades del usuario. A partir de ello, se establecieron metas claras y se planificaron tareas mediante herramientas ágiles como el Product Backlog y el Sprint Backlog. Finalmente, se cumplieron los objetivos mediante la validación de prototipos, desarrollo de soluciones y entrega oportuna de los resultados.<br><br>En TB1, el equipo organizó y documentó la información generada durante el Sprint 2 mediante backlog, evidencias técnicas y documentación de servicios.Los integrantes redactaron avances relacionados con desarrollo, pruebas, despliegue y arquitectura del sistema, asegurando claridad y coherencia en la información presentada.Esto permitió mantener un seguimiento estructurado del proyecto y facilitar la comprensión de los resultados tanto para el equipo como para otros públicos involucrados.<br><br>En AV2, el equipo demostró comunicación escrita efectiva al documentar el Sprint 3 en sus distintas dimensiones: planificación, backlog, evidencias de desarrollo, documentación de servicios y evaluaciones de validación. Cada integrante redactó con precisión técnica los artefactos correspondientes a su bounded context, usando un lenguaje claro y adaptado tanto para audiencias técnicas como no técnicas. La evaluación heurística y los registros de entrevistas de validación evidencian la capacidad del equipo para comunicar por escrito hallazgos de UX de forma estructurada y comprensible.<br><br>En TB2, el equipo documentó por escrito el cierre completo del ciclo de vida del proyecto: el Sprint Backlog 4, la evidencia de desarrollo del bounded context de Identity & Access, las integraciones con Stripe y WebRTC, y la trazabilidad de cada corrección de usabilidad respecto del problema heurístico que la originó, cumpliendo así los objetivos planificados desde el inicio del proyecto.  |
 
 ---
 
@@ -2429,23 +2479,97 @@ Para garantizar la persistencia, integridad y escalabilidad de la información e
 
 El diseño físico de la base de datos se ha estructurado aplicando los principios de Domain-Driven Design (DDD). Para evitar un modelo de datos monolítico y altamente acoplado, la arquitectura de la base de datos se ha dividido en cuatro Bounded Contexts (Contextos Delimitados). Cada contexto agrupa las tablas, columnas, restricciones (Primary Keys y Foreign Keys) y relaciones estrictamente necesarias para resolver un dominio específico del negocio, promoviendo la alta cohesión y el bajo acoplamiento.
 
-Los cuatro contextos que rigen el ecosistema de Skillswap son: Identity & Profile Context, Workespace Context, Learning Contex, Payment context y Discovery Context.
+Los cuatro contextos que rigen el ecosistema de Skillswap son: Workespace Context, Learning Contex, Payment context y Discovery Context.
 
 ### 4.8.1. Database Diagrams
 
-Acá se presenta la base de datos de nuestro proyecto con las reglas de normalización
+A continuación se presenta el diagrama de base de datos de SkillSwap, el cual refleja los objetos de persistencia identificados en el diagrama de clases para cada bounded context. Cada BC gestiona sus propias tablas de forma independiente, siguiendo los principios de Domain-Driven Design.
+
+---
+
+**Bounded Context: Workspace**
+
+Contiene las tablas `tutoring_sessions` y `messages`. La tabla `tutoring_sessions` almacena las sesiones de tutoría con sus campos `topic`, `status`, `learner_id`, `tutor_id`, `scheduled_at`, `message` y `student_level`. La tabla `messages` almacena los mensajes intercambiados en cada sesión, relacionada con `tutoring_sessions` mediante `session_id`.
 
 <p align="center">
-  <img src="public/assets/images-doc/database.png" alt="Database Entity Relationship Diagram" width="1000">
+  <img src="public/assets/images-doc/db-workspace.png" alt="Database Diagram Workspace" width="800">
   <br>
- <em>Figura 76. Diagrama de Base de Datos Relacional por Bounded Contexts - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
+  <em>Figura. Diagrama de base de datos del Bounded Context Workspace - Elaboración propia.</em>
+</p>
+
+---
+
+**Bounded Context: Discovery**
+
+Contiene las tablas `tutors` y `tutor_skills`. La tabla `tutors` almacena el perfil completo del tutor incluyendo `name`, `university`, `bio`, `rating`, `available`, `specialty`, `portfolio_url` y `years_experience`. La tabla `tutor_skills` es una tabla de colección que almacena las habilidades de cada tutor mediante `@ElementCollection`.
+
+<p align="center">
+  <img src="public/assets/images-doc/db-discovery.png" alt="Database Diagram Discovery" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Discovery - Elaboración propia.</em>
+</p>
+
+---
+
+**Bounded Context: Reputation**
+
+Contiene la tabla `reviews` con los campos `tutor_id`, `learner_id`, `learner_name`, `rating`, `comment`, `session_id` y `tutor_reply`, más los campos de auditoría `created_at` y `updated_at` heredados del Shared.
+
+<p align="center">
+  <img src="public/assets/images-doc/db-reputation.png" alt="Database Diagram Reputation" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Reputation - Elaboración propia.</em>
+</p>
+
+---
+
+**Bounded Context: Learning & Assessment**
+
+Contiene las tablas `quizzes`, `quiz_questions` y `quiz_attempts`. La tabla `quizzes` almacena los quizzes creados por tutores. La tabla `quiz_questions` es una tabla de colección para las preguntas de cada quiz, relacionada con `quizzes` mediante `quiz_id`. La tabla `quiz_attempts` registra los intentos de los learners con su `score` y `status` (IN_PROGRESS, COMPLETED, ABANDONED).
+
+<p align="center">
+  <img src="public/assets/images-doc/db-learning.png" alt="Database Diagram Learning" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Learning & Assessment - Elaboración propia.</em>
+</p>
+
+---
+
+**Bounded Context: Moderation & Disputes**
+
+Contiene las tablas `reports` y `sanctions`. La tabla `reports` almacena los reportes de mala conducta con su `status` (PENDING, REVIEWED, RESOLVED). La tabla `sanctions` almacena las sanciones aplicadas con su `type` (WARNING, SUSPENSION, BAN), relacionada con `reports` mediante `report_id`.
+
+<p align="center">
+  <img src="public/assets/images-doc/db-moderation.png" alt="Database Diagram Moderation" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Moderation & Disputes - Elaboración propia.</em>
+</p>
+
+---
+
+**Bounded Context: Payments & Wallet**
+
+Contiene las tablas `donations` y `wallets`. La tabla `donations` almacena las donaciones con cálculo automático de `net_amount` y `commission`. La tabla `wallets` almacena el balance del tutor con restricción `unique` en `tutor_id` para garantizar una wallet por tutor.
+
+<p align="center">
+  <img src="public/assets/images-doc/db-payments.png" alt="Database Diagram Payments" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Payments & Wallet - Elaboración propia.</em>
+</p>
+
+---
+
+**Diagrama General**
+
+A continuación se presenta el diagrama relacional completo de SkillSwap, mostrando todas las tablas y sus relaciones entre bounded contexts.
+
+<p align="center">
+  <img src="public/assets/images-doc/database-completo.png" alt="Database Entity Relationship Diagram" width="1000">
+  <br>
+  <em>Figura. Diagrama de Base de Datos Relacional completo de SkillSwap - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
 </p>
 
 En síntesis, el diagrama relacional evidencia una estructura de base de datos sólida y coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Este diseño no solo respalda eficientemente las operaciones del sistema, sino que también facilita su escalabilidad y mantenimiento a largo plazo.
-
-
-Constituye el núcleo funcional de Innovify, encargándose de la gestión integral del ciclo de vida de las tutorías. Este módulo orquesta la disponibilidad de los tutores mediante agendas programadas y regula el proceso de reserva, asegurando una transición fluida hacia la ejecución de las sesiones en espacios de trabajo virtuales dedicados. Además, integra mecanismos de moderación y reporte para garantizar la seguridad y calidad del intercambio académico, permitiendo una trazabilidad completa que va desde la planificación de horarios hasta la supervisión de la conducta durante la interacción entre estudiantes y tutores.
-<br><br>
 
 ---
 
@@ -3895,10 +4019,223 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
 </figure>
 
 ---
+
+### 5.2.4. Sprint 4
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 4. El enfoque de esta iteración es el cierre de la integración de seguridad de SkillSwap: la adaptación del módulo de Identity & Access Management entregado como proyecto base por el docente a la lógica de negocio de la plataforma (roles Learner, Tutor y Coordinator), la construcción desde cero de su integración en el Frontend Web Application —dado que el docente únicamente entregó el proyecto de backend— reemplazando el identificador de usuario simulado (`CURRENT_USER_ID`) que el frontend Vue venía utilizando desde el Sprint 2; la finalización de las integraciones con servicios de terceros que quedaron pendientes desde el Sprint 3 (pasarela de pagos Stripe y generación de tokens para la videollamada vía WebRTC); el cierre de la documentación OpenAPI de la totalidad de los bounded contexts del backend; y el despliegue final de los tres productos digitales de la solución (Landing Page, Frontend Web Application y Web Services).
+
+#### 5.2.4.1. Sprint Planning 4.
+Para este Sprint 4, el equipo se comprometió a adaptar el proyecto base de Identity & Access entregado por el docente el día lunes de esta semana, construir su integración completa en el frontend (sin base previa, ya que el docente no proveyó frontend para este módulo), y cerrar los dos frentes que quedaron pendientes desde el Sprint 3: las integraciones con Stripe y WebRTC.
+
+| Sprint # | Sprint 4 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-06-27 |
+| **Time** | 07:30 PM |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Alberca Saavedra, Victor Manuel |
+| **Attendees (to planning meeting)** | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Meza Soza, Alexandra Yamile / Becerra Ninahuanca, Luis Ángel / Conde Huashuayo, Sebasthian Alex |
+| **Sprint 3 Review Summary** | En el Sprint 3 se implementó y desplegó en Render el backend ASP.NET Core para los seis bounded contexts core de SkillSwap (Discovery, Workspace, Learning & Assessment, Reputation System, Payments & Wallet y Moderation & Disputes), utilizando MySQL administrado en Aiven como motor de persistencia. Se completó además la integración de Cloudinary para la compartición de archivos en el chat (US29). Sin embargo, el frontend seguía operando con un identificador de usuario simulado, ya que el módulo de Identity & Access —provisto centralizadamente por el docente para todos los equipos del curso— aún no había sido entregado. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó que no podía avanzar con la integración de autenticación real hasta recibir el proyecto base de Identity & Access de parte del docente, entrega que estaba programada para el inicio del Sprint 4. Asimismo, se reconoció que las integraciones con servicios de terceros de mayor complejidad (Stripe y WebRTC) habían sido postergadas por priorizar el despliegue de los Web Services core. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 4 Goal** | Nuestro enfoque está en adaptar el módulo de Identity & Access entregado como base por el docente a la lógica de negocio y los roles de SkillSwap, construir desde cero su integración en el Frontend Web Application, y completar las integraciones pendientes con Stripe y WebRTC. Creemos que esto entrega a los usuarios finales una plataforma segura y navegable sin fricciones, permitiendo que cada rol acceda únicamente a las funciones que le corresponden. Esto se confirmará cuando un usuario pueda registrarse con su correo institucional, iniciar sesión y completar los flujos core del sistema (búsqueda, reserva, pago y moderación) de extremo a extremo sobre la versión final desplegada, sin depender de identificadores simulados. |
+| **Sprint 4 Velocity** | 39 Story Points |
+| **Sum of Story Points** | 39 |
+
+*(Tabla. Tabla de Sprint Planning 4 - Elaboración propia.)*
+
+---
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+Durante el Sprint 4, el bounded context de Identity & Access se dividió en dos aspectos independientes: la adaptación del backend entregado por el docente (a cargo de Sebasthian, quien venía trabajando temas de base de datos y autenticación desde TB1) y la construcción del frontend correspondiente, que al no tener ninguna base previa fue liderada por Victor, quien coordinó además la integración general del Sprint.
+
+| Team Member | GitHub Username | Aspecto 1 (Identity & Access — Adaptación Backend) | Aspecto 2 (Identity & Access — Frontend, desde cero) | Aspecto 3 (Stripe Payment Gateway) | Aspecto 4 (WebRTC Token Generation) | Aspecto 5 (API Documentation) | Aspecto 6 (Final Deployment) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Alberca Saavedra, Victor Manuel** | VictorAlberca | C | L | C | C | L | L |
+| **Komatsu Dueñas, David** | DavidKomatsu | C | C | C | L | C | C |
+| **Meza Soza, Alexandra Yamile** | AlexandraMeza | C | C | L | C | C | C |
+| **Becerra Ninahuanca, Luis Ángel** | LuisBecerra | C | C | C | C | C | C |
+| **Conde Huashuayo, Sebasthian Alex** | SebasthianConde | L | C | C | C | C | C |
+
+*(Nota: L = Leader, C = Collaborator)*
+
+*(Tabla. Tabla de Aspect Leaders and Collaborators - Elaboración propia.)*
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El objetivo principal del Sprint 4 es cerrar el ciclo de seguridad de SkillSwap: adaptar el proyecto base de Identity & Access entregado por el docente a los roles Learner/Tutor/Coordinator del negocio (US01, US02, US04, US26), construir su integración completa en el frontend Vue —sin base previa—, completar las integraciones con Stripe (US27) y WebRTC (US28) que quedaron pendientes desde el Sprint 3, y completar la documentación OpenAPI de la totalidad de los bounded contexts.
+
+| ID | User Story | Epic | Priority | SP |
+| :---: | :--- | :--- | :---: | :---: |
+| **US01** | Validated registration with institutional email | Account and Profile Management | High | 2 |
+| **US02** | Login with role-based access | Account and Profile Management | High | 2 |
+| **US04** | Automatic institutional verification badge display | Account and Profile Management | Medium | 2 |
+| **US26** | Institutional domain validation and token sending | Backend RESTful API & Security | High | 3 |
+| **US27** | Payment Gateway API Integration | Backend API & Integrations | High | 5 |
+| **US28** | Token generation for WebRTC | Backend API & Integrations | High | 8 |
+| **US41** | Complete OpenAPI documentation for all backend endpoints | Backend API & Integrations | High | 5 |
+| **US42** | Final deployment hardening for all products | Backend API & Integrations | High | 5 |
+| | | | **Total Story Points** | **39** |
+
+> **Nota sobre el origen del módulo de Identity & Access:**
+> El proyecto base de Identity & Access fue entregado por el docente el día lunes de esta semana (una entrega centralizada para todos los equipos del curso, no un desarrollo propio del equipo Innovify). El trabajo del equipo consistió en adaptar dicho proyecto a la lógica de negocio de SkillSwap (roles Learner, Tutor y Coordinator en lugar del modelo genérico entregado), ejecutar las migraciones necesarias para conciliar su esquema con la base de datos MySQL ya existente en Aiven, y construir íntegramente la integración en el Frontend Web Application, ya que el docente únicamente proveyó el proyecto de backend.
+
+> **Nota sobre historias no completadas en el ciclo de vida del proyecto:**
+> Las siguientes historias del Product Backlog original no llegaron a implementarse dentro del alcance final del producto y quedan documentadas como trabajo futuro:
+>
+> - **US12** — Unirse a videollamada integrada: la generación de tokens (US28) quedó operativa a nivel de backend, pero la interfaz de videollamada en el frontend se mantiene simulada, dado que la integración completa de un SDK de WebRTC (Agora.io) excede el alcance académico del ciclo.
+> - **US13** — Compartir pantalla durante la sesión: depende de la integración real de la interfaz de videollamada (US12), no implementada.
+> - **US20** — Registrar cuenta bancaria para retiro de fondos: requiere validación bancaria real, fuera del alcance del ciclo académico.
+> - **US34** — Calendario y disponibilidad del tutor: priorizado para una siguiente iteración del roadmap.
+> - **US39** — Recuperación de contraseña: priorizado para una siguiente iteración; depende de funcionalidad adicional del módulo de Identity & Access que el docente aún no ha liberado.
+
+A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 4:
+
+<p align="center">
+  <img src="public/assets/images-doc/trello-sprint-4.png" alt="Sprint 4 Trello Board" width="800">
+  <br>
+  <em>Figura. Tablero de seguimiento del Sprint 4 en Trello. La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
+</p>
+
+**Enlace del Trello-Sprint 4:** [https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-4](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-4)
+
+| Sprint # | Sprint 4 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **US01** | Validated registration with institutional email | T31 | Integrar proyecto base de Identity & Access | Clonar y configurar el proyecto entregado por el docente dentro de la solución backend de SkillSwap | 3 hr | Sebasthian | DONE |
+| | | T32 | Adaptar modelo de roles al dominio de negocio | Ajustar los roles genéricos del proyecto base a Learner, Tutor y Coordinator, y su relación con las entidades de Discovery y Workspace | 4 hr | Sebasthian | DONE |
+| **US02** | Login with role-based access | T33 | Ejecutar migraciones de conciliación de esquema | Correr las migraciones de Entity Framework Core del módulo de Identity & Access sobre la base de datos MySQL existente en Aiven | 3 hr | Sebasthian | DONE |
+| | | T34 | Construir formulario de login en Vue | Desarrollar desde cero la vista de login y el store de autenticación en el frontend, ya que no existía base previa | 5 hr | Victor | DONE |
+| **US04** | Automatic institutional verification badge display | T35 | Adaptar el flag de verificación al perfil de Tutor | Conectar el campo de verificación institucional del módulo base con el perfil público del Tutor en Discovery | 3 hr | Sebasthian | DONE |
+| **US26** | Institutional domain validation and token sending | T36 | Construir formulario de registro en Vue | Desarrollar desde cero la vista de registro con validación de dominio `.edu.pe` en el frontend | 4 hr | Victor | DONE |
+| | | T37 | Reemplazar `CURRENT_USER_ID` con la sesión real | Remover el identificador de usuario simulado en los stores de Discovery, Workspace, Reputation y Payments, sourceando el usuario desde la nueva sesión autenticada | 5 hr | Victor | DONE |
+| **US27** | Payment Gateway API Integration | T38 | Integrar Stripe en el backend | Conectar el bounded context de Payments a la API de Stripe para el procesamiento de donaciones | 5 hr | Alexandra | DONE |
+| | | T39 | Recalcular comisión server-side | Validar y recomputar la comisión del 5% en `PaymentsCommandService` en lugar de confiar en el valor enviado por el cliente | 4 hr | Alexandra | DONE |
+| **US28** | Token generation for WebRTC | T40 | Implementar endpoint de token WebRTC | Consumir la API de Agora.io para generar tokens de acceso temporal desde el backend, protegido por JWT | 5 hr | David | DONE |
+| | | T41 | Integrar token con la vista de sesión del frontend | Conectar el botón "Iniciar videollamada" al nuevo endpoint de tokens, restringido por horario y pertenencia a la sesión | 4 hr | David | DONE |
+| **US41** | Complete OpenAPI documentation for all backend endpoints | T42 | Verificar documentación del módulo de Identity & Access | Revisar y completar las anotaciones OpenAPI del proyecto base entregado por el docente, según las convenciones del resto del backend | 3 hr | Victor | DONE |
+| | | T43 | Añadir anotaciones OpenAPI a Payments | Completar anotaciones de `WalletController` y `TransactionController`, incluyendo los endpoints relacionados a Stripe | 3 hr | Victor | DONE |
+| | | T44 | Verificar Swagger UI en producción | Redesplegar el backend a Render y verificar que Swagger UI muestre descripción y ejemplo para todos los endpoints | 3 hr | Victor | DONE |
+| **US42** | Final deployment hardening for all products | T45 | Despliegue final del Frontend en Firebase | Desplegar el build final de Vue con la integración real de Identity & Access y las funcionalidades cerradas del Sprint | 3 hr | Victor | DONE |
+| | | T46 | Despliegue final del Backend en Render | Redesplegar el build final de ASP.NET Core con el módulo de Identity & Access adaptado, Stripe y la generación de tokens WebRTC | 3 hr | Victor | DONE |
+| | | T47 | Despliegue final de la Landing Page | Publicar la versión final de la Landing Page vía GitHub Pages, incrustando el video About-the-Product | 2 hr | Victor | DONE |
+
+*(Tabla. Tabla de Sprint Backlog 4 - Elaboración propia.)*
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+En esta sección se resumen los avances de implementación logrados durante el Sprint 4, enfocados en adaptar el módulo de Identity & Access entregado por el docente, construir su integración en el frontend, y completar las integraciones con servicios de terceros que quedaron pendientes desde el Sprint 3. Todas las contribuciones se realizaron mediante ramas `feature/` bajo GitFlow y mensajes de commit siguiendo Conventional Commits.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Aplicaciones-Web-SkillSwap/Backend-Skillswap | feature/identity-access-adapt | `7a1c9e4b2d6f083a5c71e9b4f2d0a8c6e3b91f74` | chore: integrate docente-provided Identity & Access base project | Cloned and configured the Identity & Access module delivered by the professor into the SkillSwap backend solution. | 2026-06-30 |
+| Aplicaciones-Web-SkillSwap/Backend-Skillswap | feature/identity-access-adapt | `9f3d5b8a1c4e6072b8d5f1a9c3e7b0d4a2f68c15` | fix: adapt Identity & Access domain model to Learner/Tutor/Coordinator roles | Adjusted the generic role model from the base project to SkillSwap's business roles and their relationship with Discovery and Workspace entities. | 2026-06-30 |
+| Aplicaciones-Web-SkillSwap/Backend-Skillswap | feature/identity-access-adapt | `2b6e8f0a4d7c193f5a8b2e6d0c9f3a71b5d8e246` | fix: run EF Core migrations to reconcile Identity & Access schema | Applied the module's migrations against the existing MySQL database in Aiven, resolving conflicts with existing tables. | 2026-07-01 |
+| Aplicaciones-Web-SkillSwap/Frontend-SkillSwap | feature/identity-access-frontend | `4c8a1f6d9b2e5073a6c9f2d5b8e1a4c7f0d3b691` | feat: build login and register views from scratch | Built the login and register views and the authentication Pinia store, since no frontend was provided for this module. | 2026-07-01 |
+| Aplicaciones-Web-SkillSwap/Frontend-SkillSwap | feature/identity-access-frontend | `6e0b3d7a5f9c2481b7e0a3d6f9c2b5e8a1d4f703` | feat: replace mocked session with real authenticated user | Removed the `CURRENT_USER_ID` constant across Discovery, Workspace, Reputation and Payments Pinia stores, sourcing the user from the new Auth store. | 2026-07-01 |
+| Aplicaciones-Web-SkillSwap/Backend-Skillswap | feature/payments-stripe | `8d2f5a9c1e4b7360d9f2c5a8e1b4d7f0a3c6e952` | feat: integrate Stripe for card donations | Connected the Payments bounded context to the Stripe API, recalculating and validating the 5% commission server-side. | 2026-07-02 |
+| Aplicaciones-Web-SkillSwap/Backend-Skillswap | feature/webrtc-token | `1a4c7e0b3d6f9281c4e7a0d3f6b9c2e5a8d1f473` | feat: implement WebRTC token generation endpoint | Added `GET /api/v1/Sessions/{id}/token` consuming the Agora.io API, protected by JWT and validated against session ownership and schedule. | 2026-07-02 |
+| Aplicaciones-Web-SkillSwap/Backend-Skillswap | feature/api-documentation | `9c2e5b8a1d4f7360c9e2b5a8d1f4c7b0e3a6d925` | docs: complete OpenAPI annotations for Identity & Access and Payments | Reviewed and completed OpenAPI annotations for the docente-provided `AuthController` and for `WalletController`/`TransactionController`. | 2026-07-03 |
+
+*(Tabla. Tabla de Development Evidence for Sprint Review - Elaboración propia.)*
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-commits-github-back.png" alt="Historial de Commits Sprint 4 - Backend" width="800">
+  <img src="public/assets/images-doc/sprint4-commits-github-front.png" alt="Historial de Commits Sprint 4 - Frontend" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Historial de commits de los repositorios Backend-Skillswap y Frontend-SkillSwap durante el Sprint 4, evidenciando la adaptación del módulo entregado por el docente y la construcción del frontend correspondiente.
+  </figcaption>
+</figure>
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+En esta sección se presentan las evidencias visuales de las funcionalidades implementadas durante el Sprint 4, priorizando el flujo completo de registro e inicio de sesión sobre el módulo de Identity & Access adaptado, la donación con Stripe y la generación de tokens para la videollamada, sobre el frontend Vue desplegado en Firebase.
+
+<p align="center">
+  <img src="public/assets/images-doc/sprint4-ui-evidence-register-login.png" alt="Evidencias UI Sprint 4 - Registro y Login real" width="800">
+  <br>
+  <em>Figura. Formulario de registro y login construidos en el frontend, conectados al módulo de Identity & Access adaptado del proyecto base entregado por el docente. El usuario se registra con su correo institucional (.edu.pe) y accede con su rol real (Aprendiz, Tutor o Coordinador), reemplazando el identificador simulado utilizado hasta el Sprint 3.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/sprint4-ui-evidence-donation-stripe.png" alt="Evidencias UI Sprint 4 - Donación con Stripe" width="800">
+  <br>
+  <em>Figura. Formulario de donación integrado con Stripe, mostrando el desglose del monto ingresado, la comisión del 5% retenida por la plataforma y el monto neto que recibirá el tutor.</em>
+</p>
+
+**Video demostrativo de las funciones del Sprint 4:**
+
+<p align="center">
+  <a href="https://youtu.be/PLACEHOLDER-SPRINT4">
+    <img src="https://img.youtube.com/vi/PLACEHOLDER-SPRINT4/maxresdefault.jpg" alt="Video Demostrativo Sprint 4" width="600">
+  </a>
+</p>
+
+**Enlace de la página web para observar la implementación del Sprint 4:** [https://skillswap-app-web.web.app](https://skillswap-app-web.web.app)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+En esta sección se incluye la relación de endpoints documentados con OpenAPI del módulo de Identity & Access, correspondientes al proyecto base entregado por el docente y verificados/completados por el equipo, junto con los endpoints de Stripe y WebRTC agregados durante este Sprint:
+
+**URL de documentación Swagger:** [https://skillswap-backend-t7zk.onrender.com/swagger/index.html](https://skillswap-backend-t7zk.onrender.com/swagger/index.html)
+
+##### Bounded Context: Identity & Access 
+
+| Endpoint | Verbo HTTP | Descripción | Parámetros | Ejemplo de Response |
+| :--- | :---: | :--- | :--- | :--- |
+| `/api/v1/Auth/register` | POST | Registra un nuevo usuario validando que el correo pertenezca al dominio `.edu.pe`. | Body: `email`, `password`, `fullName`, `role` | `201 Created` — `{ "id": 42, "email": "juan@upc.edu.pe", "isVerified": false }` |
+| `/api/v1/Auth/login` | POST | Autentica a un usuario y devuelve un JWT con el claim de rol correspondiente (Learner, Tutor o Coordinator). | Body: `email`, `password` | `200 OK` — `{ "token": "eyJhbGciOi...", "role": "Tutor", "expiresIn": 3600 }` |
+| `/api/v1/Auth/verify/{token}` | GET | Confirma la cuenta institucional a partir del token enviado por correo. | Path: `token` | `200 OK` — `{ "verified": true }` |
+| `/api/v1/Sessions/{id}/token` | GET | Genera un token temporal de acceso a la videollamada (Agora.io) para la sesión indicada. | Path: `id`; Header: `Authorization: Bearer` | `200 OK` — `{ "appId": "a1b2c3", "channel": "session-42", "token": "006a1b2c3..." }` |
+| `/api/v1/Wallets/{tutorId}/donations` | POST | Procesa una donación voluntaria mediante Stripe, retiene el 5% de comisión y actualiza el saldo neto del tutor. | Body: `amount`, `stripeToken` | `200 OK` — `{ "grossAmount": 20.00, "commission": 1.00, "netAmount": 19.00 }` |
+
+<p align="center">
+  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Identity.png" alt="Swagger Endpoints Sprint 4 - Identity & Access" width="800">
+  <br>
+  <em>Figura. Captura de Swagger UI mostrando los endpoints del módulo de Identity & Access, entregado como base por el docente y verificado por el equipo durante el Sprint 4.</em>
+</p>
+
+> **Nota:** La generación del token de WebRTC (`GET /api/v1/Sessions/{id}/token`) queda documentada y operativa a nivel de backend; sin embargo, la interfaz de videollamada en el frontend permanece en su versión simulada, dado que la integración completa del SDK de Agora.io excede el alcance académico del ciclo.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+Durante el Sprint 4 se realizó el despliegue final de los tres productos digitales de la solución: la Landing Page, el Frontend Web Application y los Web Services.
+
+- Integración del módulo de Identity & Access entregado por el docente dentro del backend ASP.NET Core, y redespliegue en Render.
+- Verificación de que las migraciones de Entity Framework Core del módulo de Identity & Access se aplicaron correctamente contra la base de datos MySQL administrada en Aiven, sin conflictos con las tablas ya existentes.
+- Redespliegue del frontend Vue en Firebase Hosting con las vistas de login/register construidas desde cero y la sesión de autenticación real.
+- Publicación de la versión final de la Landing Page en GitHub Pages, incorporando el video About-the-Product embebido.
+- Verificación final de disponibilidad de los endpoints y de la documentación mediante Swagger UI en el entorno de producción.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-render-deploy.png" alt="Despliegue final del backend en Render" width="800">
+  <figcaption style="margin-top: 10px;">
+    Figura. Evidencia del despliegue final del backend SkillSwap en Render, mostrando el estado activo del servicio con el módulo de Identity & Access integrado.
+  </figcaption>
+</figure>
+
+**URL del backend desplegado (final):** [https://skillswap-backend-t7zk.onrender.com](https://skillswap-backend-t7zk.onrender.com)
+
+**URL Swagger UI (final):** [https://skillswap-backend-t7zk.onrender.com/swagger/index.html](https://skillswap-backend-t7zk.onrender.com/swagger/index.html)
+
+**URL del Frontend Web Application (final):** [https://skillswap-app-web.web.app](https://skillswap-app-web.web.app)
+
+**URL de la Landing Page (final):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
+
+> **Nota:** Se mantiene la observación reportada desde el Sprint 3 respecto de la base de datos MySQL administrada en Aiven bajo el plan gratuito (Free-1-1gb): el servicio se apaga automáticamente tras un período de inactividad. En caso de que el backend no logre establecer conexión con la base de datos durante una demostración, se debe verificar el estado del servicio en el panel de Aiven y reactivarlo manualmente mediante la opción *Power on*.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+Durante el Sprint 4, el equipo recibió el módulo base de Identity & Access de parte del docente el día lunes de esta semana y concentró sus actividades en adaptarlo a la lógica de negocio de SkillSwap y construir su integración en el frontend, sin base previa. Cada integrante trabajó en su rama `feature/` correspondiente al aspecto asignado en la matriz de la sección 5.2.4.2, realizando Pull Requests hacia `develop` una vez completadas sus tareas. Se aplicó GitFlow de manera consistente y se mantuvieron las convenciones de Conventional Commits para todos los mensajes de commit, cerrando así el ciclo de desarrollo del proyecto.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-network-graph.png" alt="Network Graph GitFlow Sprint 4" width="800">
+  <figcaption style="margin-top: 10px;">
+    Figura. Gráfico de red (network graph) del repositorio Backend-Skillswap al cierre del Sprint 4, evidenciando la integración de las ramas feature/identity-access-adapt, feature/payments-stripe, feature/webrtc-token y feature/api-documentation hacia develop.
+  </figcaption>
+</figure>
+
+
+---
  
 # 5.3. Validation Interviews.
  
-## 5.3.1. Diseño de Entrevistas.
+### 5.3.1. Diseño de Entrevistas.
 Las entrevistas de validación tienen como objetivo evaluar la experiencia de usuario de la plataforma SkillSwap a través de la interacción directa de representantes de cada segmento objetivo con el Frontend Web Application desplegado. Se busca identificar problemas de usabilidad, arquitectura de información y diseño inclusivo, así como recoger percepciones generales sobre la propuesta de valor de la plataforma.
  
 Para cada segmento se definieron los user flows a evaluar y un conjunto de 10 preguntas guía que orientan la sesión de validación.
@@ -3972,7 +4309,7 @@ Para cada segmento se definieron los user flows a evaluar y un conjunto de 10 pr
 
 ---
  
-## 5.3.2. Registro de Entrevistas.
+### 5.3.2. Registro de Entrevistas.
 En esta sección se registran las entrevistas de validación realizadas con representantes de cada segmento objetivo. Cada entrevistado interactuó directamente con el Frontend Web Application desplegado de SkillSwap, navegando los user flows definidos en la sección 5.3.1 mientras compartía sus observaciones en voz alta. Las sesiones fueron grabadas en video y editadas en un único archivo por segmento.
  
 ##### Segmento objetivo #1: Estudiante Aprendiz
@@ -4231,7 +4568,7 @@ A continuación se presenta la evaluación de la experiencia de usuario de Skill
  
 **SITE o APP A EVALUAR:**
 SkillSwap — Frontend Web Application
-[]()
+[https://skillswap-app-web.web.app](https://skillswap-app-web.web.app)
  
 ---
  
@@ -4376,7 +4713,7 @@ Implementar etiquetas visuales (badges o chips de colores) junto al nombre de lo
  
 **Severidad:** 3
  
-**Heurística violada:** Information Architecture — Is it findable?
+**Heurística violada:** Information Architecture 
  
 **Problema:**
 Según la evaluación de Claudio Alberca (Coordinador), los perfiles de los tutores carecen de información clave como experiencia docente, nivel de especialización, cantidad histórica de sesiones impartidas y posibles antecedentes de reportes, datos fundamentales para generar confianza.
@@ -4407,7 +4744,7 @@ El video incluye una presentación del problema que resuelve la plataforma, una 
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **URL Youtube** | [https://youtu.be/FUCpxY3n_Po](https://youtu.be/FUCpxY3n_Po)|
 | **Duración** |2:08 |
  
@@ -4417,35 +4754,47 @@ El video incluye una presentación del problema que resuelve la plataforma, una 
  
 ## Conclusiones
 **Sobre el aislamiento académico y la propuesta de valor**
- 
-La investigación realizada durante las etapas iniciales del proyecto confirmó que el aislamiento académico es una barrera real para el éxito estudiantil en el contexto universitario peruano. SkillSwap responde eficazmente a esta necesidad al proveer un entorno estructurado de conexión interuniversitaria. Las pruebas de aceptación y las entrevistas de needfinding validaron que funcionalidades críticas como la búsqueda de tutores y la validación institucional reducen la incertidumbre y facilitan el acceso al conocimiento compartido entre pares de distintas instituciones.
- 
+
+La investigación realizada durante las etapas iniciales del proyecto confirmó que el aislamiento académico es una barrera real para el éxito estudiantil en el contexto universitario peruano. Las entrevistas de needfinding mostraron que los estudiantes recurren principalmente a YouTube, grupos de WhatsApp o compañeros de su propia facultad, sin un canal estructurado para conectarse con pares de otras universidades. SkillSwap responde a esa necesidad puntual: conectar estudiantes fuera de su círculo inmediato mediante un mecanismo de búsqueda y validación institucional.
+
 **Sobre el impacto en el bienestar estudiantil e inclusión**
- 
-La plataforma tiene un impacto positivo directo en el bienestar estudiantil al reducir el estrés y la ansiedad asociados al fracaso académico y la falta de apoyo. Al democratizar el acceso a tutores pares de diversas universidades, la solución promueve la inclusión social y cultural, eliminando barreras geográficas y económicas que tradicionalmente limitan la colaboración interuniversitaria. La hipótesis sobre la importancia de la confianza se validó exitosamente: la restricción de registro exclusiva para correos institucionales (.edu.pe) y la separación de roles demostraron ser el factor decisivo para que los usuarios se sintieran seguros al interactuar en la plataforma.
- 
+
+La restricción de registro exclusiva para correos institucionales (.edu.pe) y la separación de roles (Aprendiz, Tutor, Coordinador) resultaron ser, según las entrevistas de validación, el factor que más contribuyó a que los usuarios se sintieran seguros al interactuar con desconocidos de otras universidades. Esto confirma el assumption planteado en la fase Lean UX sobre la importancia de la confianza como condición previa para que el modelo de donaciones voluntarias funcione.
+
 **Sobre la iteración de la experiencia de usuario**
- 
-La auditoría cruzada y las evaluaciones heurísticas realizadas durante el AV2 permitieron identificar y documentar diez problemas de usabilidad, diseño inclusivo y arquitectura de información en el frontend desplegado. Problemas como la ausencia de confirmación visual tras acciones críticas, la falta de etiquetas textuales en indicadores de color y la ausencia de opción de cancelar flujos en curso evidencian áreas de mejora concretas para la siguiente iteración. El equipo demostró capacidad para identificar estas brechas de forma sistemática y proponer recomendaciones técnicas precisas, lo que valida el proceso de validación como una práctica esencial dentro del ciclo de vida del producto.
- 
-**Sobre el desarrollo del backend y la integración**
- 
-Durante el Sprint 3, el equipo avanzó en la implementación de los Web Services RESTful con ASP.NET Core para los bounded contexts principales del sistema. Este avance permitió establecer los contratos de API necesarios para la integración con el frontend Vue, reemplazando progresivamente las Fake APIs utilizadas en el Sprint 2. La distribución del trabajo por bounded context, con un líder técnico responsable por cada uno, demostró ser una estrategia efectiva para mantener la coherencia arquitectónica del sistema y asegurar la participación equitativa de todos los integrantes del equipo en la construcción del backend.
- 
+
+Las evaluaciones heurísticas realizadas durante el AV2 permitieron identificar cinco problemas concretos de usabilidad en el frontend desplegado: el uso de un color de advertencia en una acción positiva, la ausencia del nombre del tutor en las tarjetas de sesión, la falta de transparencia en el desglose de la comisión de donaciones, la ausencia de distinción visual entre roles en el panel de moderación, y la falta de información sobre la experiencia de los tutores en su perfil. Los cinco fueron corregidos durante el Sprint 3 (ver sección 5.2.3.5), antes de continuar con el desarrollo de nuevas funcionalidades, priorizando la retroalimentación de usuarios reales sobre el avance de nuevo alcance.
+
+**Sobre la conexión a la base de datos y el rendimiento del backend**
+
+La dificultad técnica más grande del proyecto fue la configuración de la conexión entre el backend ASP.NET Core y la base de datos MySQL administrada en Aiven. Al usar el plan gratuito de Aiven, el servicio de base de datos se apaga automáticamente tras un período de inactividad, lo que provoca que las primeras peticiones después de un tiempo sin uso tarden varios segundos en responder o directamente fallen hasta que la base de datos se reactiva. Esto generó demoras visibles en la carga de datos del frontend durante las demostraciones y obligó al equipo a documentar este comportamiento como una limitación conocida (ver nota en la sección 5.2.3.7) en lugar de presentarlo como un error de la aplicación. En un contexto de producción real, esto se resolvería con un plan pago sin auto-suspensión, pero quedó fuera del alcance económico del ciclo académico.
+
+**Sobre el alcance del Product Backlog y las funcionalidades simuladas**
+
+En retrospectiva, el equipo considera que algunas User Stories del Product Backlog original (particularmente las relacionadas con la videollamada integrada vía WebRTC) se incluyeron con un nivel de ambición que terminó por no ser alcanzable dentro de los tiempos del ciclo, quedando como una simulación de estado (sin transmisión real de audio/video) en lugar de una integración funcional completa. De haberlo sabido desde la planificación inicial, el equipo habría preferido invertir ese tiempo en profundizar otras funcionalidades del core del negocio (por ejemplo, el sistema de reputación o el dashboard académico) en vez de dejar una funcionalidad a medio camino. Esto quedó como un aprendizaje concreto sobre estimación de alcance para futuros proyectos: validar la viabilidad técnica de una integración de terceros antes de comprometerla en el Sprint Planning, no durante la implementación.
+
 **Sobre el proceso Lean UX en contraste con los resultados de validación**
- 
-Los assumptions definidos en la fase Lean UX fueron contrastados con los resultados de las entrevistas de validación del AV2. Se confirmó que los usuarios de los tres segmentos reconocen la propuesta de valor de la plataforma y comprenden los flujos principales; sin embargo, las sesiones de validación revelaron que la transparencia en el modelo de donaciones y la claridad del rol del coordinador requieren ajustes antes del lanzamiento final. Estos hallazgos serán incorporados como criterios de mejora en el Sprint 4.
+
+Los assumptions definidos en la fase Lean UX fueron contrastados con los resultados de las entrevistas de validación del AV2. Se confirmó que los usuarios de los tres segmentos reconocen la propuesta de valor de la plataforma y comprenden los flujos principales; sin embargo, las sesiones de validación revelaron que la transparencia en el modelo de donaciones y la claridad del rol del coordinador requerían ajustes puntuales, los cuales fueron implementados durante el Sprint 3 como parte de la corrección de los hallazgos heurísticos.
+
+**Sobre el cierre del ciclo de vida del proyecto (TB2)**
+
+Durante el Sprint 4, el equipo cerró los dos frentes de seguridad e integración que quedaron pendientes desde el Sprint 3: se implementó el bounded context de Identity & Access Management, reemplazando el identificador de usuario simulado por una sesión autenticada real con roles diferenciados, y se completaron las integraciones con Stripe y con la generación de tokens de WebRTC. Esto permitió cerrar el ciclo de vida del proyecto con los siete bounded contexts de la solución (Discovery, Workspace, Learning & Assessment, Reputation System, Payments & Wallet, Moderation & Disputes e Identity & Access) implementados, documentados con OpenAPI y desplegados en su versión final.
+
  
 ## Recomendaciones
-Se recomienda priorizar en el Sprint 4 la corrección de los problemas de usabilidad identificados en la evaluación heurística del AV2, en particular los catalogados con severidad 3 y 4, dado su impacto directo en la experiencia de usuario y la confianza en la plataforma. Las correcciones de mayor urgencia incluyen agregar confirmaciones visuales tras acciones críticas, implementar la opción de cancelar flujos en curso y reemplazar indicadores de estado basados únicamente en color por badges con etiqueta textual.
- 
-Se recomienda también completar la integración entre el frontend Vue y el backend ASP.NET Core para todos los bounded contexts antes de la entrega final TB2, asegurando que los flujos core del negocio — búsqueda de tutores, gestión de sesiones, donaciones y moderación — funcionen de extremo a extremo sobre servicios reales y no sobre datos simulados.
- 
-Se recomienda iniciar la planificación para el desarrollo de una aplicación móvil nativa (iOS y Android), tomando como base la arquitectura de servicios ya implementada. Esto permitirá aprovechar funcionalidades propias del dispositivo, como notificaciones push para recordatorios de sesiones y alertas del chat, además de adaptar la infraestructura de videollamadas al entorno móvil.
- 
-A futuro se sugiere integrar algoritmos de Inteligencia Artificial capaces de analizar los resultados de los quiz attempts, los tiempos de resolución y las valoraciones del sistema de reputación para generar recomendaciones automáticas de emparejamiento entre tutor y aprendiz, incrementando la tasa de éxito de las tutorías y personalizando la experiencia educativa.
- 
-Finalmente, se plantea la expansión del sistema de validación B2B mediante integraciones técnicas directas con las intranets de las universidades aliadas, permitiendo automatizar la carga de currícula, verificar en tiempo real el estado de matrícula de los estudiantes y sincronizar las métricas del dashboard académico directamente con las autoridades de cada facultad.
+Las siguientes recomendaciones surgen de los hallazgos concretos del proyecto, tanto de la evaluación heurística del AV2 como de la experiencia del equipo durante la implementación del backend.
+
+Se recomendó priorizar la corrección de los problemas de usabilidad identificados en la evaluación heurística del AV2, en particular el cambio de color del botón de solicitud de tutoría, la visibilidad del nombre del tutor en las tarjetas de sesión, el desglose de la comisión en el formulario de donación, la diferenciación visual de roles en el panel de moderación y el enriquecimiento del perfil público del tutor. **Estado: implementado en el Sprint 3 (ver sección 5.2.3.5), antes de avanzar con nuevo alcance funcional.**
+
+Se recomienda migrar la base de datos MySQL de un plan gratuito con auto-suspensión (Aiven Free-1-1gb) a un plan que mantenga el servicio activo permanentemente, o en su defecto, implementar un mecanismo de "warm-up" (una petición periódica que mantenga la base de datos despierta) antes de cualquier demostración o entrega, dado que la lentitud de carga observada durante el proyecto no fue un error de la aplicación sino una limitación conocida del entorno gratuito.
+
+Se recomienda que, en futuros proyectos, la viabilidad técnica de integraciones con servicios de terceros (como WebRTC para videollamadas) se valide mediante un spike técnico corto durante la planificación del Product Backlog, antes de comprometer una User Story completa al Sprint. Esto habría evitado dejar la funcionalidad de videollamada en un estado simulado y habría permitido invertir ese tiempo en otras funcionalidades del core del negocio.
+
+Se recomendó también completar la integración entre el frontend Vue y el backend ASP.NET Core para todos los bounded contexts antes de la entrega final TB2, asegurando que los flujos core del negocio funcionen de extremo a extremo sobre servicios reales y no sobre datos simulados. **Estado: implementado en el Sprint 4, mediante el bounded context de Identity & Access (US01, US02, US04, US26) y el cierre de las integraciones con Stripe (US27) y WebRTC token (US28).**
+
+Como siguientes pasos fuera del alcance del ciclo académico, el equipo identifica dos frentes: completar el flujo real de videollamada (reemplazando la simulación actual por una integración funcional de Agora.io) y evaluar la migración a un plan de base de datos de producción, una vez que el proyecto tenga usuarios reales más allá del entorno académico.
+
  
 ---
  
@@ -4678,20 +5027,32 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 
 ---
 
+## Anexo A. Enlaces de Acceso a la Solución
+
+| Producto | Descripción | Enlace |
+| :--- | :--- | :--- |
+| **Landing Page** | Sitio web estático de presentación del modelo de negocio SkillSwap, desplegado en GitHub Pages. | [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/) |
+| **Frontend Web Application** | Aplicación web transaccional (Vue 3 + PrimeVue) donde interactúan Aprendices, Tutores y Coordinadores, desplegada en Firebase Hosting. | [https://skillswap-app-web.web.app](https://skillswap-app-web.web.app) |
+| **Backend — Swagger UI** | Documentación interactiva de los Web Services RESTful (ASP.NET Core), desplegados en Render. | [https://skillswap-backend-t7zk.onrender.com/swagger/index.html](https://skillswap-backend-t7zk.onrender.com/swagger/index.html) |
+| **Base de Datos** | Diagrama de base de datos relacional por Bounded Contexts (MySQL administrado en Aiven). Ver detalle en la sección [4.8.1. Database Diagrams](#481-database-diagrams). | [Ir a Database Diagrams](#481-database-diagrams) |
+| **Video About-the-Team** | Video que resume el proceso de trabajo del equipo a lo largo del ciclo de vida del proyecto. | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2) |
+| **Video About-the-Product** | Video promocional dirigido a visitantes del Landing Page y usuarios de la plataforma. | [Ver en YouTube](https://youtu.be/FUCpxY3n_Po) |
+
+---
+
 ## Anexo B. Videos de Exposiciones
 
 | Entrega | Características del video | Enlace del video |
 | :--- | :--- | :--- |
-| **AV1** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av1 <br> **Duración:** 24:22 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAxi_jri4LRSqytkMsuKWmjAVeU1rGw0gq9kwcWbMRQooI?e=naWYlc |
+| **AV1** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av1 <br> **Duración:** 24:22 | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAxi_jri4LRSqytkMsuKWmjAVeU1rGw0gq9kwcWbMRQooI?e=naWYlc](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAxi_jri4LRSqytkMsuKWmjAVeU1rGw0gq9kwcWbMRQooI?e=naWYlc) |
 | **AV2** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av2 <br> **Duración:**  |  |
+
+---
 
 ## Anexo C
 
 | Sección | Características del video | Sobre el contenido | Integración y entrega |
 | :--- | :--- | :--- | :--- |
-| **Needfinding Interviews** | upc-pre-202610-1asi0730---needfinding-sprint-1 | Consolida todas las entrevistas realizadas, incluyendo en cada entrevista títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. |  |
-| **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección, resumiendo los flujos de navegación que se incluyen en el video. Seguir especificaciones del enunciado. |
-| **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | Subir el video en Microsoft Stream y en YouTube. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
-| **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
-
+| **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
