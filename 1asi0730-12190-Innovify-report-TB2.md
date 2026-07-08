@@ -4077,7 +4077,7 @@ El objetivo principal del Sprint 4 es cerrar el ciclo de seguridad de SkillSwap:
 | | | | **Total Story Points** | **21** |
 
 > **Nota sobre el origen y alcance del módulo de Identity & Access:**
-> El proyecto base de Identity & Access fue entregado por el docente el día lunes de esta semana (una entrega centralizada para todos los equipos del curso, no un desarrollo propio del equipo Innovify). El agregado `User` del proyecto original solo contaba con los campos `Username` y `PasswordHash`, sin concepto de rol de negocio, correo institucional ni verificación, y el `TokenService` generaba el JWT únicamente con los claims de id y username, sin claim de rol. El trabajo del equipo consistió en: (1) extender el agregado `User` con los campos `Email`, `Role` (Learner/Tutor/Coordinator) e `IsVerified`; (2) agregar el claim de rol a la generación del JWT; (3) ejecutar las migraciones de Entity Framework Core necesarias para conciliar el nuevo esquema con la base de datos MySQL ya existente en Aiven; y (4) construir íntegramente la integración en el Frontend Web Application —vistas de registro, login, guards de ruta por rol y store de sesión.
+> El proyecto base de Identity & Access fue usado como base de lo que hicimos en clases. El agregado `User` del proyecto original solo contaba con los campos `Username` y `PasswordHash`, sin concepto de rol de negocio, correo institucional ni verificación, y el `TokenService` generaba el JWT únicamente con los claims de id y username, sin claim de rol. El trabajo del equipo consistió en: (1) extender el agregado `User` con los campos `Email`, `Role` (Learner/Tutor/Coordinator) e `IsVerified`; (2) agregar el claim de rol a la generación del JWT; (3) ejecutar las migraciones de Entity Framework Core necesarias para conciliar el nuevo esquema con la base de datos MySQL ya existente en Aiven; y (4) construir íntegramente la integración en el Frontend Web Application —vistas de registro, login, guards de ruta por rol y store de sesión.
 
 > **Nota sobre historias no completadas en el ciclo de vida del proyecto:**
 > Las siguientes historias del Product Backlog original no llegaron a implementarse dentro del alcance funcional real del producto y quedan documentadas como trabajo futuro:
@@ -4151,7 +4151,8 @@ En esta sección se resumen los avances de implementación logrados durante el S
 En esta sección se presentan las evidencias visuales de las funcionalidades implementadas durante el Sprint 4, priorizando el flujo completo de registro e inicio de sesión sobre el módulo de Identity & Access extendido, sobre el frontend Vue desplegado en Firebase.
 
 <p align="center">
-  <img src="public/assets/images-doc/sprint4-ui-evidence-register-login.png" alt="Evidencias UI Sprint 4 - Registro y Login real" width="800">
+  <img src="public/assets/images-doc/sprint4-ui-evidence-login.png" alt="Evidencias UI Sprint 4 - Registro y Login real" width="800">
+  <img src="public/assets/images-doc/sprint4-ui-evidence-register.png" alt="Evidencias UI Sprint 4 - Registro y Login real" width="800">
   <br>
   <em>Figura. Formulario de registro y login construidos desde cero en el frontend, conectados al módulo de Identity & Access extendido a partir del proyecto base entregado por el docente. El usuario se registra con su correo institucional (.edu.pe) y accede con su rol real (Aprendiz, Tutor o Coordinador), reemplazando el identificador simulado utilizado hasta el Sprint 3.</em>
 </p>
@@ -4180,6 +4181,12 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 | `/api/v1/authentication/sign-up` | POST | Registra un nuevo usuario validando que el correo pertenezca al dominio institucional `.edu.pe`. | Body: `username`, `email`, `password`, `role` | `200 OK` (creado) — `400` correo/rol inválido — `409` username o email ya registrado |
 | `/api/v1/authentication/sign-in` | POST | Autentica a un usuario y devuelve un JWT junto con su rol y estado de verificación. | Body: `username`, `password` | `200 OK` — `{ "id": 42, "username": "juanp", "email": "juan@upc.edu.pe", "role": "Tutor", "isVerified": true, "token": "eyJhbGciOi..." }` — `401` credenciales inválidas |
 
+<p align="center">
+  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Identity.png" alt="Swagger Endpoints Sprint 4 - Identity & Access" width="800">
+  <br>
+  <em>Figura. Captura de Swagger UI mostrando los endpoints del módulo de Identity & Access, entregado como base por el docente y verificado por el equipo durante el Sprint 4.</em>
+</p>
+
 ##### Bounded Context: Payments & Wallet *(endpoints actualizados en este Sprint)*
 
 | Endpoint | Verbo HTTP | Descripción | Parámetros | Ejemplo de Response |
@@ -4188,9 +4195,9 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 | `/api/v1/Transactions/wallet/{walletId}` | GET | Obtiene el historial de transacciones de una wallet específica. | Path: `walletId` | `200 OK` — lista de transacciones (`id`, `walletId`, `amount`, `type`, `description`, `createdAt`) |
 
 <p align="center">
-  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Identity.png" alt="Swagger Endpoints Sprint 4 - Identity & Access" width="800">
+  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Transaction.png" alt="Swagger Endpoints Sprint 4 - Identity & Access" width="800">
   <br>
-  <em>Figura. Captura de Swagger UI mostrando los endpoints del módulo de Identity & Access, entregado como base por el docente y verificado por el equipo durante el Sprint 4.</em>
+  <em>Figura. Captura de Swagger UI mostrando los endpoints actualizados del módulo de Payments & Wallet, verificado por el equipo durante el Sprint 4.</em>
 </p>
 
 > **Nota:** La videollamada (US12) y la generación de tokens WebRTC (US28) se mantienen en su versión simulada en el frontend, sin un endpoint de backend dedicado debido a que la integración completa de WebRTC (ej. Agora.io) queda fuera del alcance de este ciclo académico.
@@ -4208,6 +4215,8 @@ Durante el Sprint 4 se realizó el despliegue final de los tres productos digita
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint4-render-deploy.png" alt="Despliegue final del backend en Render" width="800">
+  <img src="public/assets/images-doc/sprint4-render-deploy-logs.png" alt="Despliegue final del backend en Render" width="800">
+  <img src="public/assets/images-doc/sprint4-render-deploy-back.png" alt="Despliegue final del backend en Render" width="800">
   <figcaption style="margin-top: 10px;">
     Figura. Evidencia del despliegue final del backend SkillSwap en Render, mostrando el estado activo del servicio con el módulo de Identity & Access extendido e integrado.
   </figcaption>
@@ -4230,8 +4239,9 @@ Durante el Sprint 4, el equipo recibió el módulo base de Identity & Access de 
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint4-network-graph.png" alt="Network Graph GitFlow Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-commits-backend.png" alt="Network Graph GitFlow Sprint 4" width="800">
   <figcaption style="margin-top: 10px;">
-    Figura. Gráfico de red (network graph) del repositorio Backend-Skillswap al cierre del Sprint 4, evidenciando la integración de las ramas feature/identity-access-extend y feature/api-documentation hacia develop.
+    Figura. Gráfico de red (network graph) y de los commits del repositorio Backend-Skillswap al cierre del Sprint 4, evidenciando la integración de las ramas feature/identity-access-extend y feature/api-documentation hacia develop.
   </figcaption>
 </figure>
 
