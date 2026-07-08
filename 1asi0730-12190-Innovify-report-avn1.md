@@ -727,7 +727,7 @@ En esta entrevista, Lucero Campos cursa el octavo ciclo en la Universidad César
   <em>Figura 8. YouTube: Entrevista 2: Estudiante-Tutor | SkillSwap. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
-* **URL:**[ https://www.youtube.com/watch?v=zFAWYnoZSzU]( https://www.youtube.com/watch?v=zFAWYnoZSzU)
+* **URL:**[https://www.youtube.com/watch?v=zFAWYnoZSzU]( https://www.youtube.com/watch?v=zFAWYnoZSzU)
 * **Inicio:** 0:12
 * **Duración:** 10 minutos con 28 segundos
 
@@ -4820,17 +4820,15 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 <p align="center">
   <img src="public/assets/images-doc/about-the-team-screenshot.png"
        alt="Screenshot Video About-the-Team" width="700">
-  <br>
+  <br>https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBC_QUI_OzeRLmTi8CqYzvhAf5_EAYfbAx2I9zzwbL2Aj0?e=N2lips&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
   <em>Figura. Captura representativa del Video About-the-Team de SkillSwap, mostrando el testimonio personal de uno de los integrantes del equipo Innovify.</em>
 </p>
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
+| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/\:v:/g/personal/u201924127_upc_edu_pe/IQCT1ppry1GgSpWhWZqcazaYAa4FGwLdqYpQfsdz7tYbXfQ?e=pwt4e2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
 | **URL YouTube** | [https://youtu.be/j13Sx0HeNOE](https://youtu.be/j13Sx0HeNOE) |
 | **Duración** | 9:37 min |
- 
-
 
 ---
 
@@ -4852,23 +4850,20 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 
 ## Anexos
 
-* **Wireframes (Figma):** 
-[https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1](https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1)
+* **Wireframes (Figma):** [https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1](https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1)
 
+* **Miro:** [https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 ](https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 )
 
-* **Página Web (GitHub Pages):**
-[ https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git/]( https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git/)
+* **Enlace del lucidchartd para los bounded context:** [https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397](https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397)
 
+* **Landing Page (GitHub Pages):**
+[ https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/]( https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
 
-* **Miro:**
-[https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 ](https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 )
- 
+* **Deployed Fronted (Firebase Hosting):**
+[ https://skillswap-app-web.web.app/home](https://skillswap-app-web.web.app/home)
 
-
-* **Enlace del lucidchartd para los bounded context:**
-
-  [https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397](https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_loc=-4867%2C-5483%2C15325%2C7900%2C0_0&invitationId=inv_0faec9a9-417f-47ae-8bde-c6aa100ce397)
-
+* **Deployed Backend (Render):**
+[ https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/ ]( https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/ )
 
 ---
 
