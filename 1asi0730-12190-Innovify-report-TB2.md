@@ -191,6 +191,56 @@ del repositorio del informe durante la entrega AV2:
 </figure>
 
 
+### TB2
+
+Durante el desarrollo de la entrega TB2, el equipo distribuyó la
+elaboración del informe asignando secciones específicas a cada integrante
+según los aspectos que lideraron en el Sprint 4. Cada miembro realizó
+sus aportes directamente en el repositorio de GitHub mediante commits en
+ramas individuales, siguiendo la convención de Conventional Commits, y
+luego integrando los cambios mediante Pull Requests hacia la rama
+`develop` y posteriormente hacia la rama `main`. Todos los integrantes
+participaron activamente en la redacción de las secciones correspondientes
+al Sprint 4, la actualización de la sección de Database Design, el cierre
+del Student Outcome y las Conclusiones y Recomendaciones, asegurando
+coherencia y calidad en el contenido entregado para el cierre del ciclo de
+vida del proyecto.
+
+A continuación, se presentan las capturas de los analíticos de colaboración
+del repositorio del informe durante la entrega TB2:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/TB2-contribuidores.png"
+       alt="Analíticos de colaboración TB2 - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Gráfico de contribuciones al repositorio del Project Report
+    durante TB2. Se evidencia la participación de todos los integrantes del
+    equipo mediante commits realizados en el período correspondiente.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/TB2-commits1.png"
+       alt="Historial de commits TB2 - Project Report" width="800">
+  <img src="public/assets/images-doc/TB2-commits2.png"
+       alt="Historial de commits TB2 - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Historial de commits en el repositorio del Project Report
+    durante TB2, evidenciando los aportes individuales de cada miembro con
+    sus respectivos mensajes bajo la convención de Conventional Commits.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/TB2-barras.png"
+       alt="Contribuciones por integrante TB2 - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Panel de contribuciones individuales al repositorio del
+    Project Report durante TB2, mostrando el volumen de commits, líneas
+    añadidas y eliminadas por cada integrante del equipo.</em>
+  </figcaption>
+</figure>
+
 ---
  
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
