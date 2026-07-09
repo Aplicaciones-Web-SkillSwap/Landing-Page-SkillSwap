@@ -2237,7 +2237,9 @@ Esta propuesta sigue las Human Interface Guidelines de Apple, priorizando una es
 
 ### 4.6.1. Design-Level EventStorming
 
+Durante la sesión de Design-Level EventStorming, el equipo exploró los flujos del dominio de forma independiente y granular, identificando contextos delimitados preliminares para cada proceso de negocio (por ejemplo, Tutoring & Operations para la gestión de sesiones, Academic & Assessment para la evaluación académica, y Monetization como exploración separada del flujo de donaciones y de billeteras virtuales). Como parte del proceso metodológico exigido para este ejercicio, se incluyó también la exploración de un Shared Kernel & Infrastructure Context y un Communication & Notifications Bounded Context, orientados a preocupaciones transversales del sistema.
 
+Tras esta etapa exploratoria, el equipo consolidó los contextos identificados en los Bounded Contexts finales que forman parte del alcance implementado de la solución: Tutoring & Operations se consolidó dentro de **Workspace**, Academic & Assessment se mantuvo como **Learning & Assessment**, y Monetization se integró junto con la gestión de billeteras virtuales en un único contexto de **Payments & Wallet**. El Shared Kernel & Infrastructure Context y el Communication & Notifications Bounded Context, si bien fueron explorados como parte del ejercicio de EventStorming, no forman parte del alcance funcional implementado en el ciclo de vida actual del proyecto, y quedan documentados como una posible extensión futura de la arquitectura.
 
 
 <p align="center">
