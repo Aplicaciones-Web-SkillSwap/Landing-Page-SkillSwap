@@ -3116,7 +3116,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 </figure>
 Enlace al video:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQCBeAuUkFgxRroFqD6DdZjzAZq0b-0OPPn42aFCTFAOLHo?e=1UNfwx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D )
 
 <br>
 En conjunto, los elementos presentados evidencian la construcción de una base sólida a nivel de interfaz durante el primer sprint, demostrando un producto desplegado que cumple con la adaptabilidad responsiva, los llamados a la acción (CTA) y la comunicación clara del propósito de la plataforma.
@@ -4216,10 +4216,12 @@ En esta sección se presentan las evidencias visuales de las funcionalidades imp
 **Video demostrativo de las funciones del Sprint 4:**
 
 <p align="center">
-  <a href="https://youtu.be/PLACEHOLDER-SPRINT4">
-    <img src="https://img.youtube.com/vi/PLACEHOLDER-SPRINT4/maxresdefault.jpg" alt="Video Demostrativo Sprint 4" width="600">
+  <a href="https://www.youtube.com/watch?v=0Ta7KWVIvxY">
+    <img src="public/assets/images-doc/maxresdefault.png" alt="Video Demostrativo Sprint 4" width="600">
   </a>
 </p>
+
+**Enlace del video:** [https://www.youtube.com/watch?v=0Ta7KWVIvxY](https://www.youtube.com/watch?v=0Ta7KWVIvxY)
 
 **Enlace de la página web para observar la implementación del Sprint 4:** [https://skillswap-app-web.web.app](https://skillswap-app-web.web.app)
 
