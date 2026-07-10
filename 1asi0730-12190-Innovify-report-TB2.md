@@ -4417,7 +4417,7 @@ Finalmente, calificó con 5 sobre 5 la probabilidad de utilizar la plataforma, d
 * **Nombres:** Adrián Moisés
 * **Apellidos:** Guevara Romero
 * **Edad:** 20
-* **Distrito:** Cercado de Lima
+* **Distrito:** Miraflores
 <p align="center">
   <img src="public/assets/images-doc/validacion-aprendiz-2-2.png"
        alt="Entrevista validación 2 - Estudiante Aprendiz" width="600">
@@ -4934,7 +4934,7 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 [ https://skillswap-app-web.web.app/home](https://skillswap-app-web.web.app/home)
 
 * **Deployed Backend (Render):**
-[ https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/ ]( https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/ )
+[ https://skillswap-backend-t7zk.onrender.com/swagger/index.html ]( https://skillswap-backend-t7zk.onrender.com/swagger/index.html )
 
 ---
 
@@ -5112,10 +5112,10 @@ El video incluye además el testimonio ante cámara de cada participante, descri
 | :--- | :--- | :--- |
 | **AV1** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av1 <br> **Duración:** 24:22 | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAxi_jri4LRSqytkMsuKWmjAVeU1rGw0gq9kwcWbMRQooI?e=naWYlc](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQAxi_jri4LRSqytkMsuKWmjAVeU1rGw0gq9kwcWbMRQooI?e=naWYlc) |
 | **AV2** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-av2 <br> **Duración:** 20:01 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBASVcV7a1DToDB4A5eMoftATff7MgcEsJz2IMdH5GX3-Y?e=0lfyvj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
-| **TB2** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-tb2 <br> **Duración:** |  |
+| **TB2** | **Nombre del archivo:** upc-pre-202610-1asi0730-12190-Innovify-expo-tb2 <br> **Duración:** 26:03 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b451_upc_edu_pe/IQCb7AFmCXMuTYPEzZnJrNmCAdVr1P8VMBJ7VM-TjZDDqEA?e=DQQ6ap&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 <div style="page-break-after: always;"></div>
----
+
 
 ## Anexo C. Videos de la documentación 
 
